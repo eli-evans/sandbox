@@ -14,7 +14,7 @@ function setup() {
     var ring = new Ring(width/2, height/2, (n+1) * 60);
     ring.weight = ring.r/120 + 10;
     ring.offset = random(90);
-    // ring.colorizer = (i) => Color.randomFilteredColor( (c) => Color.isCool(c) && Color.isBright(c) );
+    ring.colorizer = (i) => Color.randomFilteredColor( (c) => Color.isMuddy(c) && Color.isMidtone(c) );
 
     var l = Math.floor(random(10)) + 10;
     var segs = [];
@@ -33,7 +33,7 @@ function draw() {
   background(245);
   for(var i in rings) {
     if (!rings[i].segments[0].grow) {
-      rings[i].offset -= .05;
+      rings[i].offset -= .005;
     }
     rings[i].draw();
   }

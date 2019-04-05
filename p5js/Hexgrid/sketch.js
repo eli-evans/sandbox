@@ -3,47 +3,60 @@ var focusColor;
 var lineColor;
 
 function setup() {
-  height = window.innerHeight;
-  width = window.innerWidth;
-  createCanvas(width, height);
+  createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
   noFill();
+  noLoop();
   background(245);
   
-  grid = new Hexgrid(11, 40);
+  grid = new Hexgrid({
+    size : 12,
+    tileSize : 30,
+    canvasHeight : windowWidth,
+    canvasWidth : windowHeight
+  });
   focusColor = Color.randomDarkColor();
   lineColor = Color.randomLightColor();
+
+  windowResized();
+  redraw();
 }
 
 function draw() {
+  background(245); // clear screen
 
-  for (var row in grid.tiles) {
-    for (var col in grid.tiles[row]) {
-      grid.tiles[row][col].color = [200];
-    }
-  }
   var focus = grid.getTileAt(mouseX, mouseY);
-  if (focus) {
-    /* var neighbors = grid.getLine(focus, Hexgrid.E)
-      .concat(grid.getLine(focus, Hexgrid.W))
-      .concat(grid.getLine(focus, Hexgrid.NW))
-      .concat(grid.getLine(focus, Hexgrid.SW))
-      .concat(grid.getLine(focus, Hexgrid.NE))
-      .concat(grid.getLine(focus, Hexgrid.SE)); */
-    
-    var neighbors = [];
-    var rosette = grid.getRosette(focus);
-    for (var t in rosette) {
-      var rosette2 = grid.getRosette(rosette[t]);
-      for (var r in rosette2) {
-        if (!neighbors.includes(rosette2[r]) && rosette2[r] !== focus) neighbors.push(rosette2[r]);
-      }
-    }
-    focus.color = focusColor;
-    for (var n in neighbors) {
-      neighbors[n].color = lineColor;
-    }
-  }
+  
+  // var hi = grid.getLine(focus, ['W', 'E']);
+
+  grid.focusTile(focus, grid.getLines(focus, ['NW', 'SE', 'E', 'W', 'NE', 'SW']).concat(grid.getRosette(focus)));
 
   grid.draw();
+}
+
+function mouseMoved() {
+  if (mouseX > (grid.left - 50) && 
+    mouseX < (grid.left + grid.width + 50) && 
+    mouseY > (grid.top - 50) && 
+    mouseY < (grid.top + grid.height + 50))
+  {
+
+
+    redraw();
+  }
+}
+
+function mouseClicked() {
+  var tile = grid.getTileAt(mouseX, mouseY);
+  grid.selectTile(tile);
+  redraw();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  grid.canvasWidth = windowWidth;
+  grid.canvasHeight = windowHeight;
+  grid.setup();
+  redraw();
+  console.log(windowWidth, windowHeight);
 }

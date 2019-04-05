@@ -152,4 +152,8 @@ class Color {
         var l = hsl[2];
         return (h < 36 || h > 245); 
     }
+
+    static average(a,b) {
+        return [ Math.floor((a[0]+b[0])/2), Math.floor((a[1]+b[1])/2), Math.floor((a[2]+b[2])/2) ];
+    }
 }
