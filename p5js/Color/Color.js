@@ -153,7 +153,36 @@ class Color {
         return (h < 36 || h > 245); 
     }
 
-    static average(a,b) {
-        return [ Math.floor((a[0]+b[0])/2), Math.floor((a[1]+b[1])/2), Math.floor((a[2]+b[2])/2) ];
+    static average(arr) {
+        var r = 0;
+        var g = 0;
+        var b = 0;
+
+        console.log(arr);
+        for (var i in arr) {
+            r += arr[i][0];
+            g += arr[i][1];
+            b += arr[i][2];
+        }
+
+        r /= arr.length;
+        g /= arr.length;
+        b /= arr.length;
+
+        return [ r, g, b ];
+    }
+
+    static mix(colors, amount) {
+        var r = 0;
+        var g = 0;
+        var b = 0;
+
+        for (var i in colors) {
+            r += colors[i][0] * amount[i];
+            g += colors[i][1] * amount[i];
+            b += colors[i][2] * amount[i];
+        }
+
+        return [ r, g, b ];        
     }
 }

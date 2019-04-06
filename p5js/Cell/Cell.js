@@ -11,7 +11,7 @@ class Cells {
 
     reap() {
         this.forCells( (c, i) => {
-            if (c.dead && c.dx < 2) {
+            if (c.dead && c.size < 2) {
                 this.cells.splice(i, 1);
             }
         });
@@ -57,93 +57,93 @@ class Cells {
     }
 
     overlap(a,b) {
-        return ( dist(a.x, a.y, b.x, b.y) < a.j*3);
-    } 
+        return ( dist(a.x, a.y, b.x, b.y) < a.size/20 + b.size/2);
+    }
 
-    update() {
+    wraparound() {
+        this.forCells( (a,i) => {
+        var r = a.size/2;
+        if ((a.x - r) > windowWidth) a.x = 0 - r;
+        if ((a.y - r) > windowHeight) a.y = 0 - r;
+        if ((a.x + r) < 0) a.x = windowWidth + r;
+        if ((a.y + r) < 0) a.y = windowHeight + r;
+        });
+    }
+
+    hunt() {
         var i, j;
-        this.reap();
-
         var predators = this.filterCells( (c) => (c.predator) );
+
+        var famine = false;
+        if (predators.length > this.cells.length/2) {
+            famine = true;
+        }
+
         for (i in predators) {
             var pred = predators[i];
-            var closest = this.getClosestCell(pred, (c) => (!c.predator && c.mind < pred.mind));
+
+            var closest; 
+            var closest = this.getClosestCell(pred, (c) => ((!c.predator || famine) && (c.size < pred.size)));
 
             if (closest) {
-
                 var vx = closest.x - pred.x;
                 var vy = closest.y - pred.y;
                 var v = createVector(vx, vy);
 
                 v.normalize();
 
-                pred.vx = v.x * 1.5;
-                pred.vy = v.y * 1.5;
+                pred.vx = v.x * pred.speed;
+                pred.vy = v.y * pred.speed;
 
+                /*
                 if(dist(closest.x, closest.y, pred.x, pred.y) < pred.dx*1) {
                     closest.vx = v.x * (random(-1,1)+1);
                     closest.vy = v.y * (random(-1,1)+1);
                 }
+                */
             }
             else {
-                pred.vx = 0;
-                pred.vy = 0;
+                pred.vx = pred.jitter();
+                pred.vy = pred.jitter();
             }
         }
+    }
 
-        // eat!
+    fight(a, b) {
+        var aRoll = (a.size - a.speed) * random(20);
+        var bRoll = (b.size - b.speed) * random(20);
+
+        return (aRoll > bRoll) ? b : a;
+    }
+
+    eat() {
+        var i,j;
         this.forPairs( (a,b,i) => {
             if (b.dead) return;
             if (this.overlap(a,b)) {
-                if (a.predator && (a.dx + a.dy)/2 > (b.dx + b.dy)/2) {
+                if (a.predator && a.size > b.size) {
                     if (b.predator) {
-                        b.die();
+                        var loser = this.fight(a, b);
+                        loser.die();
                     }
                     else {
                         a.consume(b);
                     }
                 }
                 if (!a.predator && (a.dx + a.dy)/2 > (b.dx + b.dy)/2) {
-                    b.die();
-                    // this.split(a);
+                    var loser = this.fight(a, b);
+                    loser.die();
                 }
             }
-        });
-
-        // this.reap();
+        });    
     }
 
-    split(c) {
-        var n = new Cell(c);
-        // console.log(n.x, c.x);
-
-        n.x -= n.dx/2;
-        n.y += n.dy/2;
-        if (random(1) < .5) {
-            n.x = -n.x;
-            n.y = -n.y;
-        }
-
-        c.x += c.dx/2;
-        c.y -= c.dy/2;
-        if (random(1) < .5) {
-            c.x = -c.x;
-            c.y = -c.y;
-        }
-        
-        c.dx /= 2;
-        c.dy /= 2;
-        n.dx /= 2;
-        n.dy /= 2;
-        c.mind /= 2;
-        c.maxd /= 2;
-        n.mind /= 2;
-        n.maxd /= 2;
-
-        c.j * 2;
-        n.j * 2;
-
-        this.cells.push(n);
+    update() {
+        var i, j;
+        this.reap();
+        this.wraparound();
+        this.hunt();
+        this.eat();
     }
 
     draw() {
@@ -155,79 +155,46 @@ class Cells {
 
 
 class Cell {
-
-    constructor(options) {
-        if (options === undefined) {
-            options = {
-                x:random(-windowWidth/2,windowWidth/2),
-                y:random(-windowHeight/2,windowHeight/2),
-
-                dx:random(10,30),
-                dy:random(10,30),
-
-                j:random(2),
-
-                vx:0,
-                vy:0
-            };
-        }
-        
-        this.x = options.x;
-        this.y = options.y;
-        this.dx = options.dx;
-        this.dy = options.dy;
-        this.j = options.j;
-        this.vx = options.vx;
-        this.vy = options.vy;
- 
-        this.mind = Math.max(this.dx, this.dy) * 0.75;
-        this.maxd = Math.min(this.dx, this.dy) * 1.25;
+    constructor() {
+        this.x = random(windowWidth);
+        this.y = random(windowHeight);
+        this.j = random(3);
+        this.size = random(20,40);
+        this.dx = this.size;
+        this.dy = this.size;
+        this.speed = random(3);
+        this.vx = random(-1,1) * this.speed;
+        this.vy = random(-1,1) * this.speed;
  
         this.dead = false;
 
-        this.predator = random(1) < .20 ? true : false;
+        this.predator = random(1) < .1 ? true : false;
 
-        this.color = Color.randomFilteredColor( (c) => Color.isCool(c) && Color.isBright(c));
+        this.color = Color.randomFilteredColor( (c) => Color.isCool(c) && Color.isNice(c) && !Color.isDark(c));
         if (this.predator) {
-            this.color = Color.randomFilteredColor( (c) => Color.isWarm(c) && Color.isBright(c));
+            this.color = Color.randomFilteredColor( (c) => Color.isWarm(c) && Color.isNice(c));
         }
     }
 
-    jitterValue(val) {
-        return val + this.jitterAmount();
-    }
-
-    jitterAmount() {
+    jitter() {
         return random(-this.j, this.j)
     }
 
-    jitterNucleus() {
-        var jx = this.jitterAmount();
-        var jy = this.jitterAmount();
-
-        this.x += jx;
-        this.y += jy;
-        this.dx -= jx;
-        this.dy -= jy;
-
-        if (this.dx < this.mind) this.dx = this.mind;
-        if (this.dy < this.mind) this.dy = this.mind;
-        if (this.dx > this.maxd) this.dx = this.maxd;
-        if (this.dy > this.maxd) this.dy = this.maxd;
-
-        if (this.dead) {
-            this.maxd /= 1.5;
-            this.mind /= 1.5;
-        }
+    jitterArray(arr) {
+        return arr.map( (e) => e + random(-2,2));
     }
 
     consume(food) {
+        // you convert 1/10 of food into size
         this.dx += food.dx/10;
         this.dy += food.dy/10;
-        this.j += food.j/10;
-        this.mind += food.mind/5;
-        this.maxd += food.maxd/5;
-        // this.color = Color.average(this.color, food.color);
+        this.size += food.size/10;
+        this.size += food.size/10;
+
+        // you are what you eat
+        this.speed *= .99;
+
+        this.color = Color.mix( [this.color, food.color], [.90, .10]);
         food.die();
     }
 
@@ -235,23 +202,52 @@ class Cell {
         this.dead = true;
     }
 
-    draw() {
-        this.jitterNucleus();
-        this.x += this.vx;
-        this.y += this.vy;
-
-        push();
-        if (this.predator) {
-            noFill();
-            strokeWeight(this.jitterValue(this.j) * 2);
-            stroke(this.color);
+    updateCell() {
+        if (this.dead) {
+            this.size /= 1.5;
+            this.dx = this.dy = this.size;
         }
         else {
+            this.x += this.vx + this.jitter();
+            this.y += this.vy + this.jitter();
+
+            this.dx -= this.jitter();
+            this.dy -= this.jitter();
+
+            if (this.dx < this.size * .8 || this.dx > this.size * 1.2) this.dx = this.size;
+            if (this.dy < this.size * 1.2 || this.dy > this.size * 1.2) this.dy = this.size;
+
+            this.color = this.jitterArray(this.color);
+            this.color = this.color.map( (e) => e <= 0 ? 20 : e);
+            this.color = this.color.map( (e) => e >= 255 ? 240 : e);
+        }
+    }    
+
+    draw() {
+        this.updateCell();
+
+        if (this.predator) {
+            push();
+            // translate(windowWidth/2, windowHeight/2);
             noStroke();
             fill( this.color );
+            ellipse(this.x + this.jitter()/2, this.y + this.jitter()/2, this.dx/10, this.dy/10);
+            fill( this.color.concat(90) );
+            noFill();
+            strokeWeight(this.jitter() + 2);
+            stroke(this.color);
+            ellipse(this.x, this.y, this.dx, this.dy);
+            pop();
         }
-        translate(windowWidth/2, windowHeight/2);
-        ellipse(this.x, this.y, this.dx, this.dy);
-        pop();
+        else {
+            push();
+            // translate(windowWidth/2, windowHeight/2);
+            noStroke();
+            fill( this.color.concat(200) );
+            ellipse(this.x, this.y, this.dx, this.dy);
+            pop();
+        }
+
+      
     }
 }
