@@ -8,14 +8,17 @@ class Ring {
     this.offset = -90;
     this.colorizer = function(i) {
         return i % 2
-            ? Color.randomColor( {h:'warm', s:'colorful', b:'light'} )
-            : Color.randomColor( {h:'cool', s:'colorful', b:'light'} )
+            ? Color.randomColor( {h:'warm', s:'medium', b:'light'} )
+            : Color.randomColor( {h:'cool', s:'medium', b:'light'} )
     };
 
     this.style = 'static'; // static, growSegments, growRing
 
     this.animating = true;
     this.angle = 0;
+
+    this.label = '100%';
+    this.labelSize = r/4;
   }
 
   addSegments(segs) {
@@ -70,6 +73,13 @@ class Ring {
         console.log(`Unknown style {0}`, this.style);
       break;
     }
+
+    push();
+    textSize(this.labelSize);
+    fill(0);
+    textAlign(CENTER, CENTER);
+    text(this.label, this.x, this.y);
+    pop();
   }
 
   drawStatic() {
@@ -95,6 +105,10 @@ class Ring {
 
       if (seg.animating) {
         var end = Math.min(seg.angle, seg.end);
+        if (end > 360) {
+          end = 360;
+        }
+        if (seg.start + (90/this.r) > 358) continue;
         arc(this.x, this.y, this.r, this.r, seg.start- this.offset + (100/this.r), end- this.offset);
       }
       
@@ -122,6 +136,10 @@ class Ring {
       stroke(seg.color);
       if (this.animating) {
         var end = Math.min(this.angle, seg.end);
+        if (end > 360) {
+          end = 360;
+        }
+        if (seg.start + (90/this.r) > 358) continue;
         if (seg.start + (100/this.r) <= end) {
           arc(this.x, this.y, this.r, this.r, seg.start - this.offset + (100/this.r), Math.min(end, seg.end)- this.offset);
         }
