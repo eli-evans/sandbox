@@ -55,7 +55,7 @@ class Color {
 
                 case 'grey':
                 case 'gray':
-                    r = random(0,50);
+                    r = random(0,32);
                 break;
 
                 case 'dull':
@@ -98,6 +98,7 @@ class Color {
                 break;
 
                 case 'light':
+                case 'bright':
                     r = random(171,255);
                 break;
 
