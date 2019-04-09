@@ -1,188 +1,115 @@
 class Color {
-    static randomColor() {
-        var r = Color.randomColorComponent();
-        var g = Color.randomColorComponent();
-        var b = Color.randomColorComponent();
-        
-        return [r, g, b];
-    }
-      
-    static randomColorComponent() {
-        return Math.floor(random(225) + 20);
-        
-    }
+    static randomColor(spec) {
+        colorMode(HSB, 255);
+        spec = spec || {h:'any', s:'any', b:'any'};
+        var h, s, b, a;
 
-    static randomFilteredColor(f) {
-        f = f || function(c) { return true; };
-
-        var attempt = 0;
-        var c = Color.randomColor();
-
-        while (!f(c)) {
-            c = Color.randomColor();
-            if (++attempt >= 1000) break;
-        }
+        var c = color(
+            Color.randomHue(spec.h),
+            Color.randomSaturation(spec.s),
+            Color.randomBrightness(spec.b),
+            255
+        );
         return c;
     }
 
+    static randomHue(p) {
+        var r;
+        if (Array.isArray(p)) {
+            r = random(p[0], p[1]);
+        }
+        else if (!isNaN(p)) {
+            r = p;
+        }
+        else {
+            switch (p) {
+                case 'warm':
+                    r = random(1) < .5 ? random(0,40) : random(232,255);
+                break;
 
-    static randomNiceColor() {
-        return Color.randomFilteredColor(
-            (c) => !(Color.isDark(c) || Color.isMuddy(c) || Color.isLight(c))
-        );
-    }
+                case 'cool':
+                    r = random(110,190);
+                break;
 
-    static randomMidtoneColor() {
-        return Color.randomFilteredColor(
-            (c) => !Color.isDark(c) && !Color.isLight(c)
-        );
-    }  
-
-    static randomDarkColor() {
-        return Color.randomFilteredColor(
-            (c) => Color.isDark(c) && !Color.isMuddy(c)
-        );
-    }
-
-    static randomLightColor() {
-        return Color.randomFilteredColor(
-            (c) => Color.isLight(c) && !Color.isMuddy(c)
-        );
-    }
-
-    static randomBrightColor() {
-        return Color.randomFilteredColor(
-            (c) => Color.isBright(c)
-        );
-    }   
-
-    static randomMuddyColor() {
-        return Color.randomFilteredColor(
-            (c) => Color.isMuddy(c)
-        )
-    }
-
-    static RGB2HSL(c) {
-        var r = c[0];
-        var g = c[1];
-        var b = c[2];
-
-        r /= 255, g /= 255, b /= 255;
-        
-        var max = Math.max(r, g, b), min = Math.min(r, g, b);
-        var h, s, l = (max + min) / 2;
-        
-        if (max == min) {
-            h = s = 0; // achromatic
-        } else {
-            var d = max - min;
-            s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-        
-            switch (max) {
-            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
-            case g: h = (b - r) / d + 2; break;
-            case b: h = (r - g) / d + 4; break;
+                default:
+                    r = random(0,255);
+                break;
             }
-        
-            h /= 6;
         }
-        
-        return [ Math.floor(h*= 255), Math.floor(s*= 255), Math.floor(l*=255) ];
+        return r;
     }
 
-    static isMuddy(c) {
-        var d = 32;
-        var r = c[0];
-        var g = c[1];
-        var b = c[2];
-
-        var dRG = Math.abs(r-g);
-        var dRB = Math.abs(r-b);
-        var dGB = Math.abs(g-b);
-
-        var hsl = Color.RGB2HSL(c)
-
-        return (
-            // any two components are < d apart
-            (dRG < d && dRB < d) || (dRB < d && dGB < d) || (dRG < d && dGB < d)
-            ||
-            (hsl[1] < d*2)
-        ) ;
-    }
-
-    static isDark(c) {
-        var hsl = Color.RGB2HSL(c);
-        return (hsl[2] < 120);
-    }
-
-    static isLight(c) {
-        var hsl = Color.RGB2HSL(c);
-        return (hsl[2] > 200);
-    }
-
-    static isMidtone(c) {
-        var hsl = Color.RGB2HSL(c);
-        return (hsl[2] > 120 && hsl[2] < 200);
-    }  
-
-    static isNice(c) {
-        return !(Color.isDark(c) || Color.isLight(c) || Color.isMuddy(c));
-    }
-
-    static isBright(c) {
-        var hsl = Color.RGB2HSL(c);
-        var h = hsl[0];
-        var s = hsl[1];
-        var l = hsl[2];
-        return (s > 200 && l > 120 && l < 220);
-    }
-
-    static isCool(c) {
-        var hsl = Color.RGB2HSL(c);
-        var h = hsl[0];
-        var s = hsl[1];
-        var l = hsl[2];
-        return (h > 110 && h < 160); 
-    }
-
-    static isWarm(c) {
-        var hsl = Color.RGB2HSL(c);
-        var h = hsl[0];
-        var s = hsl[1];
-        var l = hsl[2];
-        return (h < 36 || h > 245); 
-    }
-
-    static average(arr) {
-        var r = 0;
-        var g = 0;
-        var b = 0;
-
-        console.log(arr);
-        for (var i in arr) {
-            r += arr[i][0];
-            g += arr[i][1];
-            b += arr[i][2];
+    static randomSaturation(p) {
+        var r;
+        if (Array.isArray(p)) {
+            r = random(p[0], p[1]);
         }
+        else if (!isNaN(p)) {
+            r = p;
+        }
+        else {
+            switch (p) {
+                case 'saturated':
+                    r = random(200,255);
+                break;
 
-        r /= arr.length;
-        g /= arr.length;
-        b /= arr.length;
+                case 'grey':
+                case 'gray':
+                    r = random(0,50);
+                break;
 
-        return [ r, g, b ];
+                case 'dull':
+                    r = random(51,85)
+                break;
+
+                case 'colorful':
+                    r = random(86,170)
+                break;
+
+                case 'technicolor':
+                    r = random(171,255);
+                break;
+
+                default:
+                    r = random(0,255);
+                break;
+            }
+        }
+        return r;
     }
 
-    static mix(colors, amount) {
-        var r = 0;
-        var g = 0;
-        var b = 0;
-
-        for (var i in colors) {
-            r += colors[i][0] * amount[i];
-            g += colors[i][1] * amount[i];
-            b += colors[i][2] * amount[i];
+    static randomBrightness(p) {
+        var r;
+        if (Array.isArray(p)) {
+            r = random(p[0], p[1]);
         }
+        else if (!isNaN(p)) {
+            r = p;
+        }
+        else {
+            switch (p) {
+                case 'dark':
+                    r = random(0,85);
+                break;
 
-        return [ r, g, b ];        
+                case 'midtone':
+                case 'mid':
+                    r = random(85,170);
+                break;
+
+                case 'light':
+                    r = random(171,255);
+                break;
+
+                default:
+                    r = random(0,255);
+                break;
+            }
+        }
+        return r;
+    }
+
+    static setHue(c, h) {
+        return color(h, saturation(c), brightness(c));
     }
 }

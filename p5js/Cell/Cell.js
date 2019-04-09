@@ -82,6 +82,10 @@ class Cells {
         for (i in predators) {
             var pred = predators[i];
 
+            if (pred.energy < 100) {
+                famine = true;
+            }
+
             var closest; 
             var closest = this.getClosestCell(pred, (c) => ((!c.predator || famine) && (c.size < pred.size)));
 
@@ -95,16 +99,16 @@ class Cells {
                 pred.vx = v.x * pred.speed;
                 pred.vy = v.y * pred.speed;
 
-                /*
+                
                 if(dist(closest.x, closest.y, pred.x, pred.y) < pred.dx*1) {
-                    closest.vx = v.x * (random(-1,1)+1);
-                    closest.vy = v.y * (random(-1,1)+1);
+                    closest.vx = v.x * closest.speed;
+                    closest.vy = v.y * closest.speed;
                 }
-                */
+              
             }
             else {
-                pred.vx = pred.jitter();
-                pred.vy = pred.jitter();
+                pred.vx = pred.vx * .25;
+                pred.vy = pred.vy * .25;
             }
         }
     }
@@ -113,26 +117,26 @@ class Cells {
         var aRoll = (a.size - a.speed) * random(20);
         var bRoll = (b.size - b.speed) * random(20);
 
-        return (aRoll > bRoll) ? b : a;
+        return (aRoll > bRoll) ? {winner:a, loser:b} : {winner:b, loser:a};
     }
 
     eat() {
-        var i,j;
+        var i,j,f;
         this.forPairs( (a,b,i) => {
             if (b.dead) return;
             if (this.overlap(a,b)) {
                 if (a.predator && a.size > b.size) {
                     if (b.predator) {
-                        var loser = this.fight(a, b);
-                        loser.die();
+                        f = this.fight(a, b);
+                        f.winner.consume(f.loser);
                     }
                     else {
                         a.consume(b);
                     }
                 }
                 if (!a.predator && (a.dx + a.dy)/2 > (b.dx + b.dy)/2) {
-                    var loser = this.fight(a, b);
-                    loser.die();
+                    // f = this.fight(a, b);
+                    // f.winner.consume(f.loser);
                 }
             }
         });    
@@ -159,29 +163,27 @@ class Cell {
         this.x = random(windowWidth);
         this.y = random(windowHeight);
         this.j = random(3);
-        this.size = random(20,40);
+        this.size = random(10,30);
         this.dx = this.size;
         this.dy = this.size;
         this.speed = random(3);
         this.vx = random(-1,1) * this.speed;
         this.vy = random(-1,1) * this.speed;
+
+        this.energy = 255;
  
         this.dead = false;
 
         this.predator = random(1) < .1 ? true : false;
 
-        this.color = Color.randomFilteredColor( (c) => Color.isCool(c) && Color.isNice(c) && !Color.isDark(c));
+        this.color = Color.randomColor( {h:'cool', s:'colorful', b:'light'});
         if (this.predator) {
-            this.color = Color.randomFilteredColor( (c) => Color.isWarm(c) && Color.isNice(c));
+            this.color = color(0, 200, 200);
         }
     }
 
     jitter() {
         return random(-this.j, this.j)
-    }
-
-    jitterArray(arr) {
-        return arr.map( (e) => e + random(-2,2));
     }
 
     consume(food) {
@@ -192,9 +194,8 @@ class Cell {
         this.size += food.size/10;
 
         // you are what you eat
-        this.speed *= .99;
-
-        this.color = Color.mix( [this.color, food.color], [.90, .10]);
+        this.speed += (food.speed * .05);
+        this.energy += food.energy;
         food.die();
     }
 
@@ -203,51 +204,123 @@ class Cell {
     }
 
     updateCell() {
+        // fade a little
+        this.energy -= Math.abs(this.speed * .2);
+        if (this.energy <= 127) {
+            this.die();
+        }
+
+        if (this.energy > 255) {
+            this.energy = 255;
+        }
+
         if (this.dead) {
             this.size /= 1.5;
             this.dx = this.dy = this.size;
         }
         else {
-            this.x += this.vx + this.jitter();
-            this.y += this.vy + this.jitter();
+            if (!this.predator) {
+                this.x += this.vx + this.jitter();
+                this.y += this.vy + this.jitter();
+            }
+            else {
+                this.x += this.vx + this.jitter() * .1;
+                this.y += this.vy + this.jitter() * .1;
+            }
 
-            this.dx -= this.jitter();
-            this.dy -= this.jitter();
+            this.dx -= this.jitter() * 3;
+            this.dy -= this.jitter() * 3;
 
             if (this.dx < this.size * .8 || this.dx > this.size * 1.2) this.dx = this.size;
             if (this.dy < this.size * 1.2 || this.dy > this.size * 1.2) this.dy = this.size;
-
-            this.color = this.jitterArray(this.color);
-            this.color = this.color.map( (e) => e <= 0 ? 20 : e);
-            this.color = this.color.map( (e) => e >= 255 ? 240 : e);
         }
+
+        // this.color.setAlpha(this.energy);
     }    
 
     draw() {
+        var c = this.color;
+
         this.updateCell();
 
         if (this.predator) {
-            push();
-            // translate(windowWidth/2, windowHeight/2);
-            noStroke();
-            fill( this.color );
-            ellipse(this.x + this.jitter()/2, this.y + this.jitter()/2, this.dx/10, this.dy/10);
-            fill( this.color.concat(90) );
-            noFill();
-            strokeWeight(this.jitter() + 2);
-            stroke(this.color);
-            ellipse(this.x, this.y, this.dx, this.dy);
-            pop();
+            this.drawPredator();
         }
         else {
-            push();
-            // translate(windowWidth/2, windowHeight/2);
-            noStroke();
-            fill( this.color.concat(200) );
-            ellipse(this.x, this.y, this.dx, this.dy);
-            pop();
+            this.drawPrey();
         }
+    }
 
-      
+    drawPrey() {
+        var c = this.color;
+        push();
+        noStroke();
+        c.setAlpha(this.energy);
+        fill(c);
+        ellipse(this.x, this.y, this.dx, this.dy);
+        pop();
+    }
+
+    drawPredator() {
+        // Mouth/Nucleus
+        push();
+        noStroke();
+        var nc = color(this.energy, saturation(this.color), brightness(this.color));
+        fill(nc);
+        ellipse(this.x + this.vx*3, this.y + this.vy*3, this.dx / 5, this.dy / 5);
+        pop();
+
+        // body
+        /*
+        push();
+        noFill();
+        var wc = color(this.energy, saturation(this.color), brightness(this.color));
+        fill(200,200,200,60);
+        stroke(wc);
+        strokeWeight(3);
+        ellipse(this.x, this.y, this.dx, this.dy);
+        */
+        push();
+       noFill();
+       var wc = color(this.energy, saturation(this.color), brightness(this.color));
+       fill(200,200,200,60);
+       stroke(wc);
+       strokeWeight(1);
+
+        var r = this.size / 5;
+
+        var x_off = 1000,y_off = 1000,z_off = 1000;
+        var vertices_amount = 90;
+
+        var px_offset = 50;    // amplitude
+        var NOISE_SCALE = 90;  // the higher the softer
+
+        var Z_SPEED = .1; // noise change per frame
+
+        var X_SPEED = .1;
+        var Y_SPEED = .1;
+
+       beginShape();
+       // translate(this.x, this.y);
+       for (var a=0; a<=TWO_PI+1;a+=TWO_PI/vertices_amount) {
+         var x = this.x + r*sin(a);
+         var y = this.y + r*cos(a);
+         
+         var new_x = x + (
+                     noise(
+             ((x_off+x)/NOISE_SCALE),
+             ((y_off+y)/NOISE_SCALE),
+                    z_off) * px_offset * sin(a));
+         
+         var new_y = y + (
+                     noise(
+             ((x_off+x)/NOISE_SCALE),
+             ((y_off+y)/NOISE_SCALE),
+                    z_off) * px_offset * cos(a))
+         vertex(new_x,new_y);
+       }
+       endShape();
+
+        pop();
     }
 }
