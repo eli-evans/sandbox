@@ -3,9 +3,18 @@ class Cells {
         this.cells = [];
     }
 
-    spawn(n) {
+    spawn(n, opts) {
         for (var i = 0; i < n; ++i) {
-            this.cells.push( new Cell() );
+            var cell = new Cell();
+            if (opts != null) {
+                cell.x = opts.x ? opts.x : cell.x;
+                cell.y = opts.y ? opts.y : cell.y;
+                cell.predator = opts.predator ? opts.predator : cell.predator;
+                cell.species = opts.species ? opts.species : cell.species;
+                cell.size = opts.size ? opts.size : cell.size;
+                cell.speed = opts.speed ? opts.speed : cell.speed;
+            }    
+            this.cells.push( cell );
         } 
     }
 
@@ -135,8 +144,16 @@ class Cells {
                     }
                 }
                 if (!a.predator && (a.dx + a.dy)/2 > (b.dx + b.dy)/2) {
-                    // f = this.fight(a, b);
-                    // f.winner.consume(f.loser);
+                    if (this.cells.length < 75) {
+                        var opts = {
+                            x : (a.x + b.x) / 2,
+                            y : (a.y + b.y) / 2,
+                            size : (a.size + b.size) / 2,
+                            speed : (a.speed + b.speed) / 2,
+                            predator : false,
+                        }
+                        this.spawn(1);
+                    }
                 }
             }
         });    
@@ -174,11 +191,11 @@ class Cell {
  
         this.dead = false;
 
-        this.predator = random(1) < .1 ? true : false;
+        this.predator = random(1) < .15 ? true : false;
 
-        this.color = Color.randomColor( {h:'cool', s:'colorful', b:'light'});
+        this.color = Color.randomColor( {h:'cool', s:'medium', b:'light'});
         if (this.predator) {
-            this.color = color(0, 200, 200);
+            this.color = Color.randomColor( {h:'red', s:'bright', b:'range15'});
         }
     }
 
@@ -195,7 +212,7 @@ class Cell {
 
         // you are what you eat
         this.speed += (food.speed * .05);
-        this.energy += food.energy;
+        this.energy += food.energy * .8;
         food.die();
     }
 
@@ -206,7 +223,7 @@ class Cell {
     updateCell() {
         // fade a little
         this.energy -= Math.abs(this.speed * .2);
-        if (this.energy <= 127) {
+        if (this.energy <= 127 || this.size > 100) {
             this.die();
         }
 
@@ -215,7 +232,7 @@ class Cell {
         }
 
         if (this.dead) {
-            this.size /= 1.5;
+            this.size -= 2;
             this.dx = this.dy = this.size;
         }
         else {
@@ -257,7 +274,8 @@ class Cell {
         noStroke();
         c.setAlpha(this.energy);
         fill(c);
-        ellipse(this.x, this.y, this.dx, this.dy);
+        // ellipse(this.x, this.y, this.dx, this.dy);
+        this.drawBlob();
         pop();
     }
 
@@ -270,57 +288,51 @@ class Cell {
         ellipse(this.x + this.vx*3, this.y + this.vy*3, this.dx / 5, this.dy / 5);
         pop();
 
-        // body
-        /*
         push();
-        noFill();
-        var wc = color(this.energy, saturation(this.color), brightness(this.color));
-        fill(200,200,200,60);
-        stroke(wc);
-        strokeWeight(3);
-        ellipse(this.x, this.y, this.dx, this.dy);
-        */
-        push();
-       noFill();
-       var wc = color(this.energy, saturation(this.color), brightness(this.color));
-       fill(200,200,200,60);
-       stroke(wc);
-       strokeWeight(1);
+            noFill();
+            var wc = color(this.energy, saturation(this.color), brightness(this.color));
+            fill(200,200,200,60);
+            stroke(wc);
+            strokeWeight(1);
+            this.drawBlob();
+        pop();
+    }
 
+    drawBlob() {
+        push();
         var r = this.size / 5;
 
         var x_off = 1000,y_off = 1000,z_off = 1000;
-        var vertices_amount = 90;
+        var vertices_amount = 30;
 
-        var px_offset = 50;    // amplitude
-        var NOISE_SCALE = 90;  // the higher the softer
+        var px_offset = 20;    // amplitude
+        var NOISE_SCALE = 20;  // the higher the softer
 
         var Z_SPEED = .1; // noise change per frame
 
         var X_SPEED = .1;
         var Y_SPEED = .1;
 
-       beginShape();
-       // translate(this.x, this.y);
-       for (var a=0; a<=TWO_PI+1;a+=TWO_PI/vertices_amount) {
-         var x = this.x + r*sin(a);
-         var y = this.y + r*cos(a);
-         
-         var new_x = x + (
-                     noise(
-             ((x_off+x)/NOISE_SCALE),
-             ((y_off+y)/NOISE_SCALE),
-                    z_off) * px_offset * sin(a));
-         
-         var new_y = y + (
-                     noise(
-             ((x_off+x)/NOISE_SCALE),
-             ((y_off+y)/NOISE_SCALE),
-                    z_off) * px_offset * cos(a))
-         vertex(new_x,new_y);
-       }
-       endShape();
-
+        beginShape();
+        // translate(this.x, this.y);
+        for (var a=0; a<=TWO_PI+1;a+=TWO_PI/vertices_amount) {
+            var x = this.x + r*sin(a);
+            var y = this.y + r*cos(a);
+            
+            var new_x = x + (
+                        noise(
+                ((x_off+x)/NOISE_SCALE),
+                ((y_off+y)/NOISE_SCALE),
+                        z_off) * px_offset * sin(a));
+            
+            var new_y = y + (
+                        noise(
+                ((x_off+x)/NOISE_SCALE),
+                ((y_off+y)/NOISE_SCALE),
+                        z_off) * px_offset * cos(a))
+            vertex(new_x,new_y);
+        }
+        endShape();
         pop();
     }
-}
+ }
