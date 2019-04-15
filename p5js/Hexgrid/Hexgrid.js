@@ -31,12 +31,15 @@ class Hexgrid {
     this.width = 0;
     this.tiles = [];
 
+    push();
+    colorMode(RGB, 255);
     this.color = {
-      base : [180,180,180],
-      selected : [200,80,20],
-      focused : [180,120,0],
-      highlighted : [200,200,200],
+      base : color(180,180,180),
+      selected : color(200,80,20),
+      focused : color(180,120,0),
+      highlighted : color(200,200,200),
     };
+    pop();
     
     var rows = this.size * 2 - 1;
     var last = this.size;

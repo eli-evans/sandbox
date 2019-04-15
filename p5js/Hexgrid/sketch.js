@@ -15,8 +15,6 @@ function setup() {
     canvasHeight : windowWidth,
     canvasWidth : windowHeight
   });
-  focusColor = Color.randomDarkColor();
-  lineColor = Color.randomLightColor();
 
   windowResized();
   redraw();

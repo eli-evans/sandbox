@@ -9,18 +9,23 @@ class Cells {
             if (opts != null) {
                 cell.x = opts.x ? opts.x : cell.x;
                 cell.y = opts.y ? opts.y : cell.y;
-                cell.predator = opts.predator ? opts.predator : cell.predator;
+                cell.predator = opts.predator !== null ? opts.predator : cell.predator;
                 cell.species = opts.species ? opts.species : cell.species;
                 cell.size = opts.size ? opts.size : cell.size;
                 cell.speed = opts.speed ? opts.speed : cell.speed;
-            }    
+                cell.color = opts.color ? opts.color : cell.color;
+            }
             this.cells.push( cell );
-        } 
+        }
     }
 
     reap() {
         this.forCells( (c, i) => {
             if (c.dead && c.size < 2) {
+                if (c.predator) {
+                    console.log('new predator');
+                    this.spawn(1, {predator : true});
+                }
                 this.cells.splice(i, 1);
             }
         });
@@ -151,8 +156,9 @@ class Cells {
                             size : (a.size + b.size) / 2,
                             speed : (a.speed + b.speed) / 2,
                             predator : false,
+                            color : lerpColor(a.color, b.color, .5),
                         }
-                        this.spawn(1);
+                        this.spawn(1, opts);
                     }
                 }
             }
@@ -272,10 +278,12 @@ class Cell {
         var c = this.color;
         push();
         noStroke();
-        c.setAlpha(this.energy);
+        c.setAlpha(this.energy*.75);
         fill(c);
-        // ellipse(this.x, this.y, this.dx, this.dy);
         this.drawBlob();
+        c.setAlpha(255);
+        fill(c);
+        ellipse(this.x, this.y, this.dx*.66, this.dy*.66);
         pop();
     }
 

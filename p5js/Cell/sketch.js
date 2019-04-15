@@ -8,7 +8,7 @@ function setup() {
   cells = new Cells();
   cells.spawn(CELLS);
 
-  setTimeout( noLoop, 60000);
+  // setTimeout( noLoop, 60000);
 }
 
 function draw() {
