@@ -3,30 +3,31 @@
 <script src="Coordinates.js"></script>
 <script>
 
-var a = new Vec([5,5,5,5]);
-var b = new Vec([8,8,8,8,8]);
+var a = new Point([5,5,5,5]);
+var b = new Point([8,8,8,8,8]);
 
 console.log(a);
 console.log(b);
 
-console.log( Vec.distance(a, b) );
-console.log( Vec.subtract(a, b) );
-console.log( Vec.centroid( [a, b] ));
+console.log( Point.distance(a, b));
+console.log( Point.subtract(a, b));
+console.log( Point.centroid(a, b));
 
 var p = new Point(123, 225);
-var q = new Point(-2, 77);
+var q = new Point(-2, 77, 0);
 
 console.log(p);
 console.log(q);
 
-console.log( Vec.distance(p,q) );
-console.log( Vec.subtract(p,q) );
-console.log( Vec.centroid([p, q]));
-console.log( Vec.centroid([p, q, new Vec([0,0,0])]));
+console.log( Point.distance(p,q) );
+console.log( Point.subtract(p,q) );
+console.log( Point.centroid([p, q]));
+console.log( Point.centroid([p, q, new Point([0,0,0,0,0,0,1])]));
 
 console.log( p.toPolar() );
 console.log( p.toPolar(q) );
 
+console.log( new Point(p) );
 
 
 </script>
