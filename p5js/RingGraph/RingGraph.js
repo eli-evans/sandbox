@@ -17,12 +17,14 @@ class Ring {
     this.animating = true;
     this.angle = 0;
 
+    this.padding = .125;
+
     this.label = '100%';
     this.labelSize = r/4;
   }
 
   addSegments(segs) {
-    segs.sort((a, b) => b - a);
+    // segs.sort((a, b) => b - a);
 
     // sum
     var sum = 0;
@@ -90,7 +92,7 @@ class Ring {
       var seg = this.segments[i];
 
       stroke(seg.color);
-      arc(this.x, this.y, this.r, this.r, seg.start- this.offset + (100/this.r), seg.end- this.offset);
+      arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, seg.end- this.offset);
     }
     pop();
   }
@@ -109,11 +111,11 @@ class Ring {
           end = 360;
         }
         if (seg.start + (90/this.r) > 358) continue;
-        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + (100/this.r), end- this.offset);
+        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, end- this.offset);
       }
       
       else if (!seg.animating) {
-        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + (100/this.r), seg.end- this.offset);
+        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, seg.end- this.offset);
       }
 
       seg.angle += (seg.end - seg.start) / 15;
@@ -141,11 +143,11 @@ class Ring {
         }
         if (seg.start + (90/this.r) > 358) continue;
         if (seg.start + (100/this.r) <= end) {
-          arc(this.x, this.y, this.r, this.r, seg.start - this.offset + (100/this.r), Math.min(end, seg.end)- this.offset);
+          arc(this.x, this.y, this.r, this.r, seg.start - this.offset + this.padding, Math.min(end, seg.end)- this.offset);
         }
       }
       else if (!this.animating) {
-        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + (100/this.r), seg.end- this.offset);
+        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, seg.end- this.offset);
       }
     }    
     this.angle += 9;
