@@ -43,6 +43,7 @@ function changeRing() {
   ring.offset = random(90);
   ring.label = Settings.label;
   ring.labelSize = Settings.labelSize;
+  ring.colorizer = (i) => { return Color.randomColor( {s:'medium', b:'bright'} ); };
 
   for (var i = 0; i < Settings.segments; ++i) {
     ring.addSegment(random(100) + 2);
