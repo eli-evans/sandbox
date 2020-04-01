@@ -1,5 +1,3 @@
-
-
 class Point {
     // construction
 
@@ -17,25 +15,29 @@ class Point {
         }
 
         else if (typeof arguments[0] === 'object') {
-            this.coords = arguments[0].coords;
-            this.n = arguments[0].n || this.coords.length;
-            this.pad(this.n);
+            var spec = arguments[0];
+            this.coords = spec.coords;
+            if (spec.dimensions) {
+                this.dimensions = spec.dimensions;
+            }
         }
     }
 
+    // static constructor factories
+
     static fromArray(coords) {
-        return new Point(  {coords: coords, n: coords.length } );
+        return new Point(  {coords: coords, dimensions: coords.length } );
     }
 
     static fromCoordinates() {
-        return new Point( { coords: [...arguments], n: arguments.length } );
+        return new Point( { coords: [...arguments], dimensions: arguments.length } );
     }
 
     static fromPoint() {
-        return new Point( { coords: [...arguments[0].coords], n: arguments[0].n}  );
+        return new Point( { coords: [...arguments[0].coords], dimensions: arguments[0].dimensions}  );
     }
  
-    // accessors
+    // property accessors
 
     set x(p) {
         this.coords[0] = p;
@@ -58,6 +60,18 @@ class Point {
         return this.coords[2] || 0;
     }
 
+    set dimensions(n) {
+        if (n > this.coords.length) {
+            this.pad(n);
+        }
+        else if (n < this.coords.length) {
+            this.trim(n);
+        }
+    }
+    get dimensions() {
+        return this.coords.length;
+    }
+
     // instance methods
 
     pad(len) {
@@ -69,7 +83,6 @@ class Point {
     }
 
     trim(len) {
-        this.n = len;
         var c = [];
         for (var i = 0; i < len; ++i) {
             c.push(this.coords[i]);
@@ -85,40 +98,48 @@ class Point {
         if (origin === undefined) {
             origin = new Point(0,0);
         }
-        var distance = Point.distance(this, origin);
+
+        var radius = Point.distance(this, origin);
         var diff = Point.subtract(this, origin);
         var radians = Math.atan2(diff.y, diff.x); // atan2 takes y first
-        var degrees = radians * (180 / Math.PI);
-        if (degrees < 0) {
-            degrees += 360;
+        var angle = radians * (180 / Math.PI);
+        if (angle < 0) {
+            angle += 360;
         }
-        return new Polar(origin, distance, degrees);
+        return new Polar(origin, radius, angle);
     }    
 
     // class methods
 
-    static maxN(vecs) {
-        return Math.max( ...(vecs.map(v=>v.n)) );
+    static maxDimensionsArray(vecs) {
+        return Math.max( ...(vecs.map(v=>v.dimensions)) );
+    }
+
+    static maxDimensions() {
+        if (Array.isArray(arguments[0])) {
+            return Point.maxDimensionsArray(arguments[0]);
+        }
+        return Point.maxDimensionsArray([...arguments]);
     }
 
     static centroidArray(vecs) {
-
         var coords = [];
-        var maxN = Point.maxN(vecs);
+        var maxDimensions = Point.maxDimensions(vecs);
 
-        var tmp = [];
-        vecs.forEach( v => {
-            tmp.push( new Point({ coords: [...v.coords], n: maxN }));
+        var tmp = vecs.map(v => {
+            var p = new Point(v);
+            p.dimensions = maxDimensions;
+            return p;
         });
 
-        for (var i = 0; i < maxN; ++i) {
+        for (var i = 0; i < maxDimensions; ++i) {
             var t = tmp
-                .map( v => v.coords[i] )
-                .reduce( (a, v) => a + v );
-            coords.push( t / vecs.length );
+                .map( p => p.coords[i] )
+                .reduce( (a,p) => a + p );
+            coords.push( t / tmp.length );
         }
 
-        var ret = new Point({ coords: coords, n: maxN});
+        var ret = new Point(coords);
 
         return ret;
     }
@@ -131,41 +152,46 @@ class Point {
     }
 
     static distance(a, b) {
-        var maxN = Point.maxN([a,b]);
+        var maxDimensions = Point.maxDimensions(a,b);
 
-        var l = new Point({ coords: [...a.coords], n: maxN });
-        var r = new Point({ coords: [...b.coords], n: maxN });
+        var l = new Point(a);
+        var r = new Point(b);
+        l.dimensions = r.dimensions = maxDimensions;
 
         var ret = 0;
-        for (var i = 0; i < maxN; ++i) {
+        for (var i = 0; i < maxDimensions; ++i) {
             ret += Math.pow(l.coords[i] - r.coords[i], 2);
         }
         return Math.sqrt(ret);
     }
 
     static subtract(a, b) {
-        var maxN = Point.maxN([a,b]);
+        var maxDimensions = Point.maxDimensions(a,b);
 
-        var l = new Point({ coords: [...a.coords], n: maxN });
-        var r = new Point({ coords: [...b.coords], n: maxN });
+        var l = new Point(a);
+        var r = new Point(b);
+        l.dimensions = r.dimensions = maxDimensions;
 
         var c = [];
 
-        for (var i = 0; i < maxN; ++i) {
-            c.push( a.coords[i] - b.coords[i] );
+        for (var i = 0; i < maxDimensions; ++i) {
+            c.push( l.coords[i] - r.coords[i] );
         }
         return new Point(c);
     }
 }
 
 class Polar {
-    constructor(origin, distance, degrees) {
+    constructor(origin, radius, angle) {
         this.origin = origin; // Point
-        this.distance = distance; // scalar
-        this.degrees = degrees; // rotation
+        this.radius = radius; // scalar
+        this.angle = angle; // rotation
     }
 
     toPoint() {
-        // TODO
+        var x = (this.radius * cos(this.angle)) + origin.x;
+        var y = (this.radius * sin(this.angle)) + origin.y;
+
+        return new Point(x,y);
     }
 }
