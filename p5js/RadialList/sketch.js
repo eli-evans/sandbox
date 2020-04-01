@@ -37,7 +37,8 @@ var Tracks = [
     color: "green",
     weight: 60,
     events: [    
-      {start: "June 15", end: "June 19"}
+      {start: "January 1", end: "January 31", name: "JAN"},
+      {start: "February 1", end: "February 29", name: "FEB"},
     ]
   },
   {
@@ -64,22 +65,21 @@ function setup() {
   background(255);
 
   year = CalendarUtil.get2020();
-  // console.log(year);
 
   var fullsize = (Math.min(height, width)) * .9;
 
   months = new Ring(width/2, height/2, fullsize);
-  months.offset = 90;
   months.padding = ARCPADDING;
   months.label = "";
   months.labelSize = 18;
   months.weight = MONTHSWIDTH;
   months.style = "drawRing";
   months.colorizer = (i) => {return i % 2 ? color("#A0A0A0") : color("#E0E0E0")};
+  months.sort = false;
+
   months.addSegments( year.months.map( (i) => i.length ) );
 
   changeRing();
-
 }
 
 function changeRing() {
@@ -96,8 +96,8 @@ function changeRing() {
     ring.weight = t.weight;
     ring.style = "drawRing";
     ring.padding = ARCPADDING;
-    ring.offset = 90;
     ring.label = "";
+    ring.sort = false;
 
     lastRing = ring;
 
@@ -143,10 +143,10 @@ function draw() {
         e.end = e.start;
       }
 
-      var startPos = year.daysByName[e.start].position - ring.offset + ring.padding;
-      var endPos = year.daysByName[e.end].position + year.degreesPerDay - ring.offset;
+      var startPos = year.daysByName[e.start].position + ring.padding;
+      var endPos = year.daysByName[e.end].position + year.degreesPerDay;
   
-      arc(ring.x, ring.y, ring.r, ring.r, startPos, endPos);
+      arc(ring.x, ring.y, ring.r, ring.r, startPos - 90, endPos - 90);
 
       if (e.name && t.color === "peach") {
         textBlockOnACircle(e.name, t.ring.r/2, startPos + ((endPos-startPos)/2), months.x, months.y);
@@ -160,15 +160,18 @@ function draw() {
     fill(0);
     noStroke();
     year.months.forEach( (m, i) => {
-      var angle = 15 + (30 * i) - months.offset;
+      var angle = (15 + (30 * i)) - 90;
+      if (angle < 0) {
+        angle += 360;
+      }
       textBlockOnACircle(m.abbr, months.r/2 + 12, angle, months.x, months.y);
     });
     pop();
 
   });
 
-  var today = "March 15";
-  drawLash(year.daysByName["March 12"], color("#000"), 40);
+  var today = "April 1";
+  drawLash(year.daysByName["April 1"], color("#000"), 40);
 
   mouseMoved();
   drawShadow();
@@ -184,26 +187,8 @@ function textBlockOnACircle(txt, radius, angle, x, y) {
   translate(vec.x, vec.y);
   rotate(angle + (vec.y > height/2 ? 270 : 90 ));
 
-  console.log(txt);
-
   text(txt, 0,0);
   pop();
-}
-
-function cartesian2Polar(x, y, oX, oY) {
-  oX = oX ? oX : width/2;
-  oY = oY ? oY : height/2;
-
-  x -= oX; 
-  y -= oY;
-
-  var distance = Math.sqrt(x*x + y*y);
-  var radians = Math.atan2(y,x); // atan2 takes y first
-  var degrees = radians * (180/Math.PI) + months.offset;
-  if (degrees < 0) {
-    degrees += 360;
-  }
-  return {distance: distance, degrees: degrees};
 }
 
 function polar2Cartesian(r, a, oX, oY) {
@@ -214,8 +199,12 @@ function polar2Cartesian(r, a, oX, oY) {
 }
 
 function mouseMoved() {
-  var day = getDayFromAngle(cartesian2Polar(mouseX, mouseY));
+  var loc = new Vector(mouseX, mouseY);
+  var polar = loc.toPolar( new Vector(width/2, height/2) );
+  var day = getDayFromAngle(polar.angle);
   label = day.name;
+
+  // label = polar.angle;
 
   drawLash(day, Color.logosColor('red', 'medium'), 80);
 
@@ -231,18 +220,18 @@ function drawLash(day, color, alpha) {
   color.setAlpha(alpha);
   stroke(color);
 
-  var startPos = day.position - months.offset + ring.padding;
-  var endPos = day.position - months.offset + year.degreesPerDay;
+  var startPos = day.position + ring.padding;
+  var endPos = day.position + year.degreesPerDay;
 
   if (!months.animating) {
-    arc(months.x, months.y, radius, radius, startPos, endPos);
+    arc(months.x, months.y, radius, radius, startPos - 90, endPos - 90);
   }
   pop();
 }
 
-function getDayFromAngle( vec ) {
+function getDayFromAngle( angle ) {
   for (var i = 0; i < year.days.length; ++i) {
-    if (year.days[i].position + year.degreesPerDay >= vec.degrees) {
+    if (year.days[i].position + year.degreesPerDay >= angle) {
       return year.days[i];
     }
   }
@@ -269,8 +258,6 @@ function drawShadow() {
   Tracks.forEach( t => {
     h += TRACKPADDING + t.weight;
   });
-
-  // console.log(`x ${x}, y ${y}, w ${w}, h ${h}`);
 
 
   for (let i = x; i <= x + w; i++) {
