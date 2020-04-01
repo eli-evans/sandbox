@@ -85,6 +85,10 @@ class CalendarUtil {
             for (var n = 1; n <= m.length; ++n) {
                 ++nDay;
                 var name = m.name + " " + n;
+                var angle = ((nDay - 1) * ret.degreesPerDay) - 90;
+                if (angle < 0) {
+                  angle += 360;
+                }
                 var day = {name: name, index: nDay, position: (nDay-1) * ret.degreesPerDay};
                 ret.daysByName[name] = day;
                 ret.days.push(day);
