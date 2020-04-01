@@ -1,6 +1,5 @@
 class Vector {
     // construction
-
     constructor() {
         if (Array.isArray(arguments[0])) {
             return Vector.fromArray(arguments[0]);
@@ -102,10 +101,8 @@ class Vector {
         var radius = Vector.distance(this, origin);
         var diff = Vector.subtract(this, origin);
         var radians = Math.atan2(diff.y, diff.x); // atan2 takes y first
-        var angle = radians * (180 / Math.PI);
-        if (angle < 0) {
-            angle += 360;
-        }
+        var angle = Polar.correctAngle( radians * (180 / Math.PI) );
+
         return new Polar(origin, radius, angle);
     }    
 
@@ -182,6 +179,18 @@ class Vector {
 }
 
 class Polar {
+
+    static correctAngle(a) {
+        // assume a polar coordinate space
+        // where zero degrees is up
+
+        a += 90; 
+        if (a < 0) {
+            a += 360;
+        }
+        return a;
+    }
+
     constructor(origin, radius, angle) {
         this.origin = origin; // Vector
         this.radius = radius; // scalar
