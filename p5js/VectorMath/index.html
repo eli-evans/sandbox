@@ -4,31 +4,37 @@
 <script>
 
 var a = new Point([5,5,5,5]);
-var b = new Point([8,8,8,8,8]);
+var b = new Point(8,8,8,8,8);
+var p = new Point(123, 308);
+var q = new Point(-21.4, 77, 0);
 
-console.log(a);
-console.log(b);
+test( () => a );
+test( () => b );
+test( () => p );
+test( () => q );
 
-console.log( Point.distance(a, b));
-console.log( Point.subtract(a, b));
-console.log( Point.centroid(a, b));
+test( () => Point.distance(a, b));
+test( () => Point.subtract(a, b));
+test( () => Point.centroid(a, b));
+test( () => Point.distance(p, q));
+test( () => Point.subtract(p, q));
+test( () => Point.centroid(p, q));
+test( () => Point.centroid(p, q, new Point([0,0,0,0,0,0,1])));
 
-var p = new Point(123, 225);
-var q = new Point(-2, 77, 0);
+test( () => p);
 
-console.log(p);
-console.log(q);
+test( () => Point.distance(p, new Point(0,0)));
+test( () => p.distanceTo(new Point(0,0)));
 
-console.log( Point.distance(p,q) );
-console.log( Point.subtract(p,q) );
-console.log( Point.centroid([p, q]));
-console.log( Point.centroid([p, q, new Point([0,0,0,0,0,0,1])]));
+test( () => p.toPolar( new Point(0,0) ) );
+test( () => p.toPolar(q) );
+test( () => p.toPolar() );
+test( () => a.toPolar(b));
 
-console.log( p.toPolar() );
-console.log( p.toPolar(q) );
-
-console.log( new Point(p) );
-
+function test(code) {
+    console.log("\n" + code.toString().replace('() =>', '//'));
+    console.log( code() );
+}
 
 </script>
 </head>
