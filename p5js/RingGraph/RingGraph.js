@@ -5,7 +5,7 @@ class Ring {
     this.r = r;
     this.weight = 10;
     this.segments = [];
-    this.offset = -90;
+    this.offset = 0; // lets users rotate the ring
     this.colorizer = function(i) {
         return i % 2
             ? Color.randomColor( {h:'warm', s:'medium', b:'light'} )
@@ -21,10 +21,17 @@ class Ring {
 
     this.label = '100%';
     this.labelSize = r/4;
+
+    this.sort = (a,b) => b - a;
+  }
+
+  static angleCorrection() {
+    return -90; 
   }
 
   addSegments(segs) {
-    // segs.sort((a, b) => b - a);
+    if (this.sort)
+      segs.sort(this.sort);
 
     // sum
     var sum = 0;
@@ -34,13 +41,13 @@ class Ring {
     var q = 360 / sum;
 
     // convert to degrees
-    var start = 0;
+    var start = 0 + Ring.angleCorrection() + this.offset;
     for (var i in segs) {
       var v = segs[i];
       var l = segs[i] * q;
       var end = start + l;
 
-      var newSeg = new Segment(start , end , v);
+      var newSeg = new Segment(start, end , v);
       newSeg.color = this.colorizer(i);
       
       if (newSeg.end < newSeg.start) {
@@ -92,7 +99,7 @@ class Ring {
       var seg = this.segments[i];
 
       stroke(seg.color);
-      arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, seg.end- this.offset);
+      arc(this.x, this.y, this.r, this.r, seg.start + this.padding, seg.end);
     }
     pop();
   }
@@ -111,11 +118,11 @@ class Ring {
           end = 360;
         }
         if (seg.start + (90/this.r) > 358) continue;
-        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, end- this.offset);
+        arc(this.x, this.y, this.r, this.r, seg.start + this.padding, seg.end);
       }
       
       else if (!seg.animating) {
-        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, seg.end- this.offset);
+        arc(this.x, this.y, this.r, this.r, seg.start + this.padding, seg.end);
       }
 
       seg.angle += (seg.end - seg.start) / 15;
@@ -143,11 +150,11 @@ class Ring {
         }
         if (seg.start + (90/this.r) > 358) continue;
         if (seg.start + (100/this.r) <= end) {
-          arc(this.x, this.y, this.r, this.r, seg.start - this.offset + this.padding, Math.min(end, seg.end)- this.offset);
+          arc(this.x, this.y, this.r, this.r, seg.start + this.padding, Math.min(end, seg.end));
         }
       }
       else if (!this.animating) {
-        arc(this.x, this.y, this.r, this.r, seg.start- this.offset + this.padding, seg.end- this.offset);
+        arc(this.x, this.y, this.r, this.r, seg.start + this.padding, seg.end);
       }
     }    
     this.angle += 9;
