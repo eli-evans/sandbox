@@ -2,58 +2,9 @@ var height, width;
 var year;
 var months;
 var MONTHSWIDTH = 8;
-var TRACKPADDING = 4;
-var ARCPADDING = .20;
+var TRACKPADDING = 6;
+var ARCPADDING = .25;
 var label;
-
-var Tracks = [
-  {
-    name: "US Holidays",
-    color: "blue",
-    weight: 12,
-    events: CalendarUtil.getUSHolidays2020()
-  },
-  {
-    name: "Church Holidays",
-    color: "red",
-    weight: 12,
-    events: CalendarUtil.getChurchHolidays2020()
-  },  
-  {
-    name: "Track 1",
-    color: "peach",
-    weight: 60,
-    events: [
-      {start: "January 1", end: "January 4"},
-      {start: "January 5", end: "January 22", name: "Event Name"},
-      {start: "February 20", end: "February 20"},
-      {start: "March 15", end: "March 17"},
-      {start: "March 1", end: "March 10"},
-      {start: "March 18", end: "March 30"},
-    ],
-  },
-  {
-    name: "Track 2",
-    color: "green",
-    weight: 60,
-    events: [    
-      {start: "January 1", end: "January 31", name: "JAN"},
-      {start: "February 1", end: "February 29", name: "FEB"},
-    ]
-  },
-  {
-    name: "Track 3", 
-    color: "purple",
-    weight: 60,
-    events: [
-      {start: "October 1", end: "October 29"},
-      {start: "October 30", end: "October 31"},
-      {start: "November 1", end: "November 23"},
-      {start: "November 24", end: "December 31"}
-    ]
-  }
-
-];
 
 function setup() {
   height = window.innerHeight;
@@ -63,6 +14,7 @@ function setup() {
   angleMode(DEGREES);
   noFill();
   background(255);
+  frameRate(30);
 
   year = CalendarUtil.get2020();
 
@@ -73,7 +25,7 @@ function setup() {
   months.label = "";
   months.labelSize = 18;
   months.weight = MONTHSWIDTH;
-  months.style = "drawRing";
+  months.style = "static";
   months.colorizer = (i) => {return i % 2 ? color("#A0A0A0") : color("#E0E0E0")};
   months.sort = false;
 
@@ -94,7 +46,7 @@ function changeRing() {
 
     ring = new Ring(width/2, height/2, radius);
     ring.weight = t.weight;
-    ring.style = "drawRing";
+    ring.style = "static";
     ring.padding = ARCPADDING;
     ring.label = "";
     ring.sort = false;
@@ -103,7 +55,7 @@ function changeRing() {
 
     // set ring color
     var c = Color.logosColor(t.color, "extra-light");
-    c.setAlpha(180);
+    c.setAlpha(140);
     ring.colorizer = (i) => c;
 
 
@@ -120,6 +72,7 @@ function changeRing() {
 }
 
 function draw() {
+
   background(255);
 
   months.label = label;
@@ -128,53 +81,128 @@ function draw() {
   Tracks.forEach((t) => {
     var ring = t.ring;
     t.ring.draw();
-
-    if (t.ring.animating) return;
-
-    t.events.forEach( (e) => {
-      push();
-      strokeCap(SQUARE);
-      strokeWeight(t.weight * .8);
-      var c = Color.logosColor(t.color, "medium");
-      c.setAlpha(200);
-      stroke(c);
-
-      if (!e.end) {
-        e.end = e.start;
-      }
-
-      var startPos = year.daysByName[e.start].position + ring.padding;
-      var endPos = year.daysByName[e.end].position + year.degreesPerDay;
-  
-      arc(ring.x, ring.y, ring.r, ring.r, startPos - 90, endPos - 90);
-
-      if (e.name && t.color === "peach") {
-        textBlockOnACircle(e.name, t.ring.r/2, startPos + ((endPos-startPos)/2), months.x, months.y);
-      }
-
-      pop();
-
-    });
-
-    push();
-    fill(0);
-    noStroke();
-    year.months.forEach( (m, i) => {
-      var angle = (15 + (30 * i)) - 90;
-      if (angle < 0) {
-        angle += 360;
-      }
-      textBlockOnACircle(m.abbr, months.r/2 + 12, angle, months.x, months.y);
-    });
-    pop();
-
   });
+
+  drawShadow();
+  if (Tracks[0].ring.animating) return;
+
+  drawMonthNames();
+
+  drawEvents();
 
   var today = "April 1";
   drawLash(year.daysByName["April 1"], color("#000"), 40);
 
-  mouseMoved();
-  drawShadow();
+  mouseMoved(); 
+}
+
+function drawMonthNames() {
+  push();
+  fill(0);
+  noStroke();
+  year.months.forEach( (m, i) => {
+    var angle = (15 + (30 * i)) - 90;
+    if (angle < 0) {
+      angle += 360;
+    }
+    textBlockOnACircle(m.abbr, months.r/2 + 16, angle, months.x, months.y);
+  });
+  pop();  
+}
+
+function drawEvents() {
+  Tracks.forEach(t => {
+    t.events.forEach(e => {
+      if (e.type === "series") {
+        drawEvent(t, e, .8, 220);
+      }
+      else {
+        drawEvent(t, e, .8, 220);
+      }
+    });
+  });
+
+  Tracks.forEach(t => {
+    t.events.forEach(e => {
+      if (true || e.type === "series") {
+        drawEventName(t,e);
+      }
+    });
+  });
+}
+
+function drawEvent(t, e, weight, alpha) {
+  var ring = t.ring;
+  push();
+  strokeCap(SQUARE);
+  strokeWeight(t.weight * weight);
+  var c = Color.logosColor(t.color, "medium");
+  c.setAlpha(alpha);
+  stroke(c);
+
+  if (!e.end) {
+    e.end = e.start;
+  }
+
+  var startPos = year.daysByName[e.start].position + ring.padding;
+  var endPos = year.daysByName[e.end].position + year.degreesPerDay;
+
+  arc(ring.x, ring.y, ring.r, ring.r, startPos - 90, endPos - 90);
+  pop();  
+}
+
+function drawEventName(t, e) {
+  // add captions
+  var words = e.name.split(' ');
+  var maxLength = Math.floor((year.daysByName[e.end].index - year.daysByName[e.start].index) * .575);
+  var lines = 1;
+  var length = 0;
+  var caption = "";
+
+  words.forEach( w => {
+    if (length + w.length <= maxLength) {
+      caption += " " + w;
+      length = caption.length;
+    }
+    else {
+      if (lines == 1) {
+        length = 0;
+        lines = 2;
+
+        if (length + w.length <= maxLength) {
+          if (length == 0) caption += "\n";
+          caption += (length ? " " : "") + w;
+        }
+        else {
+          var word = "";
+          w.split("").forEach( c => {
+            console.log(c);
+            if (caption.length + word.length + 1 <= maxLength) {
+              word += c;
+            }
+          });
+
+          if (word) {
+            caption += " " + word;
+          }
+        }
+      }
+    }
+  });
+
+  if (caption.length > 0 && caption.length < e.name.length + 1) {
+    caption += '...';
+  }
+
+
+  var startPos = year.daysByName[e.start].position + ring.padding;
+  var endPos = year.daysByName[e.end].position + year.degreesPerDay;
+
+  push();
+  fill("white");
+
+  textBlockOnACircle(caption, t.ring.r/2, startPos - 90 + ((endPos-startPos)/2), months.x, months.y);
+  pop(); 
 }
 
 function textBlockOnACircle(txt, radius, angle, x, y) {
@@ -182,10 +210,11 @@ function textBlockOnACircle(txt, radius, angle, x, y) {
 
   push();
   noStroke();
-  fill("#000");
   textAlign(CENTER, CENTER);
   translate(vec.x, vec.y);
   rotate(angle + (vec.y > height/2 ? 270 : 90 ));
+  
+  textSize(14);
 
   text(txt, 0,0);
   pop();
@@ -202,19 +231,65 @@ function mouseMoved() {
   var loc = new Vector(mouseX, mouseY);
   var polar = loc.toPolar( new Vector(width/2, height/2) );
   var day = getDayFromAngle(polar.angle);
+  
   label = day.name;
 
-  // label = polar.angle;
+  var whichTrack = intersectTracks(polar);
+  if (whichTrack) {
+    label += "\n" + whichTrack.name;
+  }
 
-  drawLash(day, Color.logosColor('red', 'medium'), 80);
+  var whichEvent = intersetEvents(whichTrack, day);
+  if (whichEvent) {
+    label += "\n" + whichEvent.name;
+  }
+
+  drawLash(day, Color.logosColor('red', 'medium'), 60);
 
   return false;
 }
 
+function intersectTracks(polar) {
+  var whichTrack = null;
+  Tracks.forEach( t => {
+    var r = t.ring;
+    var inner = r.r/2 - r.weight/2 - TRACKPADDING;
+    var outer = r.r/2 + r.weight/2;
+    if (polar.radius >= inner && polar.radius <= outer) {
+      whichTrack = t;
+    }
+  });
+  return whichTrack;
+}
+
+function intersetEvents(track, day) {
+  if (track == null) return null;
+
+  var whichEvent = null;
+  track.events.forEach( e => {
+    var startIndex = year.daysByName[e.start].index;
+    var endIndex = year.daysByName[e.end].index;
+
+    if (day.index >= startIndex && day.index <= endIndex) {
+      whichEvent = e;
+    }
+
+  });
+  return whichEvent;
+}
+
 function drawLash(day, color, alpha) {
   push();
-  strokeWeight(months.r/2 + months.weight);
-  var radius = months.r/2 + months.weight + 24; // months.r - 240;
+
+  // measure rings
+  var weight = 0;
+  Tracks.forEach( t => {
+    weight += t.weight + TRACKPADDING;
+  });
+  weight += months.weight + TRACKPADDING;
+
+  strokeWeight(weight);
+  var radius = (months.r + months.weight*2) - weight; 
 
   strokeCap(SQUARE);
   color.setAlpha(alpha);
@@ -258,6 +333,7 @@ function drawShadow() {
   Tracks.forEach( t => {
     h += TRACKPADDING + t.weight;
   });
+  h -= TRACKPADDING;
 
 
   for (let i = x; i <= x + w; i++) {
