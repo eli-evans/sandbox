@@ -102,6 +102,7 @@ class Ring {
       arc(this.x, this.y, this.r, this.r, seg.start + this.padding, seg.end);
     }
     pop();
+    this.animating = false;
   }
 
   drawSegments() {
@@ -117,7 +118,7 @@ class Ring {
         if (end > 360) {
           end = 360;
         }
-        if (seg.start + (90/this.r) > 358) continue;
+        if (seg.start + this.padding > 358) continue;
         arc(this.x, this.y, this.r, this.r, seg.start + this.padding, seg.end);
       }
       
