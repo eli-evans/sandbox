@@ -11,6 +11,100 @@
     <script src="../RingGraph/RingGraph.js"></script>
     <script src="../CalendarUtil/CalendarUtil.js"></script>
     <script src="sketch.js"></script>
+    <script>
+    var Tracks = [
+  {
+    name: "US Holidays",
+    color: "blue",
+    weight: 16,
+    events: CalendarUtil.getUSHolidays2020()
+  },
+  {
+    name: "Church Holidays",
+    color: "red",
+    weight: 16,
+    events: CalendarUtil.getChurchHolidays2020()
+  },
+  {
+    name: "Local Schools",
+    color: "teal",
+    weight: 32,
+    events: [
+    {start: "May 10", end: "May 16", name: "Spring Break"}
+
+    ],
+  },    
+  {
+    name: "Church Events",
+    color: "peach",
+    weight: 32,
+    events: [],
+  },
+  {
+    name: "Personal",
+    color: "green",
+    weight: 32,
+    events: [    
+      {start: "January 22", end: "January 22", name: "Olga's Birthday"},
+      {start: "February 20", end: "February 20", name: "Eli's Birthday"},
+      {start: "May 10", end: "May 16", name: "Spring Break"}
+    ]
+  },
+  {
+    name: "2020 Sermon Series", 
+    color: "purple",
+    weight: 60,
+    events: [
+      {start: "January 1", end: "January 31", name: "The Main Thing", type: "series"},
+        /*
+          {start: "January 5", end: "January 5", name: "Main Thing 1"},
+          {start: "January 12", end: "January 12", name: "Main Thing 2"},
+          {start: "January 19", end: "January 19", name: "Main Thing 3"},
+          {start: "January 26", end: "January 26", name: "Main Thing 4"},
+        */
+
+        {start: "February 1", end: "February 29", name: "Neighborhood Watch", type: "series"},
+        /*
+          {start: "February 2", name: "Main Thing 1"},
+          {start: "February 9", name: "Main Thing 2"},
+          {start: "February 16", name: "Main Thing 3"},
+          {start: "February 23", name: "Main Thing 4"},
+        */
+
+        {start: "March 1", end: "April 5", name: "Lent: Repentance, Remembrance, Renewal", type: "series"},
+
+        {start: "April 6", end: "April 12", name: "Easter", type: "series"},
+
+        {start: "April 13", end: "May 10", name: "God on Film", type: "series"},
+
+        {start: "May 11", end: "May 17", name: "[Guest Speaker]", type: "series"},
+
+        {start: "May 18", end: "June 14", name: "Heresies", type: "series"},
+
+        {start: "June 15", end: "June 21", name: "[Guest Speaker]", type: "series"},
+
+        {start: "June 22", end: "June 28", name: "God and Country", type: "series"},
+
+        {start: "June 29", end: "July 5", name: "[Guest Speaker]", type: "series"},
+
+        {start: "July 6", end: "August 2", name: "The Games", type: "series"},
+
+        {start: "August 3", end: "August 30", name: "Social Faith", type: "series"},
+
+        {start: "August 31", end: "September 27", name: "I love Jesus, But Hate...", type: "series"},
+
+        {start: "September 28", end: "October 25", name: "The Sting", type: "series"},
+        
+        {start: "October 26", end: "November 22", name: "At the Table", type: "series"},
+
+        {start: "November 23", end: "December 20", name: "Behold: The Savior Comes", type: "series"},
+
+        {start: "December 21", end: "December 31", name: "To The Future", type: "series"},
+    ]
+  }
+
+];
+    </script>
   </head>
   <body>
   </body>
