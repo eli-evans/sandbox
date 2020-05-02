@@ -113,11 +113,14 @@ function drawMonthNames() {
 function drawEvents() {
   Tracks.forEach(t => {
     t.events.forEach(e => {
-      if (e.type === "series") {
-        drawEvent(t, e, .8, 220);
+      if (e.type === "selected") {
+        drawEvent(t, e, .9, 255);
+      }
+      else if (e.type === "series") {
+        drawEvent(t, e, .75, 200);
       }
       else {
-        drawEvent(t, e, .8, 220);
+        drawEvent(t, e, .75, 220);
       }
     });
   });
