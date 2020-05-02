@@ -33,8 +33,9 @@ class CalendarUtil {
             
             {start: "February 17", name: "President's Day"},
 
-
-            {start: "May 25", name: "Memorial Day"},
+            {start: "May 25", name: "Mother's Day"},
+            {start: "May 10", name: "Memorial Day"},
+            {start: "June 16", name: "Father's Day"},
             {start: "July 3", name: "Independence Day (Observed)"},
             {start: "July 4", name: "Independence Day"},
             {start: "September 7", name: "Labor Day"},
