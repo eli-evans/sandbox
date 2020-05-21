@@ -1,10 +1,12 @@
 var height, width;
 var year;
 var months;
-var MONTHSWIDTH = 8;
+var today;
+var MONTHSWIDTH = 12;
 var TRACKPADDING = 6;
 var ARCPADDING = .3;
 var label;
+var hoverTrack;
 
 function setup() {
 	height = window.innerHeight;
@@ -16,9 +18,12 @@ function setup() {
 	background(255);
 	frameRate(30);
 
-	var today = new Date( Date.now() );
+	today = new Date( Date.now() );
 	year = new RadialYear( new Date(2019, 11, 1), new Date(2020, 10, 29) ); // RCL Liturgical Year 2019-2020
-	// year = new RadialYear( );
+	// year = new RadialYear(); // 2020
+	// year = new RadialYear(new Date(2020, 3, 1), new Date(2021, 0, 31));
+
+	// year = new RadialYear( new Date(2020, 4, 1), new Date(2020, 4, 31) );
 
 	var fullsize = (Math.min(height, width)) * .9;
 
@@ -28,7 +33,7 @@ function setup() {
 	months.labelSize = 18;
 	months.weight = MONTHSWIDTH;
 	months.style = "static";
-	months.colorizer = (i) => { return i % 2 ? color("#A0A0A0") : color("#E0E0E0") };
+	months.colorizer = (i) => { return i % 2 ? Color.logosColor('grey', 'medium') : Color.logosColor('grey', 'light') };
 	months.sort = false;
 
 	months.addSegments(year.months.map((i) => i.length));
@@ -74,10 +79,18 @@ function changeRing() {
 
 		// set ring color
 		if (t.color) {
-			var c = Color.logosColor(t.color, "extra-light");
-			c.setAlpha(140);
-			ring.colorizer = (i) => c;
-		} else {
+			if (t.color === "transparent") {
+				var c = color("#fff");
+				c.setAlpha(0);
+				ring.colorizer = (i) => c;
+			}
+			else {
+				var c = Color.logosColor(t.color, "extra-light");
+				c.setAlpha(140);
+				ring.colorizer = (i) => c;
+			}
+		}
+		else {
 			ring.colorizer = (i) => color("#EEEEEE");
 		}
 
@@ -92,7 +105,6 @@ function changeRing() {
 
 		t.ring = ring;
 	});
-
 }
 
 function draw() {
@@ -103,20 +115,34 @@ function draw() {
 	months.draw();
 
 	Tracks.forEach((t) => {
-		var ring = t.ring;
+		if (t === hoverTrack) {
+			
+		}
 		t.ring.draw();
 	});
 
 	drawShadow();
+
 	if (Tracks[0] && Tracks[0].ring.animating) return;
 
 	drawMonthNames();
-
 	drawEvents();
-
-	drawLash(year.getDay(new Date( Date.now())), Color.logosColor('orange', 'medium'), 120);
-
+	drawTodayIndicator();
 	mouseMoved();
+}
+
+function drawTodayIndicator() {
+	var day = year.getDay(today);
+	var angle = day.position + (year.degreesPerDay/2) - 90;
+
+	var coords = polar2Cartesian(months.r / 2, angle, months.x, months.y);
+
+	push()
+	stroke("#FFF");
+	strokeWeight(2);
+	fill(Color.logosColor('orange', 'medium'));
+	circle(coords.x, coords.y, months.weight/2);
+	pop();
 }
 
 function drawMonthNames() {
@@ -124,10 +150,11 @@ function drawMonthNames() {
 	fill(0);
 	noStroke();
 	year.months.forEach((m, i) => {
-
 		var angle = m.startAngle + ((m.endAngle - m.startAngle) / 2) - 90;
+		var monthName = m.abbr;
+		monthName +=  (m.year != today.getFullYear()) ? " " + m.year : "";
 
-		textBlockOnACircle(m.abbr, months.r / 2 + 16, angle, months.x, months.y);
+		textBlockOnACircle(monthName, months.r / 2 + (months.weight * 1.666), angle, months.x, months.y);
 	});
 	pop();
 }
@@ -136,9 +163,9 @@ function drawEvents() {
 	Tracks.forEach(t => {
 		t.events.forEach(e => {
 			if (e.type === "selected") {
-				drawEvent(t, e, .9, 255);
+				drawEvent(t, e, 1.0, 255);
 			} else if (e.type === "series") {
-				drawEvent(t, e, .75, 200);
+				drawEvent(t, e, 1.0, 200);
 			} else {
 				drawEvent(t, e, .75, 220);
 			}
@@ -155,28 +182,25 @@ function drawEvents() {
 }
 
 function drawEvent(t, e, weight, alpha) {
-
 	if (!e.end) {
 		e.end = e.start;
 	}
 
 	var startDay = year.getDayString(e.start);
 	var endDay = year.getDayString(e.end);
-
 	var ring = t.ring;
-	push();
-	strokeCap(SQUARE);
-	strokeWeight(t.weight * weight);
+
 	var eColor = e.color || t.color;
 	var c = eColor ? Color.logosColor((eColor), "medium") : color("#000");
 	c.setAlpha(alpha);
-	stroke(c);
-
-
 
 	var startPos = startDay.position + ring.padding;
 	var endPos = endDay.position + year.degreesPerDay;
 
+	push();
+	strokeCap(SQUARE);
+	strokeWeight(t.weight * weight);
+	stroke(c);
 	arc(ring.x, ring.y, ring.r, ring.r, startPos - 90, endPos - 90);
 	pop();
 }
@@ -187,7 +211,6 @@ function drawEventName(t, e) {
 	}
 	var startDay = year.getDayString(e.start);
 	var endDay = year.getDayString(e.end);
-
 
 	// add captions
 	var words = e.name.split(' ');
@@ -234,7 +257,6 @@ function drawEventName(t, e) {
 
 	push();
 	fill("white");
-
 	textBlockOnACircle(caption, t.ring.r / 2, startPos - 90 + ((endPos - startPos) / 2), months.x, months.y);
 	pop();
 }
@@ -248,7 +270,7 @@ function textBlockOnACircle(txt, radius, angle, x, y) {
 	translate(vec.x, vec.y);
 	rotate(angle + (vec.y > height / 2 ? 270 : 90));
 
-	textSize(14);
+	textSize(months.weight * 1.5);
 
 	text(txt, 0, 0);
 	pop();
@@ -266,14 +288,15 @@ function mouseMoved() {
 	var polar = loc.toPolar(new Vector(width / 2, height / 2));
 	var day = getDayFromAngle(polar.angle);
 
-	label = `${RadialYear.getWeekdayName(day.date)}, ${RadialYear.getMonthName(day.date)} ${day.date.getFullYear()}`;
+	label = `${RadialYear.getWeekdayName(day.date)}\n${RadialYear.getMonthName(day.date)} ${day.date.getDate()}, ${day.date.getFullYear()}`;
 
 	var whichTrack = intersectTracks(polar);
 	if (whichTrack) {
 		label += "\n" + whichTrack.name;
+		hoverTrack = whichTrack;
 	}
 
-	var whichEvent = intersetEvents(whichTrack, day);
+	var whichEvent = intersectEvents(whichTrack, day);
 	if (whichEvent) {
 		label += "\n" + whichEvent.name;
 	}
@@ -296,7 +319,7 @@ function intersectTracks(polar) {
 	return whichTrack;
 }
 
-function intersetEvents(track, day) {
+function intersectEvents(track, day) {
 	if (track == null) return null;
 
 	var whichEvent = null;
