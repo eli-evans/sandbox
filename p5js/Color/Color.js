@@ -210,8 +210,8 @@ class Color {
 		'grey': {
 			'dark': '#444444',
 			'medium': '#BBBBBB',
-			'light': '#E7E7E7',
-			'extra-light': '#F4F4F4',
+			'light': '#DDDDDD',
+			'extra-light': '#E7E7E7',
 
 			'01': '#F8F8F8',
 			'05': '#F4F4F4',
