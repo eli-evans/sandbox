@@ -5,13 +5,13 @@ class CalendarUtil {
 	static getRCLSeasons2020() {
 		// The liturgical year starts in Advent, so these are actually the previous year
 		return [
-			{ start: "December 1, 2019", end: "December 23, 2019", name: "Advent", color: "purple" },
-			{ start: "December 24, 2019", end: "January 5, 2020", name: "Christmas", color: "yellow" },
+			{ start: "December 1, 2019", end: "December 23, 2019", name: "Advent", color: "purple", type: "series" },
+			{ start: "December 24, 2019", end: "January 5, 2020", name: "Christmas", color: "yellow", type: "series" },
 
-			{ start: "January 6, 2020", end: "February 25, 2020", name: "Ephiphany", color: "green" },
-			{ start: "February 26, 2020", end: "April 11, 2020", name: "Lent", color: "purple" },
-			{ start: "April 12, 2020", end: "June 6, 2020", name: "Easter", color: "yellow" },
-			{ start: "June 7, 2020", end: "November 28, 2020", name: "After Pentecost", color: "green" },
+			{ start: "January 6, 2020", end: "February 25, 2020", name: "Ephiphany", color: "green", type: "series" },
+			{ start: "February 26, 2020", end: "April 11, 2020", name: "Lent", color: "purple", type: "series" },
+			{ start: "April 12, 2020", end: "June 6, 2020", name: "Easter", color: "yellow", type: "series" },
+			{ start: "June 7, 2020", end: "November 28, 2020", name: "After Pentecost", color: "green", type: "series" },
  		];
 	}
 
@@ -132,15 +132,19 @@ class CalendarUtil {
             { start: "January 1, 2020", name: "New Year's Day" },
 			{ start: "January 20, 2020", name: "Martin Luther Ling, Jr. Day" },
 			{ start: "February 17, 2020", name: "President's Day" },
-			{ start: "May 25, 2020", name: "Mother's Day" },
-			{ start: "May 10, 2020", name: "Memorial Day" },
+			{ start: "May 10, 2020", name: "Mother's Day" },
+			{ start: "May 25, 2020", name: "Memorial Day" },
 			{ start: "June 16, 2020", name: "Father's Day" },
 			{ start: "July 3, 2020", name: "Independence Day (Observed)" },
 			{ start: "July 4, 2020", name: "Independence Day" },
 			{ start: "September 7, 2020", name: "Labor Day" },
+			{ start: "10/31/2020", name: "Halloween" },
+			{ start: "11/3/2020", name: "Election Day"},
 			{ start: "November 11, 2020", name: "Columbus Day" },
+			{ name: "Thanksgiving Day", start:"11/26/2020", end:"11/27/2020"},
 			{ start: "December 25, 2020", name: "Christmas Day" },
 			{ start: "December 31, 2020", name: "New Year's Eve" },
+			{ name: "New Year's Day", start: "1/1/2021"},
         ];
 	}
 }
