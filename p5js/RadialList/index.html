@@ -20,26 +20,169 @@
 	<script src="../CalendarUtil/RadialYear.js"></script>
 	<script src="sketch.js"></script>
 	<script>
+		var L9Tracks = [
+			{
+				name: "US Holidays",
+				weight: 16,
+				color: "purple",
+				events: CalendarUtil.getUSHolidays2020(),
+			},
+			{
+				name: "Phases",
+				weight: 32,
+				color: "grey", 
+				events: [
+					{name: "Phase I", start: "April 6, 2020", end: "May 1, 2020", color: "blue"},
+					{name: "Phase II", start: "May 4, 2020", end: "May 29, 2020", color: "teal"},
+					{name: "Phase III", start: "June 1, 2020", end: "June 26, 2020", color: "green"},
+					{name: "Phase IV", start: "June 29, 2020", end: "July 24, 2020", color: "yellow"},
+					{name: "L9 Beta A", start: "7/27/2020", end: "8/21/2020", color: "peach"},
+					{name: "L9 Beta B", start: "8/24/2020", end: "9/18/2020", color: "orange"},
+					{name: "Launch", start: "9/21/2020", end: "10/16/2020", color: "red"},
+
+					{name: "9.1", start: "10/19/2020", end: "11/27/2020", color: "grey"},
+					{name: "9.2", start: "11/30/2020", end: "01/08/2021", color: "grey"},
+
+				]
+			},
+			{
+				name: "Sprints",
+				weight: 32,
+				color: "grey",
+				events: [
+					{name: "1", start: "April 6, 2020", end: "April 17, 2020", color: "blue"},
+					{name: "2", start: "April 20, 2020", end: "May 1, 2020", color: "blue"},
+
+					{name: "3", start: "May 4, 2020", end: "May 15, 2020", color: "teal"},
+					{name: "4", start: "May 18, 2020", end: "May 29, 2020", color: "teal"},
+
+					{name: "5", start: "June 1, 2020", end: "June 12, 2020", color: "green"},
+					{name: "6", start: "June 15, 2020", end: "June 26, 2020", color: "green"},
+
+					{name: "7", start: "June 29, 2020", end: "July 10, 2020", color: "yellow"},
+					{name: "8", start: "July 13, 2020", end: "July 24, 2020", color: "yellow"},
+
+					{name: "9", start: "July 27, 2020", end: "August 7, 2020", color: "peach"},
+					{name: "10", start: "August 10, 2020", end: "August 21, 2020", color: "peach"},
+
+					{name: "11", start: "8/24/2020", end: "9/4/2020", color: "orange"},
+					{name: "12", start: "9/7/2020", end: "9/18/2020", color: "orange"},
+
+					{name: "13", start: "9/21/2020", end: "10/2/2020", color: "red"},
+					{name: "14", start: "10/5/2020", end: "10/16/2020", color: "red"},
+
+					{name: "13", start: "10/19/2020", end: "10/30/2020", color: "grey"},
+					{name: "14", start: "11/2/2020", end: "11/13/2020", color: "grey"},
+					{name: "15", start: "11/16/2020", end: "11/27/2020", color: "grey"},
+
+					{name: "16", start: "11/30/2020", end: "12/11/2020", color: "grey"},
+					{name: "17", start: "12/14/2020", end: "12/25/2020", color: "grey"},
+					{name: "18", start: "12/28/2020", end: "1/8/2021", color: "grey"},
+
+				]
+			},
+			{
+				name: "L8 Milestones",
+				weight: 32,
+				color: "yellow",
+				events: [
+					{name: "8.13b3", start: "4/7/2020", color: "grey"},
+					{name: "8.13b4", start: "4/14/2020", color: "grey"},
+					{name: "8.13RC", start: "4/21/2020", color: "red"},
+					{name: "8.13", start: "4/28/2020", color: "blue"},
+
+					{name: "8.13b1", start: "5/5/2020", color: "grey"},
+					{name: "8.14b2", start: "5/12/2020", color: "grey"},
+					{name: "8.14b3", start: "5/19/2020", color: "grey"},
+					{name: "8.14b4", start: "5/26/2020", color: "grey"},
+					{name: "8.14RC", start: "6/2/2020", color: "red"},
+					{name: "8.14", start: "6/9/2020", color: "blue"},
+
+					{name: "8.15b1", start: "6/16/2020", color: "grey"},
+					{name: "8.15b2", start: "6/23/2020", color: "grey"},
+					{name: "8.15b3", start: "6/30/2020", color: "grey"},
+					{name: "8.15b4", start: "7/7/2020", color: "grey"},
+					{name: "8.15RC", start: "7/14/2020", color: "red"},
+					{name: "8.15", start: "7/21/2020", color: "blue"},
+
+					{name: "8.16b1", start: "7/28/2020", color: "grey"},
+					{name: "8.16b2", start: "8/4/2020", color: "grey"},
+					{name: "8.16b3", start: "8/11/2020", color: "grey"},
+					{name: "8.16b4", start: "8/18/2020", color: "grey"},
+					{name: "8.16RC", start: "8/25/2020", color: "red"},
+					{name: "8.16", start: "9/1/2020", color: "blue"},
+
+				]
+			},
+			{
+				name: "L9 Milestones",
+				weight: 32,
+				color: "sky-blue",
+				events: [
+					{name: "9.0b1", start: "8/4/2020", color: "grey"},
+					{name: "9.0b2", start: "8/11/2020", color: "grey"},
+					{name: "9.0b3", start: "8/18/2020", color: "grey"},
+					{name: "9.0b4", start: "8/25/2020", color: "grey"},
+					{name: "9.0b5", start: "9/1/2020", color: "grey"},
+					{name: "9.0b6", start: "9/8/2020", color: "grey"},
+					{name: "9.0b7", start: "9/15/2020", color: "grey"},
+					{name: "9.0b8", start: "9/22/2020", color: "grey"},
+					{name: "9.0b9", start: "9/29/2020", color: "grey"},
+					{name: "9.0RC", start: "10/6/2020", color: "red"},
+					{name: "9.0", start: "10/13/2020", color: "blue"},
+
+					{name: "9.1b1", start: "10/20/2020", color: "grey"},
+					{name: "9.1b2", start: "10/27/2020", color: "grey"},
+					{name: "9.1b3", start: "11/3/2020", color: "grey"},
+					{name: "9.1b4", start: "11/10/2020", color: "grey"},
+					{name: "9.1RC", start: "11/17/2020", color: "red"},
+					{name: "9.1", start: "11/24/2020", color: "blue"},
+
+					{name: "9.2b1", start: "12/1/2020", color: "grey"},
+					{name: "9.2b2", start: "12/8/2020", color: "grey"},
+					{name: "9.2b3", start: "12/15/2020", color: "grey"},
+					{name: "9.2b4", start: "12/22/2020", color: "grey"},
+					{name: "9.2RC", start: "12/29/2020", color: "red"},
+					{name: "9.2", start: "1/4/2020", color: "blue"},
+
+				]
+			}
+
+		];
+
+
 		var RCLTracks = [
 			{
 				name: "RCL Seasons",
-				weight: 32,
+				weight: 48,
+				color: 'transparent',
 				events: CalendarUtil.getRCLSeasons2020()
 			},
 
 			{
 				name: "RCL Feast Days",
-				weight: 32,
+				weight: 24,
 				events: CalendarUtil.getRCLFeastDays2020()
 			},
 
 			{
 				name: "US Holidays",
 				color: "blue",
-				weight: 16,
+				weight: 24,
 				events: CalendarUtil.getUSHolidays2020()
   			},
+			  {
+				name: "Personal",
+				color: "peach",
+				weight: 32,
+				events: [
+					{ start: "January 22, 2020", end: "January 22, 2020", name: "Olga's Birthday" },
+					{ start: "February 20, 2020", end: "February 20, 2020", name: "Eli's Birthday" },
+					{ start: "May 10, 2020", end: "May 16, 2020", name: "Spring Break" },
 
+					{ start: "August 3, 2020", end: "August 23, 2020", name: "Vacation", type: "series" },
+    			]
+  			},
     	];
 
 		var ProtestantTracks = [
