@@ -136,4 +136,6 @@ class Bible {
     }
 }
 
-            
+if (module) {
+	module.exports = Bible;
+}
