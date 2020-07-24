@@ -225,6 +225,13 @@ class Color {
 			'70': '#666666',
 			'80': '#444444',
 			'90': '#333333',
+		},
+
+		'white' : {
+			'dark': '#FFFFFF',
+			'medium': '#FFFFFF',
+			'light': '#FFFFFF',
+			'extra-light': '#FFFFFF',			
 		}
 	};
 
