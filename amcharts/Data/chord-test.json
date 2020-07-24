@@ -1,0 +1,22 @@
+[
+	{"from": "Romans", "nodeColor": "#333380"},
+	{"from": "Empty", "nodeColor": "#CCCCCC"},
+
+
+    { "from": "Romans", "to": "Ge", "value": 30 },
+    { "from": "Romans", "to": "Ex", "value": 12 },
+    { "from": "Romans", "to": "Le", "value": 15 },
+    { "from": "Romans", "to": "Nu", "value": 2 },
+    { "from": "Romans", "to": "De", "value": 21 },
+    { "from": "Romans", "to": "1Sa", "value": 2 },
+    { "from": "Romans", "to": "2Sa", "value": 1 },
+    { "from": "Romans", "to": "1Ki", "value": 5 },
+	{ "from": "Romans", "to": "Job", "value": 3 },
+	{ "from": "Romans", "to": "Ps", "value": 29 },
+	{ "from": "Romans", "to": "Pr", "value": 10 },
+	{ "from": "Romans", "to": "Ec", "value": 2 },
+	{ "from": "Romans", "to": "Is", "value": 22 },
+	{ "from": "Romans", "to": "Je", "value": 9 },
+	{ "from": "Romans", "to": "Eze", "value": 4 },
+	{ "from": "Romans", "to": "MP", "value": 9 }
+]
