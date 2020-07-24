@@ -1,0 +1,3887 @@
+{
+    "byBook": {
+        "Citation": [
+            {
+                "from": "Hab",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "Ro",
+                "value": 16
+            },
+            {
+                "from": "Ps",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "2Co",
+                "value": 2
+            },
+            {
+                "from": "Ps",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "Heb",
+                "value": 9
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "2Pe",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "Ro",
+                "value": 20
+            },
+            {
+                "from": "Is",
+                "to": "1Co",
+                "value": 4
+            },
+            {
+                "from": "Is",
+                "to": "2Co",
+                "value": 2
+            },
+            {
+                "from": "Is",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "1Pe",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Ro",
+                "value": 8
+            },
+            {
+                "from": "Ge",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Ge",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Ro",
+                "value": 3
+            },
+            {
+                "from": "Ex",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Dt",
+                "to": "Ro",
+                "value": 9
+            },
+            {
+                "from": "Dt",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Ga",
+                "value": 2
+            },
+            {
+                "from": "Dt",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Tob",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Ho",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Ho",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Le",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Le",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "Le",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Le",
+                "to": "1Pe",
+                "value": 3
+            },
+            {
+                "from": "Joe",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Na",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "1Ki",
+                "to": "Ro",
+                "value": 3
+            },
+            {
+                "from": "Je",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Je",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Je",
+                "to": "Heb",
+                "value": 6
+            },
+            {
+                "from": "Job",
+                "to": "1Co",
+                "value": 1
+            }
+        ],
+        "Quotation": [
+            {
+                "from": "Hab",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Hab",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Ps",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Ps",
+                "to": "Heb",
+                "value": 19
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe",
+                "value": 3
+            },
+            {
+                "from": "Pr",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Pr",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Is",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "1Pe",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Ge",
+                "to": "Ga",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Ge",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Dt",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Heb",
+                "value": 3
+            },
+            {
+                "from": "Dt",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Le",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Le",
+                "to": "Ga",
+                "value": 2
+            },
+            {
+                "from": "Job",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "2Sa",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Nu",
+                "to": "2Ti",
+                "value": 1
+            },
+            {
+                "from": "Zec",
+                "to": "Heb",
+                "value": 1
+            }
+        ],
+        "Echo": [
+            {
+                "from": "Hab",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "Ro",
+                "value": 6
+            },
+            {
+                "from": "Ps",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Ps",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Ps",
+                "to": "Jam",
+                "value": 3
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe",
+                "value": 4
+            },
+            {
+                "from": "Pr",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "Col",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "1Ti",
+                "value": 2
+            },
+            {
+                "from": "Pr",
+                "to": "1Jn",
+                "value": 1
+            },
+            {
+                "from": "Bar",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Bar",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Bar",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Bar",
+                "to": "Heb",
+                "value": 4
+            },
+            {
+                "from": "Is",
+                "to": "Ro",
+                "value": 3
+            },
+            {
+                "from": "Is",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "2Co",
+                "value": 2
+            },
+            {
+                "from": "Is",
+                "to": "Eph",
+                "value": 3
+            },
+            {
+                "from": "Is",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "Heb",
+                "value": 3
+            },
+            {
+                "from": "Is",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Is",
+                "to": "1Pe",
+                "value": 4
+            },
+            {
+                "from": "Is",
+                "to": "Php",
+                "value": 2
+            },
+            {
+                "from": "Is",
+                "to": "1Jn",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Ge",
+                "to": "Ga",
+                "value": 2
+            },
+            {
+                "from": "Ex",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Ex",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Dt",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Jud",
+                "value": 1
+            },
+            {
+                "from": "",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Tob",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Tob",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Sir",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Sir",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Sir",
+                "to": "Eph",
+                "value": 2
+            },
+            {
+                "from": "Sir",
+                "to": "1Th",
+                "value": 1
+            },
+            {
+                "from": "Sir",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Sir",
+                "to": "1Jn",
+                "value": 1
+            },
+            {
+                "from": "Ho",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Le",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Le",
+                "to": "Col",
+                "value": 2
+            },
+            {
+                "from": "Joe",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Je",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Je",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Je",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "Je",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Je",
+                "to": "1Th",
+                "value": 2
+            },
+            {
+                "from": "Je",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Je",
+                "to": "1Pe",
+                "value": 2
+            },
+            {
+                "from": "Je",
+                "to": "1Jn",
+                "value": 1
+            },
+            {
+                "from": "Job",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Job",
+                "to": "1Th",
+                "value": 3
+            },
+            {
+                "from": "2Sa",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Eze",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Eze",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "Jud",
+                "value": 1
+            },
+            {
+                "from": "Mal",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Mal",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Da",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Da",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "2Es",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Nu",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Nu",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Nu",
+                "to": "1Co",
+                "value": 3
+            },
+            {
+                "from": "Nu",
+                "to": "2Jn",
+                "value": 1
+            },
+            {
+                "from": "Nu",
+                "to": "3Jn",
+                "value": 1
+            },
+            {
+                "from": "2Ma",
+                "to": "2Ti",
+                "value": 1
+            },
+            {
+                "from": "2Ch",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "2Ch",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "2Ch",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Sus",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Add Es",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Ne",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Jon",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "1Sa",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Am",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Am",
+                "to": "Ga",
+                "value": 1
+            }
+        ],
+        "Allusion": [
+            {
+                "from": "Hab",
+                "to": "2Pe",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "Ro",
+                "value": 18
+            },
+            {
+                "from": "Ps",
+                "to": "1Co",
+                "value": 9
+            },
+            {
+                "from": "Ps",
+                "to": "2Co",
+                "value": 3
+            },
+            {
+                "from": "Ps",
+                "to": "Eph",
+                "value": 6
+            },
+            {
+                "from": "Ps",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "2Ti",
+                "value": 4
+            },
+            {
+                "from": "Ps",
+                "to": "Heb",
+                "value": 17
+            },
+            {
+                "from": "Ps",
+                "to": "Jam",
+                "value": 8
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe",
+                "value": 8
+            },
+            {
+                "from": "Ps",
+                "to": "Ga",
+                "value": 3
+            },
+            {
+                "from": "Ps",
+                "to": "Php",
+                "value": 4
+            },
+            {
+                "from": "Ps",
+                "to": "Col",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "1Th",
+                "value": 2
+            },
+            {
+                "from": "Ps",
+                "to": "1Ti",
+                "value": 2
+            },
+            {
+                "from": "Ps",
+                "to": "Tit",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "2Pe",
+                "value": 1
+            },
+            {
+                "from": "Ps",
+                "to": "1Jn",
+                "value": 3
+            },
+            {
+                "from": "Pr",
+                "to": "Ro",
+                "value": 7
+            },
+            {
+                "from": "Pr",
+                "to": "2Co",
+                "value": 7
+            },
+            {
+                "from": "Pr",
+                "to": "2Ti",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Pr",
+                "to": "1Pe",
+                "value": 5
+            },
+            {
+                "from": "Pr",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "Eph",
+                "value": 3
+            },
+            {
+                "from": "Pr",
+                "to": "1Th",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Pr",
+                "to": "1Jn",
+                "value": 1
+            },
+            {
+                "from": "Bar",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "Bar",
+                "to": "1Th",
+                "value": 1
+            },
+            {
+                "from": "Bar",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Is",
+                "to": "Ro",
+                "value": 7
+            },
+            {
+                "from": "Is",
+                "to": "1Co",
+                "value": 7
+            },
+            {
+                "from": "Is",
+                "to": "2Co",
+                "value": 3
+            },
+            {
+                "from": "Is",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "Eph",
+                "value": 14
+            },
+            {
+                "from": "Is",
+                "to": "1Th",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "2Th",
+                "value": 8
+            },
+            {
+                "from": "Is",
+                "to": "Heb",
+                "value": 9
+            },
+            {
+                "from": "Is",
+                "to": "Jam",
+                "value": 4
+            },
+            {
+                "from": "Is",
+                "to": "1Pe",
+                "value": 15
+            },
+            {
+                "from": "Is",
+                "to": "2Pe",
+                "value": 3
+            },
+            {
+                "from": "Is",
+                "to": "Php",
+                "value": 3
+            },
+            {
+                "from": "Is",
+                "to": "Col",
+                "value": 1
+            },
+            {
+                "from": "Is",
+                "to": "Jud",
+                "value": 1
+            },
+            {
+                "from": "Ec",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Ec",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "Ec",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Ec",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Ge",
+                "to": "Ro",
+                "value": 17
+            },
+            {
+                "from": "Ge",
+                "to": "1Co",
+                "value": 10
+            },
+            {
+                "from": "Ge",
+                "to": "2Co",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Ga",
+                "value": 10
+            },
+            {
+                "from": "Ge",
+                "to": "Eph",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "Heb",
+                "value": 36
+            },
+            {
+                "from": "Ge",
+                "to": "Jam",
+                "value": 3
+            },
+            {
+                "from": "Ge",
+                "to": "Php",
+                "value": 1
+            },
+            {
+                "from": "Ge",
+                "to": "Col",
+                "value": 2
+            },
+            {
+                "from": "Ge",
+                "to": "1Ti",
+                "value": 7
+            },
+            {
+                "from": "Ge",
+                "to": "1Pe",
+                "value": 4
+            },
+            {
+                "from": "Ge",
+                "to": "2Pe",
+                "value": 5
+            },
+            {
+                "from": "Ge",
+                "to": "1Jn",
+                "value": 1
+            },
+            {
+                "from": "Ge",
+                "to": "Jud",
+                "value": 2
+            },
+            {
+                "from": "Ex",
+                "to": "Ro",
+                "value": 8
+            },
+            {
+                "from": "Ex",
+                "to": "1Co",
+                "value": 7
+            },
+            {
+                "from": "Ex",
+                "to": "2Co",
+                "value": 10
+            },
+            {
+                "from": "Ex",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Heb",
+                "value": 26
+            },
+            {
+                "from": "Ex",
+                "to": "1Pe",
+                "value": 4
+            },
+            {
+                "from": "Ex",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Php",
+                "value": 2
+            },
+            {
+                "from": "Ex",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "2Ti",
+                "value": 2
+            },
+            {
+                "from": "Ex",
+                "to": "Tit",
+                "value": 1
+            },
+            {
+                "from": "Ex",
+                "to": "Jud",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Ro",
+                "value": 10
+            },
+            {
+                "from": "Dt",
+                "to": "1Co",
+                "value": 15
+            },
+            {
+                "from": "Dt",
+                "to": "2Co",
+                "value": 5
+            },
+            {
+                "from": "Dt",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Eph",
+                "value": 2
+            },
+            {
+                "from": "Dt",
+                "to": "1Ti",
+                "value": 2
+            },
+            {
+                "from": "Dt",
+                "to": "Heb",
+                "value": 13
+            },
+            {
+                "from": "Dt",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "1Pe",
+                "value": 2
+            },
+            {
+                "from": "Dt",
+                "to": "Php",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Col",
+                "value": 1
+            },
+            {
+                "from": "Dt",
+                "to": "Tit",
+                "value": 3
+            },
+            {
+                "from": "Dt",
+                "to": "1Jn",
+                "value": 1
+            },
+            {
+                "from": "Tob",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Tob",
+                "to": "1Co",
+                "value": 3
+            },
+            {
+                "from": "Tob",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Sir",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "Ho",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Ho",
+                "to": "1Pe",
+                "value": 4
+            },
+            {
+                "from": "Ho",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "Ho",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Le",
+                "to": "Ro",
+                "value": 4
+            },
+            {
+                "from": "Le",
+                "to": "Heb",
+                "value": 17
+            },
+            {
+                "from": "Le",
+                "to": "1Co",
+                "value": 6
+            },
+            {
+                "from": "Le",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Joe",
+                "to": "Tit",
+                "value": 1
+            },
+            {
+                "from": "Na",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "1Ki",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "1Ki",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "1Ki",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Je",
+                "to": "Ro",
+                "value": 7
+            },
+            {
+                "from": "Je",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Je",
+                "to": "2Co",
+                "value": 6
+            },
+            {
+                "from": "Je",
+                "to": "Heb",
+                "value": 6
+            },
+            {
+                "from": "Je",
+                "to": "Ga",
+                "value": 1
+            },
+            {
+                "from": "Je",
+                "to": "1Th",
+                "value": 3
+            },
+            {
+                "from": "Je",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Job",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "Job",
+                "to": "Php",
+                "value": 1
+            },
+            {
+                "from": "Job",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Job",
+                "to": "1Ti",
+                "value": 1
+            },
+            {
+                "from": "Job",
+                "to": "Jam",
+                "value": 2
+            },
+            {
+                "from": "Job",
+                "to": "1Pe",
+                "value": 2
+            },
+            {
+                "from": "2Sa",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "2Sa",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "2Sa",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "2Sa",
+                "to": "2Ti",
+                "value": 1
+            },
+            {
+                "from": "Lt Je",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "2Co",
+                "value": 5
+            },
+            {
+                "from": "Eze",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Eze",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Eze",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "Php",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "1Th",
+                "value": 3
+            },
+            {
+                "from": "Eze",
+                "to": "Tit",
+                "value": 1
+            },
+            {
+                "from": "Eze",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "1Ch",
+                "to": "2Co",
+                "value": 1
+            },
+            {
+                "from": "1Ch",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Mal",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Mal",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Mal",
+                "to": "1Th",
+                "value": 1
+            },
+            {
+                "from": "Mal",
+                "to": "Jam",
+                "value": 1
+            },
+            {
+                "from": "Mal",
+                "to": "1Pe",
+                "value": 1
+            },
+            {
+                "from": "Mal",
+                "to": "Jud",
+                "value": 2
+            },
+            {
+                "from": "Da",
+                "to": "2Th",
+                "value": 1
+            },
+            {
+                "from": "Da",
+                "to": "1Co",
+                "value": 2
+            },
+            {
+                "from": "Da",
+                "to": "Php",
+                "value": 1
+            },
+            {
+                "from": "Da",
+                "to": "2Ti",
+                "value": 1
+            },
+            {
+                "from": "Da",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Da",
+                "to": "Jud",
+                "value": 3
+            },
+            {
+                "from": "Nu",
+                "to": "2Ti",
+                "value": 1
+            },
+            {
+                "from": "Nu",
+                "to": "Heb",
+                "value": 13
+            },
+            {
+                "from": "Nu",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "Nu",
+                "to": "1Co",
+                "value": 12
+            },
+            {
+                "from": "Nu",
+                "to": "2Pe",
+                "value": 1
+            },
+            {
+                "from": "Nu",
+                "to": "Jud",
+                "value": 4
+            },
+            {
+                "from": "Zep",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Zec",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "2Ch",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "2Ch",
+                "to": "Col",
+                "value": 1
+            },
+            {
+                "from": "2Ch",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "Jon",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "1Sa",
+                "to": "Ro",
+                "value": 2
+            },
+            {
+                "from": "1Sa",
+                "to": "Heb",
+                "value": 1
+            },
+            {
+                "from": "Am",
+                "to": "Eph",
+                "value": 1
+            },
+            {
+                "from": "Am",
+                "to": "Jud",
+                "value": 1
+            },
+            {
+                "from": "Mic",
+                "to": "Ro",
+                "value": 1
+            },
+            {
+                "from": "La",
+                "to": "1Co",
+                "value": 1
+            },
+            {
+                "from": "Jos",
+                "to": "Heb",
+                "value": 4
+            },
+            {
+                "from": "Jos",
+                "to": "Jam",
+                "value": 3
+            },
+            {
+                "from": "Ju",
+                "to": "Heb",
+                "value": 2
+            },
+            {
+                "from": "2Ki",
+                "to": "Heb",
+                "value": 1
+            }
+        ]
+    },
+    "byChapter": {
+        "Ro": [
+            {
+                "to": "Ro 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 8",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 10",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 11",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 15",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 7",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 12",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 13",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 9",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 14",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 6",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ro 16",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 1"
+            },
+            {
+                "from": "Hab",
+                "to": "Ro 1"
+            },
+            {
+                "from": "Je",
+                "to": "Ro 1"
+            },
+            {
+                "from": "Job",
+                "to": "Ro 1"
+            },
+            {
+                "from": "Le",
+                "to": "Ro 1"
+            },
+            {
+                "from": "Nu",
+                "to": "Ro 1"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 1"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 10"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 10"
+            },
+            {
+                "from": "Joe",
+                "to": "Ro 10"
+            },
+            {
+                "from": "Le",
+                "to": "Ro 10"
+            },
+            {
+                "from": "Na",
+                "to": "Ro 10"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 10"
+            },
+            {
+                "from": "1Ki",
+                "to": "Ro 11"
+            },
+            {
+                "from": "1Sa",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Eze",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Je",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Job",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Nu",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 11"
+            },
+            {
+                "from": "Am",
+                "to": "Ro 12"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 12"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 12"
+            },
+            {
+                "from": "Le",
+                "to": "Ro 12"
+            },
+            {
+                "from": "Pr",
+                "to": "Ro 12"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 12"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 13"
+            },
+            {
+                "from": "Ex",
+                "to": "Ro 13"
+            },
+            {
+                "from": "Le",
+                "to": "Ro 13"
+            },
+            {
+                "from": "Pr",
+                "to": "Ro 13"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 14"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 14"
+            },
+            {
+                "from": "2Sa",
+                "to": "Ro 15"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 15"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 15"
+            },
+            {
+                "from": "Mic",
+                "to": "Ro 15"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 15"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 16"
+            },
+            {
+                "from": "Bar",
+                "to": "Ro 2"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 2"
+            },
+            {
+                "from": "Eze",
+                "to": "Ro 2"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 2"
+            },
+            {
+                "from": "Je",
+                "to": "Ro 2"
+            },
+            {
+                "from": "Pr",
+                "to": "Ro 2"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 2"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 3"
+            },
+            {
+                "from": "Ec",
+                "to": "Ro 3"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 3"
+            },
+            {
+                "from": "Pr",
+                "to": "Ro 3"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 3"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 4"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 4"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 4"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 5"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 5"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 5"
+            },
+            {
+                "from": "Eze",
+                "to": "Ro 6"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 6"
+            },
+            {
+                "from": "",
+                "to": "Ro 7"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 7"
+            },
+            {
+                "from": "Ex",
+                "to": "Ro 7"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 7"
+            },
+            {
+                "from": "Le",
+                "to": "Ro 7"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 7"
+            },
+            {
+                "from": "Ec",
+                "to": "Ro 8"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 8"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 8"
+            },
+            {
+                "from": "Ps",
+                "to": "Ro 8"
+            },
+            {
+                "from": "Dt",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Ex",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Ge",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Ho",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Is",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Je",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Nu",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Sir",
+                "to": "Ro 9"
+            },
+            {
+                "from": "Tob",
+                "to": "Ro 9"
+            }
+        ],
+        "1Co": [
+            {
+                "to": "1Co 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 14",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 15",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 9",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 11",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 6",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 10",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 8",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 13",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 16",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Co 12",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Dt",
+                "to": "1Co 1"
+            },
+            {
+                "from": "Is",
+                "to": "1Co 1"
+            },
+            {
+                "from": "Je",
+                "to": "1Co 1"
+            },
+            {
+                "from": "Dt",
+                "to": "1Co 10"
+            },
+            {
+                "from": "Ex",
+                "to": "1Co 10"
+            },
+            {
+                "from": "Le",
+                "to": "1Co 10"
+            },
+            {
+                "from": "Lt Je",
+                "to": "1Co 10"
+            },
+            {
+                "from": "Nu",
+                "to": "1Co 10"
+            },
+            {
+                "from": "Ps",
+                "to": "1Co 10"
+            },
+            {
+                "from": "Tob",
+                "to": "1Co 10"
+            },
+            {
+                "from": "Dt",
+                "to": "1Co 11"
+            },
+            {
+                "from": "Ex",
+                "to": "1Co 11"
+            },
+            {
+                "from": "Ge",
+                "to": "1Co 11"
+            },
+            {
+                "from": "Je",
+                "to": "1Co 11"
+            },
+            {
+                "from": "Mal",
+                "to": "1Co 11"
+            },
+            {
+                "from": "Sir",
+                "to": "1Co 11"
+            },
+            {
+                "from": "Hab",
+                "to": "1Co 12"
+            },
+            {
+                "from": "Mal",
+                "to": "1Co 13"
+            },
+            {
+                "from": "Pr",
+                "to": "1Co 13"
+            },
+            {
+                "from": "Da",
+                "to": "1Co 14"
+            },
+            {
+                "from": "Ge",
+                "to": "1Co 14"
+            },
+            {
+                "from": "Is",
+                "to": "1Co 14"
+            },
+            {
+                "from": "Mal",
+                "to": "1Co 14"
+            },
+            {
+                "from": "Nu",
+                "to": "1Co 14"
+            },
+            {
+                "from": "2Ch",
+                "to": "1Co 15"
+            },
+            {
+                "from": "Da",
+                "to": "1Co 15"
+            },
+            {
+                "from": "Ge",
+                "to": "1Co 15"
+            },
+            {
+                "from": "Ho",
+                "to": "1Co 15"
+            },
+            {
+                "from": "Is",
+                "to": "1Co 15"
+            },
+            {
+                "from": "Jon",
+                "to": "1Co 15"
+            },
+            {
+                "from": "Ps",
+                "to": "1Co 15"
+            },
+            {
+                "from": "Le",
+                "to": "1Co 16"
+            },
+            {
+                "from": "Bar",
+                "to": "1Co 2"
+            },
+            {
+                "from": "Is",
+                "to": "1Co 2"
+            },
+            {
+                "from": "Pr",
+                "to": "1Co 2"
+            },
+            {
+                "from": "Is",
+                "to": "1Co 3"
+            },
+            {
+                "from": "Job",
+                "to": "1Co 3"
+            },
+            {
+                "from": "Ps",
+                "to": "1Co 3"
+            },
+            {
+                "from": "La",
+                "to": "1Co 4"
+            },
+            {
+                "from": "Ps",
+                "to": "1Co 4"
+            },
+            {
+                "from": "Dt",
+                "to": "1Co 5"
+            },
+            {
+                "from": "Ex",
+                "to": "1Co 5"
+            },
+            {
+                "from": "Is",
+                "to": "1Co 5"
+            },
+            {
+                "from": "Le",
+                "to": "1Co 5"
+            },
+            {
+                "from": "Bar",
+                "to": "1Co 6"
+            },
+            {
+                "from": "Da",
+                "to": "1Co 6"
+            },
+            {
+                "from": "Ge",
+                "to": "1Co 6"
+            },
+            {
+                "from": "Sir",
+                "to": "1Co 6"
+            },
+            {
+                "from": "Dt",
+                "to": "1Co 8"
+            },
+            {
+                "from": "Tob",
+                "to": "1Co 8"
+            },
+            {
+                "from": "Dt",
+                "to": "1Co 9"
+            },
+            {
+                "from": "Je",
+                "to": "1Co 9"
+            },
+            {
+                "from": "Le",
+                "to": "1Co 9"
+            },
+            {
+                "from": "Nu",
+                "to": "1Co 9"
+            }
+        ],
+        "2Co": [
+            {
+                "to": "2Co 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 8",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 13",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 11",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 6",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 9",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 10",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 7",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Co 12",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Ps",
+                "to": "2Co 1"
+            },
+            {
+                "from": "Je",
+                "to": "2Co 10"
+            },
+            {
+                "from": "Dt",
+                "to": "2Co 11"
+            },
+            {
+                "from": "Ge",
+                "to": "2Co 11"
+            },
+            {
+                "from": "Job",
+                "to": "2Co 12"
+            },
+            {
+                "from": "Dt",
+                "to": "2Co 13"
+            },
+            {
+                "from": "Dt",
+                "to": "2Co 3"
+            },
+            {
+                "from": "Ex",
+                "to": "2Co 3"
+            },
+            {
+                "from": "Eze",
+                "to": "2Co 3"
+            },
+            {
+                "from": "Je",
+                "to": "2Co 3"
+            },
+            {
+                "from": "Pr",
+                "to": "2Co 3"
+            },
+            {
+                "from": "Ge",
+                "to": "2Co 4"
+            },
+            {
+                "from": "Is",
+                "to": "2Co 4"
+            },
+            {
+                "from": "Ps",
+                "to": "2Co 4"
+            },
+            {
+                "from": "Ec",
+                "to": "2Co 5"
+            },
+            {
+                "from": "Is",
+                "to": "2Co 5"
+            },
+            {
+                "from": "1Ch",
+                "to": "2Co 6"
+            },
+            {
+                "from": "2Sa",
+                "to": "2Co 6"
+            },
+            {
+                "from": "Eze",
+                "to": "2Co 6"
+            },
+            {
+                "from": "Is",
+                "to": "2Co 6"
+            },
+            {
+                "from": "Je",
+                "to": "2Co 6"
+            },
+            {
+                "from": "Le",
+                "to": "2Co 6"
+            },
+            {
+                "from": "Ps",
+                "to": "2Co 6"
+            },
+            {
+                "from": "Bar",
+                "to": "2Co 7"
+            },
+            {
+                "from": "Ex",
+                "to": "2Co 8"
+            },
+            {
+                "from": "Pr",
+                "to": "2Co 8"
+            },
+            {
+                "from": "Ho",
+                "to": "2Co 9"
+            },
+            {
+                "from": "Is",
+                "to": "2Co 9"
+            },
+            {
+                "from": "Pr",
+                "to": "2Co 9"
+            },
+            {
+                "from": "Ps",
+                "to": "2Co 9"
+            }
+        ],
+        "Ga": [
+            {
+                "to": "Ga 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ga 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ga 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ga 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ga 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Ga 6",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Is",
+                "to": "Ga 1"
+            },
+            {
+                "from": "Je",
+                "to": "Ga 1"
+            },
+            {
+                "from": "Dt",
+                "to": "Ga 2"
+            },
+            {
+                "from": "Ps",
+                "to": "Ga 2"
+            },
+            {
+                "from": "Bar",
+                "to": "Ga 3"
+            },
+            {
+                "from": "Dt",
+                "to": "Ga 3"
+            },
+            {
+                "from": "Ex",
+                "to": "Ga 3"
+            },
+            {
+                "from": "Ge",
+                "to": "Ga 3"
+            },
+            {
+                "from": "Hab",
+                "to": "Ga 3"
+            },
+            {
+                "from": "Le",
+                "to": "Ga 3"
+            },
+            {
+                "from": "Am",
+                "to": "Ga 4"
+            },
+            {
+                "from": "Ge",
+                "to": "Ga 4"
+            },
+            {
+                "from": "Is",
+                "to": "Ga 4"
+            },
+            {
+                "from": "Le",
+                "to": "Ga 5"
+            },
+            {
+                "from": "Ps",
+                "to": "Ga 6"
+            }
+        ],
+        "Eph": [
+            {
+                "to": "Eph 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Eph 6",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Eph 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Eph 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Eph 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Is",
+                "to": "Eph 1"
+            },
+            {
+                "from": "Ps",
+                "to": "Eph 1"
+            },
+            {
+                "from": "Sir",
+                "to": "Eph 1"
+            },
+            {
+                "from": "Is",
+                "to": "Eph 2"
+            },
+            {
+                "from": "Ge",
+                "to": "Eph 4"
+            },
+            {
+                "from": "Is",
+                "to": "Eph 4"
+            },
+            {
+                "from": "Mal",
+                "to": "Eph 4"
+            },
+            {
+                "from": "Ps",
+                "to": "Eph 4"
+            },
+            {
+                "from": "Am",
+                "to": "Eph 5"
+            },
+            {
+                "from": "Ex",
+                "to": "Eph 5"
+            },
+            {
+                "from": "Eze",
+                "to": "Eph 5"
+            },
+            {
+                "from": "Ge",
+                "to": "Eph 5"
+            },
+            {
+                "from": "Is",
+                "to": "Eph 5"
+            },
+            {
+                "from": "Pr",
+                "to": "Eph 5"
+            },
+            {
+                "from": "Ps",
+                "to": "Eph 5"
+            },
+            {
+                "from": "2Ch",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Dt",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Ex",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Ho",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Is",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Na",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Pr",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Ps",
+                "to": "Eph 6"
+            },
+            {
+                "from": "Sir",
+                "to": "Eph 6"
+            }
+        ],
+        "1Th": [
+            {
+                "to": "1Th 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Th 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Th 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Th 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Je",
+                "to": "1Th 2"
+            },
+            {
+                "from": "Mal",
+                "to": "1Th 3"
+            },
+            {
+                "from": "Bar",
+                "to": "1Th 4"
+            },
+            {
+                "from": "Eze",
+                "to": "1Th 4"
+            },
+            {
+                "from": "Je",
+                "to": "1Th 4"
+            },
+            {
+                "from": "Ps",
+                "to": "1Th 4"
+            },
+            {
+                "from": "Eze",
+                "to": "1Th 5"
+            },
+            {
+                "from": "Is",
+                "to": "1Th 5"
+            },
+            {
+                "from": "Je",
+                "to": "1Th 5"
+            },
+            {
+                "from": "Job",
+                "to": "1Th 5"
+            },
+            {
+                "from": "Pr",
+                "to": "1Th 5"
+            },
+            {
+                "from": "Sir",
+                "to": "1Th 5"
+            }
+        ],
+        "2Th": [
+            {
+                "to": "2Th 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Th 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Is",
+                "to": "2Th 1"
+            },
+            {
+                "from": "Je",
+                "to": "2Th 1"
+            },
+            {
+                "from": "Mal",
+                "to": "2Th 1"
+            },
+            {
+                "from": "Ps",
+                "to": "2Th 1"
+            },
+            {
+                "from": "Tob",
+                "to": "2Th 1"
+            },
+            {
+                "from": "Da",
+                "to": "2Th 2"
+            },
+            {
+                "from": "Eze",
+                "to": "2Th 2"
+            },
+            {
+                "from": "Is",
+                "to": "2Th 2"
+            },
+            {
+                "from": "Job",
+                "to": "2Th 2"
+            }
+        ],
+        "1Ti": [
+            {
+                "to": "1Ti 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Ti 6",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Ti 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Ti 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Eze",
+                "to": "1Ti 2"
+            },
+            {
+                "from": "Ge",
+                "to": "1Ti 2"
+            },
+            {
+                "from": "Ge",
+                "to": "1Ti 4"
+            },
+            {
+                "from": "Dt",
+                "to": "1Ti 5"
+            },
+            {
+                "from": "Je",
+                "to": "1Ti 5"
+            },
+            {
+                "from": "Le",
+                "to": "1Ti 5"
+            },
+            {
+                "from": "2Es",
+                "to": "1Ti 6"
+            },
+            {
+                "from": "Dt",
+                "to": "1Ti 6"
+            },
+            {
+                "from": "Ec",
+                "to": "1Ti 6"
+            },
+            {
+                "from": "Ex",
+                "to": "1Ti 6"
+            },
+            {
+                "from": "Job",
+                "to": "1Ti 6"
+            },
+            {
+                "from": "Pr",
+                "to": "1Ti 6"
+            },
+            {
+                "from": "Ps",
+                "to": "1Ti 6"
+            }
+        ],
+        "2Ti": [
+            {
+                "to": "2Ti 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Ti 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Ti 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Nu",
+                "to": "2Ti 2"
+            },
+            {
+                "from": "Ex",
+                "to": "2Ti 3"
+            },
+            {
+                "from": "Ps",
+                "to": "2Ti 3"
+            },
+            {
+                "from": "2Ma",
+                "to": "2Ti 4"
+            },
+            {
+                "from": "2Sa",
+                "to": "2Ti 4"
+            },
+            {
+                "from": "Da",
+                "to": "2Ti 4"
+            },
+            {
+                "from": "Pr",
+                "to": "2Ti 4"
+            },
+            {
+                "from": "Ps",
+                "to": "2Ti 4"
+            }
+        ],
+        "Heb": [
+            {
+                "to": "Heb 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 6",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 7",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 8",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 10",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 12",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 13",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 11",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Heb 9",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "1Ch",
+                "to": "Heb 1"
+            },
+            {
+                "from": "2Sa",
+                "to": "Heb 1"
+            },
+            {
+                "from": "Dt",
+                "to": "Heb 1"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 1"
+            },
+            {
+                "from": "Dt",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Eze",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Hab",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Je",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Le",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 10"
+            },
+            {
+                "from": "Zep",
+                "to": "Heb 10"
+            },
+            {
+                "from": "1Ch",
+                "to": "Heb 11"
+            },
+            {
+                "from": "1Ki",
+                "to": "Heb 11"
+            },
+            {
+                "from": "1Sa",
+                "to": "Heb 11"
+            },
+            {
+                "from": "2Ch",
+                "to": "Heb 11"
+            },
+            {
+                "from": "2Ki",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Bar",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Da",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Dt",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Ge",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Je",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Jos",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Ju",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 11"
+            },
+            {
+                "from": "Sir",
+                "to": "Heb 11"
+            },
+            {
+                "from": "2Sa",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Bar",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Dt",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Ge",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Ju",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Pr",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 12"
+            },
+            {
+                "from": "Zec",
+                "to": "Heb 12"
+            },
+            {
+                "from": "2Ch",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Dt",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Eze",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Ge",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Ho",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Je",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Jos",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Le",
+                "to": "Heb 13"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 13"
+            },
+            {
+                "from": "2Sa",
+                "to": "Heb 2"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 2"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 2"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 3"
+            },
+            {
+                "from": "Nu",
+                "to": "Heb 3"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 3"
+            },
+            {
+                "from": "Dt",
+                "to": "Heb 4"
+            },
+            {
+                "from": "Ge",
+                "to": "Heb 4"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 4"
+            },
+            {
+                "from": "Jos",
+                "to": "Heb 4"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 4"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 5"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 5"
+            },
+            {
+                "from": "Le",
+                "to": "Heb 5"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 5"
+            },
+            {
+                "from": "1Sa",
+                "to": "Heb 6"
+            },
+            {
+                "from": "Bar",
+                "to": "Heb 6"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 6"
+            },
+            {
+                "from": "Ge",
+                "to": "Heb 6"
+            },
+            {
+                "from": "Le",
+                "to": "Heb 6"
+            },
+            {
+                "from": "Nu",
+                "to": "Heb 6"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 6"
+            },
+            {
+                "from": "Ge",
+                "to": "Heb 7"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 7"
+            },
+            {
+                "from": "Le",
+                "to": "Heb 7"
+            },
+            {
+                "from": "Nu",
+                "to": "Heb 7"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 7"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 8"
+            },
+            {
+                "from": "Eze",
+                "to": "Heb 8"
+            },
+            {
+                "from": "Je",
+                "to": "Heb 8"
+            },
+            {
+                "from": "Le",
+                "to": "Heb 8"
+            },
+            {
+                "from": "Nu",
+                "to": "Heb 8"
+            },
+            {
+                "from": "Ps",
+                "to": "Heb 8"
+            },
+            {
+                "from": "Dt",
+                "to": "Heb 9"
+            },
+            {
+                "from": "Ex",
+                "to": "Heb 9"
+            },
+            {
+                "from": "Is",
+                "to": "Heb 9"
+            },
+            {
+                "from": "Le",
+                "to": "Heb 9"
+            },
+            {
+                "from": "Nu",
+                "to": "Heb 9"
+            }
+        ],
+        "Jam": [
+            {
+                "to": "Jam 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Jam 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Jam 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Jam 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Jam 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Bar",
+                "to": "Jam 1"
+            },
+            {
+                "from": "Ec",
+                "to": "Jam 1"
+            },
+            {
+                "from": "Is",
+                "to": "Jam 1"
+            },
+            {
+                "from": "Pr",
+                "to": "Jam 1"
+            },
+            {
+                "from": "Ps",
+                "to": "Jam 1"
+            },
+            {
+                "from": "2Ch",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Dt",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Ex",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Ge",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Is",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Job",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Jos",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Le",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Sus",
+                "to": "Jam 2"
+            },
+            {
+                "from": "Ge",
+                "to": "Jam 3"
+            },
+            {
+                "from": "Is",
+                "to": "Jam 3"
+            },
+            {
+                "from": "Ps",
+                "to": "Jam 3"
+            },
+            {
+                "from": "Ex",
+                "to": "Jam 4"
+            },
+            {
+                "from": "Is",
+                "to": "Jam 4"
+            },
+            {
+                "from": "Job",
+                "to": "Jam 4"
+            },
+            {
+                "from": "Mal",
+                "to": "Jam 4"
+            },
+            {
+                "from": "Pr",
+                "to": "Jam 4"
+            },
+            {
+                "from": "Tob",
+                "to": "Jam 4"
+            },
+            {
+                "from": "1Ki",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Add Es",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Da",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Ex",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Je",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Joe",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Jon",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Ne",
+                "to": "Jam 5"
+            },
+            {
+                "from": "Ps",
+                "to": "Jam 5"
+            }
+        ],
+        "1Pe": [
+            {
+                "to": "1Pe 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Pe 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Pe 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Pe 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Pe 5",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Is",
+                "to": "1Pe 1"
+            },
+            {
+                "from": "Je",
+                "to": "1Pe 1"
+            },
+            {
+                "from": "Le",
+                "to": "1Pe 1"
+            },
+            {
+                "from": "Mal",
+                "to": "1Pe 1"
+            },
+            {
+                "from": "Pr",
+                "to": "1Pe 1"
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe 1"
+            },
+            {
+                "from": "Tob",
+                "to": "1Pe 1"
+            },
+            {
+                "from": "Dt",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Ex",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Eze",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Ho",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Is",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Pr",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Tob",
+                "to": "1Pe 2"
+            },
+            {
+                "from": "Ge",
+                "to": "1Pe 3"
+            },
+            {
+                "from": "Is",
+                "to": "1Pe 3"
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe 3"
+            },
+            {
+                "from": "Eze",
+                "to": "1Pe 4"
+            },
+            {
+                "from": "Is",
+                "to": "1Pe 4"
+            },
+            {
+                "from": "Je",
+                "to": "1Pe 4"
+            },
+            {
+                "from": "Pr",
+                "to": "1Pe 4"
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe 4"
+            },
+            {
+                "from": "Job",
+                "to": "1Pe 5"
+            },
+            {
+                "from": "Pr",
+                "to": "1Pe 5"
+            },
+            {
+                "from": "Ps",
+                "to": "1Pe 5"
+            }
+        ],
+        "2Pe": [
+            {
+                "to": "2Pe 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "2Pe 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Ge",
+                "to": "2Pe 2"
+            },
+            {
+                "from": "Nu",
+                "to": "2Pe 2"
+            },
+            {
+                "from": "Pr",
+                "to": "2Pe 2"
+            },
+            {
+                "from": "Ge",
+                "to": "2Pe 3"
+            },
+            {
+                "from": "Hab",
+                "to": "2Pe 3"
+            },
+            {
+                "from": "Is",
+                "to": "2Pe 3"
+            },
+            {
+                "from": "Ps",
+                "to": "2Pe 3"
+            }
+        ],
+        "1Jn": [
+            {
+                "to": "1Jn 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Jn 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "1Jn 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Is",
+                "to": "1Jn 1"
+            },
+            {
+                "from": "Pr",
+                "to": "1Jn 1"
+            },
+            {
+                "from": "Ps",
+                "to": "1Jn 1"
+            },
+            {
+                "from": "Je",
+                "to": "1Jn 2"
+            },
+            {
+                "from": "Pr",
+                "to": "1Jn 2"
+            },
+            {
+                "from": "Ps",
+                "to": "1Jn 2"
+            },
+            {
+                "from": "Sir",
+                "to": "1Jn 2"
+            },
+            {
+                "from": "Dt",
+                "to": "1Jn 3"
+            },
+            {
+                "from": "Ge",
+                "to": "1Jn 3"
+            },
+            {
+                "from": "Is",
+                "to": "1Jn 3"
+            }
+        ],
+        "Php": [
+            {
+                "to": "Php 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Php 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Php 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Php 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Job",
+                "to": "Php 1"
+            },
+            {
+                "from": "Dt",
+                "to": "Php 2"
+            },
+            {
+                "from": "Is",
+                "to": "Php 2"
+            },
+            {
+                "from": "Ps",
+                "to": "Php 2"
+            },
+            {
+                "from": "Is",
+                "to": "Php 3"
+            },
+            {
+                "from": "Ps",
+                "to": "Php 3"
+            },
+            {
+                "from": "Da",
+                "to": "Php 4"
+            },
+            {
+                "from": "Ex",
+                "to": "Php 4"
+            },
+            {
+                "from": "Eze",
+                "to": "Php 4"
+            },
+            {
+                "from": "Ge",
+                "to": "Php 4"
+            },
+            {
+                "from": "Is",
+                "to": "Php 4"
+            },
+            {
+                "from": "Ps",
+                "to": "Php 4"
+            }
+        ],
+        "Col": [
+            {
+                "to": "Col 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Col 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Col 4",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Is",
+                "to": "Col 2"
+            },
+            {
+                "from": "Pr",
+                "to": "Col 2"
+            },
+            {
+                "from": "2Ch",
+                "to": "Col 3"
+            },
+            {
+                "from": "Dt",
+                "to": "Col 3"
+            },
+            {
+                "from": "Ge",
+                "to": "Col 3"
+            },
+            {
+                "from": "Ps",
+                "to": "Col 3"
+            },
+            {
+                "from": "Le",
+                "to": "Col 4"
+            }
+        ],
+        "Tit": [
+            {
+                "to": "Tit 2",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "to": "Tit 3",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Dt",
+                "to": "Tit 2"
+            },
+            {
+                "from": "Ex",
+                "to": "Tit 2"
+            },
+            {
+                "from": "Eze",
+                "to": "Tit 2"
+            },
+            {
+                "from": "Ps",
+                "to": "Tit 2"
+            },
+            {
+                "from": "Joe",
+                "to": "Tit 3"
+            }
+        ],
+        "2Jn": [
+            {
+                "to": "2Jn 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Nu",
+                "to": "2Jn 1"
+            }
+        ],
+        "3Jn": [
+            {
+                "to": "3Jn 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Nu",
+                "to": "3Jn 1"
+            }
+        ],
+        "Jud": [
+            {
+                "to": "Jud 1",
+                "nodeColor": "#FF0000"
+            },
+            {
+                "from": "Am",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Da",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Dt",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Ex",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Eze",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Ge",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Is",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Mal",
+                "to": "Jud 1"
+            },
+            {
+                "from": "Nu",
+                "to": "Jud 1"
+            }
+        ]
+    }
+}
