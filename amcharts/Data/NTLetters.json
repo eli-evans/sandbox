@@ -1,0 +1,1791 @@
+[
+    {
+        "name": "Paul",
+        "authorName": "Paul",
+        "description": {
+            "en": "Apostle who wrote to many churches."
+        },
+        "id": "bk.#Paul",
+        "children": [
+            {
+                "identifier": "bk.ntxt:romans",
+                "abbreviation": {
+                    "de": "Röm",
+                    "en": "Ro",
+                    "es": "Ro",
+                    "ko": "롬",
+                    "pt": "Rm",
+                    "zh_Hans": "罗",
+                    "zh_Hant": "羅"
+                },
+                "titleLong": {
+                    "de": "Römerbrief",
+                    "en": "Epistle to the Romans",
+                    "es": "Epístola a los Romanos",
+                    "ko": "로마인들에게 보낸 서신",
+                    "pt": "Epístola aos Romanos",
+                    "zh_Hans": "罗马书",
+                    "zh_Hant": "羅馬書"
+                },
+                "titleShort": {
+                    "de": "Römer",
+                    "en": "Romans",
+                    "es": "Romanos",
+                    "ko": "로마서",
+                    "pt": "Romanos",
+                    "zh_Hans": "罗马书",
+                    "zh_Hant": "羅馬書"
+                },
+                "description": {
+                    "de": "Der Brief des Paulus an die Gemeinde in Rom befasst sich mit Fragen des Heils, der Rechtfertigung und des Glaubens.",
+                    "en": "Paul’s letter to the church in Rome on matters of salvation, righteousness, and faith.",
+                    "es": "Carta de Pablo a la iglesia de Roma en asuntos de fe, justicia y salvación.",
+                    "ko": "로마 교회로 보낸 구원, 공의, 믿음의 문제를 다룬 바울의 편지.",
+                    "pt": "Carta de Paulo à igreja em Roma concernente à fé, justiça e salvação.",
+                    "zh_Hans": "保罗就救恩，公义和信心的问题写给罗马教会的一封信。",
+                    "zh_Hant": "保羅就救恩，公義和信心的問題寫給羅馬教會的一封信。"
+                },
+                "reference": "bible.66.1.1-66.16.27",
+                "concept": "bk.%EpistleToTheRomans_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Romans",
+                    "bk.#Romans.1"
+                ],
+                "entities": [
+                    "bk.#GentilesRome",
+                    "bk.@Rome",
+                    "bk.tle:letterromanswrittenearly",
+                    "bk.tle:letterromanswrittenlate",
+                    "bk.tle:letterromanswrittenmiddle"
+                ],
+                "dateOfCompositionEarly": "date.54",
+                "dateOfCompositionLate": "date.58",
+                "locationsOfComposition": [
+                    "bk.@Corinth"
+                ],
+                "n_words": 7055,
+                "n_verses": 433,
+                "n_pericopes": 52,
+                "n_chapters": 16,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 83.99404740813482
+            },
+            {
+                "identifier": "bk.ntxt:galatians",
+                "abbreviation": {
+                    "de": "Gal",
+                    "en": "Ga",
+                    "es": "Gl",
+                    "ko": "갈",
+                    "pt": "Gl",
+                    "zh_Hans": "加",
+                    "zh_Hant": "加"
+                },
+                "titleLong": {
+                    "de": "Galaterbrief",
+                    "en": "Epistle to the Galatians",
+                    "es": "Epístola a los Gálatas",
+                    "ko": "갈라디아에 보낸 서신",
+                    "pt": "Epístola aos Gálatas",
+                    "zh_Hans": "加拉太书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "Galater",
+                    "en": "Galatians",
+                    "es": "Gálatas",
+                    "ko": "갈라디아서",
+                    "pt": "Gálatas",
+                    "zh_Hans": "加拉太书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Brief des Paulus an eine Gruppe von Gemeinden in Galatien, in dem er seine apostolische Autorität verteidigt und die Rechtfertigung aus dem Glauben hervorhebt.",
+                    "en": "Paul’s letter to a group of churches in Galatia defending his apostolic authority and emphasizing justification by faith.",
+                    "es": "Carta de Pablo a un grupo de iglesias de Galacia defendiendo su autoridad apostólica y destacando la justificación por la fe.",
+                    "ko": "바울이 자신이 가진 사도직의 권위를 변호하고 믿음으로 의롭게 되는 것을 강조하는, 갈라디아에 있는 교회들에게 보낸 편지.",
+                    "pt": "Carta de Paulo a um grupo de igrejas na Galácia, defendendo sua autoridade apostólica e enfatizando a justificação pela fé.",
+                    "zh_Hans": "保罗写给加拉太一群教会的信，捍卫他的使徒权威，并强调信仰的正当性。",
+                    "zh_Hant": "保羅寫給加拉太一群教會的信，捍衛他的使徒權威，並強調信仰的正當性。"
+                },
+                "reference": "bible.69.1.1-69.6.18",
+                "concept": "bk.%EpistleToTheGalatians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#ChurchGalatia",
+                    "bk.#Galatians"
+                ],
+                "entities": [
+                    "bk.#Hagar.1",
+                    "bk.#Sarah",
+                    "bk.$fruit",
+                    "bk.tle:lettergalatianswritten",
+                    "bk.tle:lettergalatianswritten1"
+                ],
+                "dateOfCompositionEarly": "date.48",
+                "dateOfCompositionLate": "date.58",
+                "locationsOfComposition": [
+                    "bk.@Ephesus",
+                    "bk.@AntiochOfSyria",
+                    "bk.@Corinth",
+                    "bk.@Macedonia"
+                ],
+                "n_words": 2226,
+                "n_verses": 149,
+                "n_pericopes": 20,
+                "n_chapters": 6,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 47.18050444834179
+            },
+            {
+                "identifier": "bk.ntxt:titus",
+                "abbreviation": {
+                    "de": "Tit",
+                    "en": "Tt",
+                    "es": "Tit",
+                    "ko": "딛",
+                    "pt": "Tt",
+                    "zh_Hans": "多",
+                    "zh_Hant": "多"
+                },
+                "titleLong": {
+                    "de": "Titusbrief",
+                    "en": "Epistle to Titus",
+                    "es": "Epístola a Tito",
+                    "ko": "디도에게 보낸 서신",
+                    "pt": "Epístola a Tito",
+                    "zh_Hans": "提多书",
+                    "zh_Hant": "提多書"
+                },
+                "titleShort": {
+                    "de": "Titus",
+                    "en": "Titus",
+                    "es": "Tito",
+                    "ko": "디도",
+                    "pt": "Tito",
+                    "zh_Hans": "提多书",
+                    "zh_Hant": "提多書"
+                },
+                "description": {
+                    "de": "Ein Pastoralbrief des Paulus an Titus, der Ratschläge für Gemeindedienst und -leitung gibt.",
+                    "en": "A pastoral letter from Paul to Titus offering guidance for ministry and church leadership.",
+                    "es": "Una carta pastoral de Pablo a Tito ofreciendo orientación para el liderazgo de la iglesia y el ministerio.",
+                    "ko": "바울이 디도에게 목회와 교회 지도력을 위해 지침을 제공하는 목회 서신.",
+                    "pt": "Uma carta pastoral de Paulo a Tito, oferecendo orientação para o ministério e liderança da igreja.",
+                    "zh_Hans": "保罗写给提多的一封教牧书信提供事工和教会领导的指引。",
+                    "zh_Hant": "保羅寫給提多的一封教牧書信提供事工和教會領導的指引。"
+                },
+                "reference": "bible.77.1.1-77.3.15",
+                "concept": "bk.%EpistleToTitus_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Titus.1"
+                ],
+                "entities": [
+                    "bk.#Church.19",
+                    "bk.#Cretans",
+                    "bk.tle:firstlettertimothywrittenif",
+                    "bk.tle:firstlettertimothywrittenif1",
+                    "bk.tle:lettertituswritten1",
+                    "bk.tle:lettertituswritten2",
+                    "bk.tle:lettertituswrittenveryearly"
+                ],
+                "dateOfCompositionEarly": "date.52",
+                "dateOfCompositionLate": "date.67",
+                "locationsOfComposition": [
+                    "bk.@Rome"
+                ],
+                "n_words": 659,
+                "n_verses": 46,
+                "n_pericopes": 9,
+                "n_chapters": 3,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 25.67099530598687
+            },
+            {
+                "identifier": "bk.ntxt:colossians",
+                "abbreviation": {
+                    "de": "Kol",
+                    "en": "Col",
+                    "es": "Col",
+                    "ko": "골",
+                    "pt": "Cl",
+                    "zh_Hans": "西",
+                    "zh_Hant": "西"
+                },
+                "titleLong": {
+                    "de": "Kolosserbrief",
+                    "en": "Epistle to the Colossians",
+                    "es": "Epístola a los Colosenses",
+                    "ko": "골로새에 보낸 서신",
+                    "pt": "Epístola aos Colossenses",
+                    "zh_Hans": "歌罗西书",
+                    "zh_Hant": "歌羅西書"
+                },
+                "titleShort": {
+                    "de": "Kolosser",
+                    "en": "Colossians",
+                    "es": "Colosenses",
+                    "ko": "골로새서",
+                    "pt": "Colossenses",
+                    "zh_Hans": "歌罗西书",
+                    "zh_Hant": "歌羅西書"
+                },
+                "description": {
+                    "de": "Ein Brief des Paulus an die Gemeinden der Stadt Kolossä in Kleinasien. Das Schreiben betont die Überlegenheit und Hinlänglichkeit Christi, der Versöhnung bewirkt, und hält die Gemeinde dazu an, zu Dienern zu werden.",
+                    "en": "A letter from Paul to the churches in the city of Colossae in Asia Minor. The letter emphasizes the supremacy and sufficiency of Christ in bringing reconciliation and challenges the church to become servants.",
+                    "es": "Una carta de Pablo a las iglesias de la ciudad de Colosas en Asia menor. La carta enfatiza la supremacía y la suficiencia de Cristo para traer reconciliación y desafía a la iglesia a ser siervos.",
+                    "ko": "바울이 소아시아의 골로새에 있는 교회들에게 쓴 편지. 이 편지는 하나님과의 화목을 이루는 일에 대한 그리스도의 충분성과 우월성을 강조하고, 교회에게 섬기는 종들이 되도록 도전한다.",
+                    "pt": "Uma carta de Paulo às igrejas da cidade de Colossos, na Ásia Menor. A carta enfatiza a supremacia e suficiência de Cristo em trazer reconciliação e desafia a igreja para se tornarem servos.",
+                    "zh_Hans": "保罗给小亚细亚歌罗西教会的一封信。 这封信强调了基督的优越性及充分性带来和好并挑战教会成为仆人。",
+                    "zh_Hant": "保羅給小亞細亞歌羅西教會的一封信。 這封信強調了基督的優越性及充分性帶來和好並挑戰教會成為僕人。"
+                },
+                "reference": "bible.72.1.1-72.4.18",
+                "concept": "bk.%EpistleToTheColossians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Church.16"
+                ],
+                "entities": [
+                    "bk.#Epaphras.1",
+                    "bk.#Tychicus.1",
+                    "bk.tle:lettercolossianswritten",
+                    "bk.tle:lettercolossianswrittenearly",
+                    "bk.tle:lettercolossianswrittenlate"
+                ],
+                "dateOfCompositionEarly": "date.52",
+                "dateOfCompositionLate": "date.82",
+                "locationsOfComposition": [
+                    "bk.@Rome",
+                    "bk.@Caesarea"
+                ],
+                "n_words": 1580,
+                "n_verses": 95,
+                "n_pericopes": 13,
+                "n_chapters": 4,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 39.74921382870358
+            },
+            {
+                "identifier": "bk.ntxt:ephesians",
+                "abbreviation": {
+                    "de": "Eph",
+                    "en": "Eph",
+                    "es": "Ef",
+                    "ko": "엡",
+                    "pt": "Ef",
+                    "zh_Hans": "弗",
+                    "zh_Hant": "弗"
+                },
+                "titleLong": {
+                    "de": "Epheserbrief",
+                    "en": "Epistle to the Ephesians",
+                    "es": "Epístola a los Efesios",
+                    "ko": "에베소에 보낸 서신",
+                    "pt": "Epístola aos Efésios",
+                    "zh_Hans": "以弗所书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "Epheser",
+                    "en": "Ephesians",
+                    "es": "Efesios",
+                    "ko": "에베소서",
+                    "pt": "Efésios",
+                    "zh_Hans": "以弗所书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief, den Paulus im Gefängnis an die Christen in Ephesus schrieb. Inhaltlicher Schwerpunkt ist die Einheit der Juden und Heiden in Christus.",
+                    "en": "A letter written by Paul from prison to the Ephesians. The focus of the message is on the unity of Jews and Gentiles in Jesus.",
+                    "es": "Una carta escrita por Pablo desde la prisión a los efesios. El foco del mensaje está en la unidad de judíos y gentiles en Jesús.",
+                    "ko": "바울이 감옥에서 에베소 성도들에게 쓴 편지. 내용의 핵심은 예수 안에서 유대인과 이방인의 연합이다.",
+                    "pt": "Uma carta escrita por Paulo da prisão aos Efésios. O foco da mensagem é sobre a unidade de judeus e gentios em Jesus.",
+                    "zh_Hans": "保罗从监狱写给以弗所人的一封信。 信息的重点是在耶稣里犹太人和外邦人的合而为一。",
+                    "zh_Hant": "保羅從監獄寫給以弗所人的一封信。 信息的重點是在耶穌裡猶太人和外邦人的合而為一。"
+                },
+                "reference": "bible.70.1.1-70.6.24",
+                "concept": "bk.%EpistleToTheEphesians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Church.11",
+                    "bk.#Ephesians"
+                ],
+                "entities": [
+                    "bk.$weapon",
+                    "bk.tle:letterephesianswritten1",
+                    "bk.tle:letterephesianswritten2",
+                    "bk.tle:letterephesianswrittenearly",
+                    "bk.tle:supposeddateadditionletter"
+                ],
+                "dateOfCompositionEarly": "date.55",
+                "dateOfCompositionLate": "date.90",
+                "locationsOfComposition": [
+                    "bk.@Rome",
+                    "bk.@Caesarea"
+                ],
+                "n_words": 2416,
+                "n_verses": 155,
+                "n_pericopes": 22,
+                "n_chapters": 6,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 49.15282290977803
+            },
+            {
+                "identifier": "bk.ntxt:philippians",
+                "abbreviation": {
+                    "de": "Php",
+                    "en": "Php",
+                    "es": "Flp",
+                    "ko": "빌",
+                    "pt": "Fp",
+                    "zh_Hans": "腓",
+                    "zh_Hant": "腓"
+                },
+                "titleLong": {
+                    "de": "Philipperbrief",
+                    "en": "Epistle to the Philippians",
+                    "es": "Epístola a los Filipenses",
+                    "ko": "빌립보에 보낸 서신",
+                    "pt": "Epístola aos Filipenses",
+                    "zh_Hans": "腓立比书",
+                    "zh_Hant": "腓立比書"
+                },
+                "titleShort": {
+                    "de": "Philipper",
+                    "en": "Philippians",
+                    "es": "Filipenses",
+                    "ko": "빌립보서",
+                    "pt": "Filipenses",
+                    "zh_Hans": "腓立比书",
+                    "zh_Hant": "腓立比書"
+                },
+                "description": {
+                    "de": "Brief des Pauls an die Gemeinde in Philippi. Paulus ermunterte die Philippern aus dem Gefängnis zur Freude in Christus inmitten allen Leids.",
+                    "en": "Paul’s letter to the church at Philippi. Paul wrote from prison with a message of joy in the midst of suffering.",
+                    "es": "Carta de Pablo a la iglesia en Filipos. Pablo escribió desde la cárcel con un mensaje de gozo en medio del sufrimiento.",
+                    "ko": "바울이 빌립보 교회에 보낸 편지. 바울은 고통 가운데 기쁨의 내용으로 감옥에서 이 편지를 썼다.",
+                    "pt": "Carta de Paulo à igreja em Filipos. Paulo escreveu da prisão com uma mensagem de alegria no meio do sofrimento.",
+                    "zh_Hans": "保罗给腓立比教会的信。 保罗从监狱的痛苦中写出充满喜乐的信息。",
+                    "zh_Hant": "保羅給腓立比教會的信。 保羅從監獄的痛苦中寫出充滿喜樂的信息。"
+                },
+                "reference": "bible.71.1.1-71.4.23",
+                "concept": "bk.%EpistleToThePhilippians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Church.6",
+                    "bk.#Philippians"
+                ],
+                "entities": [
+                    "bk.#Epaphroditus.1",
+                    "bk.#Timothy",
+                    "bk.tle:epistlephilippianswritten",
+                    "bk.tle:letterphilippianswritten",
+                    "bk.tle:letterphilippianswrittenlate",
+                    "bk.tle:letterphilippianswrittenmiddle"
+                ],
+                "dateOfCompositionEarly": "date.55",
+                "dateOfCompositionLate": "date.62",
+                "locationsOfComposition": [
+                    "bk.@Rome",
+                    "bk.@Caesarea"
+                ],
+                "n_words": 1626,
+                "n_verses": 104,
+                "n_pericopes": 17,
+                "n_chapters": 4,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 40.32369030731191
+            },
+            {
+                "identifier": "bk.ntxt:philemon",
+                "abbreviation": {
+                    "de": "Phlm",
+                    "en": "Phm",
+                    "es": "Flm",
+                    "ko": "몬",
+                    "pt": "Fm",
+                    "zh_Hans": "门",
+                    "zh_Hant": "門"
+                },
+                "titleLong": {
+                    "de": "Philemonbrief",
+                    "en": "Epistle to Philemon",
+                    "es": "Epístola a Filemón",
+                    "ko": "빌레몬에게 보낸 서신",
+                    "pt": "Epístola a Filemom",
+                    "zh_Hans": "腓利门书",
+                    "zh_Hant": "腓利門書"
+                },
+                "titleShort": {
+                    "de": "Philemon",
+                    "en": "Philemon",
+                    "es": "Filemón",
+                    "ko": "빌레몬서",
+                    "pt": "Filemom",
+                    "zh_Hans": "腓利门书",
+                    "zh_Hant": "腓利門書"
+                },
+                "description": {
+                    "de": "Ein Brief des inhaftierten Paulus an Philemon, einen Christen und Sklavenbesitzer. Der Brief befasst sich mit der Versöhnung unter Christen am konkreten Beispiel Philemons und seines Sklaven Onesimus.",
+                    "en": "A letter from the imprisoned Paul to the Christian slave owner, Philemon. The letter pertains to reconciliation in relationship between Christians, exemplified in the situation of Philemon and his slave, Onesimus.",
+                    "es": "Una carta de Pablo desde la cárcel a Filemón, un cristiano dueño de esclavos. La carta se refiere a la reconciliación en la relación entre los cristianos, ejemplificado en la situación de Filemón y su esclavo, Onésimo.",
+                    "ko": "감옥에 있는 바울로부터 그리스도인 노예의 소유주 빌레몬에게 보내는 편지. 편지는 빌레몬과 그의 노예 오네시모의 상황이 예시로 보여주는, 그리스도인 사이의 관계에서 화해와 관련된다.",
+                    "pt": "Uma carta do aprisionado Paulo ao dono de escravos cristãos, Filemom. A carta se refere à reconciliação no relacionamento entre os cristãos, exemplificada na situação de Filemom e seu escravo, Onésimo.",
+                    "zh_Hans": "被囚的保罗写给基督徒奴隶的主人腓利门的一封信。 这封信涉及基督徒之间的关系和解，以腓利门和他的奴隶阿尼西母的情况为例。",
+                    "zh_Hant": "被囚的保羅寫給基督徒奴隸的主人腓利門的一封信。 這封信涉及基督徒之間的關係和解，以腓利門和他的奴隸阿尼西母的情況為例。"
+                },
+                "reference": "bible.78.1.1-78.1.25",
+                "concept": "bk.%EpistleToPhilemon_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Apphia.1",
+                    "bk.#Archippus.1",
+                    "bk.#Philemon.1"
+                ],
+                "entities": [
+                    "bk.#Onesimus.1",
+                    "bk.tle:letterphilemonwritten"
+                ],
+                "dateOfCompositionEarly": "date.55",
+                "dateOfCompositionLate": "date.55",
+                "locationsOfComposition": [
+                    "bk.@Rome",
+                    "bk.@Caesarea",
+                    "bk.@Ephesus"
+                ],
+                "n_words": 334,
+                "n_verses": 25,
+                "n_pericopes": 5,
+                "n_chapters": 1,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 18.275666882497067
+            },
+            {
+                "identifier": "bk.ntxt:1corinthians",
+                "abbreviation": {
+                    "de": "1Kor",
+                    "en": "1 Co",
+                    "es": "1 Co",
+                    "ko": "고전",
+                    "pt": "1Co",
+                    "zh_Hans": "林前",
+                    "zh_Hant": "林前"
+                },
+                "titleLong": {
+                    "de": "Erster Korintherbrief",
+                    "en": "First Epistle to the Corinthians",
+                    "es": "Primera epístola a los Corintios",
+                    "ko": "고린도인들에게 보낸 첫 서신",
+                    "pt": "Primeira Epístola aos Coríntios",
+                    "zh_Hans": "给哥林多教会的第一封信",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "1. Korinther",
+                    "en": "First Corinthians",
+                    "es": "Primera Corintios",
+                    "ko": "고린도전서",
+                    "pt": "I Coríntios",
+                    "zh_Hans": "哥林多前书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief des Paulus an die Gemeinde in Korinth. Der Apostel, der die Gemeinde gegründet hat, spricht praktische Fragen der Geistesgaben, Ehe und Essgewohnheiten an.",
+                    "en": "A letter to the church of Corinth from its founder, Paul. The letter addresses practical questions about gifts, marriage, and food.",
+                    "es": "Una carta a la iglesia de Corinto de su fundador, Pablo. La carta responde a preguntas prácticas sobre matrimonio, dones y alimentos.",
+                    "ko": "고린도 교회의 설립자 바울이 고린도 교회에 보낸 편지. 이 편지는 은사, 결혼, 음식에 대한 실질적인 질문들을 다루었다.",
+                    "pt": "Uma carta para a Igreja de Corinto, do seu fundador, Paulo. A carta aborda questões práticas sobre dons, casamento e alimentos.",
+                    "zh_Hans": "哥林多教会的创始人保罗给哥林多教会的一封信。这封信涉及恩赐, 婚姻及食物条例的实际问题。",
+                    "zh_Hant": "哥林多教會的創始人保羅給哥林多教會的一封信。這封信涉及恩賜, 婚姻及食物條例的實際問題。"
+                },
+                "reference": "bible.67.1.1-67.16.24",
+                "concept": "bk.%FirstEpistleToTheCorinthians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Church.14",
+                    "bk.#Corinthians"
+                ],
+                "entities": [
+                    "bk.#Jesus",
+                    "bk.#Man.78",
+                    "bk.$foodIdol",
+                    "bk.$headdress",
+                    "bk.*JesusAppears500",
+                    "bk.tle:firstlettercorinthianswritten1",
+                    "bk.tle:firstlettercorinthianswritten2"
+                ],
+                "dateOfCompositionEarly": "date.53",
+                "dateOfCompositionLate": "date.57",
+                "locationsOfComposition": [
+                    "bk.@Ephesus"
+                ],
+                "n_words": 6812,
+                "n_verses": 437,
+                "n_pericopes": 49,
+                "n_chapters": 16,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 82.5348411278534
+            },
+            {
+                "identifier": "bk.ntxt:2thessalonians",
+                "abbreviation": {
+                    "de": "2Th",
+                    "en": "2 Th",
+                    "es": "2 Tes",
+                    "ko": "살후",
+                    "pt": "2Ts",
+                    "zh_Hans": "帖后",
+                    "zh_Hant": "帖後"
+                },
+                "titleLong": {
+                    "de": "Zweiter Thessalonicherbrief",
+                    "en": "Second Epistle to the Thessalonians",
+                    "es": "Segunda epístola a los Tesalonicenses",
+                    "ko": "데살로니가인들에게 보낸 두 번째 서신",
+                    "pt": "Segunda Epístola aos Tessalonicenses",
+                    "zh_Hans": "帖撒罗尼迦后书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "2. Thessalonicher",
+                    "en": "Second Thessalonians",
+                    "es": "Segunda de Tesalonicenses",
+                    "ko": "데살로니가후서",
+                    "pt": "Segunda Tessalonicenses",
+                    "zh_Hans": "帖撒罗尼迦后书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Der zweite von der beiden Paulusbriefe an die Gemeinde in Thessalonich. Er ruft die nichtjüdischen Gläubigen zu Treue und guten Werken auf.",
+                    "en": "The second of two letters from Paul to the church in Thessalonica. This letter encourages the Gentile Christians in faithfulness and good work.",
+                    "es": "La segunda de las dos cartas de Pablo a la iglesia en Tesalónica. Esta carta anima a los cristianos gentiles en fidelidad y buenas obras.",
+                    "ko": "바울이 데살로니가 교회에 보내는 두 편지 중의 두 번째 편지. 이 편지는 이방 그리스도인들에게 신실하고 선한 일을 행하도록 격려한다.",
+                    "pt": "A segunda de duas cartas de Paulo à igreja em Tessalônica. Esta carta encoraja os cristãos gentios em fidelidade e bom trabalho.",
+                    "zh_Hans": "保罗给帖撒罗尼迦教会的两封信中的第二封。 这封信鼓励外邦基督徒要忠心作善工。",
+                    "zh_Hant": "保羅給帖撒羅尼迦教會的兩封信中的第二封。 這封信鼓勵外邦基督徒要忠心作善工。"
+                },
+                "reference": "bible.74.1.1-74.3.18",
+                "concept": "bk.%SecondEpistleToTheThessalonians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Church.7",
+                    "bk.#Thessalonians"
+                ],
+                "entities": [
+                    "bk.#AntiChrist",
+                    "bk.tle:lettersthessalonianswritten",
+                    "bk.tle:lettersthessalonianswritten1"
+                ],
+                "dateOfCompositionEarly": "date.50",
+                "dateOfCompositionLate": "date.100",
+                "locationsOfComposition": [
+                    "bk.@Corinth"
+                ],
+                "n_words": 820,
+                "n_verses": 47,
+                "n_pericopes": 7,
+                "n_chapters": 3,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 28.635642126552707
+            },
+            {
+                "identifier": "bk.ntxt:1thessalonians",
+                "abbreviation": {
+                    "de": "1Th",
+                    "en": "1 Th",
+                    "es": "1 Tes",
+                    "ko": "살전",
+                    "pt": "1Ts",
+                    "zh_Hans": "帖前",
+                    "zh_Hant": "帖前"
+                },
+                "titleLong": {
+                    "de": "Erster Thessalonicherbrief",
+                    "en": "First Epistle to the Thessalonians",
+                    "es": "Primera epístola a los Tesalonicenses",
+                    "ko": "데살로니가인들에게 보낸 첫 서신",
+                    "pt": "Primeira Epístola aos Tessalonicenses",
+                    "zh_Hans": "帖撒罗尼迦前书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "1. Thessalonicher",
+                    "en": "First Thessalonians",
+                    "es": "Primera Tesalonicenses",
+                    "ko": "데살로니가전서",
+                    "pt": "Primeira Tessalonicenses",
+                    "zh_Hans": "帖撒罗尼迦前书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Der erste von zwei Briefen des Paulus an die Gemeinde in Thessalonich. Darin ermutigt Paulus die neu bekehrten nichtjüdischen Gläubigen der Stadt zu einem gottgefälligen Lebenswandel.",
+                    "en": "The first of two letters from Paul to the church in Thessalonica. In this letter, Paul urges these new, Gentile believers to live godly lives.",
+                    "es": "La primera de dos cartas de Pablo a la iglesia en Tesalónica. En esta carta, Pablo insta a estos nuevos creyentes gentiles a vivir vidas piadosas.",
+                    "ko": "바울이 데살로니가 교회에 보낸 두 편지 중의 첫 번째 편지. 이 편지에서 바울은 새 이방인 신자들에게 경건한 삶을 살도록 촉구한다.",
+                    "pt": "A primeira das duas cartas de Paulo à igreja em Tessalônica. Nesta carta, Paulo insta a esses novos crentes gentios a viverem uma vida piedosa.",
+                    "zh_Hans": "保罗写给帖撒罗尼迦教会两封信中的第一封信。在这封信中, 保罗激励这些新的外邦信徒要过成圣的生活。",
+                    "zh_Hant": "保羅寫給帖撒羅尼迦教會兩封信中的第一封信。在這封信中, 保羅激勵這些新的外邦信徒要過成聖的生活。"
+                },
+                "reference": "bible.73.1.1-73.5.28",
+                "concept": "bk.%FirstEpistleToTheThessalonians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Church.7",
+                    "bk.#Thessalonians"
+                ],
+                "entities": [
+                    "bk.#Timothy",
+                    "bk.@Thessalonica",
+                    "bk.tle:lettersthessalonianswritten1"
+                ],
+                "dateOfCompositionEarly": "date.50",
+                "dateOfCompositionLate": "date.57",
+                "locationsOfComposition": [
+                    "bk.@Corinth"
+                ],
+                "n_words": 1473,
+                "n_verses": 89,
+                "n_pericopes": 14,
+                "n_chapters": 5,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 38.379682124790975
+            },
+            {
+                "identifier": "bk.ntxt:1timothy",
+                "abbreviation": {
+                    "de": "1Ti",
+                    "en": "1 Ti",
+                    "es": "1 Ti",
+                    "ko": "딤전",
+                    "pt": "1Tm",
+                    "zh_Hans": "提前",
+                    "zh_Hant": "提前"
+                },
+                "titleLong": {
+                    "de": "Erster Timotheusbrief",
+                    "en": "First Epistle to Timothy",
+                    "es": "Primera epístola a Timoteo",
+                    "ko": "디모데에게 보낸 첫 서신",
+                    "pt": "Primeira Epístola a Timóteo",
+                    "zh_Hans": "提摩太前书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "1. Timotheus",
+                    "en": "First Timothy",
+                    "es": "Primera Timoteo",
+                    "ko": "디모데전서",
+                    "pt": "Primeira Timóteo",
+                    "zh_Hans": "提摩太前书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Der erste Pastoralbrief des Paulus an Timotheus, worin der Apostel dem jungen Gemeindeleiter Ratschläge für seinen Dienst gibt.",
+                    "en": "The first pastoral letter of Paul to Timothy, in which Paul counsels Timothy toward excellence in leadership.",
+                    "es": "La primera carta pastoral de Pablo a Timoteo, en la cual Pablo aconseja a Timoteo hacia la excelencia en el liderazgo.",
+                    "ko": "바울이 디모데에게 보낸 첫 목회 서신으로, 이 서신에서 바울은 디모데에게 탁월한 지도력을 지향하라고 권면한다.",
+                    "pt": "A primeira carta pastoral de Paulo a Timóteo, na qual Paulo aconselha Timóteo a respeito da excelência na liderança.",
+                    "zh_Hans": "保罗写给提摩太的第一封教牧书信，要提摩太作个好领袖。",
+                    "zh_Hant": ""
+                },
+                "reference": "bible.75.1.1-75.6.21",
+                "concept": "bk.%FirstLetterToTimothy_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Timothy"
+                ],
+                "entities": [
+                    "bk.#Deacons",
+                    "bk.#ElderChurch",
+                    "bk.#widow",
+                    "bk.$wine",
+                    "bk.tle:firstlettertimothywritten",
+                    "bk.tle:firstlettertimothywrittenearly",
+                    "bk.tle:firstlettertimothywrittenif"
+                ],
+                "dateOfCompositionEarly": "date.52",
+                "dateOfCompositionLate": "date.63",
+                "locationsOfComposition": [
+                    "bk.@Rome"
+                ],
+                "n_words": 1591,
+                "n_verses": 113,
+                "n_pericopes": 20,
+                "n_chapters": 6,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 39.88734135035826
+            },
+            {
+                "identifier": "bk.ntxt:2corinthians",
+                "abbreviation": {
+                    "de": "2Kor",
+                    "en": "2 Co",
+                    "es": "2 Co",
+                    "ko": "고후",
+                    "pt": "2Co",
+                    "zh_Hans": "林后",
+                    "zh_Hant": "林後"
+                },
+                "titleLong": {
+                    "de": "Zweiter Korintherbrief",
+                    "en": "Second Epistle to the Corinthians",
+                    "es": "Segunda epístola a los Corintios",
+                    "ko": "고린도인들에게 보낸 두 번째 서신",
+                    "pt": "Segunda Epístola aos Coríntios",
+                    "zh_Hans": "哥林多后书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "2. Korinther",
+                    "en": "Second Corinthians",
+                    "es": "Segunda Corintios",
+                    "ko": "고린도후서",
+                    "pt": "Segunda Coríntios",
+                    "zh_Hans": "哥林多后书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein zweiter Brief des Paulus an die Gemeinde in Korinth, in dem er die Gläubigen um Beistand in seinem Missionarsdienst bittet und sie ermutigt, ein heiliges Leben zu führen und großzügige Gaben zu machen.",
+                    "en": "A second letter from Paul to the church in Corinth urging the church to stand with him in ministry, to live in holiness, and to give generously.",
+                    "es": "Una segunda carta de Pablo a la iglesia en Corinto instando a la iglesia a permanecer con él en el ministerio, a vivir en santidad y dar generosamente.",
+                    "ko": "바울이 고린도에 있는 교회에 쓴 두 번째 편지로 이 서신에서 바울은 자신의 사역에 참여하고, 거룩한 삶을 살고, 넉넉히 지원할 것을 촉구한다.",
+                    "pt": "A segunda carta de Paulo à igreja em Corinto, exortando a igreja a permanecer com ele no ministério, a fim de viverem em santidade, e ofertarem generosamente.",
+                    "zh_Hans": "保罗写给哥林多教会的第二封信激励教会在事奉上与他一同站立，过圣洁的生活，并且慷慨的给予。",
+                    "zh_Hant": "保羅寫給哥林多教會的第二封信激勵教會在事奉上與他一同站立，過聖潔的生活，並且慷慨的給予。"
+                },
+                "reference": "bible.68.1.1-68.13.13",
+                "concept": "bk.%SecondEpistleToTheCorinthians_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Church.14",
+                    "bk.#Corinthians"
+                ],
+                "entities": [
+                    "bk.#Timothy",
+                    "bk.$container",
+                    "bk.@Asia",
+                    "bk.@Corinth",
+                    "bk.tle:secondlettercorinthianswritten1",
+                    "bk.tle:secondlettercorinthianswritten2"
+                ],
+                "dateOfCompositionEarly": "date.54",
+                "dateOfCompositionLate": "date.57",
+                "locationsOfComposition": [
+                    "bk.@Ephesus"
+                ],
+                "n_words": 4473,
+                "n_verses": 257,
+                "n_pericopes": 39,
+                "n_chapters": 13,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 66.88049042882386
+            },
+            {
+                "identifier": "bk.ntxt:2timothy",
+                "abbreviation": {
+                    "de": "2Ti",
+                    "en": "2 Ti",
+                    "es": "2 Ti",
+                    "ko": "딤후",
+                    "pt": "2Tm",
+                    "zh_Hans": "提后",
+                    "zh_Hant": "提後"
+                },
+                "titleLong": {
+                    "de": "Zweiter Timotheusbrief",
+                    "en": "Second Epistle to Timothy",
+                    "es": "Segunda epístola a Timoteo",
+                    "ko": "디모데에게 보낸 두 번째 서신",
+                    "pt": "Segunda Epístola a Timóteo",
+                    "zh_Hans": "提摩太后书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "2. Timotheus",
+                    "en": "Second Timothy",
+                    "es": "Segunda Timoteo",
+                    "ko": "디모데후서",
+                    "pt": "Segunda Timóteo",
+                    "zh_Hans": "提摩太后书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Der zweite Pastoralbrief an Timotheus, verfasst von einem Paulus der sich auf seine nahende Hinrichtung einstellt. Der Brief ruft Timotheus auf, treu im Glauben zu bleiben und das Evangelium zu verkünden.",
+                    "en": "The second pastoral letter of Paul to Timothy, written as Paul faces death by execution. The letter urges Timothy to continue in the faith and proclaim the gospel.",
+                    "es": "La segunda carta pastoral de Pablo a Timoteo, escrita mientras Pablo enfrenta la muerte por ejecución. La carta exhorta a Timoteo a continuar en la fe y proclamar el evangelio.",
+                    "ko": "바울이 처형에 직면했을 때 디모데에게 쓴 두 번째 목회 서신. 편지는 디모데에게 믿음을 견지하고 복음을 선포하도록 촉구한다.",
+                    "pt": "A segunda carta pastoral de Paulo a Timóteo, escrita enquanto Paulo está em face da morte por execução. A carta exorta Timóteo a continuar na fé e proclamar o evangelho.",
+                    "zh_Hans": "保罗写给提摩太的第二封教牧书信，是在保罗面临死刑之前所写成。 这封信劝勉提摩太要持守信心并宣扬福音。",
+                    "zh_Hant": "保羅寫給提摩太的第二封教牧書信，是在保羅面臨死刑之前所寫成。 這封信勸勉提摩太要持守信心並宣揚福音。"
+                },
+                "reference": "bible.76.1.1-76.4.22",
+                "concept": "bk.%SecondLetterToTimothy_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Paul"
+                ],
+                "recipients": [
+                    "bk.#Timothy"
+                ],
+                "entities": [
+                    "bk.#Mark.1",
+                    "bk.#Onesiphorus.1",
+                    "bk.tle:firstlettertimothywrittenif",
+                    "bk.tle:secondlettertimothywritten",
+                    "bk.tle:secondlettertimothywritten1"
+                ],
+                "dateOfCompositionEarly": "date.66",
+                "dateOfCompositionLate": "date.67",
+                "locationsOfComposition": [
+                    "bk.@Rome"
+                ],
+                "n_words": 1235,
+                "n_verses": 83,
+                "n_pericopes": 14,
+                "n_chapters": 4,
+                "subkind": {
+                    "de": "Paulinisch",
+                    "en": "Pauline",
+                    "es": "Paulino",
+                    "ko": "바울",
+                    "pt": "Paulino",
+                    "zh_Hans": "保罗书信",
+                    "zh_Hant": "保羅的"
+                },
+                "authorName": "Paul",
+                "value": 35.14256678161116
+            }
+        ],
+        "n_words": 32300,
+        "value": 179.72200755611428
+    },
+    {
+        "name": "Writer of Hebrews",
+        "authorName": "Writer of Hebrews",
+        "description": {
+            "en": "Unknown person writing to Christians of Jewish heritage."
+        },
+        "id": "bk.#WriterHebrews",
+        "children": [
+            {
+                "identifier": "bk.ntxt:hebrews",
+                "abbreviation": {
+                    "de": "Heb",
+                    "en": "Heb",
+                    "es": "He",
+                    "ko": "히",
+                    "pt": "Hb",
+                    "zh_Hans": "来",
+                    "zh_Hant": "來"
+                },
+                "titleLong": {
+                    "de": "Hebräerbrief",
+                    "en": "Epistle to the Hebrews",
+                    "es": "Epístola a los hebreos",
+                    "ko": "히브리 성도들에게 보낸 편지",
+                    "pt": "Epístola aos Hebreus",
+                    "zh_Hans": "希伯来书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "Hebräer",
+                    "en": "Hebrews",
+                    "es": "Hebreos",
+                    "ko": "히브리서",
+                    "pt": "Hebreus",
+                    "zh_Hans": "希伯来书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief, der Christen aufruft, inmitten von Verfolgung treu zu Christus zu stehen. Der Autor konzentriert sich auf die Hinlänglichkeit von Jesus Christus, um den Gläubigen zu erhalten.",
+                    "en": "A letter calling Christians to be faithful to Christ in the midst of persecution. The author focuses on the sufficiency of Jesus Christ to sustain the believer.",
+                    "es": "Una carta llamando a los cristianos a ser fieles a Cristo en medio de la persecución. El autor se centra en la suficiencia de Cristo para sostener al creyente.",
+                    "ko": "그리스도인들에게 핍박 중에서도 그리스도께 신실하게 남아있을 것을 권면하는 서신. 기자는 신자를 능히 붙들어 줄 수 있는 예수 그리스도의 충분성에 초점을 맞춘다.",
+                    "pt": "Uma carta chamando os cristãos para serem fiéis a Cristo no meio da perseguição. O autor enfoca a suficiência de Jesus Cristo para sustentar o crente.",
+                    "zh_Hans": "呼吁基督徒在迫害里忠于基督的一封信。 作者对焦在耶稣基督能支撑信徒的充足性。",
+                    "zh_Hant": "呼籲基督徒在迫害裡忠於基督的一封信。 作者對焦在耶穌基督能支撐信徒的充足性。"
+                },
+                "reference": "bible.79.1.1-79.13.25",
+                "concept": "bk.%EpistleToTheHebrews_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#WriterHebrews"
+                ],
+                "recipients": [
+                    "bk.#Hebrews",
+                    "bk.#addresseeOfHebrews"
+                ],
+                "entities": [
+                    "bk.#Jesus",
+                    "bk.#Melchizedek2.1",
+                    "bk.#personHebrews",
+                    "bk.tle:letterhebrewswritten",
+                    "bk.tle:letterhebrewswritten1"
+                ],
+                "dateOfCompositionEarly": "date.60",
+                "dateOfCompositionLate": "date.90",
+                "n_words": 4935,
+                "n_verses": 303,
+                "n_pericopes": 48,
+                "n_chapters": 13,
+                "authorName": "Writer of Hebrews",
+                "value": 70.24955515873393
+            }
+        ],
+        "n_words": 4935,
+        "value": 70.24955515873393
+    },
+    {
+        "name": "Jude",
+        "authorName": "Jude",
+        "description": {
+            "en": "Jude, the brother of James."
+        },
+        "id": "bk.#Judas.2",
+        "children": [
+            {
+                "identifier": "bk.ntxt:jude",
+                "abbreviation": {
+                    "de": "Jud",
+                    "en": "Jud",
+                    "es": "Jud",
+                    "ko": "유",
+                    "pt": "Jd",
+                    "zh_Hans": "犹",
+                    "zh_Hant": "猶"
+                },
+                "titleLong": {
+                    "de": "Judasbrief",
+                    "en": "Epistle of Jude",
+                    "es": "Epístola de Judas",
+                    "ko": "유다가 쓴 서신",
+                    "pt": "Epístola de Judas",
+                    "zh_Hans": "犹大书",
+                    "zh_Hant": "猶大書"
+                },
+                "titleShort": {
+                    "de": "Judas",
+                    "en": "Jude",
+                    "es": "Judas",
+                    "ko": "유다서",
+                    "pt": "Judas",
+                    "zh_Hans": "犹大书",
+                    "zh_Hant": "猶大書"
+                },
+                "description": {
+                    "de": "Ein Brief von Judas, dem Bruder des Jakobus, der anhand von alttestamentlichen Beispielen vor Irrlehren warnt und die Gemeinde aufruft, sich Frömmigkeit und Liebe zu bewahren. Judas hat vieles mit dem 2. Petrusbrief gemein.",
+                    "en": "A letter from Jude, brother of James, who uses Old Testament examples to warn against false teaching and urges the church to remain godly and loving. Jude shares many parallels with 2 Peter.",
+                    "es": "Una carta de Judas, hermano de Santiago, quien utiliza ejemplos del Antiguo Testamento para advertir contra falsas enseñanzas e insta a la iglesia a permanecer piadosa y amorosa. Judas comparte muchos paralelos con 2 Pedro.",
+                    "ko": "야고보의 형제인 유다가 쓴 편지로, 구약성경의 예들을 사용해 교회에 거짓 가르침을 경고하고 경건과 사랑에서 떠나지 말 것을 촉구한다. 유다서는 많은 부분에서 베드로후서와 유사하다.",
+                    "pt": "Uma carta de Judas, irmão de Tiago, que usa exemplos do Antigo Testamento para alertar contra falso ensinos e exortar a igreja a permanecer piedosa e amorosa. Judas compartilha muitos paralelos com 2 Pedro.",
+                    "zh_Hans": "雅各的弟弟犹大的一封信，他用旧约圣经的例子来警告错误的教导，并敦促教会保持敬虔和爱心。 犹大与彼得后书有许多相似之处。",
+                    "zh_Hant": "雅各的弟弟猶大的一封信，他用舊約聖經的例子來警告錯誤的教導，並敦促教會保持敬虔和愛心。 猶大與彼得後書有許多相似之處。"
+                },
+                "reference": "bible.86.1.1-86.1.25",
+                "concept": "bk.%EpistleOfJude_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Judas.2"
+                ],
+                "recipients": [
+                    "bk.#addresseeOfJude"
+                ],
+                "entities": [
+                    "bk.#personJude",
+                    "bk.tle:letterjudewritten"
+                ],
+                "dateOfCompositionEarly": "date.50",
+                "dateOfCompositionLate": "date.160",
+                "n_words": 459,
+                "n_verses": 25,
+                "n_pericopes": 7,
+                "n_chapters": 1,
+                "authorName": "Jude",
+                "value": 21.42428528562855
+            }
+        ],
+        "n_words": 459,
+        "value": 21.42428528562855
+    },
+    {
+        "name": "James",
+        "authorName": "James",
+        "description": {
+            "en": "Some say the brother of Jesus."
+        },
+        "id": "bk.#James.4",
+        "children": [
+            {
+                "identifier": "bk.ntxt:james",
+                "abbreviation": {
+                    "de": "Jak",
+                    "en": "Jas",
+                    "es": "Stg",
+                    "ko": "약",
+                    "pt": "Tg",
+                    "zh_Hans": "雅",
+                    "zh_Hant": "雅"
+                },
+                "titleLong": {
+                    "de": "Jakobusbrief",
+                    "en": "Epistle of James",
+                    "es": "Epístola de Santiago",
+                    "ko": "야고보가 쓴 서신",
+                    "pt": "Epístola de Tiago",
+                    "zh_Hans": "雅各书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "Jakobus",
+                    "en": "James",
+                    "es": "Santiago",
+                    "ko": "야고보서",
+                    "pt": "Tiago",
+                    "zh_Hans": "雅各书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief an eine unbekannte Gruppe von Christen, der weisheitliche Erkenntnisse zum Leben in Christus enthält. Der Brief stammt möglicherweise von Jesu Bruder Jakobus.",
+                    "en": "A letter to an unknown group of Christians that is full of wisdom on how to live in Christ. The letter may have been written by Jesus’ brother, James.",
+                    "es": "Una carta a un desconocido grupo de cristianos que está llena de consejos sabios sobre cómo vivir en Cristo. La carta puede haber sido escrita por el hermano de Jesús, Santiago.",
+                    "ko": "알려지지 않은 그리스도인 그룹들에게 보낸, 그리스도 안에서 사는 삶에 대한 지혜로 가득한 서신. 아마도 예수의 형제였던 야고보가 기록했을 것이다.",
+                    "pt": "Uma carta a um desconhecido grupo de cristãos que está cheio de sabedoria de como viver em Cristo. A carta pode ter sido escrita pelo irmão de Jesus, Tiago.",
+                    "zh_Hans": "给一群不知名的基督徒的信，其中充满了关于如何在基督里生活的智慧。 这封信可能是耶稣的兄弟雅各写的。",
+                    "zh_Hant": "給一群不知名的基督徒的信，其中充滿了關於如何在基督裡生活的智慧。 這封信可能是耶穌的兄弟雅各寫的。"
+                },
+                "reference": "bible.80.1.1-80.5.20",
+                "concept": "bk.%EpistleOfJames_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#James.4"
+                ],
+                "recipients": [
+                    "bk.#addresseeOfJames"
+                ],
+                "entities": [
+                    "bk.$tongue",
+                    "bk.tle:letterjameswritten",
+                    "bk.tle:letterjameswrittenearly",
+                    "bk.tle:letterjameswrittenlate"
+                ],
+                "dateOfCompositionEarly": "date.44",
+                "dateOfCompositionLate": "date.150",
+                "n_words": 1739,
+                "n_verses": 108,
+                "n_pericopes": 18,
+                "n_chapters": 5,
+                "authorName": "James",
+                "value": 41.701318923986086
+            }
+        ],
+        "n_words": 1739,
+        "value": 41.701318923986086
+    },
+    {
+        "name": "John",
+        "authorName": "John",
+        "description": {
+            "en": "The apostle John, who wrote a gospel, three letters, and Revelation."
+        },
+        "id": "bk.#John",
+        "children": [
+            {
+                "identifier": "bk.ntxt:3john",
+                "abbreviation": {
+                    "de": "3Joh",
+                    "en": "3 Jn",
+                    "es": "3 Jn",
+                    "ko": "요삼",
+                    "pt": "3Jo",
+                    "zh_Hans": "约叁",
+                    "zh_Hant": "約叁"
+                },
+                "titleLong": {
+                    "de": "Dritter Johannesbrief",
+                    "en": "Third Epistle of John",
+                    "es": "Tercera epístola de Juan",
+                    "ko": "요한의 세 번째 서신",
+                    "pt": "Terceira Epístola de João",
+                    "zh_Hans": "约翰三书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "3. Johannes",
+                    "en": "Third John",
+                    "es": "Tercera Juan",
+                    "ko": "요한 3서",
+                    "pt": "Terceira João",
+                    "zh_Hans": "约翰三书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Das kürzeste Buch des Neuen Testaments. Traditionell dem Apostel Johannes zugeschrieben, schreibt darin “der Älteste” einem Gaius. Er kritisiert einen gewissen Diotrephes für sein schädliches Wirken, und ruft zu Liebe und Wahrhaftigkeit auf.",
+                    "en": "The shortest book of the New Testament. Written to Gaius by “the Elder,” traditionally known as the Apostle John. The letter condemns a leader named Diotrephes for his divisive ways and continues the Johannine emphasis on love.",
+                    "es": "La carta más corta del Nuevo Testamento. Escrita a Gayo por “el anciano”, tradicionalmente conocido como el apóstol Juan. La carta condena a un líder llamado Diótrefes por sus acciones que causaban división y continúa el énfasis juanino sobre el amor.",
+                    "ko": "신약성경의 가장 짧은 책. 전통적으로 사도 요한으로 알려진 ”장로”가 가이오에게 썼다. 편지는 디오드레베라고 불리는 지도자의 분열을 일으키는 행동을 책망하고 사랑에 대한 요한의 강조를 계속하고 있다.",
+                    "pt": "O menor livro do Novo Testamento. Escritos a Gaio, por “o Presbítero,” tradicionalmente conhecido como o Apóstolo João. A letra condena um líder chamado Diótrefes pelo seus caminhos divisionista e continua a ênfase joanino sobre o amor.",
+                    "zh_Hans": "新约最短的书信。 由“长老”（传统上称为使徒约翰）写给该犹。 这封信谴责一位名叫丢特腓领袖的分裂方式，并继续约翰对爱的强调。",
+                    "zh_Hant": "新約最短的書信。 由“長老”（傳統上稱為使徒約翰）寫給該猶。 這封信譴責一位名叫丟特腓領袖的分裂方式，並繼續約翰對愛的強調。"
+                },
+                "reference": "bible.85.1.1-85.1.15",
+                "concept": "bk.%ThirdEpistleOfJohn_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#John"
+                ],
+                "recipients": [
+                    "bk.#addresseesOfPeter"
+                ],
+                "entities": [
+                    "bk.#Diotrephes.1",
+                    "bk.#Gaius.4",
+                    "bk.tle:lettersjohnwritten"
+                ],
+                "dateOfCompositionEarly": "date.85",
+                "dateOfCompositionLate": "date.100",
+                "locationsOfComposition": [
+                    "bk.@Ephesus"
+                ],
+                "n_words": 219,
+                "n_verses": 15,
+                "n_pericopes": 4,
+                "n_chapters": 1,
+                "subkind": {
+                    "de": "Johanneisch",
+                    "en": "Johannine",
+                    "es": "Juanino",
+                    "ko": "요한",
+                    "pt": "Joanino",
+                    "zh_Hans": "约翰书信",
+                    "zh_Hant": "約翰的"
+                },
+                "authorName": "John",
+                "value": 14.798648586948742
+            },
+            {
+                "identifier": "bk.ntxt:2john",
+                "abbreviation": {
+                    "de": "2Joh",
+                    "en": "2 Jn",
+                    "es": "2 Jn",
+                    "ko": "요이",
+                    "pt": "2Jo",
+                    "zh_Hans": "约貳",
+                    "zh_Hant": "約貳"
+                },
+                "titleLong": {
+                    "de": "Zweiter Johannesbrief",
+                    "en": "Second Epistle of John",
+                    "es": "Segunda epístola de Juan",
+                    "ko": "요한의 두 번째 편지",
+                    "pt": "Segunda Epístola de João",
+                    "zh_Hans": "约翰二书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "2. Johannes",
+                    "en": "Second John",
+                    "es": "Segunda Juan",
+                    "ko": "요한이서",
+                    "pt": "Segunda João",
+                    "zh_Hans": "约翰二书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief “des Ältesten” – traditionell mit dem Apostel Johannes identifiziert – an die “ausgewählte Herrin und ihre Kinder” bespricht Gastfreundschaft, Gemeinschaft und gesunde Lehre.",
+                    "en": "A letter from “the Elder”—traditionally known as the Apostle John—to the “elect lady and her children” focusing on hospitality, fellowship, and sound doctrine.",
+                    "es": "Una carta de “el anciano”, tradicionalmente conocido como el apóstol Juan —a la “señora elegida y a sus hijos” centrándose en la hospitalidad, el compañerismo y la sana doctrina.",
+                    "ko": "환대와 교제와 바른 가르침에 초점을 두고, 전통적으로 사도 요한이라고 알려진 ”장로”가 ”택하심을 받은 부녀와 그녀의 자녀들”에게 쓴 편지.",
+                    "pt": "Uma carta de “o presbítero” — tradicionalmente conhecido como o Apóstolo João — para a “senhora eleita e seus filhos” focando na sã doutrina, comunhão e hospitalidade.",
+                    "zh_Hans": "一封信来自”长老”的信— — 传统上认为是使徒约翰 — — 写给”蒙拣选的太太和她的儿女”专注于接待 、团契和纯正的教义。",
+                    "zh_Hant": "一封信來自”長老”的信— — 傳統上認為是使徒約翰 — — 寫給”蒙揀選的太太和她的兒女”專注於接待 、團契和純正的教義。"
+                },
+                "reference": "bible.84.1.1-84.1.13",
+                "concept": "bk.%SecondEpistleOfJohn_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#John"
+                ],
+                "recipients": [
+                    "bk.#Woman.22",
+                    "bk.#addresseeOfJohn"
+                ],
+                "entities": [
+                    "bk.#teacherFalse",
+                    "bk.tle:lettersjohnwritten"
+                ],
+                "dateOfCompositionEarly": "date.85",
+                "dateOfCompositionLate": "date.100",
+                "locationsOfComposition": [
+                    "bk.@Ephesus"
+                ],
+                "n_words": 245,
+                "n_verses": 13,
+                "n_pericopes": 4,
+                "n_chapters": 1,
+                "subkind": {
+                    "de": "Johanneisch",
+                    "en": "Johannine",
+                    "es": "Juanino",
+                    "ko": "요한",
+                    "pt": "Joanino",
+                    "zh_Hans": "约翰书信",
+                    "zh_Hant": "約翰的"
+                },
+                "authorName": "John",
+                "value": 15.652475842498529
+            },
+            {
+                "identifier": "bk.ntxt:1john",
+                "abbreviation": {
+                    "de": "1Joh",
+                    "en": "1 Jn",
+                    "es": "1 Jn",
+                    "ko": "요일",
+                    "pt": "1Jo",
+                    "zh_Hans": "约壹",
+                    "zh_Hant": "約壹"
+                },
+                "titleLong": {
+                    "de": "Erster Johannesbrief",
+                    "en": "First Epistle of John",
+                    "es": "Primera epístola de Juan",
+                    "ko": "요한의 첫 서신",
+                    "pt": "Primeira Epístola de João",
+                    "zh_Hans": "约翰一书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "1. Johannes",
+                    "en": "First John",
+                    "es": "Primera Juan",
+                    "ko": "요한일서",
+                    "pt": "Primeira João",
+                    "zh_Hans": "约翰一书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief, der vermutlich vom Apostel Johannes stammt und sich an eine christliche Gruppe richtet, die sich mit Irrlehren auseinanderzusetzen hatten. Seine Botschaft bekräftigt die Menschwerdung Christi und ermutigt die Christen, in Liebe zu leben.",
+                    "en": "A letter, probably written by the apostle John, to a group of Christians confronted by heresy. The message affirms the incarnation and encourages Christians to live in love.",
+                    "es": "Una carta, probablemente escrita por el apóstol Juan, a un grupo de cristianos confrontados por herejías. El mensaje afirma la encarnación de Cristo y anima a los cristianos a vivir en amor.",
+                    "ko": "이단에 직면한 어느 그리스도인 모임에 아마 사도 요한이 기록한 편지. 성육신을 확언하고 사랑 안에서 살도록 그리스도인을 격려하는 내용이다.",
+                    "pt": "Uma carta, provavelmente escrita pelo Apóstolo João, a um grupo de cristãos confrontado por heresia. A mensagem afirma a encarnação e incentiva os cristãos a viver no amor.",
+                    "zh_Hans": "一封很有可能是由使徒约翰写给一群面临异端邪说的基督徒的书信。它的信息确认道成肉身并鼓励基督徒住在爱里。",
+                    "zh_Hant": "一封很有可能是由使徒約翰寫給一群面臨異端邪說的基督徒的書信。它的信息確認道成肉身並鼓勵基督徒住在愛裡。"
+                },
+                "reference": "bible.83.1.1-83.5.21",
+                "concept": "bk.%FirstEpistleOfJohn_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#John"
+                ],
+                "recipients": [
+                    "bk.#addresseeOfJohn"
+                ],
+                "entities": [
+                    "bk.#AntiChrist",
+                    "bk.#God",
+                    "bk.tle:lettersjohnwritten"
+                ],
+                "dateOfCompositionEarly": "date.85",
+                "dateOfCompositionLate": "date.100",
+                "locationsOfComposition": [
+                    "bk.@Ephesus"
+                ],
+                "n_words": 2137,
+                "n_verses": 105,
+                "n_pericopes": 19,
+                "n_chapters": 5,
+                "subkind": {
+                    "de": "Johanneisch",
+                    "en": "Johannine",
+                    "es": "Juanino",
+                    "ko": "요한",
+                    "pt": "Joanino",
+                    "zh_Hans": "约翰书信",
+                    "zh_Hant": "約翰的"
+                },
+                "authorName": "John",
+                "value": 46.22769732530488
+            }
+        ],
+        "n_words": 2601,
+        "value": 51
+    },
+    {
+        "name": "Peter",
+        "authorName": "Peter",
+        "description": {
+            "en": "One of the original 12 disciples and leader of the church in Jerusalem."
+        },
+        "id": "bk.#Peter",
+        "children": [
+            {
+                "identifier": "bk.ntxt:1peter",
+                "abbreviation": {
+                    "de": "1Pe",
+                    "en": "1 Pe",
+                    "es": "1 P",
+                    "ko": "벧전",
+                    "pt": "1Pe",
+                    "zh_Hans": "彼前",
+                    "zh_Hant": "彼前"
+                },
+                "titleLong": {
+                    "de": "Erster Petrusbrief",
+                    "en": "First Epistle of Peter",
+                    "es": "Primera epístola de Pedro",
+                    "ko": "베드로의 첫 서신",
+                    "pt": "Primeira Epístola de Pedro",
+                    "zh_Hans": "彼得前书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "1. Petrus",
+                    "en": "First Peter",
+                    "es": "Primera Pedro",
+                    "ko": "베드로전서",
+                    "pt": "Primeira de Pedro",
+                    "zh_Hans": "彼得前书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief, der die zerstreuten Christen dazu ermutigen will, sich durch alles Leid hindurch die Hoffnung zu bewahren.",
+                    "en": "A letter written to encourage the scattered Christians to maintain hope while suffering.",
+                    "es": "Una carta escrita para alentar a los cristianos dispersos a mantener la esperanza en medio del sufrimiento.",
+                    "ko": "흩어진 그리스도인들이 고통 가운데 소망을 지키도록 격려하는 편지.",
+                    "pt": "Uma carta escrita para encorajar os cristãos dispersos a manterem a esperança enquanto sofriam.",
+                    "zh_Hans": "一封写来鼓励散居的基督徒在患难中要保持盼望的信。",
+                    "zh_Hant": "一封寫來鼓勵散居的基督徒在患難中要保持盼望的信。"
+                },
+                "reference": "bible.81.1.1-81.5.14",
+                "concept": "bk.%FirstEpistleOfPeter_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Peter"
+                ],
+                "recipients": [
+                    "bk.#addresseesOfPeter"
+                ],
+                "entities": [
+                    "bk.$cornerstone",
+                    "bk.$milk",
+                    "bk.tle:firstletterpeterwritten",
+                    "bk.tle:firstletterpeterwritten1"
+                ],
+                "dateOfCompositionEarly": "date.60",
+                "dateOfCompositionLate": "date.64",
+                "locationsOfComposition": [
+                    "bk.@Rome"
+                ],
+                "n_words": 1678,
+                "n_verses": 105,
+                "n_pericopes": 18,
+                "n_chapters": 5,
+                "subkind": {
+                    "de": "Petrinisch",
+                    "en": "Petrine",
+                    "es": "Pedrino",
+                    "ko": "베드로",
+                    "pt": "Petrino",
+                    "zh_Hans": "彼得书信",
+                    "zh_Hant": "彼得的"
+                },
+                "authorName": "Peter",
+                "value": 40.963398296528084
+            },
+            {
+                "identifier": "bk.ntxt:2peter",
+                "abbreviation": {
+                    "de": "2Pe",
+                    "en": "2 Pe",
+                    "es": "2 P",
+                    "ko": "벧후",
+                    "pt": "2Pe",
+                    "zh_Hans": "彼后",
+                    "zh_Hant": "彼後"
+                },
+                "titleLong": {
+                    "de": "Zweiter Petrusbrief",
+                    "en": "Second Epistle of Peter",
+                    "es": "Segunda epístola de Pedro",
+                    "ko": "베드로의 두 번째 서신",
+                    "pt": "Segunda Epístola de Pedro",
+                    "zh_Hans": "彼得后书",
+                    "zh_Hant": ""
+                },
+                "titleShort": {
+                    "de": "2. Petrus",
+                    "en": "Second Peter",
+                    "es": "Segunda Pedro",
+                    "ko": "베드로후서",
+                    "pt": "Segunda Pedro",
+                    "zh_Hans": "彼得后书",
+                    "zh_Hant": ""
+                },
+                "description": {
+                    "de": "Ein Brief, der vor Irrlehrern warnt und an die Rückkehr Christi erinnert. Er hat vieles mit dem Judasbrief gemein.",
+                    "en": "A letter containing warnings about false teachers and reminders about Christ’s return. It shares many parallels with Jude.",
+                    "es": "Una carta conteniendo advertencias sobre los falsos maestros y recordatorios acerca del regreso de Cristo. Comparte muchos paralelos con Judas.",
+                    "ko": "거짓 교사들에 대한 경고와 그리스도의 재림에 대한 주의들을 포함된 편지. 유다서와 많은 유사점을 공유한다.",
+                    "pt": "Uma carta contendo advertências sobre falsos mestres e lembranças sobre a volta de Cristo. Ela compartilha muitos paralelos com Judas.",
+                    "zh_Hans": "一封关于基督再来的假教师警告和提醒的书信。它与犹大书有许多相似之处。",
+                    "zh_Hant": "一封關於基督再來的假教師警告和提醒的書信。它與猶大書有許多相似之處。"
+                },
+                "reference": "bible.82.1.1-82.3.18",
+                "concept": "bk.%SecondEpistleOfPeter_Writing",
+                "kind": {
+                    "de": "Gemeindebrief",
+                    "en": "Church Epistle",
+                    "es": "Epístola de la iglesia",
+                    "ko": "교회 서신",
+                    "pt": "Epístola de igreja",
+                    "zh_Hans": "教会书信",
+                    "zh_Hant": ""
+                },
+                "authors": [
+                    "bk.#Peter"
+                ],
+                "recipients": [
+                    "bk.#addresseesOfPeter"
+                ],
+                "entities": [
+                    "bk.#teacherFalse",
+                    "bk.$dog",
+                    "bk.$vomit",
+                    "bk.tle:booksecondpeter",
+                    "bk.tle:secondletterpeterwritten",
+                    "bk.tle:secondletterpeterwrittenlate"
+                ],
+                "dateOfCompositionEarly": "date.60",
+                "dateOfCompositionLate": "date.150",
+                "locationsOfComposition": [
+                    "bk.@Rome"
+                ],
+                "n_words": 1098,
+                "n_verses": 61,
+                "n_pericopes": 11,
+                "n_chapters": 3,
+                "subkind": {
+                    "de": "Petrinisch",
+                    "en": "Petrine",
+                    "es": "Pedrino",
+                    "ko": "베드로",
+                    "pt": "Petrino",
+                    "zh_Hans": "彼得书信",
+                    "zh_Hant": "彼得的"
+                },
+                "authorName": "Peter",
+                "value": 33.13608305156178
+            }
+        ],
+        "n_words": 2776,
+        "value": 52.687759489277965
+    }
+]
