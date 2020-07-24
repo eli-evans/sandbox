@@ -1,0 +1,2677 @@
+[
+    {
+        "name": "Internal Self",
+        "id": "ct.InternalSelf",
+        "guid": 1,
+        "parents": [],
+        "value": 43,
+        "children": [
+            {
+                "name": "Abandonment",
+                "id": "ct.Abandonment",
+                "guid": 9,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Adjustment Disorder",
+                "id": "ct.AdjustmentDisorder",
+                "guid": 10,
+                "parents": [
+                    "ct.InternalSelf",
+                    "ct.Depression"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Creativity",
+                "id": "ct.Creativity",
+                "guid": 28,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Decision Making",
+                "id": "ct.Decision",
+                "guid": 30,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Dissociation",
+                "id": "ct.Dissociation",
+                "guid": 37,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Empathy",
+                "id": "ct.Empathy",
+                "guid": 41,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Failure",
+                "id": "ct.Failure",
+                "guid": 45,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Gambling",
+                "id": "ct.Gambling",
+                "guid": 53,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Habits",
+                "id": "ct.Habit",
+                "guid": 59,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Identity",
+                "id": "ct.Identity",
+                "guid": 66,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 5,
+                "children": [
+                    {
+                        "name": "Gender",
+                        "id": "ct.Gender",
+                        "guid": 212,
+                        "parents": [
+                            "ct.Identity"
+                        ],
+                        "value": 5,
+                        "children": [
+                            {
+                                "name": "Gender Dysphoria",
+                                "id": "ct.GenderDysphoria",
+                                "guid": 213,
+                                "parents": [
+                                    "ct.Gender"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Intersex",
+                                "id": "ct.Intersex",
+                                "guid": 223,
+                                "parents": [
+                                    "ct.Gender"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Men",
+                                "id": "ct.Male",
+                                "guid": 225,
+                                "parents": [
+                                    "ct.Gender"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Cisgender",
+                                "id": "ct.Cisgender",
+                                "guid": 252,
+                                "parents": [
+                                    "ct.Gender"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Women",
+                                "id": "ct.Female",
+                                "guid": 254,
+                                "parents": [
+                                    "ct.Gender"
+                                ],
+                                "value": 1,
+                                "children": [
+                                    {
+                                        "name": "Menopause",
+                                        "id": "ct.Menopause",
+                                        "guid": 256,
+                                        "parents": [
+                                            "ct.Aging",
+                                            "ct.Female"
+                                        ],
+                                        "value": 1,
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Intelligence",
+                "id": "ct.Intelligence",
+                "guid": 69,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 3,
+                "children": [
+                    {
+                        "name": "Learning Disability",
+                        "id": "ct.LearningDisability",
+                        "guid": 74,
+                        "parents": [
+                            "ct.Intelligence"
+                        ],
+                        "value": 3,
+                        "children": [
+                            {
+                                "name": "Attention Deficit Hyperactivity Disorder",
+                                "id": "ct.Adhd",
+                                "guid": 166,
+                                "parents": [
+                                    "ct.LearningDisability"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Down Syndrome",
+                                "id": "ct.DownSyndrome",
+                                "guid": 205,
+                                "parents": [
+                                    "ct.Physical",
+                                    "ct.LearningDisability"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Dyslexia",
+                                "id": "ct.Dyslexia",
+                                "guid": 207,
+                                "parents": [
+                                    "ct.LearningDisability"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Memory",
+                "id": "ct.Memory",
+                "guid": 84,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Optimism",
+                "id": "ct.Optimism",
+                "guid": 90,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Perfectionism",
+                "id": "ct.Perfectionism",
+                "guid": 99,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Personality",
+                "id": "ct.Personality",
+                "guid": 100,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Personality Disorder",
+                "id": "ct.PersonalityDisorder",
+                "guid": 101,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 4,
+                "children": [
+                    {
+                        "name": "Antisocial Personality Disorder",
+                        "id": "ct.Antisocial",
+                        "guid": 173,
+                        "parents": [
+                            "ct.PersonalityDisorder"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Borderline Personality Disorder",
+                        "id": "ct.Borderline",
+                        "guid": 185,
+                        "parents": [
+                            "ct.PersonalityDisorder"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Dependent Personality Disorder",
+                        "id": "ct.DependentDisorder",
+                        "guid": 198,
+                        "parents": [
+                            "ct.Dependency",
+                            "ct.PersonalityDisorder"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Narcissism",
+                        "id": "ct.Narcissism",
+                        "guid": 228,
+                        "parents": [
+                            "ct.Selfish",
+                            "ct.PersonalityDisorder"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Pessimism",
+                "id": "ct.Pessimism",
+                "guid": 102,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Prejudice",
+                "id": "ct.Prejudice",
+                "guid": 108,
+                "parents": [
+                    "ct.InternalSelf",
+                    "ct.Hatred"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Purpose",
+                "id": "ct.Purpose",
+                "guid": 112,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Self-esteem",
+                "id": "ct.SelfEsteem",
+                "guid": 122,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Body Image",
+                        "id": "ct.BodyImage",
+                        "guid": 184,
+                        "parents": [
+                            "ct.SelfEsteem"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Body Dysmorphia",
+                                "id": "ct.BodyDysmorphia",
+                                "guid": 251,
+                                "parents": [
+                                    "ct.BodyImage"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inferiority Complex",
+                        "id": "ct.Inferiority",
+                        "guid": 219,
+                        "parents": [
+                            "ct.SelfEsteem"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Self-Worth",
+                "id": "ct.SelfWorth",
+                "guid": 124,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Selfishness",
+                "id": "ct.Selfish",
+                "guid": 125,
+                "parents": [
+                    "ct.InternalSelf",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Narcissism",
+                        "id": "ct.Narcissism",
+                        "guid": 227,
+                        "parents": [
+                            "ct.Selfish",
+                            "ct.PersonalityDisorder"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Shyness",
+                "id": "ct.Shy",
+                "guid": 133,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Sympathy",
+                "id": "ct.Sympathy",
+                "guid": 145,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Trauma",
+                "id": "ct.Trauma",
+                "guid": 153,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 8,
+                "children": [
+                    {
+                        "name": "Abuse",
+                        "id": "ct.Abuse",
+                        "guid": 164,
+                        "parents": [
+                            "ct.Trauma"
+                        ],
+                        "value": 6,
+                        "children": [
+                            {
+                                "name": "Domestic Abuse",
+                                "id": "ct.DomesticAbuse",
+                                "guid": 203,
+                                "parents": [
+                                    "ct.Abuse"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Emotional Abuse",
+                                "id": "ct.EmotionalAbuse",
+                                "guid": 208,
+                                "parents": [
+                                    "ct.Abuse"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Neglect",
+                                "id": "ct.Neglect",
+                                "guid": 230,
+                                "parents": [
+                                    "ct.ChildhoodTrauma",
+                                    "ct.Abuse"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Physical Abuse",
+                                "id": "ct.PhysicalAbuse",
+                                "guid": 233,
+                                "parents": [
+                                    "ct.Abuse"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Sexual Abuse",
+                                "id": "ct.SexualAbuse",
+                                "guid": 241,
+                                "parents": [
+                                    "ct.Abuse"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Victimization",
+                                "id": "ct.Victimization",
+                                "guid": 245,
+                                "parents": [
+                                    "ct.Abuse"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Childhood Trauma",
+                        "id": "ct.ChildhoodTrauma",
+                        "guid": 190,
+                        "parents": [
+                            "ct.Trauma"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Neglect",
+                                "id": "ct.Neglect",
+                                "guid": 229,
+                                "parents": [
+                                    "ct.ChildhoodTrauma",
+                                    "ct.Abuse"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Post-traumatic Stress Disorder",
+                        "id": "ct.PostTraumaticStressDisorder",
+                        "guid": 235,
+                        "parents": [
+                            "ct.Trauma",
+                            "ct.Stress"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Wisdom",
+                "id": "ct.Wisdom",
+                "guid": 159,
+                "parents": [
+                    "ct.InternalSelf"
+                ],
+                "value": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "Mood",
+        "id": "ct.Mood",
+        "guid": 2,
+        "parents": [],
+        "value": 37,
+        "children": [
+            {
+                "name": "Anger",
+                "id": "ct.Anger",
+                "guid": 12,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 3,
+                "children": [
+                    {
+                        "name": "Bitterness",
+                        "id": "ct.Bitterness",
+                        "guid": 17,
+                        "parents": [
+                            "ct.Anger"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Hatred",
+                        "id": "ct.Hatred",
+                        "guid": 61,
+                        "parents": [
+                            "ct.Anger"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Prejudice",
+                                "id": "ct.Prejudice",
+                                "guid": 109,
+                                "parents": [
+                                    "ct.InternalSelf",
+                                    "ct.Hatred"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Revenge",
+                        "id": "ct.Revenge",
+                        "guid": 116,
+                        "parents": [
+                            "ct.Anger"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Anxiety",
+                "id": "ct.Anxiety",
+                "guid": 14,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Panic Attack",
+                        "id": "ct.PanicAttack",
+                        "guid": 93,
+                        "parents": [
+                            "ct.Fear",
+                            "ct.Anxiety"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Agoraphobia",
+                        "id": "ct.Agoraphobia",
+                        "guid": 170,
+                        "parents": [
+                            "ct.Fear",
+                            "ct.Anxiety"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Cognitive Disorder",
+                "id": "ct.CognitiveDisorder",
+                "guid": 22,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Compulsion",
+                "id": "ct.Compulsion",
+                "guid": 25,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Tourette Syndrome",
+                        "id": "ct.Tourettes",
+                        "guid": 152,
+                        "parents": [
+                            "ct.Physical",
+                            "ct.Compulsion"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Conscience",
+                "id": "ct.Conscience",
+                "guid": 27,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Guilt",
+                        "id": "ct.Guilt",
+                        "guid": 58,
+                        "parents": [
+                            "ct.Conscience"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Shame",
+                        "id": "ct.Shame",
+                        "guid": 132,
+                        "parents": [
+                            "ct.Conscience"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Discouragement",
+                "id": "ct.Discouragement",
+                "guid": 36,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Eating disorder",
+                "id": "ct.EatingDisorders",
+                "guid": 40,
+                "parents": [
+                    "ct.Physical",
+                    "ct.Mood"
+                ],
+                "value": 4,
+                "children": [
+                    {
+                        "name": "Other Specified Feeding or Eating Disorders",
+                        "id": "ct.Osfed",
+                        "guid": 91,
+                        "parents": [
+                            "ct.EatingDisorders"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Anorexia",
+                        "id": "ct.Anorexia",
+                        "guid": 172,
+                        "parents": [
+                            "ct.EatingDisorders"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Binge Eating Disorder",
+                        "id": "ct.BingeEating",
+                        "guid": 181,
+                        "parents": [
+                            "ct.EatingDisorders"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Bulimia",
+                        "id": "ct.Bulimia",
+                        "guid": 186,
+                        "parents": [
+                            "ct.EatingDisorders"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Fear",
+                "id": "ct.Fear",
+                "guid": 48,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 4,
+                "children": [
+                    {
+                        "name": "Panic Attack",
+                        "id": "ct.PanicAttack",
+                        "guid": 92,
+                        "parents": [
+                            "ct.Fear",
+                            "ct.Anxiety"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Agoraphobia",
+                        "id": "ct.Agoraphobia",
+                        "guid": 169,
+                        "parents": [
+                            "ct.Fear",
+                            "ct.Anxiety"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Arachnophobia",
+                        "id": "ct.Arachnophobia",
+                        "guid": 174,
+                        "parents": [
+                            "ct.Fear"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Claustrophobia",
+                        "id": "ct.Claustrophobia",
+                        "guid": 192,
+                        "parents": [
+                            "ct.Fear"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Grief",
+                "id": "ct.Grief",
+                "guid": 57,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Bereavement",
+                        "id": "ct.Bereavement",
+                        "guid": 179,
+                        "parents": [
+                            "ct.Grief",
+                            "ct.Death"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Happiness",
+                "id": "ct.Happiness",
+                "guid": 60,
+                "parents": [
+                    "ct.Mood",
+                    "ct.SpiritualGifts"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Hope",
+                "id": "ct.Hope",
+                "guid": 62,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Humility",
+                "id": "ct.Humility",
+                "guid": 64,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Jealousy",
+                "id": "ct.Jealousy",
+                "guid": 70,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Laziness",
+                "id": "ct.Laziness",
+                "guid": 72,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Loneliness",
+                "id": "ct.Loneliness",
+                "guid": 75,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Mood Disorder",
+                "id": "ct.MoodDisorder",
+                "guid": 87,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 5,
+                "children": [
+                    {
+                        "name": "Depression",
+                        "id": "ct.Depression",
+                        "guid": 199,
+                        "parents": [
+                            "ct.MoodDisorder"
+                        ],
+                        "value": 5,
+                        "children": [
+                            {
+                                "name": "Holiday Depression",
+                                "id": "ct.HolidayDepression",
+                                "guid": 216,
+                                "parents": [
+                                    "ct.Depression"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Postpartum Depression",
+                                "id": "ct.Postpartum",
+                                "guid": 238,
+                                "parents": [
+                                    "ct.Pregnancy",
+                                    "ct.Depression"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Seasonal Affective Disorder",
+                                "id": "ct.SeasonAffect",
+                                "guid": 239,
+                                "parents": [
+                                    "ct.Depression"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Adjustment Disorder",
+                                "id": "ct.AdjustmentDisorder",
+                                "guid": 248,
+                                "parents": [
+                                    "ct.InternalSelf",
+                                    "ct.Depression"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Bipolar Disorder",
+                                "id": "ct.Bipolar",
+                                "guid": 250,
+                                "parents": [
+                                    "ct.Depression",
+                                    "ct.Mania"
+                                ],
+                                "value": 1,
+                                "children": [
+                                    {
+                                        "name": "Mania",
+                                        "id": "ct.Mania",
+                                        "guid": 255,
+                                        "parents": [
+                                            "ct.Bipolar"
+                                        ],
+                                        "value": 1,
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Patience",
+                "id": "ct.Patience",
+                "guid": 95,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Peace",
+                "id": "ct.Peace",
+                "guid": 97,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Pride",
+                "id": "ct.Pride",
+                "guid": 110,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Sadness",
+                "id": "ct.Sadness",
+                "guid": 117,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Self-Control",
+                "id": "ct.SelfControl",
+                "guid": 120,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Stress",
+                "id": "ct.Stress",
+                "guid": 141,
+                "parents": [
+                    "ct.Mood"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Burnout",
+                        "id": "ct.Burnout",
+                        "guid": 187,
+                        "parents": [
+                            "ct.Stress"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Post-traumatic Stress Disorder",
+                        "id": "ct.PostTraumaticStressDisorder",
+                        "guid": 236,
+                        "parents": [
+                            "ct.Trauma",
+                            "ct.Stress"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Miscellaneous Counseling Topics",
+        "id": "ct.Other",
+        "guid": 3,
+        "parents": [],
+        "value": 5,
+        "children": [
+            {
+                "name": "Approval Seeking",
+                "id": "ct.ApprovalSeeking",
+                "guid": 16,
+                "parents": [
+                    "ct.Other"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Caregiving",
+                "id": "ct.Caregiving",
+                "guid": 19,
+                "parents": [
+                    "ct.Other"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Entertainment",
+                "id": "ct.Entertainment",
+                "guid": 43,
+                "parents": [
+                    "ct.Other"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Time Management",
+                "id": "ct.Time",
+                "guid": 150,
+                "parents": [
+                    "ct.Other"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "War",
+                "id": "ct.War",
+                "guid": 157,
+                "parents": [
+                    "ct.Other"
+                ],
+                "value": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "Physical",
+        "id": "ct.Physical",
+        "guid": 4,
+        "parents": [],
+        "value": 41,
+        "children": [
+            {
+                "name": "Aging",
+                "id": "ct.Aging",
+                "guid": 11,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 10,
+                "children": [
+                    {
+                        "name": "Childhood Development",
+                        "id": "ct.Development",
+                        "guid": 33,
+                        "parents": [
+                            "ct.Aging"
+                        ],
+                        "value": 7,
+                        "children": [
+                            {
+                                "name": "Separation Anxiety",
+                                "id": "ct.SeparationAnxiety",
+                                "guid": 127,
+                                "parents": [
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Sibling Rivalry",
+                                "id": "ct.SiblingRivalry",
+                                "guid": 135,
+                                "parents": [
+                                    "ct.Parental",
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Adolescence",
+                                "id": "ct.Adolescence",
+                                "guid": 167,
+                                "parents": [
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Autism",
+                                "id": "ct.Autism",
+                                "guid": 178,
+                                "parents": [
+                                    "ct.PhysicalDisabilities",
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Adolescent Rebellion",
+                                "id": "ct.ChildRebellion",
+                                "guid": 188,
+                                "parents": [
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Childhood",
+                                "id": "ct.Childhood",
+                                "guid": 189,
+                                "parents": [
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Juvenile Delinquency",
+                                "id": "ct.Delinquency",
+                                "guid": 196,
+                                "parents": [
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Menopause",
+                        "id": "ct.Menopause",
+                        "guid": 85,
+                        "parents": [
+                            "ct.Aging",
+                            "ct.Female"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Midlife Crisis",
+                        "id": "ct.MidlifeCrisis",
+                        "guid": 86,
+                        "parents": [
+                            "ct.Aging"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Old Age",
+                        "id": "ct.OldAge",
+                        "guid": 89,
+                        "parents": [
+                            "ct.Aging"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Death",
+                "id": "ct.Death",
+                "guid": 29,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Terminal Illness",
+                        "id": "ct.TerminalIllness",
+                        "guid": 147,
+                        "parents": [
+                            "ct.Death",
+                            "ct.Illness"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Bereavement",
+                        "id": "ct.Bereavement",
+                        "guid": 180,
+                        "parents": [
+                            "ct.Grief",
+                            "ct.Death"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Down Syndrome",
+                "id": "ct.DownSyndrome",
+                "guid": 38,
+                "parents": [
+                    "ct.Physical",
+                    "ct.LearningDisability"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Eating disorder",
+                "id": "ct.EatingDisorders",
+                "guid": 39,
+                "parents": [
+                    "ct.Physical",
+                    "ct.Mood"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Illness",
+                "id": "ct.Illness",
+                "guid": 68,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Terminal Illness",
+                        "id": "ct.TerminalIllness",
+                        "guid": 148,
+                        "parents": [
+                            "ct.Death",
+                            "ct.Illness"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Chronic Pain",
+                        "id": "ct.ChronicPain",
+                        "guid": 191,
+                        "parents": [
+                            "ct.Illness"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Medication",
+                "id": "ct.Medication",
+                "guid": 83,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Physical Disabilities",
+                "id": "ct.PhysicalDisabilities",
+                "guid": 103,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 3,
+                "children": [
+                    {
+                        "name": "Autism",
+                        "id": "ct.Autism",
+                        "guid": 177,
+                        "parents": [
+                            "ct.PhysicalDisabilities",
+                            "ct.Development"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Dementia",
+                        "id": "ct.Dementia",
+                        "guid": 197,
+                        "parents": [
+                            "ct.PhysicalDisabilities"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Alzheimer’s Disease",
+                                "id": "ct.Alzheimers",
+                                "guid": 249,
+                                "parents": [
+                                    "ct.Dementia"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Disability",
+                        "id": "ct.Disability",
+                        "guid": 200,
+                        "parents": [
+                            "ct.PhysicalDisabilities"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Pregnancy",
+                "id": "ct.Pregnancy",
+                "guid": 106,
+                "parents": [
+                    "ct.Physical",
+                    "ct.Parental"
+                ],
+                "value": 5,
+                "children": [
+                    {
+                        "name": "Abortion",
+                        "id": "ct.Abortion",
+                        "guid": 162,
+                        "parents": [
+                            "ct.Pregnancy"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Birth Control",
+                        "id": "ct.BirthControl",
+                        "guid": 182,
+                        "parents": [
+                            "ct.Pregnancy"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Abstinence",
+                                "id": "ct.Abstinence",
+                                "guid": 246,
+                                "parents": [
+                                    "ct.BirthControl",
+                                    "ct.SexEducation",
+                                    "ct.SexualPurity"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Infertility",
+                        "id": "ct.Infertility",
+                        "guid": 220,
+                        "parents": [
+                            "ct.Pregnancy"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Miscarriage",
+                        "id": "ct.Miscarriage",
+                        "guid": 226,
+                        "parents": [
+                            "ct.Pregnancy"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Postpartum Depression",
+                        "id": "ct.Postpartum",
+                        "guid": 237,
+                        "parents": [
+                            "ct.Pregnancy",
+                            "ct.Depression"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Self-harm",
+                "id": "ct.SelfHarm",
+                "guid": 123,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Sex and Sexuality",
+                "id": "ct.SexSexuality",
+                "guid": 128,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 8,
+                "children": [
+                    {
+                        "name": "Sexual Dysfunction",
+                        "id": "ct.SexualDysfunction",
+                        "guid": 129,
+                        "parents": [
+                            "ct.SexSexuality"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Sexual Orientation",
+                        "id": "ct.SexualOrientation",
+                        "guid": 130,
+                        "parents": [
+                            "ct.SexSexuality"
+                        ],
+                        "value": 3,
+                        "children": [
+                            {
+                                "name": "Bisexuality",
+                                "id": "ct.Bisexuality",
+                                "guid": 183,
+                                "parents": [
+                                    "ct.SexualOrientation"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Heterosexuality",
+                                "id": "ct.Heterosexuality",
+                                "guid": 215,
+                                "parents": [
+                                    "ct.SexualOrientation"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Homosexuality",
+                                "id": "ct.Homosexuality",
+                                "guid": 217,
+                                "parents": [
+                                    "ct.SexualOrientation"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sexual Purity",
+                        "id": "ct.SexualPurity",
+                        "guid": 131,
+                        "parents": [
+                            "ct.SexSexuality"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Abstinence",
+                                "id": "ct.Abstinence",
+                                "guid": 163,
+                                "parents": [
+                                    "ct.BirthControl",
+                                    "ct.SexEducation",
+                                    "ct.SexualPurity"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lust",
+                        "id": "ct.Lust",
+                        "guid": 224,
+                        "parents": [
+                            "ct.SexSexuality"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Pedophilia",
+                                "id": "ct.Pedophilia",
+                                "guid": 232,
+                                "parents": [
+                                    "ct.Lust"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pornography",
+                        "id": "ct.Pornography",
+                        "guid": 234,
+                        "parents": [
+                            "ct.SexSexuality"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Sex Education",
+                        "id": "ct.SexEducation",
+                        "guid": 240,
+                        "parents": [
+                            "ct.SexSexuality"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Abstinence",
+                                "id": "ct.Abstinence",
+                                "guid": 247,
+                                "parents": [
+                                    "ct.BirthControl",
+                                    "ct.SexEducation",
+                                    "ct.SexualPurity"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sleep",
+                "id": "ct.Sleep",
+                "guid": 138,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Insomnia",
+                        "id": "ct.Insomnia",
+                        "guid": 222,
+                        "parents": [
+                            "ct.Sleep"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Substance Abuse",
+                "id": "ct.SubstanceAbuse",
+                "guid": 143,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 4,
+                "children": [
+                    {
+                        "name": "Addiction",
+                        "id": "ct.Addiction",
+                        "guid": 165,
+                        "parents": [
+                            "ct.SubstanceAbuse"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Alcoholism",
+                        "id": "ct.AlcoholAbuse",
+                        "guid": 171,
+                        "parents": [
+                            "ct.SubstanceAbuse"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Drug Abuse",
+                        "id": "ct.DrugAbuse",
+                        "guid": 206,
+                        "parents": [
+                            "ct.SubstanceAbuse"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Smoking",
+                        "id": "ct.Smoking",
+                        "guid": 243,
+                        "parents": [
+                            "ct.SubstanceAbuse"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Suicide",
+                "id": "ct.Suicide",
+                "guid": 144,
+                "parents": [
+                    "ct.Physical"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Tourette Syndrome",
+                "id": "ct.Tourettes",
+                "guid": 151,
+                "parents": [
+                    "ct.Physical",
+                    "ct.Compulsion"
+                ],
+                "value": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "Principles",
+        "id": "ct.Principles",
+        "guid": 5,
+        "parents": [],
+        "value": 12,
+        "children": [
+            {
+                "name": "Anger",
+                "id": "ct.Anger",
+                "guid": 13,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Forgiveness",
+                "id": "ct.Forgiveness",
+                "guid": 52,
+                "parents": [
+                    "ct.ReligiousConcerns",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Hope",
+                "id": "ct.Hope",
+                "guid": 63,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Humility",
+                "id": "ct.Humility",
+                "guid": 65,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Jealousy",
+                "id": "ct.Jealousy",
+                "guid": 71,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Laziness",
+                "id": "ct.Laziness",
+                "guid": 73,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Love",
+                "id": "ct.Love",
+                "guid": 77,
+                "parents": [
+                    "ct.Relationship",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Patience",
+                "id": "ct.Patience",
+                "guid": 96,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Peace",
+                "id": "ct.Peace",
+                "guid": 98,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Pride",
+                "id": "ct.Pride",
+                "guid": 111,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Self-Control",
+                "id": "ct.SelfControl",
+                "guid": 121,
+                "parents": [
+                    "ct.Mood",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Selfishness",
+                "id": "ct.Selfish",
+                "guid": 126,
+                "parents": [
+                    "ct.InternalSelf",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "Relationships",
+        "id": "ct.Relationship",
+        "guid": 6,
+        "parents": [],
+        "value": 28,
+        "children": [
+            {
+                "name": "Boundaries",
+                "id": "ct.Boundaries",
+                "guid": 18,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Commitment",
+                "id": "ct.Commitment",
+                "guid": 23,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Communication",
+                "id": "ct.Communication",
+                "guid": 24,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 4,
+                "children": [
+                    {
+                        "name": "Gossip",
+                        "id": "ct.Gossip",
+                        "guid": 55,
+                        "parents": [
+                            "ct.Communication"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Lying",
+                        "id": "ct.Lying",
+                        "guid": 78,
+                        "parents": [
+                            "ct.Communication"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Manipulation",
+                        "id": "ct.Manipulation",
+                        "guid": 79,
+                        "parents": [
+                            "ct.Communication"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Mediation",
+                        "id": "ct.Mediation",
+                        "guid": 81,
+                        "parents": [
+                            "ct.Communication",
+                            "ct.Conflict"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Conflict",
+                "id": "ct.Conflict",
+                "guid": 26,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Mediation",
+                        "id": "ct.Mediation",
+                        "guid": 82,
+                        "parents": [
+                            "ct.Communication",
+                            "ct.Conflict"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Dependency",
+                "id": "ct.Dependency",
+                "guid": 31,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Dependent Personality Disorder",
+                        "id": "ct.DependentDisorder",
+                        "guid": 32,
+                        "parents": [
+                            "ct.Dependency",
+                            "ct.PersonalityDisorder"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Codependency",
+                        "id": "ct.Codependency",
+                        "guid": 193,
+                        "parents": [
+                            "ct.Dependency"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Familial Relationships",
+                "id": "ct.Familial",
+                "guid": 47,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 13,
+                "children": [
+                    {
+                        "name": "Marriage",
+                        "id": "ct.Marital",
+                        "guid": 80,
+                        "parents": [
+                            "ct.Familial"
+                        ],
+                        "value": 5,
+                        "children": [
+                            {
+                                "name": "Remarriage",
+                                "id": "ct.Remarriage",
+                                "guid": 114,
+                                "parents": [
+                                    "ct.Marital"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Role of the Wife",
+                                "id": "ct.Wife",
+                                "guid": 158,
+                                "parents": [
+                                    "ct.Marital"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Divorce",
+                                "id": "ct.Divorce",
+                                "guid": 202,
+                                "parents": [
+                                    "ct.Marital"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Role of the Husband",
+                                "id": "ct.Husband",
+                                "guid": 218,
+                                "parents": [
+                                    "ct.Marital"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Infidelity",
+                                "id": "ct.Infidelity",
+                                "guid": 221,
+                                "parents": [
+                                    "ct.Marital"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Parental Relationships",
+                        "id": "ct.Parental",
+                        "guid": 94,
+                        "parents": [
+                            "ct.Familial"
+                        ],
+                        "value": 8,
+                        "children": [
+                            {
+                                "name": "Pregnancy",
+                                "id": "ct.Pregnancy",
+                                "guid": 107,
+                                "parents": [
+                                    "ct.Physical",
+                                    "ct.Parental"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Sibling Rivalry",
+                                "id": "ct.SiblingRivalry",
+                                "guid": 134,
+                                "parents": [
+                                    "ct.Parental",
+                                    "ct.Development"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Single Parent",
+                                "id": "ct.SingleParent",
+                                "guid": 137,
+                                "parents": [
+                                    "ct.Parental"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Adoption",
+                                "id": "ct.Adoption",
+                                "guid": 168,
+                                "parents": [
+                                    "ct.Parental"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Child Custody",
+                                "id": "ct.Custody",
+                                "guid": 194,
+                                "parents": [
+                                    "ct.Parental"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Child Discipline",
+                                "id": "ct.Discipline",
+                                "guid": 201,
+                                "parents": [
+                                    "ct.Parental"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Foster Children",
+                                "id": "ct.FosterChildren",
+                                "guid": 210,
+                                "parents": [
+                                    "ct.Parental"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Overprotection",
+                                "id": "ct.Overprotection",
+                                "guid": 231,
+                                "parents": [
+                                    "ct.Parental"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Love",
+                "id": "ct.Love",
+                "guid": 76,
+                "parents": [
+                    "ct.Relationship",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Non-Familial Relationships",
+                "id": "ct.NonFamilial",
+                "guid": 88,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 4,
+                "children": [
+                    {
+                        "name": "Dating And Courtship",
+                        "id": "ct.Dating",
+                        "guid": 195,
+                        "parents": [
+                            "ct.NonFamilial"
+                        ],
+                        "value": 3,
+                        "children": [
+                            {
+                                "name": "Engagement",
+                                "id": "ct.Engagement",
+                                "guid": 209,
+                                "parents": [
+                                    "ct.Dating"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Singleness",
+                                "id": "ct.Singleness",
+                                "guid": 242,
+                                "parents": [
+                                    "ct.Dating"
+                                ],
+                                "value": 1,
+                                "children": []
+                            },
+                            {
+                                "name": "Cohabitation",
+                                "id": "ct.Cohabitation",
+                                "guid": 253,
+                                "parents": [
+                                    "ct.Dating"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Friendships",
+                        "id": "ct.Friendship",
+                        "guid": 211,
+                        "parents": [
+                            "ct.NonFamilial"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Trust",
+                "id": "ct.Trust",
+                "guid": 155,
+                "parents": [
+                    "ct.Relationship"
+                ],
+                "value": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "Religious Concerns",
+        "id": "ct.ReligiousConcerns",
+        "guid": 7,
+        "parents": [],
+        "value": 25,
+        "children": [
+            {
+                "name": "Apostasy",
+                "id": "ct.Apostasy",
+                "guid": 15,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Christlikeness",
+                "id": "ct.Christlikeness",
+                "guid": 20,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Church",
+                "id": "ct.Church",
+                "guid": 21,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Devotions",
+                "id": "ct.Devotions",
+                "guid": 34,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Discipleship",
+                "id": "ct.Discipleship",
+                "guid": 35,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Evangelism",
+                "id": "ct.Evangelism",
+                "guid": 44,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Faith",
+                "id": "ct.Faith",
+                "guid": 46,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 2,
+                "children": [
+                    {
+                        "name": "Atheism",
+                        "id": "ct.Atheism",
+                        "guid": 176,
+                        "parents": [
+                            "ct.Faith"
+                        ],
+                        "value": 1,
+                        "children": []
+                    },
+                    {
+                        "name": "Doubt",
+                        "id": "ct.Doubt",
+                        "guid": 204,
+                        "parents": [
+                            "ct.Faith"
+                        ],
+                        "value": 1,
+                        "children": [
+                            {
+                                "name": "Unbelieving Mates",
+                                "id": "ct.UnbelievingMates",
+                                "guid": 244,
+                                "parents": [
+                                    "ct.Doubt"
+                                ],
+                                "value": 1,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Forgiveness",
+                "id": "ct.Forgiveness",
+                "guid": 51,
+                "parents": [
+                    "ct.ReligiousConcerns",
+                    "ct.Principles"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "God",
+                "id": "ct.God",
+                "guid": 54,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Grace",
+                "id": "ct.Grace",
+                "guid": 56,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Idolatry",
+                "id": "ct.Idolatry",
+                "guid": 67,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Prayer",
+                "id": "ct.Prayer",
+                "guid": 105,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Rebellion",
+                "id": "ct.Rebellion",
+                "guid": 113,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Repentance",
+                "id": "ct.Repentance",
+                "guid": 115,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Salvation",
+                "id": "ct.Salvation",
+                "guid": 118,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Assurance of Salvation",
+                        "id": "ct.AssuranceOfSalvation",
+                        "guid": 175,
+                        "parents": [
+                            "ct.Salvation"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Sanctification",
+                "id": "ct.Sanctification",
+                "guid": 119,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Sin",
+                "id": "ct.Sin",
+                "guid": 136,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Spiritual Gifts",
+                "id": "ct.SpiritualGifts",
+                "guid": 139,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Happiness",
+                        "id": "ct.Happiness",
+                        "guid": 214,
+                        "parents": [
+                            "ct.Mood",
+                            "ct.SpiritualGifts"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Spiritual Warfare",
+                "id": "ct.SpiritualWarfare",
+                "guid": 140,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Submission",
+                "id": "ct.Submission",
+                "guid": 142,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Temptation",
+                "id": "ct.Temptation",
+                "guid": 146,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Theology",
+                "id": "ct.Theology",
+                "guid": 149,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Trials",
+                "id": "ct.Trials",
+                "guid": 154,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Worship",
+                "id": "ct.Worship",
+                "guid": 161,
+                "parents": [
+                    "ct.ReligiousConcerns"
+                ],
+                "value": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "Work",
+        "id": "ct.Work",
+        "guid": 8,
+        "parents": [],
+        "value": 5,
+        "children": [
+            {
+                "name": "Employment",
+                "id": "ct.Employment",
+                "guid": 42,
+                "parents": [
+                    "ct.Work"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Finances",
+                "id": "ct.FinancialCounseling",
+                "guid": 49,
+                "parents": [
+                    "ct.Work"
+                ],
+                "value": 1,
+                "children": [
+                    {
+                        "name": "Financial Freedom",
+                        "id": "ct.FinancialFreedom",
+                        "guid": 50,
+                        "parents": [
+                            "ct.FinancialCounseling"
+                        ],
+                        "value": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Poverty",
+                "id": "ct.Poverty",
+                "guid": 104,
+                "parents": [
+                    "ct.Work"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Unemployment",
+                "id": "ct.Unemployment",
+                "guid": 156,
+                "parents": [
+                    "ct.Work"
+                ],
+                "value": 1,
+                "children": []
+            },
+            {
+                "name": "Workaholism",
+                "id": "ct.Workaholism",
+                "guid": 160,
+                "parents": [
+                    "ct.Work"
+                ],
+                "value": 1,
+                "children": []
+            }
+        ]
+    }
+]
