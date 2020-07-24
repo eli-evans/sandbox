@@ -183,6 +183,40 @@
 					{ start: "August 3, 2020", end: "August 23, 2020", name: "Vacation", type: "series" },
     			]
   			},
+		];
+		
+		var CatholicTracks = [
+			{
+				name: "Seasons",
+				weight: 48,
+				color: 'transparent',
+				events: CalendarUtil.getCatholicSeasons2020()
+			},
+
+			{
+				name: "Sunday Cycle",
+				weight: 24,
+				events: CalendarUtil.getCatholicSundayCycle2020()
+			},
+
+			{
+				name: "US Holidays",
+				color: "blue",
+				weight: 24,
+				events: CalendarUtil.getUSHolidays2020()
+  			},
+			  {
+				name: "Personal",
+				color: "peach",
+				weight: 32,
+				events: [
+					{ start: "January 22, 2020", end: "January 22, 2020", name: "Olga's Birthday" },
+					{ start: "February 20, 2020", end: "February 20, 2020", name: "Eli's Birthday" },
+					{ start: "May 10, 2020", end: "May 16, 2020", name: "Spring Break" },
+
+					{ start: "August 3, 2020", end: "August 23, 2020", name: "Vacation", type: "series" },
+    			]
+  			},
     	];
 
 		var ProtestantTracks = [
@@ -268,7 +302,7 @@
   			},
 		];
 
-		var Tracks = RCLTracks;
+		var Tracks = ProtestantTracks;
 	</script>
 </head>
 
