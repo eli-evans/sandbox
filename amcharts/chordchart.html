@@ -1,0 +1,92 @@
+<html>
+
+<head>
+	<title>AM Charts Testing: Chord Chart</title>
+	<style>
+		body {
+			font-family: "Source Sans Pro", sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		#chartdiv {
+			width: 100%;
+			max-width: 100%;
+			height: 95vh;
+		}
+
+		.loading {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+
+			width: 100%;
+			max-width: 100%;
+			height: 100vh;
+			background-color: #FFFFFF60;
+			font-size: 32px;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		.toolbar {
+			height: 36px;
+			border-bottom: 1px solid #CCCCCC;
+		}
+
+		.toolbar select {
+			margin: 8px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="loadingDiv" class="loading hidden"><img src='loading.gif'/></div>
+	<div class='toolbar'>
+		<select name="relationship" id="relationship">
+			<option value="Citation">Citations</option>
+			<option value="Allusion">Allusions</option>
+			<option value="Echo">Echoes</option>
+		</select>
+		<select name="lhs" id="ntBook">
+			<option value="All">All</option>
+			<option value="Ro">Romans</option>
+			<option value="1Co">1 Corinthians</option>
+			<option value="2Co">2 Corinthians</option>
+			<option value="Ga">Galatians</option>
+			<option value="Eph">Ephesians</option>
+			<option value="Php">Philippians</option>
+			<option value="Col">Colossians</option>
+			<option value="1Th">1 Thessalonians</option>
+			<option value="2Th">2 Thessalonians</option>
+			<option value="1Ti">1 Timothy</option>
+			<option value="2Ti">2 Timothy</option>
+			<option value="Tit">Titus</option>
+			<!-- <option value="Phm">Philemon</option> -->
+			<option value="Heb">Hebrews</option>
+			<option value="Jam">James</option>
+			<option value="1Pe">1 Peter</option>
+			<option value="2Pe">2 Peter</option>
+			<option value="1Jn">1 John</option>
+			<option value="2Jn">2 John</option>
+			<option value="3Jn">3 John</option>
+			<option value="Jud">Jude</option>
+		</select>
+		to
+		<select name="rhs" id="otBook">
+			<option value="All">All</option>
+		</select>
+	</div>
+	<div id="chartdiv"></div>
+	<script src="https://www.amcharts.com/lib/4/core.js"></script>
+	<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+	<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+	<script src="../Util/Util.js"></script>
+	<script src="chordchart.js"></script>
+</body>
+
+</html>
