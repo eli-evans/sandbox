@@ -19,7 +19,7 @@ function setup() {
 	frameRate(30);
 
 	today = new Date( Date.now() );
-	year = new RadialYear( new Date(2019, 11, 1), new Date(2020, 10, 29) ); // RCL Liturgical Year 2019-2020
+	year = new RadialYear( new Date(2019, 11, 1), new Date(2020, 10, 29) ); // Liturgical Year 2019-2020
 	// year = new RadialYear(); // 2020
 	// year = new RadialYear(new Date(2020, 3, 1), new Date(2021, 0, 31));
 
@@ -192,6 +192,9 @@ function drawEvent(t, e, weight, alpha) {
 
 	var eColor = e.color || t.color;
 	var c = eColor ? Color.logosColor((eColor), "medium") : color("#000");
+	if (eColor == "yellow" || eColor == "white") {
+		c = Color.logosColor("yellow", "dark");
+	}
 	c.setAlpha(alpha);
 
 	var startPos = startDay.position + ring.padding;
