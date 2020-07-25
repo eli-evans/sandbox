@@ -1,0 +1,1530 @@
+{
+    "Protestant (66 Books)": [
+        {
+            "bookNumber": 1,
+            "factbook": "bk.ntxt:genesis",
+            "title": "Genesis",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 50
+        },
+        {
+            "bookNumber": 2,
+            "factbook": "bk.ntxt:exodus",
+            "title": "Exodus",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 40
+        },
+        {
+            "bookNumber": 3,
+            "factbook": "bk.ntxt:leviticus",
+            "title": "Leviticus",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 27
+        },
+        {
+            "bookNumber": 4,
+            "factbook": "bk.ntxt:numbers",
+            "title": "Numbers",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 36
+        },
+        {
+            "bookNumber": 5,
+            "factbook": "bk.ntxt:deuteronomy",
+            "title": "Deuteronomy",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 34
+        },
+        {
+            "bookNumber": 6,
+            "factbook": "bk.ntxt:joshua",
+            "title": "Joshua",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 24
+        },
+        {
+            "bookNumber": 7,
+            "factbook": "bk.ntxt:judges",
+            "title": "Judges",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 21
+        },
+        {
+            "bookNumber": 8,
+            "factbook": "bk.ntxt:ruth",
+            "title": "Ruth",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 9,
+            "factbook": "bk.ntxt:1samuel",
+            "title": "1 Samuel",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 31
+        },
+        {
+            "bookNumber": 10,
+            "factbook": "bk.ntxt:2samuel",
+            "title": "2 Samuel",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 24
+        },
+        {
+            "bookNumber": 11,
+            "factbook": "bk.ntxt:1kings",
+            "title": "1 Kings",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 22
+        },
+        {
+            "bookNumber": 12,
+            "factbook": "bk.ntxt:2kings",
+            "title": "2 Kings",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 25
+        },
+        {
+            "bookNumber": 13,
+            "factbook": "bk.ntxt:1chronicles",
+            "title": "1 Chronicles",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 29
+        },
+        {
+            "bookNumber": 14,
+            "factbook": "bk.ntxt:2chronicles",
+            "title": "2 Chronicles",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 36
+        },
+        {
+            "bookNumber": 15,
+            "factbook": "bk.ntxt:ezra",
+            "title": "Ezra",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 10
+        },
+        {
+            "bookNumber": 16,
+            "factbook": "bk.ntxt:nehemiah",
+            "title": "Nehemiah",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 13
+        },
+        {
+            "bookNumber": 17,
+            "factbook": "bk.ntxt:esther",
+            "title": "Esther",
+            "testament": "Old Testament",
+            "division": "History",
+            "chapters": 10
+        },
+        {
+            "bookNumber": 18,
+            "factbook": "bk.ntxt:job",
+            "title": "Job",
+            "testament": "Old Testament",
+            "division": "Wisdom",
+            "chapters": 42
+        },
+        {
+            "bookNumber": 19,
+            "factbook": "bk.ntxt:psalms",
+            "title": "Psalms",
+            "testament": "Old Testament",
+            "division": "Wisdom",
+            "chapters": 150
+        },
+        {
+            "bookNumber": 20,
+            "factbook": "bk.ntxt:proverbs",
+            "title": "Proverbs",
+            "testament": "Old Testament",
+            "division": "Wisdom",
+            "chapters": 31
+        },
+        {
+            "bookNumber": 21,
+            "factbook": "bk.ntxt:ecclesiastes",
+            "title": "Ecclesiastes",
+            "testament": "Old Testament",
+            "division": "Wisdom",
+            "chapters": 12
+        },
+        {
+            "bookNumber": 22,
+            "factbook": "bk.ntxt:songofsongs",
+            "title": "Song of Solomon",
+            "testament": "Old Testament",
+            "division": "Wisdom",
+            "chapters": 8
+        },
+        {
+            "bookNumber": 23,
+            "factbook": "bk.ntxt:isaiah",
+            "title": "Isaiah",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 66
+        },
+        {
+            "bookNumber": 24,
+            "factbook": "bk.ntxt:jeremiah",
+            "title": "Jeremiah",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 52
+        },
+        {
+            "bookNumber": 25,
+            "factbook": "bk.ntxt:lamentations",
+            "title": "Lamentations",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 26,
+            "factbook": "bk.ntxt:ezekiel",
+            "title": "Ezekiel",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 48
+        },
+        {
+            "bookNumber": 27,
+            "factbook": "bk.ntxt:daniel",
+            "title": "Daniel",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 12
+        },
+        {
+            "bookNumber": 28,
+            "factbook": "bk.ntxt:hosea",
+            "title": "Hosea",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 14
+        },
+        {
+            "bookNumber": 29,
+            "factbook": "bk.ntxt:joel",
+            "title": "Joel",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 30,
+            "factbook": "bk.ntxt:amos",
+            "title": "Amos",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 9
+        },
+        {
+            "bookNumber": 31,
+            "factbook": "bk.ntxt:obadiah",
+            "title": "Obadiah",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 32,
+            "factbook": "bk.ntxt:jonah",
+            "title": "Jonah",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 33,
+            "factbook": "bk.ntxt:micah",
+            "title": "Micah",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 7
+        },
+        {
+            "bookNumber": 34,
+            "factbook": "bk.ntxt:nahum",
+            "title": "Nahum",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 35,
+            "factbook": "bk.ntxt:habakkuk",
+            "title": "Habakkuk",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 36,
+            "factbook": "bk.ntxt:zephaniah",
+            "title": "Zephaniah",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 37,
+            "factbook": "bk.ntxt:haggai",
+            "title": "Haggai",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 2
+        },
+        {
+            "bookNumber": 38,
+            "factbook": "bk.ntxt:zechariah",
+            "title": "Zechariah",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 14
+        },
+        {
+            "bookNumber": 39,
+            "factbook": "bk.ntxt:malachi",
+            "title": "Malachi",
+            "testament": "Old Testament",
+            "division": "Prophets",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 61,
+            "factbook": "bk.ntxt:matthew",
+            "title": "Matthew",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 28
+        },
+        {
+            "bookNumber": 62,
+            "factbook": "bk.ntxt:mark",
+            "title": "Mark",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 63,
+            "factbook": "bk.ntxt:luke",
+            "title": "Luke",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 24
+        },
+        {
+            "bookNumber": 64,
+            "factbook": "bk.ntxt:john",
+            "title": "John",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 21
+        },
+        {
+            "bookNumber": 65,
+            "factbook": "bk.ntxt:acts",
+            "title": "Acts",
+            "testament": "New Testament",
+            "division": "Acts",
+            "chapters": 28
+        },
+        {
+            "bookNumber": 66,
+            "factbook": "bk.ntxt:romans",
+            "title": "Romans",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 67,
+            "factbook": "bk.ntxt:1corinthians",
+            "title": "1 Corinthians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 68,
+            "factbook": "bk.ntxt:2corinthians",
+            "title": "2 Corinthians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 13
+        },
+        {
+            "bookNumber": 69,
+            "factbook": "bk.ntxt:galatians",
+            "title": "Galatians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 6
+        },
+        {
+            "bookNumber": 70,
+            "factbook": "bk.ntxt:ephesians",
+            "title": "Ephesians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 6
+        },
+        {
+            "bookNumber": 71,
+            "factbook": "bk.ntxt:philippians",
+            "title": "Philippians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 72,
+            "factbook": "bk.ntxt:colossians",
+            "title": "Colossians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 73,
+            "factbook": "bk.ntxt:1thessalonians",
+            "title": "1 Thessalonians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 74,
+            "factbook": "bk.ntxt:2thessalonians",
+            "title": "2 Thessalonians",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 75,
+            "factbook": "bk.ntxt:1timothy",
+            "title": "1 Timothy",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 6
+        },
+        {
+            "bookNumber": 76,
+            "factbook": "bk.ntxt:2timothy",
+            "title": "2 Timothy",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 77,
+            "factbook": "bk.ntxt:titus",
+            "title": "Titus",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 78,
+            "factbook": "bk.ntxt:philemon",
+            "title": "Philemon",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 79,
+            "factbook": "bk.ntxt:hebrews",
+            "title": "Hebrews",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 13
+        },
+        {
+            "bookNumber": 80,
+            "factbook": "bk.ntxt:james",
+            "title": "James",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 81,
+            "factbook": "bk.ntxt:1peter",
+            "title": "1 Peter",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 82,
+            "factbook": "bk.ntxt:2peter",
+            "title": "2 Peter",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 83,
+            "factbook": "bk.ntxt:1john",
+            "title": "1 John",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 84,
+            "factbook": "bk.ntxt:2john",
+            "title": "2 John",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 85,
+            "factbook": "bk.ntxt:3john",
+            "title": "3 John",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 86,
+            "factbook": "bk.ntxt:jude",
+            "title": "Jude",
+            "testament": "New Testament",
+            "division": "Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 87,
+            "factbook": "bk.ntxt:revelation",
+            "title": "Revelation",
+            "testament": "New Testament",
+            "division": "Revelation",
+            "chapters": 22
+        }
+    ],
+    "Roman Catholic": [
+        {
+            "bookNumber": 1,
+            "factbook": "bk.ntxt:genesis",
+            "title": "Genesis",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 50
+        },
+        {
+            "bookNumber": 2,
+            "factbook": "bk.ntxt:exodus",
+            "title": "Exodus",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 40
+        },
+        {
+            "bookNumber": 3,
+            "factbook": "bk.ntxt:leviticus",
+            "title": "Leviticus",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 27
+        },
+        {
+            "bookNumber": 4,
+            "factbook": "bk.ntxt:numbers",
+            "title": "Numbers",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 36
+        },
+        {
+            "bookNumber": 5,
+            "factbook": "bk.ntxt:deuteronomy",
+            "title": "Deuteronomy",
+            "testament": "Old Testament",
+            "division": "Pentateuch",
+            "chapters": 34
+        },
+        {
+            "bookNumber": 6,
+            "factbook": "bk.ntxt:joshua",
+            "title": "Joshua",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 24
+        },
+        {
+            "bookNumber": 7,
+            "factbook": "bk.ntxt:judges",
+            "title": "Judges",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 21
+        },
+        {
+            "bookNumber": 8,
+            "factbook": "bk.ntxt:ruth",
+            "title": "Ruth",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 9,
+            "factbook": "bk.ntxt:1samuel",
+            "title": "1 Samuel",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 31
+        },
+        {
+            "bookNumber": 10,
+            "factbook": "bk.ntxt:2samuel",
+            "title": "2 Samuel",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 24
+        },
+        {
+            "bookNumber": 11,
+            "factbook": "bk.ntxt:1kings",
+            "title": "1 Kings",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 22
+        },
+        {
+            "bookNumber": 12,
+            "factbook": "bk.ntxt:2kings",
+            "title": "2 Kings",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 25
+        },
+        {
+            "bookNumber": 13,
+            "factbook": "bk.ntxt:1chronicles",
+            "title": "1 Chronicles",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 29
+        },
+        {
+            "bookNumber": 14,
+            "factbook": "bk.ntxt:2chronicles",
+            "title": "2 Chronicles",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 36
+        },
+        {
+            "bookNumber": 15,
+            "factbook": "bk.ntxt:ezra",
+            "title": "Ezra",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 10
+        },
+        {
+            "bookNumber": 16,
+            "factbook": "bk.ntxt:nehemiah",
+            "title": "Nehemiah",
+            "testament": "Old Testament",
+            "division": "Historical Books",
+            "chapters": 13
+        },
+        {
+            "bookNumber": 40,
+            "factbook": "bk.ntxt:tobit",
+            "title": "Tobit",
+            "testament": "Old Testament",
+            "division": "Biblical Novellas",
+            "chapters": 14
+        },
+        {
+            "bookNumber": 41,
+            "factbook": "bk.ntxt:judith",
+            "title": "Judith",
+            "testament": "Old Testament",
+            "division": "Biblical Novellas",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 17,
+            "factbook": "bk.ntxt:esther",
+            "title": "Esther",
+            "testament": "Old Testament",
+            "division": "Biblical Novellas",
+            "chapters": 10
+        },
+        {
+            "bookNumber": 50,
+            "factbook": "bk.ntxt:1maccabees",
+            "title": "1 Maccabees",
+            "testament": "Old Testament",
+            "division": "Biblical Novellas",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 51,
+            "factbook": "bk.ntxt:2maccabees",
+            "title": "2 Maccabees",
+            "testament": "Old Testament",
+            "division": "Biblical Novellas",
+            "chapters": 15
+        },
+        {
+            "bookNumber": 18,
+            "factbook": "bk.ntxt:job",
+            "title": "Job",
+            "testament": "Old Testament",
+            "division": "Wisdom Books",
+            "chapters": 42
+        },
+        {
+            "bookNumber": 19,
+            "factbook": "bk.ntxt:psalms",
+            "title": "Psalms",
+            "testament": "Old Testament",
+            "division": "Wisdom Books",
+            "chapters": 150
+        },
+        {
+            "bookNumber": 20,
+            "factbook": "bk.ntxt:proverbs",
+            "title": "Proverbs",
+            "testament": "Old Testament",
+            "division": "Wisdom Books",
+            "chapters": 31
+        },
+        {
+            "bookNumber": 21,
+            "factbook": "bk.ntxt:ecclesiastes",
+            "title": "Ecclesiastes",
+            "testament": "Old Testament",
+            "division": "Wisdom Books",
+            "chapters": 12
+        },
+        {
+            "bookNumber": 22,
+            "factbook": "bk.ntxt:songofsongs",
+            "title": "Song of Songs",
+            "testament": "Old Testament",
+            "division": "Wisdom Books",
+            "chapters": 8
+        },
+        {
+            "bookNumber": 43,
+            "factbook": "bk.ntxt:solomonwisdom",
+            "title": "Wisdom",
+            "testament": "Old Testament",
+            "division": "Wisdom Books",
+            "chapters": 19
+        },
+        {
+            "bookNumber": 44,
+            "factbook": "bk.ntxt:sirach",
+            "title": "Sirach",
+            "testament": "Old Testament",
+            "division": "Wisdom Books",
+            "chapters": 51
+        },
+        {
+            "bookNumber": 23,
+            "factbook": "bk.ntxt:isaiah",
+            "title": "Isaiah",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 66
+        },
+        {
+            "bookNumber": 24,
+            "factbook": "bk.ntxt:jeremiah",
+            "title": "Jeremiah",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 52
+        },
+        {
+            "bookNumber": 25,
+            "factbook": "bk.ntxt:lamentations",
+            "title": "Lamentations",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 45,
+            "factbook": "bk.ntxt:baruch",
+            "title": "Baruch",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 6
+        },
+        {
+            "bookNumber": 26,
+            "factbook": "bk.ntxt:ezekiel",
+            "title": "Ezekiel",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 48
+        },
+        {
+            "bookNumber": 27,
+            "factbook": "bk.ntxt:daniel",
+            "title": "Daniel",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 14
+        },
+        {
+            "bookNumber": 28,
+            "factbook": "bk.ntxt:hosea",
+            "title": "Hosea",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 14
+        },
+        {
+            "bookNumber": 29,
+            "factbook": "bk.ntxt:joel",
+            "title": "Joel",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 30,
+            "factbook": "bk.ntxt:amos",
+            "title": "Amos",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 9
+        },
+        {
+            "bookNumber": 31,
+            "factbook": "bk.ntxt:obadiah",
+            "title": "Obadiah",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 32,
+            "factbook": "bk.ntxt:jonah",
+            "title": "Jonah",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 33,
+            "factbook": "bk.ntxt:micah",
+            "title": "Micah",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 7
+        },
+        {
+            "bookNumber": 34,
+            "factbook": "bk.ntxt:nahum",
+            "title": "Nahum",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 35,
+            "factbook": "bk.ntxt:habakkuk",
+            "title": "Habakkuk",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 36,
+            "factbook": "bk.ntxt:zephaniah",
+            "title": "Zephaniah",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 37,
+            "factbook": "bk.ntxt:haggai",
+            "title": "Haggai",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 2
+        },
+        {
+            "bookNumber": 38,
+            "factbook": "bk.ntxt:zechariah",
+            "title": "Zechariah",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 14
+        },
+        {
+            "bookNumber": 39,
+            "factbook": "bk.ntxt:malachi",
+            "title": "Malachi",
+            "testament": "Old Testament",
+            "division": "Prophetic Books",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 61,
+            "factbook": "bk.ntxt:matthew",
+            "title": "Matthew",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 28
+        },
+        {
+            "bookNumber": 62,
+            "factbook": "bk.ntxt:mark",
+            "title": "Mark",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 63,
+            "factbook": "bk.ntxt:luke",
+            "title": "Luke",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 24
+        },
+        {
+            "bookNumber": 64,
+            "factbook": "bk.ntxt:john",
+            "title": "John",
+            "testament": "New Testament",
+            "division": "Gospels",
+            "chapters": 21
+        },
+        {
+            "bookNumber": 65,
+            "factbook": "bk.ntxt:acts",
+            "title": "Acts",
+            "testament": "New Testament",
+            "division": "Acts",
+            "chapters": 28
+        },
+        {
+            "bookNumber": 66,
+            "factbook": "bk.ntxt:romans",
+            "title": "Romans",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 67,
+            "factbook": "bk.ntxt:1corinthians",
+            "title": "1 Corinthians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 16
+        },
+        {
+            "bookNumber": 68,
+            "factbook": "bk.ntxt:2corinthians",
+            "title": "2 Corinthians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 13
+        },
+        {
+            "bookNumber": 69,
+            "factbook": "bk.ntxt:galatians",
+            "title": "Galatians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 6
+        },
+        {
+            "bookNumber": 70,
+            "factbook": "bk.ntxt:ephesians",
+            "title": "Ephesians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 6
+        },
+        {
+            "bookNumber": 71,
+            "factbook": "bk.ntxt:philippians",
+            "title": "Philippians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 72,
+            "factbook": "bk.ntxt:colossians",
+            "title": "Colossians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 73,
+            "factbook": "bk.ntxt:1thessalonians",
+            "title": "1 Thessalonians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 74,
+            "factbook": "bk.ntxt:2thessalonians",
+            "title": "2 Thessalonians",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 75,
+            "factbook": "bk.ntxt:1timothy",
+            "title": "1 Timothy",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 6
+        },
+        {
+            "bookNumber": 76,
+            "factbook": "bk.ntxt:2timothy",
+            "title": "2 Timothy",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 4
+        },
+        {
+            "bookNumber": 77,
+            "factbook": "bk.ntxt:titus",
+            "title": "Titus",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 78,
+            "factbook": "bk.ntxt:philemon",
+            "title": "Philemon",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 79,
+            "factbook": "bk.ntxt:hebrews",
+            "title": "Hebrews",
+            "testament": "New Testament",
+            "division": "New Testament Letters",
+            "chapters": 13
+        },
+        {
+            "bookNumber": 80,
+            "factbook": "bk.ntxt:james",
+            "title": "James",
+            "testament": "New Testament",
+            "division": "Catholic Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 81,
+            "factbook": "bk.ntxt:1peter",
+            "title": "1 Peter",
+            "testament": "New Testament",
+            "division": "Catholic Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 82,
+            "factbook": "bk.ntxt:2peter",
+            "title": "2 Peter",
+            "testament": "New Testament",
+            "division": "Catholic Letters",
+            "chapters": 3
+        },
+        {
+            "bookNumber": 83,
+            "factbook": "bk.ntxt:1john",
+            "title": "1 John",
+            "testament": "New Testament",
+            "division": "Catholic Letters",
+            "chapters": 5
+        },
+        {
+            "bookNumber": 84,
+            "factbook": "bk.ntxt:2john",
+            "title": "2 John",
+            "testament": "New Testament",
+            "division": "Catholic Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 85,
+            "factbook": "bk.ntxt:3john",
+            "title": "3 John",
+            "testament": "New Testament",
+            "division": "Catholic Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 86,
+            "factbook": "bk.ntxt:jude",
+            "title": "Jude",
+            "testament": "New Testament",
+            "division": "Catholic Letters",
+            "chapters": 1
+        },
+        {
+            "bookNumber": 87,
+            "factbook": "bk.ntxt:revelation",
+            "title": "Revelation",
+            "testament": "New Testament",
+            "division": "Revelation",
+            "chapters": 22
+        }
+    ],
+    "All": [
+        {
+            "bookNumber": 1,
+            "factbook": "bk.ntxt:genesis",
+            "traditionalAuthor": "Moses"
+        },
+        {
+            "bookNumber": 2,
+            "factbook": "bk.ntxt:exodus",
+            "traditionalAuthor": "Moses"
+        },
+        {
+            "bookNumber": 3,
+            "factbook": "bk.ntxt:leviticus",
+            "traditionalAuthor": "Moses"
+        },
+        {
+            "bookNumber": 4,
+            "factbook": "bk.ntxt:numbers",
+            "traditionalAuthor": "Moses"
+        },
+        {
+            "bookNumber": 5,
+            "factbook": "bk.ntxt:deuteronomy",
+            "traditionalAuthor": "Moses; Joshua"
+        },
+        {
+            "bookNumber": 6,
+            "factbook": "bk.ntxt:joshua",
+            "traditionalAuthor": "Joshua"
+        },
+        {
+            "bookNumber": 7,
+            "factbook": "bk.ntxt:judges",
+            "traditionalAuthor": "Samuel; Nathan; Gad"
+        },
+        {
+            "bookNumber": 8,
+            "factbook": "bk.ntxt:ruth",
+            "traditionalAuthor": "Samuel; Nathan; Gad"
+        },
+        {
+            "bookNumber": 9,
+            "factbook": "bk.ntxt:1samuel",
+            "traditionalAuthor": "Samuel; Nathan; Gad"
+        },
+        {
+            "bookNumber": 10,
+            "factbook": "bk.ntxt:2samuel",
+            "traditionalAuthor": "Samuel; Nathan; Gad"
+        },
+        {
+            "bookNumber": 11,
+            "factbook": "bk.ntxt:1kings",
+            "traditionalAuthor": "Jeremiah"
+        },
+        {
+            "bookNumber": 12,
+            "factbook": "bk.ntxt:2kings",
+            "traditionalAuthor": "Jeremiah"
+        },
+        {
+            "bookNumber": 13,
+            "factbook": "bk.ntxt:1chronicles",
+            "traditionalAuthor": "Ezra"
+        },
+        {
+            "bookNumber": 14,
+            "factbook": "bk.ntxt:2chronicles",
+            "traditionalAuthor": "Ezra"
+        },
+        {
+            "bookNumber": 15,
+            "factbook": "bk.ntxt:ezra",
+            "traditionalAuthor": "Ezra"
+        },
+        {
+            "bookNumber": 16,
+            "factbook": "bk.ntxt:nehemiah",
+            "traditionalAuthor": "Nehemiah"
+        },
+        {
+            "bookNumber": 17,
+            "factbook": "bk.ntxt:esther",
+            "traditionalAuthor": "Mordecai"
+        },
+        {
+            "bookNumber": 18,
+            "factbook": "bk.ntxt:job",
+            "traditionalAuthor": "Job"
+        },
+        {
+            "bookNumber": 19,
+            "factbook": "bk.ntxt:psalms",
+            "traditionalAuthor": "Unknown; David; Asaph; Sons of Korah; Moses; Solomon; Ethan; Heman"
+        },
+        {
+            "bookNumber": 20,
+            "factbook": "bk.ntxt:proverbs",
+            "traditionalAuthor": "Solomon; Agur; Lemuel"
+        },
+        {
+            "bookNumber": 21,
+            "factbook": "bk.ntxt:ecclesiastes",
+            "traditionalAuthor": "Solomon"
+        },
+        {
+            "bookNumber": 22,
+            "factbook": "bk.ntxt:songofsongs",
+            "traditionalAuthor": "Solomon"
+        },
+        {
+            "bookNumber": 23,
+            "factbook": "bk.ntxt:isaiah",
+            "traditionalAuthor": "Isaiah"
+        },
+        {
+            "bookNumber": 24,
+            "factbook": "bk.ntxt:jeremiah",
+            "traditionalAuthor": "Jeremiah"
+        },
+        {
+            "bookNumber": 25,
+            "factbook": "bk.ntxt:lamentations",
+            "traditionalAuthor": "Jeremiah"
+        },
+        {
+            "bookNumber": 26,
+            "factbook": "bk.ntxt:ezekiel",
+            "traditionalAuthor": "Ezekiel"
+        },
+        {
+            "bookNumber": 27,
+            "factbook": "bk.ntxt:daniel",
+            "traditionalAuthor": "Daniel"
+        },
+        {
+            "bookNumber": 28,
+            "factbook": "bk.ntxt:hosea",
+            "traditionalAuthor": "Hosea"
+        },
+        {
+            "bookNumber": 29,
+            "factbook": "bk.ntxt:joel",
+            "traditionalAuthor": "Joel"
+        },
+        {
+            "bookNumber": 30,
+            "factbook": "bk.ntxt:amos",
+            "traditionalAuthor": "Amos"
+        },
+        {
+            "bookNumber": 31,
+            "factbook": "bk.ntxt:obadiah",
+            "traditionalAuthor": "Obadiah"
+        },
+        {
+            "bookNumber": 32,
+            "factbook": "bk.ntxt:jonah",
+            "traditionalAuthor": "Jonah"
+        },
+        {
+            "bookNumber": 33,
+            "factbook": "bk.ntxt:micah",
+            "traditionalAuthor": "Micah"
+        },
+        {
+            "bookNumber": 34,
+            "factbook": "bk.ntxt:nahum",
+            "traditionalAuthor": "Nahum"
+        },
+        {
+            "bookNumber": 35,
+            "factbook": "bk.ntxt:habakkuk",
+            "traditionalAuthor": "Habakkuk"
+        },
+        {
+            "bookNumber": 36,
+            "factbook": "bk.ntxt:zephaniah",
+            "traditionalAuthor": "Zephaniah"
+        },
+        {
+            "bookNumber": 37,
+            "factbook": "bk.ntxt:haggai",
+            "traditionalAuthor": "Haggai"
+        },
+        {
+            "bookNumber": 38,
+            "factbook": "bk.ntxt:zechariah",
+            "traditionalAuthor": "Zechariah"
+        },
+        {
+            "bookNumber": 39,
+            "factbook": "bk.ntxt:malachi",
+            "traditionalAuthor": "Malachi"
+        },
+        {
+            "bookNumber": 40,
+            "factbook": "bk.ntxt:tobit"
+        },
+        {
+            "bookNumber": 41,
+            "factbook": "bk.ntxt:judith"
+        },
+        {
+            "bookNumber": 42,
+            "factbook": "bk.ntxt:additiontoesther"
+        },
+        {
+            "bookNumber": 43,
+            "factbook": "bk.ntxt:solomonwisdom"
+        },
+        {
+            "bookNumber": 44,
+            "factbook": "bk.ntxt:sirach"
+        },
+        {
+            "bookNumber": 45,
+            "factbook": "bk.ntxt:baruch"
+        },
+        {
+            "bookNumber": 46,
+            "factbook": "bk.ntxt:epistleofjeremiah"
+        },
+        {
+            "bookNumber": 47,
+            "factbook": "bk.ntxt:threeyoungmensong"
+        },
+        {
+            "bookNumber": 48,
+            "factbook": "bk.ntxt:susanna"
+        },
+        {
+            "bookNumber": 49,
+            "factbook": "bk.ntxt:beldragon"
+        },
+        {
+            "bookNumber": 50,
+            "factbook": "bk.ntxt:1maccabees"
+        },
+        {
+            "bookNumber": 51,
+            "factbook": "bk.ntxt:2maccabees"
+        },
+        {
+            "bookNumber": 52,
+            "factbook": "bk.ntxt:1esdras"
+        },
+        {
+            "bookNumber": 53,
+            "factbook": "bk.ntxt:prayerofmanasseh"
+        },
+        {
+            "bookNumber": 54,
+            "factbook": "bk.ntxt:psalmaddition"
+        },
+        {
+            "bookNumber": 55,
+            "factbook": "bk.ntxt:3maccabees"
+        },
+        {
+            "bookNumber": 56,
+            "factbook": "bk.ntxt:2esdras"
+        },
+        {
+            "bookNumber": 57,
+            "factbook": "bk.ntxt:4maccabees"
+        },
+        {
+            "bookNumber": 58,
+            "factbook": "bk.ntxt:odes"
+        },
+        {
+            "bookNumber": 59,
+            "factbook": "bk.ntxt:pssolomon"
+        },
+        {
+            "bookNumber": 61,
+            "factbook": "bk.ntxt:matthew",
+            "traditionalAuthor": "Matthew"
+        },
+        {
+            "bookNumber": 62,
+            "factbook": "bk.ntxt:mark",
+            "traditionalAuthor": "Mark"
+        },
+        {
+            "bookNumber": 63,
+            "factbook": "bk.ntxt:luke",
+            "traditionalAuthor": "Luke"
+        },
+        {
+            "bookNumber": 64,
+            "factbook": "bk.ntxt:john",
+            "traditionalAuthor": "John"
+        },
+        {
+            "bookNumber": 65,
+            "factbook": "bk.ntxt:acts",
+            "traditionalAuthor": "Luke"
+        },
+        {
+            "bookNumber": 66,
+            "factbook": "bk.ntxt:romans",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 67,
+            "factbook": "bk.ntxt:1corinthians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 68,
+            "factbook": "bk.ntxt:2corinthians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 69,
+            "factbook": "bk.ntxt:galatians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 70,
+            "factbook": "bk.ntxt:ephesians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 71,
+            "factbook": "bk.ntxt:philippians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 72,
+            "factbook": "bk.ntxt:colossians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 73,
+            "factbook": "bk.ntxt:1thessalonians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 74,
+            "factbook": "bk.ntxt:2thessalonians",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 75,
+            "factbook": "bk.ntxt:1timothy",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 76,
+            "factbook": "bk.ntxt:2timothy",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 77,
+            "factbook": "bk.ntxt:titus",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 78,
+            "factbook": "bk.ntxt:philemon",
+            "traditionalAuthor": "Paul"
+        },
+        {
+            "bookNumber": 79,
+            "factbook": "bk.ntxt:hebrews",
+            "traditionalAuthor": "Paul; Luke; Barnabas; Apollos"
+        },
+        {
+            "bookNumber": 80,
+            "factbook": "bk.ntxt:james",
+            "traditionalAuthor": "James"
+        },
+        {
+            "bookNumber": 81,
+            "factbook": "bk.ntxt:1peter",
+            "traditionalAuthor": "Peter"
+        },
+        {
+            "bookNumber": 82,
+            "factbook": "bk.ntxt:2peter",
+            "traditionalAuthor": "Peter"
+        },
+        {
+            "bookNumber": 83,
+            "factbook": "bk.ntxt:1john",
+            "traditionalAuthor": "John"
+        },
+        {
+            "bookNumber": 84,
+            "factbook": "bk.ntxt:2john",
+            "traditionalAuthor": "John"
+        },
+        {
+            "bookNumber": 85,
+            "factbook": "bk.ntxt:3john",
+            "traditionalAuthor": "John"
+        },
+        {
+            "bookNumber": 86,
+            "factbook": "bk.ntxt:jude",
+            "traditionalAuthor": "Jude"
+        },
+        {
+            "bookNumber": 87,
+            "factbook": "bk.ntxt:revelation",
+            "traditionalAuthor": "John"
+        }
+    ]
+}
