@@ -31,9 +31,23 @@ class DataTable {
 			});
 		});
 
-		return pivot;
-	}
+		var output = [];
+		Object.keys(pivot).forEach( key => {
+			var node = {
+				'id' : key,
+				'name' : key,
+				'children' : []
+			};
 
+			pivot[key].forEach( r => {
+				node.children.push(r);
+			});
+
+			output.push(node);
+		});
+
+		return output;
+	}
 }
 
 if (module) {
