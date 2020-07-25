@@ -37,6 +37,11 @@ class Util {
 		magenta: "#D12663",
 		slate: "#63728C"
 	};
+
+	static randomElement(array) {
+		var r = Math.floor(random(0, array.length));
+		return array[r];
+	}
 }
 
 if (module) {
