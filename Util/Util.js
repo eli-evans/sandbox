@@ -44,6 +44,6 @@ class Util {
 	}
 }
 
-if (module) {
+try {
 	module.exports = Util;
-}
+} catch (e) {}
