@@ -6,7 +6,9 @@
             "title": "Genesis",
             "testament": "Old Testament",
             "division": "Pentateuch",
-            "chapters": 50
+            "chapters": 50,
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 2,
@@ -14,7 +16,9 @@
             "title": "Exodus",
             "testament": "Old Testament",
             "division": "Pentateuch",
-            "chapters": 40
+            "chapters": 40,
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 3,
@@ -22,7 +26,9 @@
             "title": "Leviticus",
             "testament": "Old Testament",
             "division": "Pentateuch",
-            "chapters": 27
+            "chapters": 27,
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 4,
@@ -30,7 +36,9 @@
             "title": "Numbers",
             "testament": "Old Testament",
             "division": "Pentateuch",
-            "chapters": 36
+            "chapters": 36,
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 5,
@@ -1119,22 +1127,30 @@
         {
             "bookNumber": 1,
             "factbook": "bk.ntxt:genesis",
-            "traditionalAuthor": "Moses"
+            "traditionalAuthor": "Moses",
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 2,
             "factbook": "bk.ntxt:exodus",
-            "traditionalAuthor": "Moses"
+            "traditionalAuthor": "Moses",
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 3,
             "factbook": "bk.ntxt:leviticus",
-            "traditionalAuthor": "Moses"
+            "traditionalAuthor": "Moses",
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 4,
             "factbook": "bk.ntxt:numbers",
-            "traditionalAuthor": "Moses"
+            "traditionalAuthor": "Moses",
+            "dateEarly": -1600,
+            "dateLate": -600
         },
         {
             "bookNumber": 5,
