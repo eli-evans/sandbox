@@ -98,8 +98,30 @@ class Bible {
                 {n:35, name: "Habakkuk", abbr: "Hab", chapters: [17, 20, 19]},
                 {n:36, name: "Zephaniah", abbr: "Zeph", chapters: [18, 15, 20]},
                 {n:37, name: "Haggai", abbr: "Hag", chapters: [15, 23]},
-                {n:38, name: "Zechariah", abbr: "Zech", chapters: [21, 13, 10, 14, 11, 15, 14, 23, 17, 12, 17, 14, 9, 21]},
-                {n:39, name: "Malachi", abbr: "Mal", chapters: [14, 17, 18, 6]},
+				{n:38, name: "Zechariah", abbr: "Zech", chapters: [21, 13, 10, 14, 11, 15, 14, 23, 17, 12, 17, 14, 9, 21]},
+				{n:39, name: "Malachi", abbr: "Mal", chapters: [14, 17, 18, 6]},
+				
+				{n:40, name: "Tobit", abbr: "", chapters: []},
+				{n:41, name: "Judith", abbr: "", chapters: []},
+				{n:42, name: "Esther (Greek)", abbr: "", chapters: []},
+				{n:43, name: "The Wisdom of Solomon", abbr: "", chapters: []},
+				{n:44, name: "Sirach", abbr: "", chapters: []},
+				{n:45, name: "Baruch", abbr: "", chapters: []},
+				{n:46, name: "The Letter of Jeremiah", abbr: "", chapters: []},
+				{n:47, name: "Azariah and the Three Jews", abbr: "", chapters: []},
+				{n:48, name: "Susanna", abbr: "", chapters: []},
+				{n:49, name: "Bel and the Dragon", abbr: "", chapters: []},
+				{n:50, name: "1 Maccabees", abbr: "", chapters: []},
+				{n:51, name: "2 Maccabees", abbr: "", chapters: []},
+				{n:52, name: "1 Esdras", abbr: "", chapters: []},
+				{n:53, name: "The Prayer of Manasseh", abbr: "", chapters: []},
+				{n:54, name: "Psalm 151", abbr: "", chapters: []},
+				{n:55, name: "3 Maccabees", abbr: "", chapters: []},
+				{n:56, name: "2 Esdras", abbr: "", chapters: []},
+				{n:57, name: "4 Maccabees", abbr: "", chapters: []},
+				{n:58, name: "Odes of Solomon", abbr: "", chapters: []},
+				{n:59, name: "Psalms of Solomon", abbr: "", chapters: []},
+
                 {n:61, name: "Matthew", abbr: "Matt", chapters: [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]},
                 {n:62, name: "Mark", abbr: "Mark", chapters: [45, 28, 35, 41, 43, 56, 37, 38, 50, 52, 33, 44, 37, 72, 47, 20]},
                 {n:63, name: "Luke", abbr: "Luke", chapters: [80, 52, 38, 44, 39, 49, 50, 56, 62, 42, 54, 59, 35, 35, 32, 31, 37, 43, 48, 47, 38, 71, 56, 53]},
@@ -136,10 +158,22 @@ class Bible {
 	}
 	
 	getBookByNumber(n) {
-		return (this.books.filter( b => b.n === n ))[0];
+		return (this.books.filter( b => b.n === parseInt(n) ))[0];
+	}
+
+	static getBookNumberFromRef(ref) {
+		return (ref.split('.'))[1];
+	}
+
+	static getChapterNumberFromRef(ref) {
+		return (ref.split('.'))[2];
+	}
+
+	static getBookNameFromRef(ref) {
+		return (new Bible()).getBookByNumber(Bible.getBookNumberFromRef(ref)).name;
 	}
 }
 
-if (module) {
+try {
 	module.exports = Bible;
-}
+} catch (e) {}
