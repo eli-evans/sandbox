@@ -2,7 +2,7 @@ let fs = require('fs');
 let WordNumberData = require('./WordNumberData.js');
 
 
-let corpora = ['LogosLXX'];
+let corpora = ['SBLGreek'];
 let counts = {};
 
 corpora.forEach( corpus => {
@@ -29,13 +29,13 @@ corpora.forEach( corpus => {
 
 		// count singles across corpus
 		wndb.counter.singles('lemmas').forEach(lemma => {
-			if (book.counter['lemmas'][lemma] !== undefined) {
+			if (book.counter.has('lemmas', lemma)) {
 				book.counter.count('all', 'LUAT');
 			}
 		});
 
 		wndb.counter.singles('roots').forEach(root => {
-			if (book.counter['roots'][root] !== undefined) {
+			if (book.counter.has('roots', root) !== undefined) {
 				book.counter.count('all', 'RUAT');
 			}
 		});
@@ -43,14 +43,14 @@ corpora.forEach( corpus => {
 		var out = [
 			book.name,
 			book.chapters.length,
-			book.counter['all']['verses'],
-			book.counter['all']['words'],
-			book.counter.items('lemmas').length,
+			book.counter.total('all', 'verses'),
+			book.counter.total('all', 'words'),
+			book.counter.total('lemmas'),
 			book.counter.singles('lemmas').length,
-			book.counter['all']['LUAT'],
-			book.counter.items('roots').length,
+			book.counter.total('all', 'LUAT'),
+			book.counter.total('roots'),
 			book.counter.singles('roots').length,
-			book.counter['all']['RUAT'],
+			book.counter.total('all', 'RUAT'),
 		];
 
 		output.push(
