@@ -1,5 +1,6 @@
 let xml2js = require('xml2js');
 let Bible = require('../../Util/Bible.js');
+let Counter = require('../../Util/Counter.js');
 let fs = require('fs');
 const { throws } = require('assert');
 
@@ -178,46 +179,6 @@ class WordData {
 		return this._fields[fname];
 	}
 }
-
-class Counter {
-	constructor() {
-	}
-
-	count(list, key, amount) {
-		if (amount === undefined) {
-			amount = 1;
-		}
-		if (this[list] === undefined) {
-			this[list] = {};
-		}
-		if (this[list][key] === undefined) {
-			this[list][key] = 0;
-		}
-		this[list][key] += amount;
-	}
-
-	items(list) {
-		// returns sorted by frequency, then order
-		return this.itemNames(list)
-			.map( r => {return {name: r, count: this[list][r]} } );
-	}
-
-	itemNames(list) {
-		return Object.keys(this[list])
-			.sort( (a,b) => this[list][b] - this[list][a] || a.localeCompare(b) )
-	}
-
-	singles(list) {
-		return this.items(list)
-			.filter( r => r.count === 1)
-			.map( r => r.name);
-	}
-
-	value(list, key) {
-		return this[list][key];
-	}
-}
-
 
 
 module.exports = WordNumberData;
