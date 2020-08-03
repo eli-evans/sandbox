@@ -4,7 +4,6 @@ let Counter = require('../../Util/Counter.js');
 
 const Bible = require('../../Util/Bible.js');
 
-
 const lgenre = {
 	// "1" : "Narrative",
 	"1.1" : "Narrative, Story",
@@ -23,7 +22,6 @@ const lgenre = {
 	"4.2" : "Expository, What things will be like"
 };
 
-var bible = new Bible();
 var headings = Object.values(lgenre);
 
 var json = JSON.parse(fs.readFileSync('/Users/eevans/Documents/GitHub/ShipLongacreGenre/data/en/longacre_pericope_genres.json'));
@@ -33,8 +31,8 @@ var counter = new Counter();
 json.data.forEach( r => {
 	var genre = getGenre(r.xref);
 	if (genre) {
-		var book = getBook(r.ref);
-		var verses = countVerses(r.ref);
+		var book = Bible.getBookNumberFromRef(r.ref);
+		var verses = Bible.countVerses(r.ref);
 		verses = verses === NaN ? 15 : verses;
 
 		if (book) { 
@@ -47,6 +45,8 @@ console.log( (['name', 'best guess'].concat(headings)).join('\t') );
 
 counter.all().forEach( list => {
 	let best;
+
+	// Look into: https://stackoverflow.com/questions/54886939/finding-the-peaks-of-an-array-using-javascript
 
 	list.items.forEach( item => {
 		if (item.standardDeviations >= 1.5) {
@@ -66,48 +66,6 @@ counter.all().forEach( list => {
 
 });
 
-// console.log('\n');
-// console.log( JSON.stringify( counter.all(), null, 4));
-
-function countVerses(str) {
-	let ret = 0;
-
-	let matrix = str.split('-')
-		.map( r => r.split('.')
-			.map(r => parseInt(r) )
-			.map(r => r === NaN ? 1 : r )
-		);
-	matrix[0] = matrix[0].slice(1,);
-
-	if (matrix.length === 1) {
-		return 1; // no distance
-	}
-
-	if (matrix[0][0] === matrix[1][0] && matrix[0][1] === matrix[1][1]) {
-		// book and chapter are the same, distance is simple subtraction
-		ret = matrix[1][2] - matrix[0][2];
-		ret += 1;
-	}
-	else if(matrix[0][0] === matrix[1][0]) {
-		// book is the same
-		let book = bible.getBookByNumber(matrix[0][0]);
-		
-		// iterate over chapters, add all verses
-		let sum = 0;
-		for (i = matrix[0][1]; i < matrix[1][1]; ++i) {
-			sum += book.chapters[i-1];
-		}
-		sum -= (matrix[0][2] - 1);  // back off initial chapter start verse
-		sum += matrix[1][2]; // add on ending chapter verses
-		
-		ret = sum + 1;
-	}
-	else {
-		console.warn(`How do I ${str}?`)
-	}
-
-	return ret;
-}
 
 function getGenre(str) {
 	if (/label/.test(str)) {
@@ -131,20 +89,5 @@ function getGenre(str) {
 		ret = lgenre[ret];
 	}
 
-	return ret;
-}
-
-function getBook(str) {
-	var ret = "";
-	var re = new RegExp(/^bible\.(\d+)/);
-	re.test(str);
-
-	var book = bible.getBookByNumber(parseInt(RegExp.$1));
-	if (book) {
-		ret = book.name;
-	}
-	else {
-		console.warn(`What happened with ${str}`);
-	}
 	return ret;
 }
