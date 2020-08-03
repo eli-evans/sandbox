@@ -1,4 +1,502 @@
 {
+    "All": [
+        {
+            "bookNumber": 1,
+            "factbook": "bk.ntxt:genesis",
+            "traditionalAuthor": "Moses",
+            "citations": 2064531
+        },
+        {
+            "bookNumber": 2,
+            "factbook": "bk.ntxt:exodus",
+            "traditionalAuthor": "Moses",
+            "citations": 1398187
+        },
+        {
+            "bookNumber": 3,
+            "factbook": "bk.ntxt:leviticus",
+            "traditionalAuthor": "Moses",
+            "citations": 750350
+        },
+        {
+            "bookNumber": 4,
+            "factbook": "bk.ntxt:numbers",
+            "traditionalAuthor": "Moses",
+            "citations": 953605
+        },
+        {
+            "bookNumber": 5,
+            "factbook": "bk.ntxt:deuteronomy",
+            "traditionalAuthor": "Moses; Joshua",
+            "citations": 1271012
+        },
+        {
+            "bookNumber": 6,
+            "factbook": "bk.ntxt:joshua",
+            "traditionalAuthor": "Joshua",
+            "citations": 458017
+        },
+        {
+            "bookNumber": 7,
+            "factbook": "bk.ntxt:judges",
+            "traditionalAuthor": "Samuel; Nathan; Gad",
+            "citations": 433398
+        },
+        {
+            "bookNumber": 8,
+            "factbook": "bk.ntxt:ruth",
+            "traditionalAuthor": "Samuel; Nathan; Gad",
+            "citations": 94176
+        },
+        {
+            "bookNumber": 9,
+            "factbook": "bk.ntxt:1samuel",
+            "traditionalAuthor": "Samuel; Nathan; Gad",
+            "citations": 627833
+        },
+        {
+            "bookNumber": 10,
+            "factbook": "bk.ntxt:2samuel",
+            "traditionalAuthor": "Samuel; Nathan; Gad",
+            "citations": 481049
+        },
+        {
+            "bookNumber": 11,
+            "factbook": "bk.ntxt:1kings",
+            "traditionalAuthor": "Jeremiah",
+            "citations": 603220
+        },
+        {
+            "bookNumber": 12,
+            "factbook": "bk.ntxt:2kings",
+            "traditionalAuthor": "Jeremiah",
+            "citations": 521005
+        },
+        {
+            "bookNumber": 13,
+            "factbook": "bk.ntxt:1chronicles",
+            "traditionalAuthor": "Ezra",
+            "citations": 454519
+        },
+        {
+            "bookNumber": 14,
+            "factbook": "bk.ntxt:2chronicles",
+            "traditionalAuthor": "Ezra",
+            "citations": 456767
+        },
+        {
+            "bookNumber": 15,
+            "factbook": "bk.ntxt:ezra",
+            "traditionalAuthor": "Ezra",
+            "citations": 227204
+        },
+        {
+            "bookNumber": 16,
+            "factbook": "bk.ntxt:nehemiah",
+            "traditionalAuthor": "Nehemiah",
+            "citations": 290920
+        },
+        {
+            "bookNumber": 17,
+            "factbook": "bk.ntxt:esther",
+            "traditionalAuthor": "Mordecai",
+            "citations": 164021
+        },
+        {
+            "bookNumber": 18,
+            "factbook": "bk.ntxt:job",
+            "traditionalAuthor": "Job",
+            "citations": 667190
+        },
+        {
+            "bookNumber": 19,
+            "factbook": "bk.ntxt:psalms",
+            "traditionalAuthor": "Unknown; David; Asaph; Sons of Korah; Moses; Solomon; Ethan; Heman",
+            "citations": 3015337
+        },
+        {
+            "bookNumber": 20,
+            "factbook": "bk.ntxt:proverbs",
+            "traditionalAuthor": "Solomon; Agur; Lemuel",
+            "citations": 771838
+        },
+        {
+            "bookNumber": 21,
+            "factbook": "bk.ntxt:ecclesiastes",
+            "traditionalAuthor": "Solomon",
+            "citations": 253222
+        },
+        {
+            "bookNumber": 22,
+            "factbook": "bk.ntxt:songofsongs",
+            "traditionalAuthor": "Solomon",
+            "citations": 162656
+        },
+        {
+            "bookNumber": 23,
+            "factbook": "bk.ntxt:isaiah",
+            "traditionalAuthor": "Isaiah",
+            "citations": 2069338
+        },
+        {
+            "bookNumber": 24,
+            "factbook": "bk.ntxt:jeremiah",
+            "traditionalAuthor": "Jeremiah",
+            "citations": 1287907
+        },
+        {
+            "bookNumber": 25,
+            "factbook": "bk.ntxt:lamentations",
+            "traditionalAuthor": "Jeremiah",
+            "citations": 127516
+        },
+        {
+            "bookNumber": 26,
+            "factbook": "bk.ntxt:ezekiel",
+            "traditionalAuthor": "Ezekiel",
+            "citations": 1043468
+        },
+        {
+            "bookNumber": 27,
+            "factbook": "bk.ntxt:daniel",
+            "traditionalAuthor": "Daniel",
+            "citations": 509125
+        },
+        {
+            "bookNumber": 28,
+            "factbook": "bk.ntxt:hosea",
+            "traditionalAuthor": "Hosea",
+            "citations": 288777
+        },
+        {
+            "bookNumber": 29,
+            "factbook": "bk.ntxt:joel",
+            "traditionalAuthor": "Joel",
+            "citations": 121230
+        },
+        {
+            "bookNumber": 30,
+            "factbook": "bk.ntxt:amos",
+            "traditionalAuthor": "Amos",
+            "citations": 249099
+        },
+        {
+            "bookNumber": 31,
+            "factbook": "bk.ntxt:obadiah",
+            "traditionalAuthor": "Obadiah",
+            "citations": 31201
+        },
+        {
+            "bookNumber": 32,
+            "factbook": "bk.ntxt:jonah",
+            "traditionalAuthor": "Jonah",
+            "citations": 72038
+        },
+        {
+            "bookNumber": 33,
+            "factbook": "bk.ntxt:micah",
+            "traditionalAuthor": "Micah",
+            "citations": 162023
+        },
+        {
+            "bookNumber": 34,
+            "factbook": "bk.ntxt:nahum",
+            "traditionalAuthor": "Nahum",
+            "citations": 54717
+        },
+        {
+            "bookNumber": 35,
+            "factbook": "bk.ntxt:habakkuk",
+            "traditionalAuthor": "Habakkuk",
+            "citations": 83940
+        },
+        {
+            "bookNumber": 36,
+            "factbook": "bk.ntxt:zephaniah",
+            "traditionalAuthor": "Zephaniah",
+            "citations": 75505
+        },
+        {
+            "bookNumber": 37,
+            "factbook": "bk.ntxt:haggai",
+            "traditionalAuthor": "Haggai",
+            "citations": 54949
+        },
+        {
+            "bookNumber": 38,
+            "factbook": "bk.ntxt:zechariah",
+            "traditionalAuthor": "Zechariah",
+            "citations": 279374
+        },
+        {
+            "bookNumber": 39,
+            "factbook": "bk.ntxt:malachi",
+            "traditionalAuthor": "Malachi",
+            "citations": 115943
+        },
+        {
+            "bookNumber": 40,
+            "factbook": "bk.ntxt:tobit",
+            "traditionalAuthor": "Tobit"
+        },
+        {
+            "bookNumber": 41,
+            "factbook": "bk.ntxt:judith",
+            "traditionalAuthor": "Judith"
+        },
+        {
+            "bookNumber": 42,
+            "factbook": "bk.ntxt:additiontoesther",
+            "traditionalAuthor": "Esther (Greek)"
+        },
+        {
+            "bookNumber": 43,
+            "factbook": "bk.ntxt:solomonwisdom",
+            "traditionalAuthor": "The Wisdom of Solomon"
+        },
+        {
+            "bookNumber": 44,
+            "factbook": "bk.ntxt:sirach",
+            "traditionalAuthor": "Sirach"
+        },
+        {
+            "bookNumber": 45,
+            "factbook": "bk.ntxt:baruch",
+            "traditionalAuthor": "Baruch"
+        },
+        {
+            "bookNumber": 46,
+            "factbook": "bk.ntxt:epistleofjeremiah",
+            "traditionalAuthor": "The Letter of Jeremiah"
+        },
+        {
+            "bookNumber": 47,
+            "factbook": "bk.ntxt:threeyoungmensong",
+            "traditionalAuthor": "Azariah and the Three Jews"
+        },
+        {
+            "bookNumber": 48,
+            "factbook": "bk.ntxt:susanna",
+            "traditionalAuthor": "Susanna"
+        },
+        {
+            "bookNumber": 49,
+            "factbook": "bk.ntxt:beldragon",
+            "traditionalAuthor": "Bel and the Dragon"
+        },
+        {
+            "bookNumber": 50,
+            "factbook": "bk.ntxt:1maccabees",
+            "traditionalAuthor": "1 Maccabees"
+        },
+        {
+            "bookNumber": 51,
+            "factbook": "bk.ntxt:2maccabees",
+            "traditionalAuthor": "2 Maccabees"
+        },
+        {
+            "bookNumber": 52,
+            "factbook": "bk.ntxt:1esdras",
+            "traditionalAuthor": "1 Esdras"
+        },
+        {
+            "bookNumber": 53,
+            "factbook": "bk.ntxt:prayerofmanasseh",
+            "traditionalAuthor": "The Prayer of Manasseh"
+        },
+        {
+            "bookNumber": 54,
+            "factbook": "bk.ntxt:psalmaddition",
+            "traditionalAuthor": "Psalm 151"
+        },
+        {
+            "bookNumber": 55,
+            "factbook": "bk.ntxt:3maccabees",
+            "traditionalAuthor": "3 Maccabees"
+        },
+        {
+            "bookNumber": 56,
+            "factbook": "bk.ntxt:2esdras",
+            "traditionalAuthor": "2 Esdras"
+        },
+        {
+            "bookNumber": 57,
+            "factbook": "bk.ntxt:4maccabees",
+            "traditionalAuthor": "4 Maccabees"
+        },
+        {
+            "bookNumber": 58,
+            "factbook": "bk.ntxt:odes",
+            "traditionalAuthor": "Odes of Solomon"
+        },
+        {
+            "bookNumber": 59,
+            "factbook": "bk.ntxt:pssolomon",
+            "traditionalAuthor": "Psalms of Solomon"
+        },
+        {
+            "bookNumber": 61,
+            "factbook": "bk.ntxt:matthew",
+            "traditionalAuthor": "Matthew",
+            "citations": 2208493
+        },
+        {
+            "bookNumber": 62,
+            "factbook": "bk.ntxt:mark",
+            "traditionalAuthor": "Mark",
+            "citations": 1073946
+        },
+        {
+            "bookNumber": 63,
+            "factbook": "bk.ntxt:luke",
+            "traditionalAuthor": "Luke",
+            "citations": 1699633
+        },
+        {
+            "bookNumber": 64,
+            "factbook": "bk.ntxt:john",
+            "traditionalAuthor": "John",
+            "citations": 1966448
+        },
+        {
+            "bookNumber": 65,
+            "factbook": "bk.ntxt:acts",
+            "traditionalAuthor": "Luke",
+            "citations": 1804028
+        },
+        {
+            "bookNumber": 66,
+            "factbook": "bk.ntxt:romans",
+            "traditionalAuthor": "Paul",
+            "citations": 1540347
+        },
+        {
+            "bookNumber": 67,
+            "factbook": "bk.ntxt:1corinthians",
+            "traditionalAuthor": "Paul",
+            "citations": 1157089
+        },
+        {
+            "bookNumber": 68,
+            "factbook": "bk.ntxt:2corinthians",
+            "traditionalAuthor": "Paul",
+            "citations": 679936
+        },
+        {
+            "bookNumber": 69,
+            "factbook": "bk.ntxt:galatians",
+            "traditionalAuthor": "Paul",
+            "citations": 530136
+        },
+        {
+            "bookNumber": 70,
+            "factbook": "bk.ntxt:ephesians",
+            "traditionalAuthor": "Paul",
+            "citations": 632045
+        },
+        {
+            "bookNumber": 71,
+            "factbook": "bk.ntxt:philippians",
+            "traditionalAuthor": "Paul",
+            "citations": 378469
+        },
+        {
+            "bookNumber": 72,
+            "factbook": "bk.ntxt:colossians",
+            "traditionalAuthor": "Paul",
+            "citations": 346636
+        },
+        {
+            "bookNumber": 73,
+            "factbook": "bk.ntxt:1thessalonians",
+            "traditionalAuthor": "Paul",
+            "citations": 265054
+        },
+        {
+            "bookNumber": 74,
+            "factbook": "bk.ntxt:2thessalonians",
+            "traditionalAuthor": "Paul",
+            "citations": 133537
+        },
+        {
+            "bookNumber": 75,
+            "factbook": "bk.ntxt:1timothy",
+            "traditionalAuthor": "Paul",
+            "citations": 331066
+        },
+        {
+            "bookNumber": 76,
+            "factbook": "bk.ntxt:2timothy",
+            "traditionalAuthor": "Paul",
+            "citations": 228614
+        },
+        {
+            "bookNumber": 77,
+            "factbook": "bk.ntxt:titus",
+            "traditionalAuthor": "Paul",
+            "citations": 138733
+        },
+        {
+            "bookNumber": 78,
+            "factbook": "bk.ntxt:philemon",
+            "traditionalAuthor": "Paul",
+            "citations": 44991
+        },
+        {
+            "bookNumber": 79,
+            "factbook": "bk.ntxt:hebrews",
+            "traditionalAuthor": "Paul; Luke; Barnabas; Apollos",
+            "citations": 885173
+        },
+        {
+            "bookNumber": 80,
+            "factbook": "bk.ntxt:james",
+            "traditionalAuthor": "James",
+            "citations": 295343
+        },
+        {
+            "bookNumber": 81,
+            "factbook": "bk.ntxt:1peter",
+            "traditionalAuthor": "Peter",
+            "citations": 403186
+        },
+        {
+            "bookNumber": 82,
+            "factbook": "bk.ntxt:2peter",
+            "traditionalAuthor": "Peter",
+            "citations": 182107
+        },
+        {
+            "bookNumber": 83,
+            "factbook": "bk.ntxt:1john",
+            "traditionalAuthor": "John",
+            "citations": 389235
+        },
+        {
+            "bookNumber": 84,
+            "factbook": "bk.ntxt:2john",
+            "traditionalAuthor": "John",
+            "citations": 27270
+        },
+        {
+            "bookNumber": 85,
+            "factbook": "bk.ntxt:3john",
+            "traditionalAuthor": "John",
+            "citations": 23297
+        },
+        {
+            "bookNumber": 86,
+            "factbook": "bk.ntxt:jude",
+            "traditionalAuthor": "Jude",
+            "citations": 77659
+        },
+        {
+            "bookNumber": 87,
+            "factbook": "bk.ntxt:revelation",
+            "traditionalAuthor": "John",
+            "citations": 1115203
+        }
+    ],
     "Protestant (66 Books)": [
         {
             "bookNumber": 1,
@@ -8,7 +506,8 @@
             "division": "Pentateuch",
             "chapters": 50,
             "dateEarly": -1600,
-            "dateLate": -600
+            "dateLate": -600,
+            "traditionalAuthor": "Moses"
         },
         {
             "bookNumber": 2,
@@ -18,7 +517,8 @@
             "division": "Pentateuch",
             "chapters": 40,
             "dateEarly": -1600,
-            "dateLate": -600
+            "dateLate": -600,
+            "traditionalAuthor": "Moses"
         },
         {
             "bookNumber": 3,
@@ -28,7 +528,8 @@
             "division": "Pentateuch",
             "chapters": 27,
             "dateEarly": -1600,
-            "dateLate": -600
+            "dateLate": -600,
+            "traditionalAuthor": "Moses"
         },
         {
             "bookNumber": 4,
@@ -38,7 +539,8 @@
             "division": "Pentateuch",
             "chapters": 36,
             "dateEarly": -1600,
-            "dateLate": -600
+            "dateLate": -600,
+            "traditionalAuthor": "Moses"
         },
         {
             "bookNumber": 5,
@@ -46,7 +548,8 @@
             "title": "Deuteronomy",
             "testament": "Old Testament",
             "division": "Pentateuch",
-            "chapters": 34
+            "chapters": 34,
+            "traditionalAuthor": "Moses; Joshua"
         },
         {
             "bookNumber": 6,
@@ -54,7 +557,8 @@
             "title": "Joshua",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 24
+            "chapters": 24,
+            "traditionalAuthor": "Joshua"
         },
         {
             "bookNumber": 7,
@@ -62,7 +566,8 @@
             "title": "Judges",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 21
+            "chapters": 21,
+            "traditionalAuthor": "Samuel; Nathan; Gad"
         },
         {
             "bookNumber": 8,
@@ -70,7 +575,8 @@
             "title": "Ruth",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 4
+            "chapters": 4,
+            "traditionalAuthor": "Samuel; Nathan; Gad"
         },
         {
             "bookNumber": 9,
@@ -78,7 +584,8 @@
             "title": "1 Samuel",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 31
+            "chapters": 31,
+            "traditionalAuthor": "Samuel; Nathan; Gad"
         },
         {
             "bookNumber": 10,
@@ -86,7 +593,8 @@
             "title": "2 Samuel",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 24
+            "chapters": 24,
+            "traditionalAuthor": "Samuel; Nathan; Gad"
         },
         {
             "bookNumber": 11,
@@ -94,7 +602,8 @@
             "title": "1 Kings",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 22
+            "chapters": 22,
+            "traditionalAuthor": "Jeremiah"
         },
         {
             "bookNumber": 12,
@@ -102,7 +611,8 @@
             "title": "2 Kings",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 25
+            "chapters": 25,
+            "traditionalAuthor": "Jeremiah"
         },
         {
             "bookNumber": 13,
@@ -110,7 +620,8 @@
             "title": "1 Chronicles",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 29
+            "chapters": 29,
+            "traditionalAuthor": "Ezra"
         },
         {
             "bookNumber": 14,
@@ -118,7 +629,8 @@
             "title": "2 Chronicles",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 36
+            "chapters": 36,
+            "traditionalAuthor": "Ezra"
         },
         {
             "bookNumber": 15,
@@ -126,7 +638,8 @@
             "title": "Ezra",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 10
+            "chapters": 10,
+            "traditionalAuthor": "Ezra"
         },
         {
             "bookNumber": 16,
@@ -134,7 +647,8 @@
             "title": "Nehemiah",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 13
+            "chapters": 13,
+            "traditionalAuthor": "Nehemiah"
         },
         {
             "bookNumber": 17,
@@ -142,7 +656,8 @@
             "title": "Esther",
             "testament": "Old Testament",
             "division": "History",
-            "chapters": 10
+            "chapters": 10,
+            "traditionalAuthor": "Mordecai"
         },
         {
             "bookNumber": 18,
@@ -150,7 +665,8 @@
             "title": "Job",
             "testament": "Old Testament",
             "division": "Wisdom",
-            "chapters": 42
+            "chapters": 42,
+            "traditionalAuthor": "Job"
         },
         {
             "bookNumber": 19,
@@ -158,7 +674,8 @@
             "title": "Psalms",
             "testament": "Old Testament",
             "division": "Wisdom",
-            "chapters": 150
+            "chapters": 150,
+            "traditionalAuthor": "Unknown; David; Asaph; Sons of Korah; Moses; Solomon; Ethan; Heman"
         },
         {
             "bookNumber": 20,
@@ -166,7 +683,8 @@
             "title": "Proverbs",
             "testament": "Old Testament",
             "division": "Wisdom",
-            "chapters": 31
+            "chapters": 31,
+            "traditionalAuthor": "Solomon; Agur; Lemuel"
         },
         {
             "bookNumber": 21,
@@ -174,7 +692,8 @@
             "title": "Ecclesiastes",
             "testament": "Old Testament",
             "division": "Wisdom",
-            "chapters": 12
+            "chapters": 12,
+            "traditionalAuthor": "Solomon"
         },
         {
             "bookNumber": 22,
@@ -182,7 +701,8 @@
             "title": "Song of Solomon",
             "testament": "Old Testament",
             "division": "Wisdom",
-            "chapters": 8
+            "chapters": 8,
+            "traditionalAuthor": "Solomon"
         },
         {
             "bookNumber": 23,
@@ -190,7 +710,8 @@
             "title": "Isaiah",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 66
+            "chapters": 66,
+            "traditionalAuthor": "Isaiah"
         },
         {
             "bookNumber": 24,
@@ -198,7 +719,8 @@
             "title": "Jeremiah",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 52
+            "chapters": 52,
+            "traditionalAuthor": "Jeremiah"
         },
         {
             "bookNumber": 25,
@@ -206,7 +728,8 @@
             "title": "Lamentations",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 5
+            "chapters": 5,
+            "traditionalAuthor": "Jeremiah"
         },
         {
             "bookNumber": 26,
@@ -214,7 +737,8 @@
             "title": "Ezekiel",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 48
+            "chapters": 48,
+            "traditionalAuthor": "Ezekiel"
         },
         {
             "bookNumber": 27,
@@ -222,7 +746,8 @@
             "title": "Daniel",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 12
+            "chapters": 12,
+            "traditionalAuthor": "Daniel"
         },
         {
             "bookNumber": 28,
@@ -230,7 +755,8 @@
             "title": "Hosea",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 14
+            "chapters": 14,
+            "traditionalAuthor": "Hosea"
         },
         {
             "bookNumber": 29,
@@ -238,7 +764,8 @@
             "title": "Joel",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 3
+            "chapters": 3,
+            "traditionalAuthor": "Joel"
         },
         {
             "bookNumber": 30,
@@ -246,7 +773,8 @@
             "title": "Amos",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 9
+            "chapters": 9,
+            "traditionalAuthor": "Amos"
         },
         {
             "bookNumber": 31,
@@ -254,7 +782,8 @@
             "title": "Obadiah",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 1
+            "chapters": 1,
+            "traditionalAuthor": "Obadiah"
         },
         {
             "bookNumber": 32,
@@ -262,7 +791,8 @@
             "title": "Jonah",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 4
+            "chapters": 4,
+            "traditionalAuthor": "Jonah"
         },
         {
             "bookNumber": 33,
@@ -270,7 +800,8 @@
             "title": "Micah",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 7
+            "chapters": 7,
+            "traditionalAuthor": "Micah"
         },
         {
             "bookNumber": 34,
@@ -278,7 +809,8 @@
             "title": "Nahum",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 3
+            "chapters": 3,
+            "traditionalAuthor": "Nahum"
         },
         {
             "bookNumber": 35,
@@ -286,7 +818,8 @@
             "title": "Habakkuk",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 3
+            "chapters": 3,
+            "traditionalAuthor": "Habakkuk"
         },
         {
             "bookNumber": 36,
@@ -294,7 +827,8 @@
             "title": "Zephaniah",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 3
+            "chapters": 3,
+            "traditionalAuthor": "Zephaniah"
         },
         {
             "bookNumber": 37,
@@ -302,7 +836,8 @@
             "title": "Haggai",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 2
+            "chapters": 2,
+            "traditionalAuthor": "Haggai"
         },
         {
             "bookNumber": 38,
@@ -310,7 +845,8 @@
             "title": "Zechariah",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 14
+            "chapters": 14,
+            "traditionalAuthor": "Zechariah"
         },
         {
             "bookNumber": 39,
@@ -318,7 +854,8 @@
             "title": "Malachi",
             "testament": "Old Testament",
             "division": "Prophets",
-            "chapters": 4
+            "chapters": 4,
+            "traditionalAuthor": "Malachi"
         },
         {
             "bookNumber": 61,
@@ -326,7 +863,11 @@
             "title": "Matthew",
             "testament": "New Testament",
             "division": "Gospels",
-            "chapters": 28
+            "chapters": 28,
+            "dateEarly": 80,
+            "dateLate": 80,
+            "traditionalAuthor": "Matthew",
+            "message": "Jesus the Messiah-King climactically fulfills the Old Testament."
         },
         {
             "bookNumber": 62,
@@ -334,7 +875,11 @@
             "title": "Mark",
             "testament": "New Testament",
             "division": "Gospels",
-            "chapters": 16
+            "chapters": 16,
+            "dateEarly": 50,
+            "dateLate": 70,
+            "traditionalAuthor": "Mark",
+            "message": "Jesus the Messiah and Son of God is a Suffering Servant and a model for his followers."
         },
         {
             "bookNumber": 63,
@@ -342,7 +887,11 @@
             "title": "Luke",
             "testament": "New Testament",
             "division": "Gospels",
-            "chapters": 24
+            "chapters": 24,
+            "dateEarly": 60,
+            "dateLate": 60,
+            "traditionalAuthor": "Luke",
+            "message": "Jesus the Messiah fulfills God’s plan by seeking and saving the lost."
         },
         {
             "bookNumber": 64,
@@ -350,7 +899,11 @@
             "title": "John",
             "testament": "New Testament",
             "division": "Gospels",
-            "chapters": 21
+            "chapters": 21,
+            "dateEarly": 80,
+            "dateLate": 95,
+            "traditionalAuthor": "John",
+            "message": "Jesus the Messiah and Son of God gives eternal life to everyone who believes in him."
         },
         {
             "bookNumber": 65,
@@ -358,7 +911,11 @@
             "title": "Acts",
             "testament": "New Testament",
             "division": "Acts",
-            "chapters": 28
+            "chapters": 28,
+            "dateEarly": 63,
+            "dateLate": 64,
+            "traditionalAuthor": "Luke",
+            "message": "Jesus the Messiah continues to fulfill God’s plan by expanding the early church in the face of opposition through the Holy Spirit’s power."
         },
         {
             "bookNumber": 66,
@@ -366,7 +923,11 @@
             "title": "Romans",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 16
+            "chapters": 16,
+            "dateEarly": 57,
+            "dateLate": 59,
+            "traditionalAuthor": "Paul",
+            "message": "The gospel reveals how God is righteously righteousing (i.e., justifying) unrighteous individuals—both Jews and Gentiles—at this stage in the history of salvation."
         },
         {
             "bookNumber": 67,
@@ -374,7 +935,11 @@
             "title": "1 Corinthians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 16
+            "chapters": 16,
+            "dateEarly": 53,
+            "dateLate": 57,
+            "traditionalAuthor": "Paul",
+            "message": "The gospel requires God’s holy people to mature in purity and unity."
         },
         {
             "bookNumber": 68,
@@ -382,7 +947,11 @@
             "title": "2 Corinthians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 13
+            "chapters": 13,
+            "dateEarly": 56,
+            "dateLate": 57,
+            "traditionalAuthor": "Paul",
+            "message": "God shows his power through human weakness."
         },
         {
             "bookNumber": 69,
@@ -390,7 +959,11 @@
             "title": "Galatians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 6
+            "chapters": 6,
+            "dateEarly": 53,
+            "dateLate": 57,
+            "traditionalAuthor": "Paul",
+            "message": "Both Jews and Gentiles are justified by (and continue to live by) faith in Christ, not by works of the law."
         },
         {
             "bookNumber": 70,
@@ -398,7 +971,11 @@
             "title": "Ephesians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 6
+            "chapters": 6,
+            "dateEarly": 61,
+            "dateLate": 62,
+            "traditionalAuthor": "Paul",
+            "message": "The church (both Jewish and Gentile Christians) must maintain the unity that Christ powerfully created."
         },
         {
             "bookNumber": 71,
@@ -406,7 +983,11 @@
             "title": "Philippians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 4
+            "chapters": 4,
+            "dateEarly": 61,
+            "dateLate": 62,
+            "traditionalAuthor": "Paul",
+            "message": "Conduct yourselves in a manner worthy of the gospe."
         },
         {
             "bookNumber": 72,
@@ -414,7 +995,11 @@
             "title": "Colossians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 4
+            "chapters": 4,
+            "dateEarly": 61,
+            "dateLate": 62,
+            "traditionalAuthor": "Paul",
+            "message": "Christ is supreme."
         },
         {
             "bookNumber": 73,
@@ -422,7 +1007,11 @@
             "title": "1 Thessalonians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 5
+            "chapters": 5,
+            "dateEarly": 50,
+            "dateLate": 50,
+            "traditionalAuthor": "Paul",
+            "message": "Walk in light of Christ’s imminent coming."
         },
         {
             "bookNumber": 74,
@@ -430,7 +1019,11 @@
             "title": "2 Thessalonians",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 3
+            "chapters": 3,
+            "dateEarly": 52,
+            "dateLate": 53,
+            "traditionalAuthor": "Paul",
+            "message": "Persevere because the Lord Jesus Christ will return and set all things right."
         },
         {
             "bookNumber": 75,
@@ -438,7 +1031,11 @@
             "title": "1 Timothy",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 6
+            "chapters": 6,
+            "dateEarly": 60,
+            "dateLate": 64,
+            "traditionalAuthor": "Paul",
+            "message": "The church must guard the faith by embracing godliness."
         },
         {
             "bookNumber": 76,
@@ -446,7 +1043,11 @@
             "title": "2 Timothy",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 4
+            "chapters": 4,
+            "dateEarly": 64,
+            "dateLate": 67,
+            "traditionalAuthor": "Paul",
+            "message": "Persevere for the gospel."
         },
         {
             "bookNumber": 77,
@@ -454,7 +1055,11 @@
             "title": "Titus",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 3
+            "chapters": 3,
+            "dateEarly": 60,
+            "dateLate": 64,
+            "traditionalAuthor": "Paul",
+            "message": "Elders must faithfully teach, defend, and apply sound doctrine so that believers do what is good by God’s grace."
         },
         {
             "bookNumber": 78,
@@ -462,7 +1067,11 @@
             "title": "Philemon",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 1
+            "chapters": 1,
+            "dateEarly": 61,
+            "dateLate": 62,
+            "traditionalAuthor": "Paul",
+            "message": "Love your Christian brothers and sisters (regardless of social barriers) by valuing them above yourself."
         },
         {
             "bookNumber": 79,
@@ -470,7 +1079,11 @@
             "title": "Hebrews",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 13
+            "chapters": 13,
+            "dateEarly": 60,
+            "dateLate": 70,
+            "traditionalAuthor": "Paul; Luke; Barnabas; Apollos",
+            "message": "Jesus is better, so persevere."
         },
         {
             "bookNumber": 80,
@@ -478,7 +1091,11 @@
             "title": "James",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 5
+            "chapters": 5,
+            "dateEarly": 44,
+            "dateLate": 49,
+            "traditionalAuthor": "James",
+            "message": "Faith works."
         },
         {
             "bookNumber": 81,
@@ -486,7 +1103,11 @@
             "title": "1 Peter",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 5
+            "chapters": 5,
+            "dateEarly": 58,
+            "dateLate": 68,
+            "traditionalAuthor": "Peter",
+            "message": "Stand firm in God’s grace."
         },
         {
             "bookNumber": 82,
@@ -494,7 +1115,11 @@
             "title": "2 Peter",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 3
+            "chapters": 3,
+            "dateEarly": 65,
+            "dateLate": 68,
+            "traditionalAuthor": "Peter",
+            "message": "Beware of false teachers."
         },
         {
             "bookNumber": 83,
@@ -502,7 +1127,11 @@
             "title": "1 John",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 5
+            "chapters": 5,
+            "dateEarly": 80,
+            "dateLate": 90,
+            "traditionalAuthor": "John",
+            "message": "You can know that you have eternal life in three interlocked ways: believing in Jesus, living righteously, and loving believers."
         },
         {
             "bookNumber": 84,
@@ -510,7 +1139,11 @@
             "title": "2 John",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 1
+            "chapters": 1,
+            "dateEarly": 80,
+            "dateLate": 90,
+            "traditionalAuthor": "John",
+            "message": "Walk in the truth and love by not supporting deceivers."
         },
         {
             "bookNumber": 85,
@@ -518,7 +1151,11 @@
             "title": "3 John",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 1
+            "chapters": 1,
+            "dateEarly": 80,
+            "dateLate": 90,
+            "traditionalAuthor": "John",
+            "message": "Work together for the truth by supporting those who spread it."
         },
         {
             "bookNumber": 86,
@@ -526,7 +1163,11 @@
             "title": "Jude",
             "testament": "New Testament",
             "division": "Letters",
-            "chapters": 1
+            "chapters": 1,
+            "dateEarly": 67,
+            "dateLate": 70,
+            "traditionalAuthor": "Jude",
+            "message": "Contend for the faith against grace-perverting immorality."
         },
         {
             "bookNumber": 87,
@@ -534,7 +1175,11 @@
             "title": "Revelation",
             "testament": "New Testament",
             "division": "Revelation",
-            "chapters": 22
+            "chapters": 22,
+            "dateEarly": 89,
+            "dateLate": 96,
+            "traditionalAuthor": "John",
+            "message": "The Lamb will consummate his kingdom for God’s glory by saving his people and judging his enemies."
         }
     ],
     "Roman Catholic": [
@@ -1123,424 +1768,1024 @@
             "chapters": 22
         }
     ],
-    "All": [
-        {
-            "bookNumber": 1,
-            "factbook": "bk.ntxt:genesis",
-            "traditionalAuthor": "Moses",
-            "dateEarly": -1600,
-            "dateLate": -600
-        },
-        {
-            "bookNumber": 2,
-            "factbook": "bk.ntxt:exodus",
-            "traditionalAuthor": "Moses",
-            "dateEarly": -1600,
-            "dateLate": -600
-        },
-        {
-            "bookNumber": 3,
-            "factbook": "bk.ntxt:leviticus",
-            "traditionalAuthor": "Moses",
-            "dateEarly": -1600,
-            "dateLate": -600
-        },
-        {
-            "bookNumber": 4,
-            "factbook": "bk.ntxt:numbers",
-            "traditionalAuthor": "Moses",
-            "dateEarly": -1600,
-            "dateLate": -600
-        },
-        {
-            "bookNumber": 5,
-            "factbook": "bk.ntxt:deuteronomy",
-            "traditionalAuthor": "Moses; Joshua"
-        },
-        {
-            "bookNumber": 6,
-            "factbook": "bk.ntxt:joshua",
-            "traditionalAuthor": "Joshua"
-        },
-        {
-            "bookNumber": 7,
-            "factbook": "bk.ntxt:judges",
-            "traditionalAuthor": "Samuel; Nathan; Gad"
-        },
-        {
-            "bookNumber": 8,
-            "factbook": "bk.ntxt:ruth",
-            "traditionalAuthor": "Samuel; Nathan; Gad"
-        },
-        {
-            "bookNumber": 9,
-            "factbook": "bk.ntxt:1samuel",
-            "traditionalAuthor": "Samuel; Nathan; Gad"
-        },
-        {
-            "bookNumber": 10,
-            "factbook": "bk.ntxt:2samuel",
-            "traditionalAuthor": "Samuel; Nathan; Gad"
-        },
-        {
-            "bookNumber": 11,
-            "factbook": "bk.ntxt:1kings",
-            "traditionalAuthor": "Jeremiah"
-        },
-        {
-            "bookNumber": 12,
-            "factbook": "bk.ntxt:2kings",
-            "traditionalAuthor": "Jeremiah"
-        },
-        {
-            "bookNumber": 13,
-            "factbook": "bk.ntxt:1chronicles",
-            "traditionalAuthor": "Ezra"
-        },
-        {
-            "bookNumber": 14,
-            "factbook": "bk.ntxt:2chronicles",
-            "traditionalAuthor": "Ezra"
-        },
-        {
-            "bookNumber": 15,
-            "factbook": "bk.ntxt:ezra",
-            "traditionalAuthor": "Ezra"
-        },
-        {
-            "bookNumber": 16,
-            "factbook": "bk.ntxt:nehemiah",
-            "traditionalAuthor": "Nehemiah"
-        },
-        {
-            "bookNumber": 17,
-            "factbook": "bk.ntxt:esther",
-            "traditionalAuthor": "Mordecai"
-        },
-        {
-            "bookNumber": 18,
-            "factbook": "bk.ntxt:job",
-            "traditionalAuthor": "Job"
-        },
-        {
-            "bookNumber": 19,
-            "factbook": "bk.ntxt:psalms",
-            "traditionalAuthor": "Unknown; David; Asaph; Sons of Korah; Moses; Solomon; Ethan; Heman"
-        },
-        {
-            "bookNumber": 20,
-            "factbook": "bk.ntxt:proverbs",
-            "traditionalAuthor": "Solomon; Agur; Lemuel"
-        },
-        {
-            "bookNumber": 21,
-            "factbook": "bk.ntxt:ecclesiastes",
-            "traditionalAuthor": "Solomon"
-        },
-        {
-            "bookNumber": 22,
-            "factbook": "bk.ntxt:songofsongs",
-            "traditionalAuthor": "Solomon"
-        },
-        {
-            "bookNumber": 23,
-            "factbook": "bk.ntxt:isaiah",
-            "traditionalAuthor": "Isaiah"
-        },
-        {
-            "bookNumber": 24,
-            "factbook": "bk.ntxt:jeremiah",
-            "traditionalAuthor": "Jeremiah"
-        },
-        {
-            "bookNumber": 25,
-            "factbook": "bk.ntxt:lamentations",
-            "traditionalAuthor": "Jeremiah"
-        },
-        {
-            "bookNumber": 26,
-            "factbook": "bk.ntxt:ezekiel",
-            "traditionalAuthor": "Ezekiel"
-        },
-        {
-            "bookNumber": 27,
-            "factbook": "bk.ntxt:daniel",
-            "traditionalAuthor": "Daniel"
-        },
-        {
-            "bookNumber": 28,
-            "factbook": "bk.ntxt:hosea",
-            "traditionalAuthor": "Hosea"
-        },
-        {
-            "bookNumber": 29,
-            "factbook": "bk.ntxt:joel",
-            "traditionalAuthor": "Joel"
-        },
-        {
-            "bookNumber": 30,
-            "factbook": "bk.ntxt:amos",
-            "traditionalAuthor": "Amos"
-        },
-        {
-            "bookNumber": 31,
-            "factbook": "bk.ntxt:obadiah",
-            "traditionalAuthor": "Obadiah"
-        },
-        {
-            "bookNumber": 32,
-            "factbook": "bk.ntxt:jonah",
-            "traditionalAuthor": "Jonah"
-        },
-        {
-            "bookNumber": 33,
-            "factbook": "bk.ntxt:micah",
-            "traditionalAuthor": "Micah"
-        },
-        {
-            "bookNumber": 34,
-            "factbook": "bk.ntxt:nahum",
-            "traditionalAuthor": "Nahum"
-        },
-        {
-            "bookNumber": 35,
-            "factbook": "bk.ntxt:habakkuk",
-            "traditionalAuthor": "Habakkuk"
-        },
-        {
-            "bookNumber": 36,
-            "factbook": "bk.ntxt:zephaniah",
-            "traditionalAuthor": "Zephaniah"
-        },
-        {
-            "bookNumber": 37,
-            "factbook": "bk.ntxt:haggai",
-            "traditionalAuthor": "Haggai"
-        },
-        {
-            "bookNumber": 38,
-            "factbook": "bk.ntxt:zechariah",
-            "traditionalAuthor": "Zechariah"
-        },
-        {
-            "bookNumber": 39,
-            "factbook": "bk.ntxt:malachi",
-            "traditionalAuthor": "Malachi"
-        },
-        {
-            "bookNumber": 40,
-            "factbook": "bk.ntxt:tobit"
-        },
-        {
-            "bookNumber": 41,
-            "factbook": "bk.ntxt:judith"
-        },
-        {
-            "bookNumber": 42,
-            "factbook": "bk.ntxt:additiontoesther"
-        },
-        {
-            "bookNumber": 43,
-            "factbook": "bk.ntxt:solomonwisdom"
-        },
-        {
-            "bookNumber": 44,
-            "factbook": "bk.ntxt:sirach"
-        },
-        {
-            "bookNumber": 45,
-            "factbook": "bk.ntxt:baruch"
-        },
-        {
-            "bookNumber": 46,
-            "factbook": "bk.ntxt:epistleofjeremiah"
-        },
-        {
-            "bookNumber": 47,
-            "factbook": "bk.ntxt:threeyoungmensong"
-        },
-        {
-            "bookNumber": 48,
-            "factbook": "bk.ntxt:susanna"
-        },
-        {
-            "bookNumber": 49,
-            "factbook": "bk.ntxt:beldragon"
-        },
-        {
-            "bookNumber": 50,
-            "factbook": "bk.ntxt:1maccabees"
-        },
-        {
-            "bookNumber": 51,
-            "factbook": "bk.ntxt:2maccabees"
-        },
-        {
-            "bookNumber": 52,
-            "factbook": "bk.ntxt:1esdras"
-        },
-        {
-            "bookNumber": 53,
-            "factbook": "bk.ntxt:prayerofmanasseh"
-        },
-        {
-            "bookNumber": 54,
-            "factbook": "bk.ntxt:psalmaddition"
-        },
-        {
-            "bookNumber": 55,
-            "factbook": "bk.ntxt:3maccabees"
-        },
-        {
-            "bookNumber": 56,
-            "factbook": "bk.ntxt:2esdras"
-        },
-        {
-            "bookNumber": 57,
-            "factbook": "bk.ntxt:4maccabees"
-        },
-        {
-            "bookNumber": 58,
-            "factbook": "bk.ntxt:odes"
-        },
-        {
-            "bookNumber": 59,
-            "factbook": "bk.ntxt:pssolomon"
-        },
+    "SBLGNT": [
         {
             "bookNumber": 61,
             "factbook": "bk.ntxt:matthew",
-            "traditionalAuthor": "Matthew"
+            "title": "Matthew",
+            "division": "Gospels",
+            "chapters": 28,
+            "verses": 1068,
+            "words": 18329,
+            "lemmas": 1681,
+            "lemmasab": 668,
+            "lemmmasat": 104,
+            "roots": 901,
+            "rootsab": 227,
+            "rootsat": 26
         },
         {
             "bookNumber": 62,
             "factbook": "bk.ntxt:mark",
-            "traditionalAuthor": "Mark"
+            "title": "Mark",
+            "division": "Gospels",
+            "chapters": 16,
+            "verses": 673,
+            "words": 11286,
+            "lemmas": 1341,
+            "lemmasab": 635,
+            "lemmmasat": 75,
+            "roots": 740,
+            "rootsab": 222,
+            "rootsat": 18
         },
         {
             "bookNumber": 63,
             "factbook": "bk.ntxt:luke",
-            "traditionalAuthor": "Luke"
+            "title": "Luke",
+            "division": "Gospels",
+            "chapters": 24,
+            "verses": 1149,
+            "words": 19446,
+            "lemmas": 2042,
+            "lemmasab": 961,
+            "lemmmasat": 281,
+            "roots": 957,
+            "rootsab": 297,
+            "rootsat": 81
         },
         {
             "bookNumber": 64,
             "factbook": "bk.ntxt:john",
-            "traditionalAuthor": "John"
+            "title": "John",
+            "division": "Gospels",
+            "chapters": 21,
+            "verses": 878,
+            "words": 15625,
+            "lemmas": 1022,
+            "lemmasab": 384,
+            "lemmmasat": 75,
+            "roots": 626,
+            "rootsab": 155,
+            "rootsat": 15
         },
         {
             "bookNumber": 65,
             "factbook": "bk.ntxt:acts",
-            "traditionalAuthor": "Luke"
+            "title": "Acts",
+            "division": "Acts",
+            "chapters": 28,
+            "verses": 1002,
+            "words": 18412,
+            "lemmas": 2029,
+            "lemmasab": 944,
+            "lemmmasat": 413,
+            "roots": 921,
+            "rootsab": 282,
+            "rootsat": 111
         },
         {
             "bookNumber": 66,
             "factbook": "bk.ntxt:romans",
-            "traditionalAuthor": "Paul"
+            "title": "Romans",
+            "division": "Letters",
+            "chapters": 16,
+            "verses": 430,
+            "words": 7055,
+            "lemmas": 1056,
+            "lemmasab": 573,
+            "lemmmasat": 114,
+            "roots": 546,
+            "rootsab": 197,
+            "rootsat": 32
         },
         {
             "bookNumber": 67,
             "factbook": "bk.ntxt:1corinthians",
-            "traditionalAuthor": "Paul"
+            "title": "1 Corinthians",
+            "division": "Letters",
+            "chapters": 16,
+            "verses": 437,
+            "words": 6812,
+            "lemmas": 958,
+            "lemmasab": 440,
+            "lemmmasat": 83,
+            "roots": 510,
+            "rootsab": 149,
+            "rootsat": 10
         },
         {
             "bookNumber": 68,
             "factbook": "bk.ntxt:2corinthians",
-            "traditionalAuthor": "Paul"
+            "title": "2 Corinthians",
+            "division": "Letters",
+            "chapters": 13,
+            "verses": 256,
+            "words": 4473,
+            "lemmas": 786,
+            "lemmasab": 398,
+            "lemmmasat": 67,
+            "roots": 429,
+            "rootsab": 138,
+            "rootsat": 6
         },
         {
             "bookNumber": 69,
             "factbook": "bk.ntxt:galatians",
-            "traditionalAuthor": "Paul"
+            "title": "Galatians",
+            "division": "Letters",
+            "chapters": 6,
+            "verses": 149,
+            "words": 2226,
+            "lemmas": 521,
+            "lemmasab": 296,
+            "lemmmasat": 30,
+            "roots": 329,
+            "rootsab": 120,
+            "rootsat": 4
         },
         {
             "bookNumber": 70,
             "factbook": "bk.ntxt:ephesians",
-            "traditionalAuthor": "Paul"
+            "title": "Ephesians",
+            "division": "Letters",
+            "chapters": 6,
+            "verses": 155,
+            "words": 2416,
+            "lemmas": 528,
+            "lemmasab": 313,
+            "lemmmasat": 35,
+            "roots": 349,
+            "rootsab": 145,
+            "rootsat": 4
         },
         {
             "bookNumber": 71,
             "factbook": "bk.ntxt:philippians",
-            "traditionalAuthor": "Paul"
+            "title": "Philippians",
+            "division": "Letters",
+            "chapters": 4,
+            "verses": 104,
+            "words": 1626,
+            "lemmas": 442,
+            "lemmasab": 272,
+            "lemmmasat": 40,
+            "roots": 294,
+            "rootsab": 126,
+            "rootsat": 7
         },
         {
             "bookNumber": 72,
             "factbook": "bk.ntxt:colossians",
-            "traditionalAuthor": "Paul"
+            "title": "Colossians",
+            "division": "Letters",
+            "chapters": 4,
+            "verses": 95,
+            "words": 1580,
+            "lemmas": 432,
+            "lemmasab": 269,
+            "lemmmasat": 37,
+            "roots": 298,
+            "rootsab": 137,
+            "rootsat": 5
         },
         {
             "bookNumber": 73,
             "factbook": "bk.ntxt:1thessalonians",
-            "traditionalAuthor": "Paul"
+            "title": "1 Thessalonians",
+            "division": "Letters",
+            "chapters": 5,
+            "verses": 89,
+            "words": 1473,
+            "lemmas": 363,
+            "lemmasab": 202,
+            "lemmmasat": 18,
+            "roots": 259,
+            "rootsab": 103,
+            "rootsat": 3
         },
         {
             "bookNumber": 74,
             "factbook": "bk.ntxt:2thessalonians",
-            "traditionalAuthor": "Paul"
+            "title": "2 Thessalonians",
+            "division": "Letters",
+            "chapters": 3,
+            "verses": 47,
+            "words": 820,
+            "lemmas": 249,
+            "lemmasab": 149,
+            "lemmmasat": 8,
+            "roots": 184,
+            "rootsab": 88,
+            "rootsat": 0
         },
         {
             "bookNumber": 75,
             "factbook": "bk.ntxt:1timothy",
-            "traditionalAuthor": "Paul"
+            "title": "1 Timothy",
+            "division": "Letters",
+            "chapters": 6,
+            "verses": 113,
+            "words": 1591,
+            "lemmas": 538,
+            "lemmasab": 344,
+            "lemmmasat": 65,
+            "roots": 326,
+            "rootsab": 124,
+            "rootsat": 4
         },
         {
             "bookNumber": 76,
             "factbook": "bk.ntxt:2timothy",
-            "traditionalAuthor": "Paul"
+            "title": "2 Timothy",
+            "division": "Letters",
+            "chapters": 4,
+            "verses": 83,
+            "words": 1235,
+            "lemmas": 453,
+            "lemmasab": 308,
+            "lemmmasat": 59,
+            "roots": 306,
+            "rootsab": 158,
+            "rootsat": 21
         },
         {
             "bookNumber": 77,
             "factbook": "bk.ntxt:titus",
-            "traditionalAuthor": "Paul"
+            "title": "Titus",
+            "division": "Letters",
+            "chapters": 3,
+            "verses": 46,
+            "words": 659,
+            "lemmas": 299,
+            "lemmasab": 218,
+            "lemmmasat": 31,
+            "roots": 209,
+            "rootsab": 105,
+            "rootsat": 3
         },
         {
             "bookNumber": 78,
             "factbook": "bk.ntxt:philemon",
-            "traditionalAuthor": "Paul"
+            "title": "Philemon",
+            "division": "Letters",
+            "chapters": 1,
+            "verses": 25,
+            "words": 334,
+            "lemmas": 140,
+            "lemmasab": 88,
+            "lemmmasat": 7,
+            "roots": 112,
+            "rootsab": 55,
+            "rootsat": 3
         },
         {
             "bookNumber": 79,
             "factbook": "bk.ntxt:hebrews",
-            "traditionalAuthor": "Paul; Luke; Barnabas; Apollos"
+            "title": "Hebrews",
+            "division": "Letters",
+            "chapters": 13,
+            "verses": 303,
+            "words": 4935,
+            "lemmas": 1030,
+            "lemmasab": 569,
+            "lemmmasat": 130,
+            "roots": 528,
+            "rootsab": 178,
+            "rootsat": 13
         },
         {
             "bookNumber": 80,
             "factbook": "bk.ntxt:james",
-            "traditionalAuthor": "James"
+            "title": "James",
+            "division": "Letters",
+            "chapters": 5,
+            "verses": 108,
+            "words": 1739,
+            "lemmas": 556,
+            "lemmasab": 351,
+            "lemmmasat": 54,
+            "roots": 364,
+            "rootsab": 151,
+            "rootsat": 7
         },
         {
             "bookNumber": 81,
             "factbook": "bk.ntxt:1peter",
-            "traditionalAuthor": "Peter"
+            "title": "1 Peter",
+            "division": "Letters",
+            "chapters": 5,
+            "verses": 105,
+            "words": 1678,
+            "lemmas": 544,
+            "lemmasab": 354,
+            "lemmmasat": 55,
+            "roots": 344,
+            "rootsab": 152,
+            "rootsat": 4
         },
         {
             "bookNumber": 82,
             "factbook": "bk.ntxt:2peter",
-            "traditionalAuthor": "Peter"
+            "title": "2 Peter",
+            "division": "Letters",
+            "chapters": 3,
+            "verses": 61,
+            "words": 1098,
+            "lemmas": 397,
+            "lemmasab": 248,
+            "lemmmasat": 50,
+            "roots": 279,
+            "rootsab": 120,
+            "rootsat": 9
         },
         {
             "bookNumber": 83,
             "factbook": "bk.ntxt:1john",
-            "traditionalAuthor": "John"
+            "title": "1 John",
+            "division": "Letters",
+            "chapters": 5,
+            "verses": 105,
+            "words": 2137,
+            "lemmas": 235,
+            "lemmasab": 88,
+            "lemmmasat": 1,
+            "roots": 171,
+            "rootsab": 44,
+            "rootsat": 0
         },
         {
             "bookNumber": 84,
             "factbook": "bk.ntxt:2john",
-            "traditionalAuthor": "John"
+            "title": "2 John",
+            "division": "Letters",
+            "chapters": 1,
+            "verses": 13,
+            "words": 245,
+            "lemmas": 95,
+            "lemmasab": 48,
+            "lemmmasat": 1,
+            "roots": 83,
+            "rootsab": 35,
+            "rootsat": 0
         },
         {
             "bookNumber": 85,
             "factbook": "bk.ntxt:3john",
-            "traditionalAuthor": "John"
+            "title": "3 John",
+            "division": "Letters",
+            "chapters": 1,
+            "verses": 15,
+            "words": 219,
+            "lemmas": 109,
+            "lemmasab": 71,
+            "lemmmasat": 3,
+            "roots": 95,
+            "rootsab": 49,
+            "rootsat": 1
         },
         {
             "bookNumber": 86,
             "factbook": "bk.ntxt:jude",
-            "traditionalAuthor": "Jude"
+            "title": "Jude",
+            "division": "Letters",
+            "chapters": 1,
+            "verses": 25,
+            "words": 459,
+            "lemmas": 226,
+            "lemmasab": 166,
+            "lemmmasat": 16,
+            "roots": 186,
+            "rootsab": 112,
+            "rootsat": 1
         },
         {
             "bookNumber": 87,
             "factbook": "bk.ntxt:revelation",
-            "traditionalAuthor": "John"
+            "title": "Revelation",
+            "division": "Revelation",
+            "chapters": 22,
+            "verses": 405,
+            "words": 9833,
+            "lemmas": 912,
+            "lemmasab": 309,
+            "lemmmasat": 86,
+            "roots": 615,
+            "rootsab": 163,
+            "rootsat": 37
+        }
+    ],
+    "LHB": [
+        {
+            "bookNumber": 1,
+            "factbook": "bk.ntxt:genesis",
+            "title": "Genesis",
+            "division": "Torah (Law of Moses)",
+            "chapters": 50,
+            "verses": 1533,
+            "words": 32161,
+            "lemmas": 1810,
+            "lemmasab": 724,
+            "lemmmasat": 134,
+            "roots": 1574,
+            "rootsab": 488,
+            "rootsat": 51
+        },
+        {
+            "bookNumber": 2,
+            "factbook": "bk.ntxt:exodus",
+            "title": "Exodus",
+            "division": "Torah (Law of Moses)",
+            "chapters": 40,
+            "verses": 1213,
+            "words": 26134,
+            "lemmas": 1436,
+            "lemmasab": 473,
+            "lemmmasat": 48,
+            "roots": 1228,
+            "rootsab": 318,
+            "rootsat": 11
+        },
+        {
+            "bookNumber": 3,
+            "factbook": "bk.ntxt:leviticus",
+            "title": "Leviticus",
+            "division": "Torah (Law of Moses)",
+            "chapters": 27,
+            "verses": 859,
+            "words": 18962,
+            "lemmas": 963,
+            "lemmasab": 317,
+            "lemmmasat": 59,
+            "roots": 851,
+            "rootsab": 222,
+            "rootsat": 14
+        },
+        {
+            "bookNumber": 4,
+            "factbook": "bk.ntxt:numbers",
+            "title": "Numbers",
+            "division": "Torah (Law of Moses)",
+            "chapters": 36,
+            "verses": 1289,
+            "words": 25218,
+            "lemmas": 1453,
+            "lemmasab": 543,
+            "lemmmasat": 125,
+            "roots": 1267,
+            "rootsab": 310,
+            "rootsat": 20
+        },
+        {
+            "bookNumber": 5,
+            "factbook": "bk.ntxt:deuteronomy",
+            "title": "Deuteronomy",
+            "division": "Torah (Law of Moses)",
+            "chapters": 34,
+            "verses": 959,
+            "words": 23202,
+            "lemmas": 1457,
+            "lemmasab": 603,
+            "lemmmasat": 69,
+            "roots": 1293,
+            "rootsab": 420,
+            "rootsat": 16
+        },
+        {
+            "bookNumber": 6,
+            "factbook": "bk.ntxt:joshua",
+            "title": "Joshua",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Former Prophets",
+            "chapters": 24,
+            "verses": 658,
+            "words": 15797,
+            "lemmas": 1177,
+            "lemmasab": 462,
+            "lemmmasat": 163,
+            "roots": 1116,
+            "rootsab": 319,
+            "rootsat": 53
+        },
+        {
+            "bookNumber": 7,
+            "factbook": "bk.ntxt:judges",
+            "title": "Judges",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Former Prophets",
+            "chapters": 21,
+            "verses": 618,
+            "words": 15500,
+            "lemmas": 1213,
+            "lemmasab": 480,
+            "lemmmasat": 66,
+            "roots": 1144,
+            "rootsab": 343,
+            "rootsat": 17
+        },
+        {
+            "bookNumber": 9,
+            "factbook": "bk.ntxt:1samuel",
+            "title": "1 Samuel",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Former Prophets",
+            "chapters": 31,
+            "verses": 811,
+            "words": 21081,
+            "lemmas": 1276,
+            "lemmasab": 495,
+            "lemmmasat": 68,
+            "roots": 1172,
+            "rootsab": 368,
+            "rootsat": 24
+        },
+        {
+            "bookNumber": 10,
+            "factbook": "bk.ntxt:2samuel",
+            "title": "2 Samuel",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Former Prophets",
+            "chapters": 24,
+            "verses": 695,
+            "words": 17407,
+            "lemmas": 1333,
+            "lemmasab": 594,
+            "lemmmasat": 79,
+            "roots": 1212,
+            "rootsab": 417,
+            "rootsat": 28
+        },
+        {
+            "bookNumber": 11,
+            "factbook": "bk.ntxt:1kings",
+            "title": "1 Kings",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Former Prophets",
+            "chapters": 22,
+            "verses": 817,
+            "words": 20515,
+            "lemmas": 1302,
+            "lemmasab": 512,
+            "lemmmasat": 64,
+            "roots": 1193,
+            "rootsab": 369,
+            "rootsat": 16
+        },
+        {
+            "bookNumber": 12,
+            "factbook": "bk.ntxt:2kings",
+            "title": "2 Kings",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Former Prophets",
+            "chapters": 25,
+            "verses": 719,
+            "words": 18945,
+            "lemmas": 1286,
+            "lemmasab": 545,
+            "lemmmasat": 76,
+            "roots": 1191,
+            "rootsab": 379,
+            "rootsat": 25
+        },
+        {
+            "bookNumber": 23,
+            "factbook": "bk.ntxt:isaiah",
+            "title": "Isaiah",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 66,
+            "verses": 1291,
+            "words": 25879,
+            "lemmas": 2585,
+            "lemmasab": 1119,
+            "lemmmasat": 299,
+            "roots": 2008,
+            "rootsab": 614,
+            "rootsat": 81
+        },
+        {
+            "bookNumber": 24,
+            "factbook": "bk.ntxt:jeremiah",
+            "title": "Jeremiah",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 52,
+            "verses": 1364,
+            "words": 33459,
+            "lemmas": 1992,
+            "lemmasab": 764,
+            "lemmmasat": 131,
+            "roots": 1644,
+            "rootsab": 477,
+            "rootsat": 29
+        },
+        {
+            "bookNumber": 26,
+            "factbook": "bk.ntxt:ezekiel",
+            "title": "Ezekiel",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 48,
+            "verses": 1273,
+            "words": 30241,
+            "lemmas": 1731,
+            "lemmasab": 628,
+            "lemmmasat": 155,
+            "roots": 1446,
+            "rootsab": 411,
+            "rootsat": 52
+        },
+        {
+            "bookNumber": 28,
+            "factbook": "bk.ntxt:hosea",
+            "title": "Hosea",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 14,
+            "verses": 197,
+            "words": 3640,
+            "lemmas": 746,
+            "lemmasab": 410,
+            "lemmmasat": 29,
+            "roots": 755,
+            "rootsab": 357,
+            "rootsat": 10
+        },
+        {
+            "bookNumber": 29,
+            "factbook": "bk.ntxt:joel",
+            "title": "Joel",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 4,
+            "verses": 73,
+            "words": 1454,
+            "lemmas": 401,
+            "lemmasab": 223,
+            "lemmmasat": 14,
+            "roots": 450,
+            "rootsab": 234,
+            "rootsat": 4
+        },
+        {
+            "bookNumber": 30,
+            "factbook": "bk.ntxt:amos",
+            "title": "Amos",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 9,
+            "verses": 146,
+            "words": 3060,
+            "lemmas": 656,
+            "lemmasab": 356,
+            "lemmmasat": 22,
+            "roots": 703,
+            "rootsab": 338,
+            "rootsat": 10
+        },
+        {
+            "bookNumber": 31,
+            "factbook": "bk.ntxt:obadiah",
+            "title": "Obadiah",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 1,
+            "verses": 21,
+            "words": 441,
+            "lemmas": 171,
+            "lemmasab": 108,
+            "lemmmasat": 6,
+            "roots": 204,
+            "rootsab": 120,
+            "rootsat": 3
+        },
+        {
+            "bookNumber": 32,
+            "factbook": "bk.ntxt:jonah",
+            "title": "Jonah",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 4,
+            "verses": 48,
+            "words": 1085,
+            "lemmas": 258,
+            "lemmasab": 143,
+            "lemmmasat": 4,
+            "roots": 268,
+            "rootsab": 137,
+            "rootsat": 0
+        },
+        {
+            "bookNumber": 33,
+            "factbook": "bk.ntxt:micah",
+            "title": "Micah",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 7,
+            "verses": 105,
+            "words": 2138,
+            "lemmas": 588,
+            "lemmasab": 378,
+            "lemmmasat": 17,
+            "roots": 611,
+            "rootsab": 328,
+            "rootsat": 4
+        },
+        {
+            "bookNumber": 34,
+            "factbook": "bk.ntxt:nahum",
+            "title": "Nahum",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 3,
+            "verses": 47,
+            "words": 862,
+            "lemmas": 362,
+            "lemmasab": 252,
+            "lemmmasat": 16,
+            "roots": 399,
+            "rootsab": 250,
+            "rootsat": 5
+        },
+        {
+            "bookNumber": 35,
+            "factbook": "bk.ntxt:habakkuk",
+            "title": "Habakkuk",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 3,
+            "verses": 56,
+            "words": 1021,
+            "lemmas": 394,
+            "lemmasab": 276,
+            "lemmmasat": 16,
+            "roots": 421,
+            "rootsab": 267,
+            "rootsat": 4
+        },
+        {
+            "bookNumber": 36,
+            "factbook": "bk.ntxt:zephaniah",
+            "title": "Zephaniah",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 3,
+            "verses": 53,
+            "words": 1148,
+            "lemmas": 368,
+            "lemmasab": 240,
+            "lemmmasat": 9,
+            "roots": 404,
+            "rootsab": 223,
+            "rootsat": 2
+        },
+        {
+            "bookNumber": 37,
+            "factbook": "bk.ntxt:haggai",
+            "title": "Haggai",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 2,
+            "verses": 38,
+            "words": 934,
+            "lemmas": 213,
+            "lemmasab": 108,
+            "lemmmasat": 2,
+            "roots": 226,
+            "rootsab": 98,
+            "rootsat": 0
+        },
+        {
+            "bookNumber": 38,
+            "factbook": "bk.ntxt:zechariah",
+            "title": "Zechariah",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 14,
+            "verses": 211,
+            "words": 4898,
+            "lemmas": 732,
+            "lemmasab": 371,
+            "lemmmasat": 23,
+            "roots": 773,
+            "rootsab": 334,
+            "rootsat": 8
+        },
+        {
+            "bookNumber": 39,
+            "factbook": "bk.ntxt:malachi",
+            "title": "Malachi",
+            "division": "Nevi'im (Prophets)",
+            "collection": "Latter Prophets",
+            "chapters": 3,
+            "verses": 55,
+            "words": 1327,
+            "lemmas": 313,
+            "lemmasab": 170,
+            "lemmmasat": 7,
+            "roots": 346,
+            "rootsab": 167,
+            "rootsat": 0
+        },
+        {
+            "bookNumber": 19,
+            "factbook": "bk.ntxt:psalms",
+            "title": "Psalms",
+            "division": "Kethuvim (Writings)",
+            "chapters": 150,
+            "verses": 2527,
+            "words": 30224,
+            "lemmas": 2253,
+            "lemmasab": 885,
+            "lemmmasat": 187,
+            "roots": 1757,
+            "rootsab": 491,
+            "rootsat": 46
+        },
+        {
+            "bookNumber": 20,
+            "factbook": "bk.ntxt:proverbs",
+            "title": "Proverbs",
+            "division": "Kethuvim (Writings)",
+            "chapters": 31,
+            "verses": 915,
+            "words": 10047,
+            "lemmas": 1379,
+            "lemmasab": 575,
+            "lemmmasat": 88,
+            "roots": 1190,
+            "rootsab": 403,
+            "rootsat": 27
+        },
+        {
+            "bookNumber": 18,
+            "factbook": "bk.ntxt:job",
+            "title": "Job",
+            "division": "Kethuvim (Writings)",
+            "chapters": 42,
+            "verses": 1070,
+            "words": 12767,
+            "lemmas": 1735,
+            "lemmasab": 796,
+            "lemmmasat": 183,
+            "roots": 1486,
+            "rootsab": 538,
+            "rootsat": 73
+        },
+        {
+            "bookNumber": 22,
+            "factbook": "bk.ntxt:songofsongs",
+            "title": "Song of Solomon",
+            "division": "Kethuvim (Writings)",
+            "collection": "Megilloth (Five Scrolls)",
+            "chapters": 8,
+            "verses": 117,
+            "words": 2044,
+            "lemmas": 511,
+            "lemmasab": 284,
+            "lemmmasat": 47,
+            "roots": 549,
+            "rootsab": 268,
+            "rootsat": 18
+        },
+        {
+            "bookNumber": 8,
+            "factbook": "bk.ntxt:ruth",
+            "title": "Ruth",
+            "division": "Kethuvim (Writings)",
+            "collection": "Megilloth (Five Scrolls)",
+            "chapters": 4,
+            "verses": 85,
+            "words": 2056,
+            "lemmas": 325,
+            "lemmasab": 138,
+            "lemmmasat": 7,
+            "roots": 357,
+            "rootsab": 122,
+            "rootsat": 3
+        },
+        {
+            "bookNumber": 25,
+            "factbook": "bk.ntxt:lamentations",
+            "title": "Lamentations",
+            "division": "Kethuvim (Writings)",
+            "collection": "Megilloth (Five Scrolls)",
+            "chapters": 5,
+            "verses": 154,
+            "words": 2435,
+            "lemmas": 604,
+            "lemmasab": 349,
+            "lemmmasat": 31,
+            "roots": 613,
+            "rootsab": 292,
+            "rootsat": 9
+        },
+        {
+            "bookNumber": 21,
+            "factbook": "bk.ntxt:ecclesiastes",
+            "title": "Ecclesiastes",
+            "division": "Kethuvim (Writings)",
+            "collection": "Megilloth (Five Scrolls)",
+            "chapters": 12,
+            "verses": 222,
+            "words": 4552,
+            "lemmas": 582,
+            "lemmasab": 275,
+            "lemmmasat": 26,
+            "roots": 557,
+            "rootsab": 234,
+            "rootsat": 6
+        },
+        {
+            "bookNumber": 17,
+            "factbook": "bk.ntxt:esther",
+            "title": "Esther",
+            "division": "Kethuvim (Writings)",
+            "collection": "Megilloth (Five Scrolls)",
+            "chapters": 10,
+            "verses": 167,
+            "words": 4968,
+            "lemmas": 479,
+            "lemmasab": 177,
+            "lemmmasat": 44,
+            "roots": 471,
+            "rootsab": 145,
+            "rootsat": 31
+        },
+        {
+            "bookNumber": 27,
+            "factbook": "bk.ntxt:daniel",
+            "title": "Daniel",
+            "division": "Kethuvim (Writings)",
+            "chapters": 12,
+            "verses": 357,
+            "words": 9242,
+            "lemmas": 1127,
+            "lemmasab": 427,
+            "lemmmasat": 185,
+            "roots": 1017,
+            "rootsab": 333,
+            "rootsat": 116
+        },
+        {
+            "bookNumber": 15,
+            "factbook": "bk.ntxt:ezra",
+            "title": "Ezra",
+            "division": "Kethuvim (Writings)",
+            "chapters": 10,
+            "verses": 280,
+            "words": 5839,
+            "lemmas": 1010,
+            "lemmasab": 527,
+            "lemmmasat": 142,
+            "roots": 998,
+            "rootsab": 425,
+            "rootsat": 63
+        },
+        {
+            "bookNumber": 16,
+            "factbook": "bk.ntxt:nehemiah",
+            "title": "Nehemiah",
+            "division": "Kethuvim (Writings)",
+            "chapters": 13,
+            "verses": 405,
+            "words": 8649,
+            "lemmas": 1083,
+            "lemmasab": 508,
+            "lemmmasat": 91,
+            "roots": 1027,
+            "rootsab": 355,
+            "rootsat": 26
+        },
+        {
+            "bookNumber": 13,
+            "factbook": "bk.ntxt:1chronicles",
+            "title": "1 Chronicles",
+            "division": "Kethuvim (Writings)",
+            "chapters": 29,
+            "verses": 943,
+            "words": 16965,
+            "lemmas": 2043,
+            "lemmasab": 1086,
+            "lemmmasat": 403,
+            "roots": 1699,
+            "rootsab": 652,
+            "rootsat": 130
+        },
+        {
+            "bookNumber": 14,
+            "factbook": "bk.ntxt:2chronicles",
+            "title": "2 Chronicles",
+            "division": "Kethuvim (Writings)",
+            "chapters": 36,
+            "verses": 822,
+            "words": 21557,
+            "lemmas": 1434,
+            "lemmasab": 564,
+            "lemmmasat": 62,
+            "roots": 1256,
+            "rootsab": 374,
+            "rootsat": 17
         }
     ]
 }
