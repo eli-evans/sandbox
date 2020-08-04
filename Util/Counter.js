@@ -34,18 +34,30 @@ class Counter {
 		}
 	}
 
+	uniqueItemNames() {
+		var ret = [];
+		this.listNames.forEach( listName => {
+			ret = ret.concat(this.itemNames(listName));
+		});
+
+		return ret.filter((v,i,a) => a.indexOf(v) === i).sort();
+	}
+
 	all() {
 		var ret = [];
-		this.lists.forEach( list => {
-			ret.push( this.list(list) );
+		this.listNames.forEach( listName => {
+			ret.push( this.list(listName) );
 		});
 		return ret;
 	}
 
 	list(list) {
+		// has the side effect of adding statistical anaylsis properties to the items
+
 		let sd = this.standardDeviation(list);
 		let mean = this.average(list);
 		let sum = this.sum(list);
+
 		return {
 			name: list,
 			items: this.items(list).map( r =>  {
@@ -56,10 +68,10 @@ class Counter {
 			}),
 			mean: mean,
 			standardDeviation: sd
-		}
+		};
 	}
 
-	get lists() {
+	get listNames() {
 		return Object.keys(this._lists).sort( (a,b) => this.total(b) - this.total(a) );
 	}
 
@@ -78,6 +90,35 @@ class Counter {
 		return this.items(list)
 			.filter( r => r.count === 1)
 			.map( r => r.name);
+	}
+
+	dominant(listname, threshold) {
+		// given a list name, we get the list, which has the side-effect
+		// of adding some basic stats analysis to the items, then we
+		// check if any one of the items in the list is significantly more
+		// frequent than the other values via a threshold, which should be > 1.0.
+
+		if (threshold === undefined) {
+			threshold = 1.5;
+		}
+
+		let dominant;
+		let list = this.list(listname);
+
+		let stdev = list.items.filter(r => r.standardDeviations >= threshold);
+		let perc = list.items.filter(r => r.percentage >= (100 / list.items.length) * threshold);
+
+		if (list.items.length === 1) {
+			dominant = list.items[0];
+		}
+		else if (stdev.length === 1) {
+			dominant = stdev[0];
+		}
+		else if (perc.length === 1) {
+			dominant = perc[0];	
+		}
+
+		return dominant;
 	}
 
 	value(list, key) {
