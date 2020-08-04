@@ -11,19 +11,15 @@ class DatatypeReference {
 	}
 
 	render() {
+		let ret;
+
 		switch (this.type) {
-			case 'bible':
-				return this.renderBible();
-			break;
-			
-			case 'lgenre':
-				return this.renderLgenre();
-			break;
-			
-			default:
-				return this.internal;
-			break;
+			case 'bible': ret = this.renderBible(); break;
+			case 'lgenre': ret = this.renderLgenre(); break;
+			default: ret = this.internal; break;
 		}
+
+		return ret;
 	}
 
 	renderBible() {
@@ -63,7 +59,7 @@ class DatatypeReference {
 	static fromString(str) {
 		let dtr = new DatatypeReference();
 
-		this.internal = str;
+		dtr.internal = str;
 
 		if (/^([^.]+)\.(.*)$/.test(str)) {
 			let type = RegExp.$1;
