@@ -19,8 +19,8 @@ function setup() {
 	frameRate(30);
 
 	today = new Date( Date.now() );
-	year = new RadialYear( new Date(2019, 11, 1), new Date(2020, 10, 29) ); // Liturgical Year 2019-2020
-	// year = new RadialYear(); // 2020
+	// year = new RadialYear( new Date(2019, 11, 1), new Date(2020, 10, 29) ); // Liturgical Year 2019-2020
+	year = new RadialYear(); // 2020
 	// year = new RadialYear(new Date(2020, 3, 1), new Date(2021, 0, 31));
 
 	// year = new RadialYear( new Date(2020, 4, 1), new Date(2020, 4, 31) );
@@ -85,7 +85,7 @@ function changeRing() {
 				ring.colorizer = (i) => c;
 			}
 			else {
-				var c = Color.logosColor(t.color, "extra-light");
+				var c = Color.logosColor(t.color, "light");
 				c.setAlpha(140);
 				ring.colorizer = (i) => c;
 			}
@@ -165,9 +165,9 @@ function drawEvents() {
 			if (e.type === "selected") {
 				drawEvent(t, e, 1.0, 255);
 			} else if (e.type === "series") {
-				drawEvent(t, e, 1.0, 200);
+				drawEvent(t, e, .8, 200);
 			} else {
-				drawEvent(t, e, .75, 220);
+				drawEvent(t, e, 1.0, 220);
 			}
 		});
 	});
@@ -175,7 +175,7 @@ function drawEvents() {
 	Tracks.forEach(t => {
 		t.events.forEach(e => {
 			if (true || e.type === "series") {
-				drawEventName(t, e);
+				// drawEventName(t, e);
 			}
 		});
 	});
@@ -192,10 +192,17 @@ function drawEvent(t, e, weight, alpha) {
 
 	var eColor = e.color || t.color;
 	var c = eColor ? Color.logosColor((eColor), "medium") : color("#000");
-	if (eColor == "yellow" || eColor == "white") {
-		c = Color.logosColor("yellow", "dark");
+	if (e.type === "series") {
+		c = eColor ? Color.logosColor((eColor), "light") : color("#000");
 	}
-	c.setAlpha(alpha);
+
+	if (e.type === "tick") {
+		c = eColor ? Color.logosColor((eColor), "dark") : color("#000"); 
+	}
+	/* if (eColor == "yellow" || eColor == "white") {
+		c = Color.logosColor("yellow", "dark");
+	}*/
+	// c.setAlpha(alpha);
 
 	var startPos = startDay.position + ring.padding;
 	var endPos = endDay.position + year.degreesPerDay;
@@ -204,7 +211,13 @@ function drawEvent(t, e, weight, alpha) {
 	strokeCap(SQUARE);
 	strokeWeight(t.weight * weight);
 	stroke(c);
-	arc(ring.x, ring.y, ring.r, ring.r, startPos - 90, endPos - 90);
+	if (e.type === "tick") {
+		strokeWeight(t.weight / 4);
+		arc(ring.x, ring.y, ring.r - t.weight + ((t.weight/4)*2), ring.r - t.weight + ((t.weight/4)*2), startPos - 90, endPos - 90);
+	}
+	else {
+		arc(ring.x, ring.y, ring.r, ring.r, startPos - 90, endPos - 90);
+	}
 	pop();
 }
 
