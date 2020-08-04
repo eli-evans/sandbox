@@ -204,3 +204,7 @@ class Polar {
         return new Vector(x,y);
     }
 }
+
+try {
+	module.exports = Vector;
+} catch (e) {}
