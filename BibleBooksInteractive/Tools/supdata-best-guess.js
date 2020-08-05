@@ -1,6 +1,6 @@
 const fs = require('fs');
 const Util = require('../../Util/Util.js');
-const Counter = require('../../Util/Counter.js');
+const Counter = require('../../Util/CounterV1.js');
 const Bible = require('../../Util/Bible.js');
 const DatatypeReference = require('../../Util/DatatypeReference.js');
 
