@@ -1,6 +1,6 @@
 let xml2js = require('xml2js');
 let Bible = require('../../Util/Bible.js');
-let Counter = require('../../Util/Counter.js');
+let Counter = require('../../Util/CounterV1.js');
 let fs = require('fs');
 const { throws } = require('assert');
 
