@@ -55,3 +55,6 @@ console.log(`\nList of 'animal' singles: ${c.singles('animal')}`);
 console.log(`\nDominant fruit is: ${c.dominant('fruit').name}`);
 console.log(`\nDominant animal is: ${c.dominant('animal').name}`);
 
+console.log(`\nUnique paths are: ${c.paths()}`);
+console.log(`\nUnique items names are: ${c.names()}`);
+console.log(`\nUnique item names in 'fruit' are: ${c.names('fruit')}`);

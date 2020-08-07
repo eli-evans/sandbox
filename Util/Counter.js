@@ -82,7 +82,7 @@ class Counter {
 			let value = this.value(r);
 
 			ret.items.push({
-				path: r,
+				path: this.path(r),
 				name: r.split(this.pathSeparator).pop(),
 				value: value,
 				stdev: (value - ret.mean) / ret.stdev,
@@ -116,6 +116,30 @@ class Counter {
 		return this.list(q).filter( r => this.value(r) === 1 );
 	}
 
+	path(str) {
+		let parts = str.split(this.pathSeparator);
+		if (parts.length > 1) {
+			parts.pop();
+		}
+		return parts.join(this.pathSeparator);
+	}
+
+	paths(q) {
+		return this.list(q)
+			.map(r => this.path(r))
+			.filter((v,i,a) => a.indexOf(v) === i).sort();
+	}
+
+	name(str) {
+		return str.split(this.pathSeparator).pop();
+	}
+
+	names(q) {
+		return this.list(q)
+			.map(r => this.name(r))
+			.filter((v,i,a) => a.indexOf(v) === i).sort();
+	}
+
 	dominant(q, threshold) {
 		// given a list name, we get the list, which has the side-effect
 		// of adding some basic stats analysis to the items, then we
@@ -126,7 +150,7 @@ class Counter {
 			threshold = 1.5;
 		}
 
-		let dominant;
+		let dominant = {};
 		let analysis = this.analyze(q);
 
 		let stdev = analysis.items.filter(r => r.stdev >= threshold);
