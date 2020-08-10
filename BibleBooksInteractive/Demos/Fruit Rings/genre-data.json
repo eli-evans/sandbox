@@ -1,0 +1,1713 @@
+[
+    {
+        "name": "Genesis",
+        "number": 1,
+        "abbr": "Gen",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 21
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 79
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 28
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 1401
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "name": "2 Samuel",
+        "number": 10,
+        "abbr": "2Sam",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 51
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 62
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 585
+            }
+        ]
+    },
+    {
+        "name": "1 Kings",
+        "number": 11,
+        "abbr": "1Kgs",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 40
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 184
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 498
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 95
+            }
+        ]
+    },
+    {
+        "name": "2 Kings",
+        "number": 12,
+        "abbr": "2Kgs",
+        "data": [
+            {
+                "name": "Expository, What things are or were like",
+                "value": 127
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 15
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 578
+            }
+        ]
+    },
+    {
+        "name": "1 Chronicles",
+        "number": 13,
+        "abbr": "1Chr",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 11
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 78
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 662
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 123
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 69
+            }
+        ]
+    },
+    {
+        "name": "2 Chronicles",
+        "number": 14,
+        "abbr": "2Chr",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 9
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 42
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 170
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 463
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 143
+            }
+        ]
+    },
+    {
+        "name": "Ezra",
+        "number": 15,
+        "abbr": "Ezra",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 12
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 140
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 57
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 53
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 18
+            }
+        ]
+    },
+    {
+        "name": "Nehemiah",
+        "number": 16,
+        "abbr": "Neh",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 38
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 12
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 165
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 121
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 71
+            }
+        ]
+    },
+    {
+        "name": "Esther",
+        "number": 17,
+        "abbr": "Esth",
+        "data": [
+            {
+                "name": "Expository, What things are or were like",
+                "value": 3
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 132
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 32
+            }
+        ]
+    },
+    {
+        "name": "Job",
+        "number": 18,
+        "abbr": "Job",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 41
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 957
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 23
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 52
+            }
+        ]
+    },
+    {
+        "name": "Psalms",
+        "number": 19,
+        "abbr": "Ps",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 784
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 821
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 735
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 41
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 80
+            }
+        ]
+    },
+    {
+        "name": "Exodus",
+        "number": 2,
+        "abbr": "Exod",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 19
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 201
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 42
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 532
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 145
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 277
+            }
+        ]
+    },
+    {
+        "name": "Proverbs",
+        "number": 20,
+        "abbr": "Prov",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 235
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 584
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 97
+            }
+        ]
+    },
+    {
+        "name": "Ecclesiastes",
+        "number": 21,
+        "abbr": "Eccl",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 26
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 202
+            }
+        ]
+    },
+    {
+        "name": "Song of Solomon",
+        "number": 22,
+        "abbr": "Song",
+        "data": [
+            {
+                "name": "Expository, What things are or were like",
+                "value": 121
+            }
+        ]
+    },
+    {
+        "name": "Isaiah",
+        "number": 23,
+        "abbr": "Isa",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 152
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 459
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 249
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 138
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 172
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 127
+            }
+        ]
+    },
+    {
+        "name": "Jeremiah",
+        "number": 24,
+        "abbr": "Jer",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 234
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 543
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 107
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 178
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 306
+            }
+        ]
+    },
+    {
+        "name": "Lamentations",
+        "number": 25,
+        "abbr": "Lam",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 43
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 21
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 90
+            }
+        ]
+    },
+    {
+        "name": "Ezekiel",
+        "number": 26,
+        "abbr": "Ezek",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 153
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 438
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 106
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 104
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 220
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 88
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 165
+            }
+        ]
+    },
+    {
+        "name": "Daniel",
+        "number": 27,
+        "abbr": "Dan",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 19
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 98
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 241
+            }
+        ]
+    },
+    {
+        "name": "Hosea",
+        "number": 28,
+        "abbr": "Hos",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 90
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 49
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 1
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 47
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 13
+            }
+        ]
+    },
+    {
+        "name": "Joel",
+        "number": 29,
+        "abbr": "Joel",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 17
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 30
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 1
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 25
+            }
+        ]
+    },
+    {
+        "name": "Leviticus",
+        "number": 3,
+        "abbr": "Lev",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 351
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 34
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 60
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 415
+            }
+        ]
+    },
+    {
+        "name": "Amos",
+        "number": 30,
+        "abbr": "Amos",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 33
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 72
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 13
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 13
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 17
+            }
+        ]
+    },
+    {
+        "name": "Obadiah",
+        "number": 31,
+        "abbr": "Obad",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 16
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "name": "Jonah",
+        "number": 32,
+        "abbr": "Jonah",
+        "data": [
+            {
+                "name": "Narrative, Story",
+                "value": 49
+            }
+        ]
+    },
+    {
+        "name": "Micah",
+        "number": 33,
+        "abbr": "Mic",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 30
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 35
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 1
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 40
+            }
+        ]
+    },
+    {
+        "name": "Nahum",
+        "number": 34,
+        "abbr": "Nah",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 14
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 1
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 32
+            }
+        ]
+    },
+    {
+        "name": "Habakkuk",
+        "number": 35,
+        "abbr": "Hab",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 16
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 14
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 4
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 23
+            }
+        ]
+    },
+    {
+        "name": "Zephaniah",
+        "number": 36,
+        "abbr": "Zeph",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 7
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 33
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 1
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 12
+            }
+        ]
+    },
+    {
+        "name": "Haggai",
+        "number": 37,
+        "abbr": "Hag",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 5
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 18
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 11
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 4
+            }
+        ]
+    },
+    {
+        "name": "Zechariah",
+        "number": 38,
+        "abbr": "Zech",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 7
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 76
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 49
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 72
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 7
+            }
+        ]
+    },
+    {
+        "name": "Malachi",
+        "number": 39,
+        "abbr": "Mal",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 29
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 12
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 1
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 13
+            }
+        ]
+    },
+    {
+        "name": "Numbers",
+        "number": 4,
+        "abbr": "Num",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 104
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 259
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 15
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 613
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 58
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 241
+            }
+        ]
+    },
+    {
+        "name": "Tobit",
+        "number": 40,
+        "abbr": "Tob",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 30
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 2
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 175
+            }
+        ]
+    },
+    {
+        "name": "Judith",
+        "number": 41,
+        "abbr": "Jdt",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 20
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 320
+            }
+        ]
+    },
+    {
+        "name": "The Wisdom of Solomon",
+        "number": 43,
+        "abbr": "Wis",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 44
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 232
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 24
+            }
+        ]
+    },
+    {
+        "name": "Sirach",
+        "number": 44,
+        "abbr": "Sir",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 173
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 587
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 352
+            }
+        ]
+    },
+    {
+        "name": "Baruch",
+        "number": 45,
+        "abbr": "Bar",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 28
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 89
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 14
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 9
+            }
+        ]
+    },
+    {
+        "name": "The Letter of Jeremiah",
+        "number": 46,
+        "abbr": "LtJe",
+        "data": [
+            {
+                "name": "Expository, What things are or were like",
+                "value": 66
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "name": "Susanna",
+        "number": 48,
+        "abbr": "Sus",
+        "data": [
+            {
+                "name": "Narrative, Story",
+                "value": 64
+            }
+        ]
+    },
+    {
+        "name": "Bel and the Dragon",
+        "number": 49,
+        "abbr": "Bel",
+        "data": [
+            {
+                "name": "Narrative, Story",
+                "value": 41
+            }
+        ]
+    },
+    {
+        "name": "Deuteronomy",
+        "number": 5,
+        "abbr": "Deut",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 49
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 369
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 68
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 101
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 196
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 3
+            },
+            {
+                "name": "Procedural, How to do it",
+                "value": 177
+            }
+        ]
+    },
+    {
+        "name": "1 Maccabees",
+        "number": 50,
+        "abbr": "1 Mac",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 12
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 912
+            }
+        ]
+    },
+    {
+        "name": "2 Maccabees",
+        "number": 51,
+        "abbr": "2 Mac",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 9
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 68
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 478
+            }
+        ]
+    },
+    {
+        "name": "1 Esdras",
+        "number": 52,
+        "abbr": "1 Es",
+        "data": [
+            {
+                "name": "Expository, What things are or were like",
+                "value": 68
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 380
+            }
+        ]
+    },
+    {
+        "name": "3 Maccabees",
+        "number": 55,
+        "abbr": "3 Mac",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 19
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 9
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 186
+            }
+        ]
+    },
+    {
+        "name": "4 Maccabees",
+        "number": 57,
+        "abbr": "4 Mac",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 19
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 84
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 212
+            }
+        ]
+    },
+    {
+        "name": "Odes of Solomon",
+        "number": 58,
+        "abbr": "Odes",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 7
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 4
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 2
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 19
+            }
+        ]
+    },
+    {
+        "name": "Psalms of Solomon",
+        "number": 59,
+        "abbr": "PssSol",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 2
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 5
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 16
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "name": "Joshua",
+        "number": 6,
+        "abbr": "Josh",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 41
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 186
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 412
+            },
+            {
+                "name": "Procedural, How it was done",
+                "value": 19
+            }
+        ]
+    },
+    {
+        "name": "Matthew",
+        "number": 61,
+        "abbr": "Matt",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 38
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 168
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 248
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 33
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 66
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 519
+            }
+        ]
+    },
+    {
+        "name": "Mark",
+        "number": 62,
+        "abbr": "Mark",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 30
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 88
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 9
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 27
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 524
+            }
+        ]
+    },
+    {
+        "name": "Luke",
+        "number": 63,
+        "abbr": "Luke",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 10
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 138
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 229
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 5
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 50
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 719
+            }
+        ]
+    },
+    {
+        "name": "John",
+        "number": 64,
+        "abbr": "John",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 64
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 107
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 711
+            }
+        ]
+    },
+    {
+        "name": "Acts",
+        "number": 65,
+        "abbr": "Acts",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 3
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 71
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 936
+            }
+        ]
+    },
+    {
+        "name": "Romans",
+        "number": 66,
+        "abbr": "Rom",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 26
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 91
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 316
+            }
+        ]
+    },
+    {
+        "name": "1 Corinthians",
+        "number": 67,
+        "abbr": "1Cor",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 25
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 141
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 263
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 9
+            }
+        ]
+    },
+    {
+        "name": "2 Corinthians",
+        "number": 68,
+        "abbr": "2Cor",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 41
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 218
+            }
+        ]
+    },
+    {
+        "name": "Galatians",
+        "number": 69,
+        "abbr": "Gal",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 27
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 30
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 65
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 28
+            }
+        ]
+    },
+    {
+        "name": "Judges",
+        "number": 7,
+        "abbr": "Judg",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 31
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 16
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 571
+            }
+        ]
+    },
+    {
+        "name": "Ephesians",
+        "number": 70,
+        "abbr": "Eph",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 12
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 92
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 51
+            }
+        ]
+    },
+    {
+        "name": "Philippians",
+        "number": 71,
+        "abbr": "Phil",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 51
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 54
+            }
+        ]
+    },
+    {
+        "name": "Colossians",
+        "number": 72,
+        "abbr": "Col",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 35
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 61
+            }
+        ]
+    },
+    {
+        "name": "1 Thessalonians",
+        "number": 73,
+        "abbr": "1Thess",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 4
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 43
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 36
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "name": "2 Thessalonians",
+        "number": 74,
+        "abbr": "2Thess",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 35
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 12
+            }
+        ]
+    },
+    {
+        "name": "1 Timothy",
+        "number": 75,
+        "abbr": "1 Tim",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 9
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 89
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 10
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "name": "2 Timothy",
+        "number": 76,
+        "abbr": "2 Tim",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 2
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 62
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 10
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 9
+            }
+        ]
+    },
+    {
+        "name": "Titus",
+        "number": 77,
+        "abbr": "Titus",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 35
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 11
+            }
+        ]
+    },
+    {
+        "name": "Philemon",
+        "number": 78,
+        "abbr": "Phlm",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 4
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 18
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 3
+            }
+        ]
+    },
+    {
+        "name": "Hebrews",
+        "number": 79,
+        "abbr": "Heb",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 53
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 82
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 168
+            }
+        ]
+    },
+    {
+        "name": "Ruth",
+        "number": 8,
+        "abbr": "Ruth",
+        "data": [
+            {
+                "name": "Narrative, Story",
+                "value": 85
+            }
+        ]
+    },
+    {
+        "name": "James",
+        "number": 80,
+        "abbr": "Jas",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 12
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 82
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 14
+            }
+        ]
+    },
+    {
+        "name": "1 Peter",
+        "number": 81,
+        "abbr": "1 Pet",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 10
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 83
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 14
+            }
+        ]
+    },
+    {
+        "name": "2 Peter",
+        "number": 82,
+        "abbr": "2 Pet",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 11
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 21
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 22
+            },
+            {
+                "name": "Expository, What things will be like",
+                "value": 7
+            }
+        ]
+    },
+    {
+        "name": "1 John",
+        "number": 83,
+        "abbr": "1 Jn",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 18
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 91
+            }
+        ]
+    },
+    {
+        "name": "2 John",
+        "number": 84,
+        "abbr": "2 Jn",
+        "data": [
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 5
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 8
+            }
+        ]
+    },
+    {
+        "name": "3 John",
+        "number": 85,
+        "abbr": "3 Jn",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 4
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 4
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 7
+            }
+        ]
+    },
+    {
+        "name": "Jude",
+        "number": 86,
+        "abbr": "Jude",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 13
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 8
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 4
+            }
+        ]
+    },
+    {
+        "name": "Revelation",
+        "number": 87,
+        "abbr": "Rev",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 47
+            },
+            {
+                "name": "Behavioral, Hortatory",
+                "value": 8
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 14
+            },
+            {
+                "name": "Narrative, Future Events",
+                "value": 36
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 301
+            }
+        ]
+    },
+    {
+        "name": "1 Samuel",
+        "number": 9,
+        "abbr": "1Sam",
+        "data": [
+            {
+                "name": "Behavioral, Evaluation",
+                "value": 11
+            },
+            {
+                "name": "Expository, What things are or were like",
+                "value": 16
+            },
+            {
+                "name": "Narrative, Story",
+                "value": 787
+            }
+        ]
+    }
+]
