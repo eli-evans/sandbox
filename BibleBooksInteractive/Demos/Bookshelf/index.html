@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>"Bookshelf"</title>
+	<style>
+		body, html {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: "Source Sans Pro", sans-serif;
+			padding: 24px;
+		}
+
+		.book {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			float: left;
+			height: 160px;
+			margin-bottom: 12px;
+		}
+
+		.hidden {
+			width: 0px;
+		}
+
+		.bookBlock {
+			transition-property: width, padding-right;
+			transition-duration: 600ms;
+			margin-right: 6px;
+			margin-left: 6px;
+			display: block;
+
+			display: block;
+			overflow: visible;
+		}
+
+		.bookName {
+			writing-mode: vertical-lr;
+			margin-top: 6px;
+			display: grid;
+			align-content: center;
+			width: 100%;
+		}
+		.segment {
+			width: 100%;
+		}
+
+
+	</style>
+</head>
+
+<body>
+	<div id="chartdiv"></div>
+	<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+	<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+	<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+	<script src="../../../Util/Util.js"></script>
+	<script src="chart.js"></script>
+
+</body>
+</html>

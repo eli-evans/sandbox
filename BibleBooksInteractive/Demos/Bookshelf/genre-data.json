@@ -1,0 +1,2857 @@
+[
+    {
+        "name": "Genesis",
+        "number": 1,
+        "abbr": "Gen",
+        "data": [
+            {
+                "path": "1\tGenesis",
+                "name": "Behavioral, Hortatory",
+                "value": 21,
+                "stdev": -0.5242062166668868,
+                "percentage": 1.364522417153996,
+                "variance": 286.8
+            },
+            {
+                "path": "1\tGenesis",
+                "name": "Expository, What things are or were like",
+                "value": 79,
+                "stdev": -0.4181951965599153,
+                "percentage": 5.133203378817414,
+                "variance": 228.8
+            },
+            {
+                "path": "1\tGenesis",
+                "name": "Narrative, Future Events",
+                "value": 28,
+                "stdev": -0.5114117832057007,
+                "percentage": 1.8193632228719947,
+                "variance": 279.8
+            },
+            {
+                "path": "1\tGenesis",
+                "name": "Narrative, Story",
+                "value": 1401,
+                "stdev": 1.9981249513955395,
+                "percentage": 91.03313840155946,
+                "variance": 1093.2
+            },
+            {
+                "path": "1\tGenesis",
+                "name": "Procedural, How to do it",
+                "value": 10,
+                "stdev": -0.5443117549630366,
+                "percentage": 0.649772579597141,
+                "variance": 297.8
+            }
+        ]
+    },
+    {
+        "name": "2 Samuel",
+        "number": 10,
+        "abbr": "2Sam",
+        "data": [
+            {
+                "path": "10\t2 Samuel",
+                "name": "Behavioral, Evaluation",
+                "value": 51,
+                "stdev": -0.7290645338166429,
+                "percentage": 7.306590257879657,
+                "variance": 181.66666666666666
+            },
+            {
+                "path": "10\t2 Samuel",
+                "name": "Expository, What things are or were like",
+                "value": 62,
+                "stdev": -0.6849193418607729,
+                "percentage": 8.882521489971348,
+                "variance": 170.66666666666666
+            },
+            {
+                "path": "10\t2 Samuel",
+                "name": "Narrative, Story",
+                "value": 585,
+                "stdev": 1.413983875677416,
+                "percentage": 83.810888252149,
+                "variance": 352.33333333333337
+            }
+        ]
+    },
+    {
+        "name": "1 Kings",
+        "number": 11,
+        "abbr": "1Kgs",
+        "data": [
+            {
+                "path": "11\t1 Kings",
+                "name": "Behavioral, Hortatory",
+                "value": 40,
+                "stdev": -0.9268693309839126,
+                "percentage": 4.8959608323133414,
+                "variance": 164.25
+            },
+            {
+                "path": "11\t1 Kings",
+                "name": "Expository, What things are or were like",
+                "value": 184,
+                "stdev": -0.114271561354181,
+                "percentage": 22.52141982864137,
+                "variance": 20.25
+            },
+            {
+                "path": "11\t1 Kings",
+                "name": "Narrative, Story",
+                "value": 498,
+                "stdev": 1.6576430196439838,
+                "percentage": 60.9547123623011,
+                "variance": 293.75
+            },
+            {
+                "path": "11\t1 Kings",
+                "name": "Procedural, How it was done",
+                "value": 95,
+                "stdev": -0.6165021273058902,
+                "percentage": 11.627906976744185,
+                "variance": 109.25
+            }
+        ]
+    },
+    {
+        "name": "2 Kings",
+        "number": 12,
+        "abbr": "2Kgs",
+        "data": [
+            {
+                "path": "12\t2 Kings",
+                "name": "Expository, What things are or were like",
+                "value": 127,
+                "stdev": -0.4643774617735354,
+                "percentage": 17.63888888888889,
+                "variance": 113
+            },
+            {
+                "path": "12\t2 Kings",
+                "name": "Narrative, Future Events",
+                "value": 15,
+                "stdev": -0.924645388487128,
+                "percentage": 2.083333333333333,
+                "variance": 225
+            },
+            {
+                "path": "12\t2 Kings",
+                "name": "Narrative, Story",
+                "value": 578,
+                "stdev": 1.3890228502606634,
+                "percentage": 80.27777777777779,
+                "variance": 338
+            }
+        ]
+    },
+    {
+        "name": "1 Chronicles",
+        "number": 13,
+        "abbr": "1Chr",
+        "data": [
+            {
+                "path": "13\t1 Chronicles",
+                "name": "Behavioral, Evaluation",
+                "value": 11,
+                "stdev": -0.7419486283282224,
+                "percentage": 1.166489925768823,
+                "variance": 177.6
+            },
+            {
+                "path": "13\t1 Chronicles",
+                "name": "Behavioral, Hortatory",
+                "value": 78,
+                "stdev": -0.4620468372359313,
+                "percentage": 8.271474019088016,
+                "variance": 110.6
+            },
+            {
+                "path": "13\t1 Chronicles",
+                "name": "Expository, What things are or were like",
+                "value": 662,
+                "stdev": 1.9776941478073227,
+                "percentage": 70.20148462354189,
+                "variance": 473.4
+            },
+            {
+                "path": "13\t1 Chronicles",
+                "name": "Narrative, Story",
+                "value": 123,
+                "stdev": -0.27405309695006413,
+                "percentage": 13.043478260869565,
+                "variance": 65.6
+            },
+            {
+                "path": "13\t1 Chronicles",
+                "name": "Procedural, How it was done",
+                "value": 69,
+                "stdev": -0.49964558529310477,
+                "percentage": 7.317073170731707,
+                "variance": 119.6
+            }
+        ]
+    },
+    {
+        "name": "2 Chronicles",
+        "number": 14,
+        "abbr": "2Chr",
+        "data": [
+            {
+                "path": "14\t2 Chronicles",
+                "name": "Behavioral, Evaluation",
+                "value": 9,
+                "stdev": -0.9745458173779306,
+                "percentage": 1.0882708585247884,
+                "variance": 156.4
+            },
+            {
+                "path": "14\t2 Chronicles",
+                "name": "Behavioral, Hortatory",
+                "value": 42,
+                "stdev": -0.7689191423557329,
+                "percentage": 5.078597339782346,
+                "variance": 123.4
+            },
+            {
+                "path": "14\t2 Chronicles",
+                "name": "Expository, What things are or were like",
+                "value": 170,
+                "stdev": 0.02866311227582145,
+                "percentage": 20.556227327690447,
+                "variance": 4.599999999999994
+            },
+            {
+                "path": "14\t2 Chronicles",
+                "name": "Narrative, Story",
+                "value": 463,
+                "stdev": 1.854378742018364,
+                "percentage": 55.98548972188634,
+                "variance": 297.6
+            },
+            {
+                "path": "14\t2 Chronicles",
+                "name": "Procedural, How it was done",
+                "value": 143,
+                "stdev": -0.13957689456052205,
+                "percentage": 17.291414752116083,
+                "variance": 22.400000000000006
+            }
+        ]
+    },
+    {
+        "name": "Ezra",
+        "number": 15,
+        "abbr": "Ezra",
+        "data": [
+            {
+                "path": "15\tEzra",
+                "name": "Behavioral, Hortatory",
+                "value": 12,
+                "stdev": -0.9626372608015917,
+                "percentage": 4.285714285714286,
+                "variance": 44
+            },
+            {
+                "path": "15\tEzra",
+                "name": "Expository, What things are or were like",
+                "value": 140,
+                "stdev": 1.8377620433484934,
+                "percentage": 50,
+                "variance": 84
+            },
+            {
+                "path": "15\tEzra",
+                "name": "Narrative, Story",
+                "value": 57,
+                "stdev": 0.02187811956367254,
+                "percentage": 20.357142857142858,
+                "variance": 1
+            },
+            {
+                "path": "15\tEzra",
+                "name": "Procedural, How it was done",
+                "value": 53,
+                "stdev": -0.06563435869101762,
+                "percentage": 18.928571428571427,
+                "variance": 3
+            },
+            {
+                "path": "15\tEzra",
+                "name": "Procedural, How to do it",
+                "value": 18,
+                "stdev": -0.8313685434195566,
+                "percentage": 6.428571428571428,
+                "variance": 38
+            }
+        ]
+    },
+    {
+        "name": "Nehemiah",
+        "number": 16,
+        "abbr": "Neh",
+        "data": [
+            {
+                "path": "16\tNehemiah",
+                "name": "Behavioral, Evaluation",
+                "value": 38,
+                "stdev": -0.782898791871665,
+                "percentage": 9.336609336609335,
+                "variance": 43.400000000000006
+            },
+            {
+                "path": "16\tNehemiah",
+                "name": "Behavioral, Hortatory",
+                "value": 12,
+                "stdev": -1.2519165012878697,
+                "percentage": 2.9484029484029484,
+                "variance": 69.4
+            },
+            {
+                "path": "16\tNehemiah",
+                "name": "Expository, What things are or were like",
+                "value": 165,
+                "stdev": 1.5080723271997967,
+                "percentage": 40.54054054054054,
+                "variance": 83.6
+            },
+            {
+                "path": "16\tNehemiah",
+                "name": "Narrative, Story",
+                "value": 121,
+                "stdev": 0.7143500497262194,
+                "percentage": 29.72972972972973,
+                "variance": 39.599999999999994
+            },
+            {
+                "path": "16\tNehemiah",
+                "name": "Procedural, How it was done",
+                "value": 71,
+                "stdev": -0.187607083766482,
+                "percentage": 17.444717444717444,
+                "variance": 10.400000000000006
+            }
+        ]
+    },
+    {
+        "name": "Esther",
+        "number": 17,
+        "abbr": "Esth",
+        "data": [
+            {
+                "path": "17\tEsther",
+                "name": "Expository, What things are or were like",
+                "value": 3,
+                "stdev": -0.9530878195738839,
+                "percentage": 1.7964071856287425,
+                "variance": 52.666666666666664
+            },
+            {
+                "path": "17\tEsther",
+                "name": "Narrative, Story",
+                "value": 132,
+                "stdev": 1.3813741182431611,
+                "percentage": 79.04191616766467,
+                "variance": 76.33333333333334
+            },
+            {
+                "path": "17\tEsther",
+                "name": "Procedural, How it was done",
+                "value": 32,
+                "stdev": -0.4282862986692769,
+                "percentage": 19.16167664670659,
+                "variance": 23.666666666666664
+            }
+        ]
+    },
+    {
+        "name": "Job",
+        "number": 18,
+        "abbr": "Job",
+        "data": [
+            {
+                "path": "18\tJob",
+                "name": "Behavioral, Hortatory",
+                "value": 41,
+                "stdev": -0.5712889049706542,
+                "percentage": 3.8210624417520966,
+                "variance": 227.25
+            },
+            {
+                "path": "18\tJob",
+                "name": "Expository, What things are or were like",
+                "value": 957,
+                "stdev": 1.7314641729308604,
+                "percentage": 89.1891891891892,
+                "variance": 688.75
+            },
+            {
+                "path": "18\tJob",
+                "name": "Expository, What things will be like",
+                "value": 23,
+                "stdev": -0.6165395113049634,
+                "percentage": 2.1435228331780056,
+                "variance": 245.25
+            },
+            {
+                "path": "18\tJob",
+                "name": "Narrative, Story",
+                "value": 52,
+                "stdev": -0.543635756655243,
+                "percentage": 4.846225535880708,
+                "variance": 216.25
+            }
+        ]
+    },
+    {
+        "name": "Psalms",
+        "number": 19,
+        "abbr": "Ps",
+        "data": [
+            {
+                "path": "19\tPsalms",
+                "name": "Behavioral, Evaluation",
+                "value": 784,
+                "stdev": 0.82487402625047,
+                "percentage": 31.85696871190573,
+                "variance": 291.8
+            },
+            {
+                "path": "19\tPsalms",
+                "name": "Behavioral, Hortatory",
+                "value": 821,
+                "stdev": 0.9294673743356907,
+                "percentage": 33.3604225924421,
+                "variance": 328.8
+            },
+            {
+                "path": "19\tPsalms",
+                "name": "Expository, What things are or were like",
+                "value": 735,
+                "stdev": 0.6863585112186913,
+                "percentage": 29.86590816741162,
+                "variance": 242.8
+            },
+            {
+                "path": "19\tPsalms",
+                "name": "Expository, What things will be like",
+                "value": 41,
+                "stdev": -1.2754734771905827,
+                "percentage": 1.6659894351889477,
+                "variance": 451.2
+            },
+            {
+                "path": "19\tPsalms",
+                "name": "Narrative, Story",
+                "value": 80,
+                "stdev": -1.1652264346142691,
+                "percentage": 3.250711093051605,
+                "variance": 412.2
+            }
+        ]
+    },
+    {
+        "name": "Exodus",
+        "number": 2,
+        "abbr": "Exod",
+        "data": [
+            {
+                "path": "2\tExodus",
+                "name": "Behavioral, Evaluation",
+                "value": 19,
+                "stdev": -1.0697678010807397,
+                "percentage": 1.5625,
+                "variance": 183.66666666666666
+            },
+            {
+                "path": "2\tExodus",
+                "name": "Behavioral, Hortatory",
+                "value": 201,
+                "stdev": -0.009707511806540232,
+                "percentage": 16.529605263157894,
+                "variance": 1.6666666666666572
+            },
+            {
+                "path": "2\tExodus",
+                "name": "Expository, What things are or were like",
+                "value": 42,
+                "stdev": -0.9358041381504837,
+                "percentage": 3.453947368421053,
+                "variance": 160.66666666666666
+            },
+            {
+                "path": "2\tExodus",
+                "name": "Narrative, Story",
+                "value": 532,
+                "stdev": 1.918204332972361,
+                "percentage": 43.75,
+                "variance": 329.33333333333337
+            },
+            {
+                "path": "2\tExodus",
+                "name": "Procedural, How it was done",
+                "value": 145,
+                "stdev": -0.3358799085062939,
+                "percentage": 11.924342105263158,
+                "variance": 57.66666666666666
+            },
+            {
+                "path": "2\tExodus",
+                "name": "Procedural, How to do it",
+                "value": 277,
+                "stdev": 0.4329550265716969,
+                "percentage": 22.779605263157894,
+                "variance": 74.33333333333334
+            }
+        ]
+    },
+    {
+        "name": "Proverbs",
+        "number": 20,
+        "abbr": "Prov",
+        "data": [
+            {
+                "path": "20\tProverbs",
+                "name": "Behavioral, Hortatory",
+                "value": 235,
+                "stdev": -0.3431851704314776,
+                "percentage": 25.655021834061138,
+                "variance": 70.33333333333331
+            },
+            {
+                "path": "20\tProverbs",
+                "name": "Expository, What things are or were like",
+                "value": 584,
+                "stdev": 1.3597289217095514,
+                "percentage": 63.75545851528385,
+                "variance": 278.6666666666667
+            },
+            {
+                "path": "20\tProverbs",
+                "name": "Expository, What things will be like",
+                "value": 97,
+                "stdev": -1.0165437512780735,
+                "percentage": 10.58951965065502,
+                "variance": 208.33333333333331
+            }
+        ]
+    },
+    {
+        "name": "Ecclesiastes",
+        "number": 21,
+        "abbr": "Eccl",
+        "data": [
+            {
+                "path": "21\tEcclesiastes",
+                "name": "Behavioral, Hortatory",
+                "value": 26,
+                "stdev": -1,
+                "percentage": 11.403508771929824,
+                "variance": 88
+            },
+            {
+                "path": "21\tEcclesiastes",
+                "name": "Expository, What things are or were like",
+                "value": 202,
+                "stdev": 1,
+                "percentage": 88.59649122807018,
+                "variance": 88
+            }
+        ]
+    },
+    {
+        "name": "Song of Solomon",
+        "number": 22,
+        "abbr": "Song",
+        "data": [
+            {
+                "path": "22\tSong of Solomon",
+                "name": "Expository, What things are or were like",
+                "value": 121,
+                "stdev": null,
+                "percentage": 100,
+                "variance": 0
+            }
+        ]
+    },
+    {
+        "name": "Isaiah",
+        "number": 23,
+        "abbr": "Isa",
+        "data": [
+            {
+                "path": "23\tIsaiah",
+                "name": "Behavioral, Evaluation",
+                "value": 152,
+                "stdev": -0.5550934099325379,
+                "percentage": 11.719352351580572,
+                "variance": 64.16666666666666
+            },
+            {
+                "path": "23\tIsaiah",
+                "name": "Behavioral, Hortatory",
+                "value": 459,
+                "stdev": 2.1007041513550853,
+                "percentage": 35.389360061680804,
+                "variance": 242.83333333333334
+            },
+            {
+                "path": "23\tIsaiah",
+                "name": "Expository, What things are or were like",
+                "value": 249,
+                "stdev": 0.28403480975768836,
+                "percentage": 19.198149575944488,
+                "variance": 32.83333333333334
+            },
+            {
+                "path": "23\tIsaiah",
+                "name": "Expository, What things will be like",
+                "value": 138,
+                "stdev": -0.6762046993723644,
+                "percentage": 10.63993831919815,
+                "variance": 78.16666666666666
+            },
+            {
+                "path": "23\tIsaiah",
+                "name": "Narrative, Future Events",
+                "value": 172,
+                "stdev": -0.3820772821613572,
+                "percentage": 13.261372397841173,
+                "variance": 44.16666666666666
+            },
+            {
+                "path": "23\tIsaiah",
+                "name": "Narrative, Story",
+                "value": 127,
+                "stdev": -0.7713635696465136,
+                "percentage": 9.79182729375482,
+                "variance": 89.16666666666666
+            }
+        ]
+    },
+    {
+        "name": "Jeremiah",
+        "number": 24,
+        "abbr": "Jer",
+        "data": [
+            {
+                "path": "24\tJeremiah",
+                "name": "Behavioral, Evaluation",
+                "value": 234,
+                "stdev": -0.2644833294150189,
+                "percentage": 17.105263157894736,
+                "variance": 39.60000000000002
+            },
+            {
+                "path": "24\tJeremiah",
+                "name": "Behavioral, Hortatory",
+                "value": 543,
+                "stdev": 1.7992881046567182,
+                "percentage": 39.69298245614035,
+                "variance": 269.4
+            },
+            {
+                "path": "24\tJeremiah",
+                "name": "Expository, What things are or were like",
+                "value": 107,
+                "stdev": -1.1127000676904577,
+                "percentage": 7.821637426900585,
+                "variance": 166.60000000000002
+            },
+            {
+                "path": "24\tJeremiah",
+                "name": "Narrative, Future Events",
+                "value": 178,
+                "stdev": -0.6385001588908029,
+                "percentage": 13.011695906432749,
+                "variance": 95.60000000000002
+            },
+            {
+                "path": "24\tJeremiah",
+                "name": "Narrative, Story",
+                "value": 306,
+                "stdev": 0.21639545133956062,
+                "percentage": 22.36842105263158,
+                "variance": 32.39999999999998
+            }
+        ]
+    },
+    {
+        "name": "Lamentations",
+        "number": 25,
+        "abbr": "Lam",
+        "data": [
+            {
+                "path": "25\tLamentations",
+                "name": "Behavioral, Evaluation",
+                "value": 43,
+                "stdev": -0.28956449817748037,
+                "percentage": 27.92207792207792,
+                "variance": 8.333333333333336
+            },
+            {
+                "path": "25\tLamentations",
+                "name": "Behavioral, Hortatory",
+                "value": 21,
+                "stdev": -1.0540147733660283,
+                "percentage": 13.636363636363635,
+                "variance": 30.333333333333336
+            },
+            {
+                "path": "25\tLamentations",
+                "name": "Expository, What things are or were like",
+                "value": 90,
+                "stdev": 1.3435792715435084,
+                "percentage": 58.44155844155844,
+                "variance": 38.666666666666664
+            }
+        ]
+    },
+    {
+        "name": "Ezekiel",
+        "number": 26,
+        "abbr": "Ezek",
+        "data": [
+            {
+                "path": "26\tEzekiel",
+                "name": "Behavioral, Evaluation",
+                "value": 153,
+                "stdev": -0.2574695437381884,
+                "percentage": 12.009419152276294,
+                "variance": 29
+            },
+            {
+                "path": "26\tEzekiel",
+                "name": "Behavioral, Hortatory",
+                "value": 438,
+                "stdev": 2.272834592999181,
+                "percentage": 34.37990580847723,
+                "variance": 256
+            },
+            {
+                "path": "26\tEzekiel",
+                "name": "Expository, What things are or were like",
+                "value": 106,
+                "stdev": -0.6747477697966318,
+                "percentage": 8.320251177394034,
+                "variance": 76
+            },
+            {
+                "path": "26\tEzekiel",
+                "name": "Narrative, Future Events",
+                "value": 104,
+                "stdev": -0.6925042900544378,
+                "percentage": 8.16326530612245,
+                "variance": 78
+            },
+            {
+                "path": "26\tEzekiel",
+                "name": "Narrative, Story",
+                "value": 220,
+                "stdev": 0.3373738848983159,
+                "percentage": 17.26844583987441,
+                "variance": 38
+            },
+            {
+                "path": "26\tEzekiel",
+                "name": "Procedural, How it was done",
+                "value": 88,
+                "stdev": -0.8345564521168867,
+                "percentage": 6.907378335949764,
+                "variance": 94
+            },
+            {
+                "path": "26\tEzekiel",
+                "name": "Procedural, How to do it",
+                "value": 165,
+                "stdev": -0.15093042219135183,
+                "percentage": 12.951334379905807,
+                "variance": 17
+            }
+        ]
+    },
+    {
+        "name": "Daniel",
+        "number": 27,
+        "abbr": "Dan",
+        "data": [
+            {
+                "path": "27\tDaniel",
+                "name": "Behavioral, Evaluation",
+                "value": 19,
+                "stdev": -1.0920285667542369,
+                "percentage": 5.307262569832402,
+                "variance": 100.33333333333333
+            },
+            {
+                "path": "27\tDaniel",
+                "name": "Narrative, Future Events",
+                "value": 98,
+                "stdev": -0.23219212050588423,
+                "percentage": 27.37430167597765,
+                "variance": 21.33333333333333
+            },
+            {
+                "path": "27\tDaniel",
+                "name": "Narrative, Story",
+                "value": 241,
+                "stdev": 1.3242206872601212,
+                "percentage": 67.31843575418995,
+                "variance": 121.66666666666667
+            }
+        ]
+    },
+    {
+        "name": "Hosea",
+        "number": 28,
+        "abbr": "Hos",
+        "data": [
+            {
+                "path": "28\tHosea",
+                "name": "Behavioral, Evaluation",
+                "value": 90,
+                "stdev": 1.6004609991611998,
+                "percentage": 45,
+                "variance": 50
+            },
+            {
+                "path": "28\tHosea",
+                "name": "Behavioral, Hortatory",
+                "value": 49,
+                "stdev": 0.28808297984901593,
+                "percentage": 24.5,
+                "variance": 9
+            },
+            {
+                "path": "28\tHosea",
+                "name": "Expository, What things are or were like",
+                "value": 1,
+                "stdev": -1.2483595793457358,
+                "percentage": 0.5,
+                "variance": 39
+            },
+            {
+                "path": "28\tHosea",
+                "name": "Narrative, Future Events",
+                "value": 47,
+                "stdev": 0.22406453988256797,
+                "percentage": 23.5,
+                "variance": 7
+            },
+            {
+                "path": "28\tHosea",
+                "name": "Narrative, Story",
+                "value": 13,
+                "stdev": -0.8642489395470478,
+                "percentage": 6.5,
+                "variance": 27
+            }
+        ]
+    },
+    {
+        "name": "Joel",
+        "number": 29,
+        "abbr": "Joel",
+        "data": [
+            {
+                "path": "29\tJoel",
+                "name": "Behavioral, Evaluation",
+                "value": 17,
+                "stdev": -0.11378338965675729,
+                "percentage": 23.28767123287671,
+                "variance": 1.25
+            },
+            {
+                "path": "29\tJoel",
+                "name": "Behavioral, Hortatory",
+                "value": 30,
+                "stdev": 1.0695638627735184,
+                "percentage": 41.0958904109589,
+                "variance": 11.75
+            },
+            {
+                "path": "29\tJoel",
+                "name": "Expository, What things are or were like",
+                "value": 1,
+                "stdev": -1.5702107772632505,
+                "percentage": 1.36986301369863,
+                "variance": 17.25
+            },
+            {
+                "path": "29\tJoel",
+                "name": "Narrative, Future Events",
+                "value": 25,
+                "stdev": 0.6144303041464894,
+                "percentage": 34.24657534246575,
+                "variance": 6.75
+            }
+        ]
+    },
+    {
+        "name": "Leviticus",
+        "number": 3,
+        "abbr": "Lev",
+        "data": [
+            {
+                "path": "3\tLeviticus",
+                "name": "Behavioral, Hortatory",
+                "value": 351,
+                "stdev": 0.8011026214150057,
+                "percentage": 40.81395348837209,
+                "variance": 136
+            },
+            {
+                "path": "3\tLeviticus",
+                "name": "Narrative, Story",
+                "value": 34,
+                "stdev": -1.0661733417361472,
+                "percentage": 3.953488372093023,
+                "variance": 181
+            },
+            {
+                "path": "3\tLeviticus",
+                "name": "Procedural, How it was done",
+                "value": 60,
+                "stdev": -0.9130213699950432,
+                "percentage": 6.976744186046512,
+                "variance": 155
+            },
+            {
+                "path": "3\tLeviticus",
+                "name": "Procedural, How to do it",
+                "value": 415,
+                "stdev": 1.1780920903161847,
+                "percentage": 48.25581395348838,
+                "variance": 200
+            }
+        ]
+    },
+    {
+        "name": "Amos",
+        "number": 30,
+        "abbr": "Amos",
+        "data": [
+            {
+                "path": "30\tAmos",
+                "name": "Behavioral, Evaluation",
+                "value": 33,
+                "stdev": 0.15147208217984712,
+                "percentage": 22.2972972972973,
+                "variance": 3.3999999999999986
+            },
+            {
+                "path": "30\tAmos",
+                "name": "Behavioral, Hortatory",
+                "value": 72,
+                "stdev": 1.888945966007506,
+                "percentage": 48.64864864864865,
+                "variance": 42.4
+            },
+            {
+                "path": "30\tAmos",
+                "name": "Expository, What things are or were like",
+                "value": 13,
+                "stdev": -0.7395401659369011,
+                "percentage": 8.783783783783784,
+                "variance": 16.6
+            },
+            {
+                "path": "30\tAmos",
+                "name": "Narrative, Future Events",
+                "value": 13,
+                "stdev": -0.7395401659369011,
+                "percentage": 8.783783783783784,
+                "variance": 16.6
+            },
+            {
+                "path": "30\tAmos",
+                "name": "Narrative, Story",
+                "value": 17,
+                "stdev": -0.5613377163135514,
+                "percentage": 11.486486486486488,
+                "variance": 12.600000000000001
+            }
+        ]
+    },
+    {
+        "name": "Obadiah",
+        "number": 31,
+        "abbr": "Obad",
+        "data": [
+            {
+                "path": "31\tObadiah",
+                "name": "Behavioral, Hortatory",
+                "value": 16,
+                "stdev": 1,
+                "percentage": 76.19047619047619,
+                "variance": 5.5
+            },
+            {
+                "path": "31\tObadiah",
+                "name": "Narrative, Future Events",
+                "value": 5,
+                "stdev": -1,
+                "percentage": 23.809523809523807,
+                "variance": 5.5
+            }
+        ]
+    },
+    {
+        "name": "Jonah",
+        "number": 32,
+        "abbr": "Jonah",
+        "data": [
+            {
+                "path": "32\tJonah",
+                "name": "Narrative, Story",
+                "value": 49,
+                "stdev": null,
+                "percentage": 100,
+                "variance": 0
+            }
+        ]
+    },
+    {
+        "name": "Micah",
+        "number": 33,
+        "abbr": "Mic",
+        "data": [
+            {
+                "path": "33\tMicah",
+                "name": "Behavioral, Evaluation",
+                "value": 30,
+                "stdev": 0.23116036533933926,
+                "percentage": 28.30188679245283,
+                "variance": 3.5
+            },
+            {
+                "path": "33\tMicah",
+                "name": "Behavioral, Hortatory",
+                "value": 35,
+                "stdev": 0.5613894586812525,
+                "percentage": 33.0188679245283,
+                "variance": 8.5
+            },
+            {
+                "path": "33\tMicah",
+                "name": "Expository, What things are or were like",
+                "value": 1,
+                "stdev": -1.6841683760437574,
+                "percentage": 0.9433962264150944,
+                "variance": 25.5
+            },
+            {
+                "path": "33\tMicah",
+                "name": "Narrative, Future Events",
+                "value": 40,
+                "stdev": 0.8916185520231658,
+                "percentage": 37.735849056603776,
+                "variance": 13.5
+            }
+        ]
+    },
+    {
+        "name": "Nahum",
+        "number": 34,
+        "abbr": "Nah",
+        "data": [
+            {
+                "path": "34\tNahum",
+                "name": "Behavioral, Evaluation",
+                "value": 14,
+                "stdev": -0.13112569439434396,
+                "percentage": 29.78723404255319,
+                "variance": 1.666666666666666
+            },
+            {
+                "path": "34\tNahum",
+                "name": "Expository, What things are or were like",
+                "value": 1,
+                "stdev": -1.153906110670227,
+                "percentage": 2.127659574468085,
+                "variance": 14.666666666666666
+            },
+            {
+                "path": "34\tNahum",
+                "name": "Narrative, Future Events",
+                "value": 32,
+                "stdev": 1.2850318050645713,
+                "percentage": 68.08510638297872,
+                "variance": 16.333333333333336
+            }
+        ]
+    },
+    {
+        "name": "Habakkuk",
+        "number": 35,
+        "abbr": "Hab",
+        "data": [
+            {
+                "path": "35\tHabakkuk",
+                "name": "Behavioral, Evaluation",
+                "value": 16,
+                "stdev": 0.2574991624721984,
+                "percentage": 28.07017543859649,
+                "variance": 1.75
+            },
+            {
+                "path": "35\tHabakkuk",
+                "name": "Behavioral, Hortatory",
+                "value": 14,
+                "stdev": -0.036785594638885484,
+                "percentage": 24.561403508771928,
+                "variance": 0.25
+            },
+            {
+                "path": "35\tHabakkuk",
+                "name": "Expository, What things are or were like",
+                "value": 4,
+                "stdev": -1.5082093801943048,
+                "percentage": 7.017543859649122,
+                "variance": 10.25
+            },
+            {
+                "path": "35\tHabakkuk",
+                "name": "Narrative, Future Events",
+                "value": 23,
+                "stdev": 1.2874958123609919,
+                "percentage": 40.35087719298245,
+                "variance": 8.75
+            }
+        ]
+    },
+    {
+        "name": "Zephaniah",
+        "number": 36,
+        "abbr": "Zeph",
+        "data": [
+            {
+                "path": "36\tZephaniah",
+                "name": "Behavioral, Evaluation",
+                "value": 7,
+                "stdev": -0.5186989917040848,
+                "percentage": 13.20754716981132,
+                "variance": 6.25
+            },
+            {
+                "path": "36\tZephaniah",
+                "name": "Behavioral, Hortatory",
+                "value": 33,
+                "stdev": 1.6390888137849082,
+                "percentage": 62.264150943396224,
+                "variance": 19.75
+            },
+            {
+                "path": "36\tZephaniah",
+                "name": "Expository, What things are or were like",
+                "value": 1,
+                "stdev": -1.0166500237400062,
+                "percentage": 1.8867924528301887,
+                "variance": 12.25
+            },
+            {
+                "path": "36\tZephaniah",
+                "name": "Narrative, Future Events",
+                "value": 12,
+                "stdev": -0.10373979834081697,
+                "percentage": 22.641509433962266,
+                "variance": 1.25
+            }
+        ]
+    },
+    {
+        "name": "Haggai",
+        "number": 37,
+        "abbr": "Hag",
+        "data": [
+            {
+                "path": "37\tHaggai",
+                "name": "Behavioral, Evaluation",
+                "value": 5,
+                "stdev": -0.8049844718999243,
+                "percentage": 13.157894736842104,
+                "variance": 4.5
+            },
+            {
+                "path": "37\tHaggai",
+                "name": "Behavioral, Hortatory",
+                "value": 18,
+                "stdev": 1.520526224699857,
+                "percentage": 47.368421052631575,
+                "variance": 8.5
+            },
+            {
+                "path": "37\tHaggai",
+                "name": "Expository, What things are or were like",
+                "value": 11,
+                "stdev": 0.2683281572999747,
+                "percentage": 28.947368421052634,
+                "variance": 1.5
+            },
+            {
+                "path": "37\tHaggai",
+                "name": "Narrative, Story",
+                "value": 4,
+                "stdev": -0.9838699100999074,
+                "percentage": 10.526315789473683,
+                "variance": 5.5
+            }
+        ]
+    },
+    {
+        "name": "Zechariah",
+        "number": 38,
+        "abbr": "Zech",
+        "data": [
+            {
+                "path": "38\tZechariah",
+                "name": "Behavioral, Evaluation",
+                "value": 7,
+                "stdev": -1.1662536330767068,
+                "percentage": 3.3175355450236967,
+                "variance": 35.2
+            },
+            {
+                "path": "38\tZechariah",
+                "name": "Behavioral, Hortatory",
+                "value": 76,
+                "stdev": 1.1198685453975195,
+                "percentage": 36.018957345971565,
+                "variance": 33.8
+            },
+            {
+                "path": "38\tZechariah",
+                "name": "Narrative, Future Events",
+                "value": 49,
+                "stdev": 0.22529899729890918,
+                "percentage": 23.22274881516588,
+                "variance": 6.799999999999997
+            },
+            {
+                "path": "38\tZechariah",
+                "name": "Narrative, Story",
+                "value": 72,
+                "stdev": 0.9873397234569846,
+                "percentage": 34.12322274881517,
+                "variance": 29.799999999999997
+            },
+            {
+                "path": "38\tZechariah",
+                "name": "Procedural, How to do it",
+                "value": 7,
+                "stdev": -1.1662536330767068,
+                "percentage": 3.3175355450236967,
+                "variance": 35.2
+            }
+        ]
+    },
+    {
+        "name": "Malachi",
+        "number": 39,
+        "abbr": "Mal",
+        "data": [
+            {
+                "path": "39\tMalachi",
+                "name": "Behavioral, Evaluation",
+                "value": 29,
+                "stdev": 1.5273884118002097,
+                "percentage": 52.72727272727272,
+                "variance": 15.25
+            },
+            {
+                "path": "39\tMalachi",
+                "name": "Behavioral, Hortatory",
+                "value": 12,
+                "stdev": -0.17527408004264702,
+                "percentage": 21.818181818181817,
+                "variance": 1.75
+            },
+            {
+                "path": "39\tMalachi",
+                "name": "Expository, What things are or were like",
+                "value": 1,
+                "stdev": -1.2769968688821425,
+                "percentage": 1.8181818181818181,
+                "variance": 12.75
+            },
+            {
+                "path": "39\tMalachi",
+                "name": "Narrative, Future Events",
+                "value": 13,
+                "stdev": -0.07511746287542015,
+                "percentage": 23.636363636363637,
+                "variance": 0.75
+            }
+        ]
+    },
+    {
+        "name": "Numbers",
+        "number": 4,
+        "abbr": "Num",
+        "data": [
+            {
+                "path": "4\tNumbers",
+                "name": "Behavioral, Hortatory",
+                "value": 104,
+                "stdev": -0.5573434469267056,
+                "percentage": 8.062015503875969,
+                "variance": 111
+            },
+            {
+                "path": "4\tNumbers",
+                "name": "Expository, What things are or were like",
+                "value": 259,
+                "stdev": 0.22092893391689228,
+                "percentage": 20.07751937984496,
+                "variance": 44
+            },
+            {
+                "path": "4\tNumbers",
+                "name": "Expository, What things will be like",
+                "value": 15,
+                "stdev": -1.0042224268949649,
+                "percentage": 1.1627906976744187,
+                "variance": 200
+            },
+            {
+                "path": "4\tNumbers",
+                "name": "Narrative, Story",
+                "value": 613,
+                "stdev": 1.99840262952098,
+                "percentage": 47.51937984496124,
+                "variance": 398
+            },
+            {
+                "path": "4\tNumbers",
+                "name": "Procedural, How it was done",
+                "value": 58,
+                "stdev": -0.7883146051125475,
+                "percentage": 4.496124031007752,
+                "variance": 157
+            },
+            {
+                "path": "4\tNumbers",
+                "name": "Procedural, How to do it",
+                "value": 241,
+                "stdev": 0.13054891549634542,
+                "percentage": 18.68217054263566,
+                "variance": 26
+            }
+        ]
+    },
+    {
+        "name": "Tobit",
+        "number": 40,
+        "abbr": "Tob",
+        "data": [
+            {
+                "path": "40\tTobit",
+                "name": "Behavioral, Hortatory",
+                "value": 30,
+                "stdev": -0.5143764105510826,
+                "percentage": 14.492753623188406,
+                "variance": 39
+            },
+            {
+                "path": "40\tTobit",
+                "name": "Expository, What things are or were like",
+                "value": 2,
+                "stdev": -0.8836722950492959,
+                "percentage": 0.966183574879227,
+                "variance": 67
+            },
+            {
+                "path": "40\tTobit",
+                "name": "Narrative, Story",
+                "value": 175,
+                "stdev": 1.3980487056003785,
+                "percentage": 84.54106280193237,
+                "variance": 106
+            }
+        ]
+    },
+    {
+        "name": "Judith",
+        "number": 41,
+        "abbr": "Jdt",
+        "data": [
+            {
+                "path": "41\tJudith",
+                "name": "Behavioral, Evaluation",
+                "value": 20,
+                "stdev": -1,
+                "percentage": 5.88235294117647,
+                "variance": 150
+            },
+            {
+                "path": "41\tJudith",
+                "name": "Narrative, Story",
+                "value": 320,
+                "stdev": 1,
+                "percentage": 94.11764705882352,
+                "variance": 150
+            }
+        ]
+    },
+    {
+        "name": "The Wisdom of Solomon",
+        "number": 43,
+        "abbr": "Wis",
+        "data": [
+            {
+                "path": "43\tThe Wisdom of Solomon",
+                "name": "Behavioral, Hortatory",
+                "value": 44,
+                "stdev": -0.5976869143879759,
+                "percentage": 14.666666666666666,
+                "variance": 56
+            },
+            {
+                "path": "43\tThe Wisdom of Solomon",
+                "name": "Expository, What things are or were like",
+                "value": 232,
+                "stdev": 1.408833441057372,
+                "percentage": 77.33333333333333,
+                "variance": 132
+            },
+            {
+                "path": "43\tThe Wisdom of Solomon",
+                "name": "Expository, What things will be like",
+                "value": 24,
+                "stdev": -0.8111465266693959,
+                "percentage": 8,
+                "variance": 76
+            }
+        ]
+    },
+    {
+        "name": "Sirach",
+        "number": 44,
+        "abbr": "Sir",
+        "data": [
+            {
+                "path": "44\tSirach",
+                "name": "Behavioral, Evaluation",
+                "value": 173,
+                "stdev": -1.1659726885430386,
+                "percentage": 15.557553956834532,
+                "variance": 197.66666666666669
+            },
+            {
+                "path": "44\tSirach",
+                "name": "Behavioral, Hortatory",
+                "value": 587,
+                "stdev": 1.276081407865821,
+                "percentage": 52.78776978417267,
+                "variance": 216.33333333333331
+            },
+            {
+                "path": "44\tSirach",
+                "name": "Expository, What things are or were like",
+                "value": 352,
+                "stdev": -0.11010871932278282,
+                "percentage": 31.654676258992804,
+                "variance": 18.666666666666686
+            }
+        ]
+    },
+    {
+        "name": "Baruch",
+        "number": 45,
+        "abbr": "Bar",
+        "data": [
+            {
+                "path": "45\tBaruch",
+                "name": "Behavioral, Evaluation",
+                "value": 28,
+                "stdev": -0.21912480140077023,
+                "percentage": 20,
+                "variance": 7
+            },
+            {
+                "path": "45\tBaruch",
+                "name": "Behavioral, Hortatory",
+                "value": 89,
+                "stdev": 1.690391325091656,
+                "percentage": 63.57142857142857,
+                "variance": 54
+            },
+            {
+                "path": "45\tBaruch",
+                "name": "Expository, What things are or were like",
+                "value": 14,
+                "stdev": -0.6573744042023106,
+                "percentage": 10,
+                "variance": 21
+            },
+            {
+                "path": "45\tBaruch",
+                "name": "Narrative, Story",
+                "value": 9,
+                "stdev": -0.8138921194885751,
+                "percentage": 6.428571428571428,
+                "variance": 26
+            }
+        ]
+    },
+    {
+        "name": "The Letter of Jeremiah",
+        "number": 46,
+        "abbr": "LtJe",
+        "data": [
+            {
+                "path": "46\tThe Letter of Jeremiah",
+                "name": "Expository, What things are or were like",
+                "value": 66,
+                "stdev": 1,
+                "percentage": 91.66666666666666,
+                "variance": 30
+            },
+            {
+                "path": "46\tThe Letter of Jeremiah",
+                "name": "Narrative, Future Events",
+                "value": 6,
+                "stdev": -1,
+                "percentage": 8.333333333333332,
+                "variance": 30
+            }
+        ]
+    },
+    {
+        "name": "Susanna",
+        "number": 48,
+        "abbr": "Sus",
+        "data": [
+            {
+                "path": "48\tSusanna",
+                "name": "Narrative, Story",
+                "value": 64,
+                "stdev": null,
+                "percentage": 100,
+                "variance": 0
+            }
+        ]
+    },
+    {
+        "name": "Bel and the Dragon",
+        "number": 49,
+        "abbr": "Bel",
+        "data": [
+            {
+                "path": "49\tBel and the Dragon",
+                "name": "Narrative, Story",
+                "value": 41,
+                "stdev": null,
+                "percentage": 100,
+                "variance": 0
+            }
+        ]
+    },
+    {
+        "name": "Deuteronomy",
+        "number": 5,
+        "abbr": "Deut",
+        "data": [
+            {
+                "path": "5\tDeuteronomy",
+                "name": "Behavioral, Evaluation",
+                "value": 49,
+                "stdev": -0.7782793302059992,
+                "percentage": 5.088265835929388,
+                "variance": 88.57142857142858
+            },
+            {
+                "path": "5\tDeuteronomy",
+                "name": "Behavioral, Hortatory",
+                "value": 369,
+                "stdev": 2.0335685724737393,
+                "percentage": 38.31775700934579,
+                "variance": 231.42857142857142
+            },
+            {
+                "path": "5\tDeuteronomy",
+                "name": "Expository, What things are or were like",
+                "value": 68,
+                "stdev": -0.6113258609843897,
+                "percentage": 7.061266874350987,
+                "variance": 69.57142857142858
+            },
+            {
+                "path": "5\tDeuteronomy",
+                "name": "Narrative, Future Events",
+                "value": 101,
+                "stdev": -0.32135404602054163,
+                "percentage": 10.488058151609552,
+                "variance": 36.571428571428584
+            },
+            {
+                "path": "5\tDeuteronomy",
+                "name": "Narrative, Story",
+                "value": 196,
+                "stdev": 0.5134133000875057,
+                "percentage": 20.35306334371755,
+                "variance": 58.428571428571416
+            },
+            {
+                "path": "5\tDeuteronomy",
+                "name": "Procedural, How it was done",
+                "value": 3,
+                "stdev": -1.1824824662162114,
+                "percentage": 0.3115264797507788,
+                "variance": 134.57142857142858
+            },
+            {
+                "path": "5\tDeuteronomy",
+                "name": "Procedural, How to do it",
+                "value": 177,
+                "stdev": 0.3464598308658962,
+                "percentage": 18.38006230529595,
+                "variance": 39.428571428571416
+            }
+        ]
+    },
+    {
+        "name": "1 Maccabees",
+        "number": 50,
+        "abbr": "1 Mac",
+        "data": [
+            {
+                "path": "50\t1 Maccabees",
+                "name": "Behavioral, Evaluation",
+                "value": 12,
+                "stdev": -1,
+                "percentage": 1.2987012987012987,
+                "variance": 450
+            },
+            {
+                "path": "50\t1 Maccabees",
+                "name": "Narrative, Story",
+                "value": 912,
+                "stdev": 1,
+                "percentage": 98.7012987012987,
+                "variance": 450
+            }
+        ]
+    },
+    {
+        "name": "2 Maccabees",
+        "number": 51,
+        "abbr": "2 Mac",
+        "data": [
+            {
+                "path": "51\t2 Maccabees",
+                "name": "Behavioral, Hortatory",
+                "value": 9,
+                "stdev": -0.8438101499810049,
+                "percentage": 1.6216216216216217,
+                "variance": 176
+            },
+            {
+                "path": "51\t2 Maccabees",
+                "name": "Expository, What things are or were like",
+                "value": 68,
+                "stdev": -0.5609419747032817,
+                "percentage": 12.252252252252251,
+                "variance": 117
+            },
+            {
+                "path": "51\t2 Maccabees",
+                "name": "Narrative, Story",
+                "value": 478,
+                "stdev": 1.4047521246842865,
+                "percentage": 86.12612612612612,
+                "variance": 293
+            }
+        ]
+    },
+    {
+        "name": "1 Esdras",
+        "number": 52,
+        "abbr": "1 Es",
+        "data": [
+            {
+                "path": "52\t1 Esdras",
+                "name": "Expository, What things are or were like",
+                "value": 68,
+                "stdev": -1,
+                "percentage": 15.178571428571427,
+                "variance": 156
+            },
+            {
+                "path": "52\t1 Esdras",
+                "name": "Narrative, Story",
+                "value": 380,
+                "stdev": 1,
+                "percentage": 84.82142857142857,
+                "variance": 156
+            }
+        ]
+    },
+    {
+        "name": "3 Maccabees",
+        "number": 55,
+        "abbr": "3 Mac",
+        "data": [
+            {
+                "path": "55\t3 Maccabees",
+                "name": "Behavioral, Hortatory",
+                "value": 19,
+                "stdev": -0.6446238988772774,
+                "percentage": 8.878504672897195,
+                "variance": 52.33333333333333
+            },
+            {
+                "path": "55\t3 Maccabees",
+                "name": "Expository, What things are or were like",
+                "value": 9,
+                "stdev": -0.7678004400640184,
+                "percentage": 4.205607476635514,
+                "variance": 62.33333333333333
+            },
+            {
+                "path": "55\t3 Maccabees",
+                "name": "Narrative, Story",
+                "value": 186,
+                "stdev": 1.4124243389412958,
+                "percentage": 86.91588785046729,
+                "variance": 114.66666666666667
+            }
+        ]
+    },
+    {
+        "name": "4 Maccabees",
+        "number": 57,
+        "abbr": "4 Mac",
+        "data": [
+            {
+                "path": "57\t4 Maccabees",
+                "name": "Behavioral, Evaluation",
+                "value": 19,
+                "stdev": -1.0726005057156915,
+                "percentage": 6.031746031746032,
+                "variance": 86
+            },
+            {
+                "path": "57\t4 Maccabees",
+                "name": "Expository, What things are or were like",
+                "value": 84,
+                "stdev": -0.26191407697708746,
+                "percentage": 26.666666666666668,
+                "variance": 21
+            },
+            {
+                "path": "57\t4 Maccabees",
+                "name": "Narrative, Story",
+                "value": 212,
+                "stdev": 1.3345145826927791,
+                "percentage": 67.3015873015873,
+                "variance": 107
+            }
+        ]
+    },
+    {
+        "name": "Odes of Solomon",
+        "number": 58,
+        "abbr": "Odes",
+        "data": [
+            {
+                "path": "58\tOdes of Solomon",
+                "name": "Behavioral, Evaluation",
+                "value": 7,
+                "stdev": -0.15161960871578067,
+                "percentage": 21.875,
+                "variance": 1
+            },
+            {
+                "path": "58\tOdes of Solomon",
+                "name": "Behavioral, Hortatory",
+                "value": 4,
+                "stdev": -0.6064784348631227,
+                "percentage": 12.5,
+                "variance": 4
+            },
+            {
+                "path": "58\tOdes of Solomon",
+                "name": "Expository, What things are or were like",
+                "value": 2,
+                "stdev": -0.909717652294684,
+                "percentage": 6.25,
+                "variance": 6
+            },
+            {
+                "path": "58\tOdes of Solomon",
+                "name": "Narrative, Future Events",
+                "value": 19,
+                "stdev": 1.6678156958735875,
+                "percentage": 59.375,
+                "variance": 11
+            }
+        ]
+    },
+    {
+        "name": "Psalms of Solomon",
+        "number": 59,
+        "abbr": "PssSol",
+        "data": [
+            {
+                "path": "59\tPsalms of Solomon",
+                "name": "Behavioral, Evaluation",
+                "value": 2,
+                "stdev": -0.7377371622246686,
+                "percentage": 8,
+                "variance": 4.25
+            },
+            {
+                "path": "59\tPsalms of Solomon",
+                "name": "Behavioral, Hortatory",
+                "value": 5,
+                "stdev": -0.2169815183013731,
+                "percentage": 20,
+                "variance": 1.25
+            },
+            {
+                "path": "59\tPsalms of Solomon",
+                "name": "Expository, What things are or were like",
+                "value": 16,
+                "stdev": 1.6924558427507101,
+                "percentage": 64,
+                "variance": 9.75
+            },
+            {
+                "path": "59\tPsalms of Solomon",
+                "name": "Expository, What things will be like",
+                "value": 2,
+                "stdev": -0.7377371622246686,
+                "percentage": 8,
+                "variance": 4.25
+            }
+        ]
+    },
+    {
+        "name": "Joshua",
+        "number": 6,
+        "abbr": "Josh",
+        "data": [
+            {
+                "path": "6\tJoshua",
+                "name": "Behavioral, Hortatory",
+                "value": 41,
+                "stdev": -0.788445563561977,
+                "percentage": 6.231003039513678,
+                "variance": 123.5
+            },
+            {
+                "path": "6\tJoshua",
+                "name": "Expository, What things are or were like",
+                "value": 186,
+                "stdev": 0.13725975398042514,
+                "percentage": 28.267477203647417,
+                "variance": 21.5
+            },
+            {
+                "path": "6\tJoshua",
+                "name": "Narrative, Story",
+                "value": 412,
+                "stdev": 1.5800832144258243,
+                "percentage": 62.61398176291794,
+                "variance": 247.5
+            },
+            {
+                "path": "6\tJoshua",
+                "name": "Procedural, How it was done",
+                "value": 19,
+                "stdev": -0.9288974048442725,
+                "percentage": 2.8875379939209727,
+                "variance": 145.5
+            }
+        ]
+    },
+    {
+        "name": "Matthew",
+        "number": 61,
+        "abbr": "Matt",
+        "data": [
+            {
+                "path": "61\tMatthew",
+                "name": "Behavioral, Evaluation",
+                "value": 38,
+                "stdev": -0.8249633480846371,
+                "percentage": 3.544776119402985,
+                "variance": 140.66666666666666
+            },
+            {
+                "path": "61\tMatthew",
+                "name": "Behavioral, Hortatory",
+                "value": 168,
+                "stdev": -0.06255646241400087,
+                "percentage": 15.671641791044777,
+                "variance": 10.666666666666657
+            },
+            {
+                "path": "61\tMatthew",
+                "name": "Expository, What things are or were like",
+                "value": 248,
+                "stdev": 0.40661700569100606,
+                "percentage": 23.134328358208954,
+                "variance": 69.33333333333334
+            },
+            {
+                "path": "61\tMatthew",
+                "name": "Expository, What things will be like",
+                "value": 33,
+                "stdev": -0.8542866898412,
+                "percentage": 3.078358208955224,
+                "variance": 145.66666666666666
+            },
+            {
+                "path": "61\tMatthew",
+                "name": "Narrative, Future Events",
+                "value": 66,
+                "stdev": -0.6607526342478847,
+                "percentage": 6.156716417910448,
+                "variance": 112.66666666666666
+            },
+            {
+                "path": "61\tMatthew",
+                "name": "Narrative, Story",
+                "value": 519,
+                "stdev": 1.9959421288967172,
+                "percentage": 48.41417910447761,
+                "variance": 340.33333333333337
+            }
+        ]
+    },
+    {
+        "name": "Mark",
+        "number": 62,
+        "abbr": "Mark",
+        "data": [
+            {
+                "path": "62\tMark",
+                "name": "Behavioral, Hortatory",
+                "value": 30,
+                "stdev": -0.5387569984636497,
+                "percentage": 4.424778761061947,
+                "variance": 105.6
+            },
+            {
+                "path": "62\tMark",
+                "name": "Expository, What things are or were like",
+                "value": 88,
+                "stdev": -0.24284879854990268,
+                "percentage": 12.979351032448378,
+                "variance": 47.599999999999994
+            },
+            {
+                "path": "62\tMark",
+                "name": "Expository, What things will be like",
+                "value": 9,
+                "stdev": -0.6458961742944891,
+                "percentage": 1.3274336283185841,
+                "variance": 126.6
+            },
+            {
+                "path": "62\tMark",
+                "name": "Narrative, Future Events",
+                "value": 27,
+                "stdev": -0.5540625950109125,
+                "percentage": 3.982300884955752,
+                "variance": 108.6
+            },
+            {
+                "path": "62\tMark",
+                "name": "Narrative, Story",
+                "value": 524,
+                "stdev": 1.981564566318954,
+                "percentage": 77.28613569321534,
+                "variance": 388.4
+            }
+        ]
+    },
+    {
+        "name": "Luke",
+        "number": 63,
+        "abbr": "Luke",
+        "data": [
+            {
+                "path": "63\tLuke",
+                "name": "Behavioral, Evaluation",
+                "value": 10,
+                "stdev": -0.7319634132286222,
+                "percentage": 0.8688097306689836,
+                "variance": 181.83333333333334
+            },
+            {
+                "path": "63\tLuke",
+                "name": "Behavioral, Hortatory",
+                "value": 138,
+                "stdev": -0.21670410859105865,
+                "percentage": 11.989574283231972,
+                "variance": 53.83333333333334
+            },
+            {
+                "path": "63\tLuke",
+                "name": "Expository, What things are or were like",
+                "value": 229,
+                "stdev": 0.14961305329970917,
+                "percentage": 19.895742832319723,
+                "variance": 37.16666666666666
+            },
+            {
+                "path": "63\tLuke",
+                "name": "Expository, What things will be like",
+                "value": 5,
+                "stdev": -0.752090729816027,
+                "percentage": 0.4344048653344918,
+                "variance": 186.83333333333334
+            },
+            {
+                "path": "63\tLuke",
+                "name": "Narrative, Future Events",
+                "value": 50,
+                "stdev": -0.5709448805293836,
+                "percentage": 4.344048653344918,
+                "variance": 141.83333333333334
+            },
+            {
+                "path": "63\tLuke",
+                "name": "Narrative, Story",
+                "value": 719,
+                "stdev": 2.122090078865382,
+                "percentage": 62.46741963509991,
+                "variance": 527.1666666666666
+            }
+        ]
+    },
+    {
+        "name": "John",
+        "number": 64,
+        "abbr": "John",
+        "data": [
+            {
+                "path": "64\tJohn",
+                "name": "Behavioral, Hortatory",
+                "value": 64,
+                "stdev": -0.7786431754801697,
+                "percentage": 7.2562358276643995,
+                "variance": 230
+            },
+            {
+                "path": "64\tJohn",
+                "name": "Expository, What things are or were like",
+                "value": 107,
+                "stdev": -0.6330707557164859,
+                "percentage": 12.131519274376418,
+                "variance": 187
+            },
+            {
+                "path": "64\tJohn",
+                "name": "Narrative, Story",
+                "value": 711,
+                "stdev": 1.4117139311966556,
+                "percentage": 80.61224489795919,
+                "variance": 417
+            }
+        ]
+    },
+    {
+        "name": "Acts",
+        "number": 65,
+        "abbr": "Acts",
+        "data": [
+            {
+                "path": "65\tActs",
+                "name": "Behavioral, Evaluation",
+                "value": 3,
+                "stdev": -0.7856508776471891,
+                "percentage": 0.297029702970297,
+                "variance": 333.6666666666667
+            },
+            {
+                "path": "65\tActs",
+                "name": "Expository, What things are or were like",
+                "value": 71,
+                "stdev": -0.6255382112735363,
+                "percentage": 7.029702970297031,
+                "variance": 265.6666666666667
+            },
+            {
+                "path": "65\tActs",
+                "name": "Narrative, Story",
+                "value": 936,
+                "stdev": 1.411189088920725,
+                "percentage": 92.67326732673268,
+                "variance": 599.3333333333333
+            }
+        ]
+    },
+    {
+        "name": "Romans",
+        "number": 66,
+        "abbr": "Rom",
+        "data": [
+            {
+                "path": "66\tRomans",
+                "name": "Behavioral, Evaluation",
+                "value": 26,
+                "stdev": -0.9523554632549276,
+                "percentage": 6.0046189376443415,
+                "variance": 118.33333333333334
+            },
+            {
+                "path": "66\tRomans",
+                "name": "Behavioral, Hortatory",
+                "value": 91,
+                "stdev": -0.4292306313261646,
+                "percentage": 21.016166281755197,
+                "variance": 53.33333333333334
+            },
+            {
+                "path": "66\tRomans",
+                "name": "Expository, What things are or were like",
+                "value": 316,
+                "stdev": 1.381586094581092,
+                "percentage": 72.97921478060047,
+                "variance": 171.66666666666666
+            }
+        ]
+    },
+    {
+        "name": "1 Corinthians",
+        "number": 67,
+        "abbr": "1Cor",
+        "data": [
+            {
+                "path": "67\t1 Corinthians",
+                "name": "Behavioral, Evaluation",
+                "value": 25,
+                "stdev": -0.8266554623899985,
+                "percentage": 5.707762557077626,
+                "variance": 84.5
+            },
+            {
+                "path": "67\t1 Corinthians",
+                "name": "Behavioral, Hortatory",
+                "value": 141,
+                "stdev": 0.3081615037311829,
+                "percentage": 32.19178082191781,
+                "variance": 31.5
+            },
+            {
+                "path": "67\t1 Corinthians",
+                "name": "Expository, What things are or were like",
+                "value": 263,
+                "stdev": 1.5016758991344945,
+                "percentage": 60.04566210045662,
+                "variance": 153.5
+            },
+            {
+                "path": "67\t1 Corinthians",
+                "name": "Expository, What things will be like",
+                "value": 9,
+                "stdev": -0.9831819404756788,
+                "percentage": 2.054794520547945,
+                "variance": 100.5
+            }
+        ]
+    },
+    {
+        "name": "2 Corinthians",
+        "number": 68,
+        "abbr": "2Cor",
+        "data": [
+            {
+                "path": "68\t2 Corinthians",
+                "name": "Behavioral, Hortatory",
+                "value": 41,
+                "stdev": -1,
+                "percentage": 15.83011583011583,
+                "variance": 88.5
+            },
+            {
+                "path": "68\t2 Corinthians",
+                "name": "Expository, What things are or were like",
+                "value": 218,
+                "stdev": 1,
+                "percentage": 84.16988416988417,
+                "variance": 88.5
+            }
+        ]
+    },
+    {
+        "name": "Galatians",
+        "number": 69,
+        "abbr": "Gal",
+        "data": [
+            {
+                "path": "69\tGalatians",
+                "name": "Behavioral, Evaluation",
+                "value": 27,
+                "stdev": -0.6598034347870296,
+                "percentage": 18,
+                "variance": 10.5
+            },
+            {
+                "path": "69\tGalatians",
+                "name": "Behavioral, Hortatory",
+                "value": 30,
+                "stdev": -0.4712881677050212,
+                "percentage": 20,
+                "variance": 7.5
+            },
+            {
+                "path": "69\tGalatians",
+                "name": "Expository, What things are or were like",
+                "value": 65,
+                "stdev": 1.728056614918411,
+                "percentage": 43.333333333333336,
+                "variance": 27.5
+            },
+            {
+                "path": "69\tGalatians",
+                "name": "Narrative, Story",
+                "value": 28,
+                "stdev": -0.5969650124263601,
+                "percentage": 18.666666666666668,
+                "variance": 9.5
+            }
+        ]
+    },
+    {
+        "name": "Judges",
+        "number": 7,
+        "abbr": "Judg",
+        "data": [
+            {
+                "path": "7\tJudges",
+                "name": "Behavioral, Evaluation",
+                "value": 31,
+                "stdev": -0.6778568229855897,
+                "percentage": 5.016181229773463,
+                "variance": 175
+            },
+            {
+                "path": "7\tJudges",
+                "name": "Expository, What things are or were like",
+                "value": 16,
+                "stdev": -0.7359588363843544,
+                "percentage": 2.5889967637540456,
+                "variance": 190
+            },
+            {
+                "path": "7\tJudges",
+                "name": "Narrative, Story",
+                "value": 571,
+                "stdev": 1.413815659369944,
+                "percentage": 92.39482200647248,
+                "variance": 365
+            }
+        ]
+    },
+    {
+        "name": "Ephesians",
+        "number": 70,
+        "abbr": "Eph",
+        "data": [
+            {
+                "path": "70\tEphesians",
+                "name": "Behavioral, Evaluation",
+                "value": 12,
+                "stdev": -1.2144121694502628,
+                "percentage": 7.741935483870968,
+                "variance": 39.666666666666664
+            },
+            {
+                "path": "70\tEphesians",
+                "name": "Behavioral, Hortatory",
+                "value": 92,
+                "stdev": 1.234822458012452,
+                "percentage": 59.354838709677416,
+                "variance": 40.333333333333336
+            },
+            {
+                "path": "70\tEphesians",
+                "name": "Expository, What things are or were like",
+                "value": 51,
+                "stdev": -0.020410288562189217,
+                "percentage": 32.903225806451616,
+                "variance": 0.6666666666666643
+            }
+        ]
+    },
+    {
+        "name": "Philippians",
+        "number": 71,
+        "abbr": "Phil",
+        "data": [
+            {
+                "path": "71\tPhilippians",
+                "name": "Behavioral, Hortatory",
+                "value": 51,
+                "stdev": -1,
+                "percentage": 48.57142857142857,
+                "variance": 1.5
+            },
+            {
+                "path": "71\tPhilippians",
+                "name": "Expository, What things are or were like",
+                "value": 54,
+                "stdev": 1,
+                "percentage": 51.42857142857142,
+                "variance": 1.5
+            }
+        ]
+    },
+    {
+        "name": "Colossians",
+        "number": 72,
+        "abbr": "Col",
+        "data": [
+            {
+                "path": "72\tColossians",
+                "name": "Behavioral, Hortatory",
+                "value": 35,
+                "stdev": -1,
+                "percentage": 36.45833333333333,
+                "variance": 13
+            },
+            {
+                "path": "72\tColossians",
+                "name": "Expository, What things are or were like",
+                "value": 61,
+                "stdev": 1,
+                "percentage": 63.541666666666664,
+                "variance": 13
+            }
+        ]
+    },
+    {
+        "name": "1 Thessalonians",
+        "number": 73,
+        "abbr": "1Thess",
+        "data": [
+            {
+                "path": "73\t1 Thessalonians",
+                "name": "Behavioral, Evaluation",
+                "value": 4,
+                "stdev": -1.0463866422774302,
+                "percentage": 4.49438202247191,
+                "variance": 18.25
+            },
+            {
+                "path": "73\t1 Thessalonians",
+                "name": "Behavioral, Hortatory",
+                "value": 43,
+                "stdev": 1.1897272782058452,
+                "percentage": 48.31460674157304,
+                "variance": 20.75
+            },
+            {
+                "path": "73\t1 Thessalonians",
+                "name": "Expository, What things are or were like",
+                "value": 36,
+                "stdev": 0.788373497606283,
+                "percentage": 40.44943820224719,
+                "variance": 13.75
+            },
+            {
+                "path": "73\t1 Thessalonians",
+                "name": "Expository, What things will be like",
+                "value": 6,
+                "stdev": -0.931714133534698,
+                "percentage": 6.741573033707865,
+                "variance": 16.25
+            }
+        ]
+    },
+    {
+        "name": "2 Thessalonians",
+        "number": 74,
+        "abbr": "2Thess",
+        "data": [
+            {
+                "path": "74\t2 Thessalonians",
+                "name": "Behavioral, Hortatory",
+                "value": 35,
+                "stdev": 1,
+                "percentage": 74.46808510638297,
+                "variance": 11.5
+            },
+            {
+                "path": "74\t2 Thessalonians",
+                "name": "Expository, What things are or were like",
+                "value": 12,
+                "stdev": -1,
+                "percentage": 25.53191489361702,
+                "variance": 11.5
+            }
+        ]
+    },
+    {
+        "name": "1 Timothy",
+        "number": 75,
+        "abbr": "1 Tim",
+        "data": [
+            {
+                "path": "75\t1 Timothy",
+                "name": "Behavioral, Evaluation",
+                "value": 9,
+                "stdev": -0.548060057140029,
+                "percentage": 7.964601769911504,
+                "variance": 19.25
+            },
+            {
+                "path": "75\t1 Timothy",
+                "name": "Behavioral, Hortatory",
+                "value": 89,
+                "stdev": 1.7295921283769748,
+                "percentage": 78.76106194690266,
+                "variance": 60.75
+            },
+            {
+                "path": "75\t1 Timothy",
+                "name": "Expository, What things are or were like",
+                "value": 10,
+                "stdev": -0.5195894048210665,
+                "percentage": 8.849557522123893,
+                "variance": 18.25
+            },
+            {
+                "path": "75\t1 Timothy",
+                "name": "Expository, What things will be like",
+                "value": 5,
+                "stdev": -0.6619426664158793,
+                "percentage": 4.424778761061947,
+                "variance": 23.25
+            }
+        ]
+    },
+    {
+        "name": "2 Timothy",
+        "number": 76,
+        "abbr": "2 Tim",
+        "data": [
+            {
+                "path": "76\t2 Timothy",
+                "name": "Behavioral, Evaluation",
+                "value": 2,
+                "stdev": -0.7807841761788742,
+                "percentage": 2.4096385542168677,
+                "variance": 18.75
+            },
+            {
+                "path": "76\t2 Timothy",
+                "name": "Behavioral, Hortatory",
+                "value": 62,
+                "stdev": 1.7177251875935233,
+                "percentage": 74.69879518072288,
+                "variance": 41.25
+            },
+            {
+                "path": "76\t2 Timothy",
+                "name": "Expository, What things are or were like",
+                "value": 10,
+                "stdev": -0.4476495943425545,
+                "percentage": 12.048192771084338,
+                "variance": 10.75
+            },
+            {
+                "path": "76\t2 Timothy",
+                "name": "Expository, What things will be like",
+                "value": 9,
+                "stdev": -0.4892914170720945,
+                "percentage": 10.843373493975903,
+                "variance": 11.75
+            }
+        ]
+    },
+    {
+        "name": "Titus",
+        "number": 77,
+        "abbr": "Titus",
+        "data": [
+            {
+                "path": "77\tTitus",
+                "name": "Behavioral, Hortatory",
+                "value": 35,
+                "stdev": 1,
+                "percentage": 76.08695652173914,
+                "variance": 12
+            },
+            {
+                "path": "77\tTitus",
+                "name": "Expository, What things are or were like",
+                "value": 11,
+                "stdev": -1,
+                "percentage": 23.91304347826087,
+                "variance": 12
+            }
+        ]
+    },
+    {
+        "name": "Philemon",
+        "number": 78,
+        "abbr": "Phlm",
+        "data": [
+            {
+                "path": "78\tPhilemon",
+                "name": "Behavioral, Evaluation",
+                "value": 4,
+                "stdev": -0.6328300985646063,
+                "percentage": 16,
+                "variance": 4.333333333333334
+            },
+            {
+                "path": "78\tPhilemon",
+                "name": "Behavioral, Hortatory",
+                "value": 18,
+                "stdev": 1.4116979121825828,
+                "percentage": 72,
+                "variance": 9.666666666666666
+            },
+            {
+                "path": "78\tPhilemon",
+                "name": "Expository, What things are or were like",
+                "value": 3,
+                "stdev": -0.7788678136179769,
+                "percentage": 12,
+                "variance": 5.333333333333334
+            }
+        ]
+    },
+    {
+        "name": "Hebrews",
+        "number": 79,
+        "abbr": "Heb",
+        "data": [
+            {
+                "path": "79\tHebrews",
+                "name": "Behavioral, Evaluation",
+                "value": 53,
+                "stdev": -0.9829408784245643,
+                "percentage": 17.491749174917494,
+                "variance": 48
+            },
+            {
+                "path": "79\tHebrews",
+                "name": "Behavioral, Hortatory",
+                "value": 82,
+                "stdev": -0.38908076437639005,
+                "percentage": 27.062706270627064,
+                "variance": 19
+            },
+            {
+                "path": "79\tHebrews",
+                "name": "Expository, What things are or were like",
+                "value": 168,
+                "stdev": 1.3720216428009544,
+                "percentage": 55.44554455445545,
+                "variance": 67
+            }
+        ]
+    },
+    {
+        "name": "Ruth",
+        "number": 8,
+        "abbr": "Ruth",
+        "data": [
+            {
+                "path": "8\tRuth",
+                "name": "Narrative, Story",
+                "value": 85,
+                "stdev": null,
+                "percentage": 100,
+                "variance": 0
+            }
+        ]
+    },
+    {
+        "name": "James",
+        "number": 80,
+        "abbr": "Jas",
+        "data": [
+            {
+                "path": "80\tJames",
+                "name": "Behavioral, Evaluation",
+                "value": 12,
+                "stdev": -0.7376181969921872,
+                "percentage": 11.11111111111111,
+                "variance": 24
+            },
+            {
+                "path": "80\tJames",
+                "name": "Behavioral, Hortatory",
+                "value": 82,
+                "stdev": 1.413768210901692,
+                "percentage": 75.92592592592592,
+                "variance": 46
+            },
+            {
+                "path": "80\tJames",
+                "name": "Expository, What things are or were like",
+                "value": 14,
+                "stdev": -0.6761500139095049,
+                "percentage": 12.962962962962962,
+                "variance": 22
+            }
+        ]
+    },
+    {
+        "name": "1 Peter",
+        "number": 81,
+        "abbr": "1 Pet",
+        "data": [
+            {
+                "path": "81\t1 Peter",
+                "name": "Behavioral, Evaluation",
+                "value": 10,
+                "stdev": -0.7659511599947663,
+                "percentage": 9.345794392523365,
+                "variance": 25.666666666666664
+            },
+            {
+                "path": "81\t1 Peter",
+                "name": "Behavioral, Hortatory",
+                "value": 83,
+                "stdev": 1.4125333080422966,
+                "percentage": 77.57009345794393,
+                "variance": 47.333333333333336
+            },
+            {
+                "path": "81\t1 Peter",
+                "name": "Expository, What things are or were like",
+                "value": 14,
+                "stdev": -0.64658214804753,
+                "percentage": 13.084112149532709,
+                "variance": 21.666666666666664
+            }
+        ]
+    },
+    {
+        "name": "2 Peter",
+        "number": 82,
+        "abbr": "2 Pet",
+        "data": [
+            {
+                "path": "82\t2 Peter",
+                "name": "Behavioral, Evaluation",
+                "value": 11,
+                "stdev": -0.6622259790618769,
+                "percentage": 18.0327868852459,
+                "variance": 4.25
+            },
+            {
+                "path": "82\t2 Peter",
+                "name": "Behavioral, Hortatory",
+                "value": 21,
+                "stdev": 0.8959527952013627,
+                "percentage": 34.42622950819672,
+                "variance": 5.75
+            },
+            {
+                "path": "82\t2 Peter",
+                "name": "Expository, What things are or were like",
+                "value": 22,
+                "stdev": 1.0517706726276868,
+                "percentage": 36.0655737704918,
+                "variance": 6.75
+            },
+            {
+                "path": "82\t2 Peter",
+                "name": "Expository, What things will be like",
+                "value": 7,
+                "stdev": -1.2854974887671726,
+                "percentage": 11.475409836065573,
+                "variance": 8.25
+            }
+        ]
+    },
+    {
+        "name": "1 John",
+        "number": 83,
+        "abbr": "1 Jn",
+        "data": [
+            {
+                "path": "83\t1 John",
+                "name": "Behavioral, Hortatory",
+                "value": 18,
+                "stdev": -1,
+                "percentage": 16.51376146788991,
+                "variance": 36.5
+            },
+            {
+                "path": "83\t1 John",
+                "name": "Expository, What things are or were like",
+                "value": 91,
+                "stdev": 1,
+                "percentage": 83.4862385321101,
+                "variance": 36.5
+            }
+        ]
+    },
+    {
+        "name": "2 John",
+        "number": 84,
+        "abbr": "2 Jn",
+        "data": [
+            {
+                "path": "84\t2 John",
+                "name": "Behavioral, Hortatory",
+                "value": 5,
+                "stdev": -1,
+                "percentage": 38.46153846153847,
+                "variance": 1.5
+            },
+            {
+                "path": "84\t2 John",
+                "name": "Expository, What things are or were like",
+                "value": 8,
+                "stdev": 1,
+                "percentage": 61.53846153846154,
+                "variance": 1.5
+            }
+        ]
+    },
+    {
+        "name": "3 John",
+        "number": 85,
+        "abbr": "3 Jn",
+        "data": [
+            {
+                "path": "85\t3 John",
+                "name": "Behavioral, Evaluation",
+                "value": 4,
+                "stdev": -0.7071067811865475,
+                "percentage": 26.666666666666668,
+                "variance": 1
+            },
+            {
+                "path": "85\t3 John",
+                "name": "Behavioral, Hortatory",
+                "value": 4,
+                "stdev": -0.7071067811865475,
+                "percentage": 26.666666666666668,
+                "variance": 1
+            },
+            {
+                "path": "85\t3 John",
+                "name": "Expository, What things are or were like",
+                "value": 7,
+                "stdev": 1.414213562373095,
+                "percentage": 46.666666666666664,
+                "variance": 2
+            }
+        ]
+    },
+    {
+        "name": "Jude",
+        "number": 86,
+        "abbr": "Jude",
+        "data": [
+            {
+                "path": "86\tJude",
+                "name": "Behavioral, Evaluation",
+                "value": 13,
+                "stdev": 1.2675004445952593,
+                "percentage": 52,
+                "variance": 4.666666666666666
+            },
+            {
+                "path": "86\tJude",
+                "name": "Behavioral, Hortatory",
+                "value": 8,
+                "stdev": -0.0905357460425187,
+                "percentage": 32,
+                "variance": 0.3333333333333339
+            },
+            {
+                "path": "86\tJude",
+                "name": "Expository, What things are or were like",
+                "value": 4,
+                "stdev": -1.176964698552741,
+                "percentage": 16,
+                "variance": 4.333333333333334
+            }
+        ]
+    },
+    {
+        "name": "Revelation",
+        "number": 87,
+        "abbr": "Rev",
+        "data": [
+            {
+                "path": "87\tRevelation",
+                "name": "Behavioral, Evaluation",
+                "value": 47,
+                "stdev": -0.30862504524975204,
+                "percentage": 11.576354679802956,
+                "variance": 34.2
+            },
+            {
+                "path": "87\tRevelation",
+                "name": "Behavioral, Hortatory",
+                "value": 8,
+                "stdev": -0.6605658863240307,
+                "percentage": 1.9704433497536946,
+                "variance": 73.2
+            },
+            {
+                "path": "87\tRevelation",
+                "name": "Expository, What things are or were like",
+                "value": 14,
+                "stdev": -0.6064211415433725,
+                "percentage": 3.4482758620689653,
+                "variance": 67.2
+            },
+            {
+                "path": "87\tRevelation",
+                "name": "Narrative, Future Events",
+                "value": 36,
+                "stdev": -0.4078904106809589,
+                "percentage": 8.866995073891626,
+                "variance": 45.2
+            },
+            {
+                "path": "87\tRevelation",
+                "name": "Narrative, Story",
+                "value": 301,
+                "stdev": 1.9835024837981141,
+                "percentage": 74.13793103448276,
+                "variance": 219.8
+            }
+        ]
+    },
+    {
+        "name": "1 Samuel",
+        "number": 9,
+        "abbr": "1Sam",
+        "data": [
+            {
+                "path": "9\t1 Samuel",
+                "name": "Behavioral, Evaluation",
+                "value": 11,
+                "stdev": -0.7139518331119948,
+                "percentage": 1.3513513513513513,
+                "variance": 260.3333333333333
+            },
+            {
+                "path": "9\t1 Samuel",
+                "name": "Expository, What things are or were like",
+                "value": 16,
+                "stdev": -0.7002395699920462,
+                "percentage": 1.9656019656019657,
+                "variance": 255.33333333333331
+            },
+            {
+                "path": "9\t1 Samuel",
+                "name": "Narrative, Story",
+                "value": 787,
+                "stdev": 1.4141914031040412,
+                "percentage": 96.68304668304668,
+                "variance": 515.6666666666667
+            }
+        ]
+    }
+]
