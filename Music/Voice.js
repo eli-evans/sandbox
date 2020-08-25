@@ -2,6 +2,7 @@ const Util = require('./Util.js');
 const Base = require('./Base.js');
 const Sequence = require('./Sequence.js');
 const Pitch = require('./Pitch.js');
+const Duration = require('./Duration.js');
 
 /**
  * A Voice represents a single instrument or singer that plays notes into a sequence.
@@ -15,6 +16,7 @@ class Voice extends Base {
 			patch: 0,
 			range: [Pitch.fromString('C0'), Pitch.fromString('C9')],
 			sequence: [],
+			measure: 4,
 		}, params);
 	}
 
@@ -69,6 +71,19 @@ class Voice extends Base {
 	 */
 	get sequence() {
 		return this._sequence;
+	}
+
+	get measure() {
+		return this._measure;
+	}
+	set measure(m) {
+		this._measure = m;
+	}
+
+	measureTicks(n = 1) {
+		let start = new Duration(n * this._measure);
+		let dur = new Duration(this._measure);
+		return [start.ticks, start.ticks + dur.ticks];
 	}
 
 	/**
