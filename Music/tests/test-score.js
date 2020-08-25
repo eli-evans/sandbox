@@ -1,7 +1,7 @@
 const {Score, Voice, Sequence, Duration, Dynamics, Util} = require('../Composition.js');
 
 // Composition
-let score = new Score({keySignature: 'g major'});
+let score = new Score({keySignature: 'g major', timeSignature: '6/8'});
 score.addVoice({name: 'Player 1'});
 score.addVoice({name: 'Player 2'});
 
@@ -32,3 +32,5 @@ score.voices.forEach((player, i) => {
 });
 
 score.writeMidi('test-score');
+
+console.log(`Second measure: ${score.voice('Player 1').measureTicks(2)} ticks`);
