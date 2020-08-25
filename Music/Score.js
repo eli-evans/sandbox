@@ -126,6 +126,7 @@ class Score extends Base {
 	 */
 	addVoice(name) {
 		let voice = (name instanceof Voice) ? name : new Voice(name);
+		voice.measure = this.timeSignature[0] * (4/this.timeSignature[1]);
 		this._voices.push(voice);
 		return voice;
 	}
