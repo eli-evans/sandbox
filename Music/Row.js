@@ -49,6 +49,18 @@ class Row extends Base {
 	}
 
 	/**
+	 * Returns a row of the 12 chromatic tones in a random order.
+	 */
+	static twelveToneRow() {
+		let row = new Row();
+		row._members = Pitch.pitchClasses.map(p =>
+			Pitch.fromString(p + 4)
+		);
+		row.shuffle();
+		return row;
+	}
+
+	/**
 	 * Pitch classes that are members of the row. Public property get/set.
 	 * @returns an array of {@link Pitch} objects. 
 	 */
@@ -80,18 +92,36 @@ class Row extends Base {
 	 * @returns the retrograde (reverse) of the row's members as 
 	 * an array of {@link Pitch} objects.
 	 */
-	retrograde() {
+	get retrograde() {
 		let temp = this._members;
 		temp.reverse();
 		return temp;
 	}
 
+	get inversion() {
+		let ret = [];
+		let first = this.members[0].value;
+		let last;
+		let sum = 0;
+		this.members.forEach((m,i) => {
+			if (i > 0) {
+				sum += m.value - last.value;
+				ret.push(new Pitch(first - sum));
+			}
+			else {
+				ret.push(new Pitch(m.value));
+			}
+			last = m;
+		});
+
+		return ret;
+	}
+
 	/**
-	 * @returns the row's members as a randomly ordered array of
-	 * {@link Pitch} objects
+	 * Randomly reorders the members in place.
 	 */
 	shuffle() {
-		return Util.shuffle(this._members);
+		this._members = Util.shuffle(this._members);
 	}
 
 	/**
