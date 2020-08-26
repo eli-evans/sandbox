@@ -1,41 +1,139 @@
-const Tonal = require('@tonaljs/tonal');
 const Base = require('./Base.js');
 const Duration = require('./Duration.js');
 const Pitch = require('./Pitch.js');
 const Dynamics = require('./Dynamics.js');
 const Util = require('./Util.js');
+const Articulation = require('./Articulation.js');
 
 /**
- * A Note is a musical event that has pitch (or pitches sounded 
- * simultaneously), duration, and velocity. 
+ * An Event is a base class for things that go into a 
+ * {@link Sequence} notes, and rests. An event has
+ * a type, a start time and a duration. 
  */
 
-class Note extends Base {
-
-	/**
-	 * Construct a note event.
-	 * @param {object} params  
-	 * @param {string} params.type - note|rest|chord
-	 * @param {array} params.pitches - array of {@link Pitch} objects
-	 * @param {Duration} params.duration - how long is the note (see {@link Duration})
-	 * @param {integer} params.velocity - how loud is the note (0-127)
-	 */
-	constructor(params = {}) {
+class Event extends Base {
+	constructor (params = {}) {
 		super();
 		this.init({
-			type: 'note',
+			start: -1,
+			duration: new Duration(1)
+		}, params);
+		this.duration = this.duration;
+	}
+
+	/**
+	 * @returns the {@link Duration} of the event.
+	 */
+	get duration() {
+		return this._duration;
+	}
+
+	/**
+	 * Sets the {@link Duration} of the event.
+	 * @type {Duration} or @type {Number} or @type {String} 
+	 */
+	set duration(d = 1) {
+		this._duration = (d instanceof Duration) ? d : 
+			(Util.isString(d) && Duration.get(d)) ? Duration.fromString(d) :
+			(Util.isNumber(d)) ? new Duration(d) :
+				d;
+	}
+
+	/**
+	 * @returns the start point of the event in ticks. If set to -1,
+	 * assumed to be zero ticks after the last event encountered, 
+	 * if in a context that consists of a series of events, such
+	 * as a {@link Sequence}. The start point is relative to the 
+	 * container, so in a seque{@link Sequence}, 0 is the beginning
+	 * of the sequence, and is added to the start point of the 
+	 * sequence when placed into a track. 
+	 * 
+	 * @type {Number}
+	 */
+	get start() {
+		return this._start;
+	}
+
+	/**
+	 * Sets the absolute start point of the event, in ticks where 
+	 * quarter = 128 ticks. Defaults to -1, which means no explicit
+	 * start point. 
+	 */
+	set start(ticks = -1) {
+		this._start = ticks;
+	}
+
+	/**
+	 * Mutate the event by multiplying its duration value by a
+	 * quotient, eg, 2 to double, or .5 to halve.
+	 * @param {Number} q 
+	 */
+	scaleDuration(q = 1) {
+		this._duration.scale(q);
+	}
+}
+
+/**
+ * A Rest is a kind of {@link Event} that specifies a pause for
+ * a certain duration.
+ */
+class Rest extends Event {
+	constructor(params = {}) {
+		super(params);
+	}
+}
+
+/**
+ * A Note is a kind of {@link Event} that also specifies:
+ * - pitch @type {Pitch} - the pitch of the note to play
+ * -  
+ */
+
+class Note extends Event {
+
+	/**
+	 * Construct a note event. Pitch is always an array. If it has one
+	 * element, it is a single note; if it has many, the notes are played
+	 * simultaneously, a chord. Chord notes share velocity and duration. 
+	 * To create independent polyphonic lines, play multiple overlapping
+	 * notes into a sequence by specifying start time.
+	 * 
+	 * @param {object} params  
+	 * @param {array} params.pitches - array of {@link Pitch} objects
+	 * @param {Duration} params.duration - how long is the note (see {@link Duration})
+	 * @param {Number} params.velocity - how loud is the note (0-127)
+	 * @param {Number} params.articulation - technique specifier (see {@link Articulation})
+	 */
+	constructor(params = {}) {
+		super(params);
+		this.init({
 			pitches: [Pitch.fromString('C4')],
 			duration: new Duration(1),
-			velocity: 64
+			velocity: 64,
+			articulation: Articulation.Default,
 		}, params);
 	}
 
-	static fromPitch(pitch, duration = new Duration(1), velocity = Dynamics.mf) {
-		return Note.fromPitches([pitch], duration, velocity);
+	/**
+	 * Promote a pitch object to a note by adding optional duration and velocity.
+	 * @param {Pitch} pitch 
+	 * @param {Duration} duration 
+	 * @param {number} velocity
+	 * @param {Articulation} articulation
+	 */
+	static fromPitch(pitch, duration = new Duration(1), velocity = Dynamics.mf, articulation = Articulation.Default) {
+		return Note.fromPitches([pitch], duration, velocity, articulation);
 	}
 
-	static fromPitches(pitches, duration = new Duration(1), velocity = Dynamics.mf) {
-		return new Note({pitches, duration, velocity});
+	/**
+	 * Promote an array of pitch objects to notes by adding optional duration and velocity.
+	 * @param {array} pitches - of {@link Pitch} objects 
+	 * @param {Duration} duration
+	 * @param {number} velocity 
+	 * @param {number} articulation
+	 */
+	static fromPitches(pitches, duration = new Duration(1), velocity = Dynamics.mf, articulation = Articulation.Default) {
+		return new Note({pitches, duration, velocity, articulation});
 	}
 
 	/**
@@ -94,19 +192,6 @@ class Note extends Base {
 	}
 
 	/**
-	 * @returns the {@link Duration} of the note.
-	 */
-	get duration() {
-		return this._duration;
-	}
-	set duration(d) {
-		this._duration = (d instanceof Duration) ? d : 
-			(Util.isString(d) && Duration.get(d)) ? Duration.fromString(d) :
-			(Util.isNumber(d)) ? new Duration(d) :
-				d;
-	}
-
-	/**
 	 * @returns the velocity of the note as an integer.
 	 */
 	get velocity() {
@@ -114,6 +199,19 @@ class Note extends Base {
 	}
 	set velocity(v) {
 		this._velocity = Util.bounce(v, 0, 127);
+	}
+
+	/**
+	 * @returns the articulation 
+	 */
+	get articulation() {
+		return this._articulation;
+	}
+	set articulation(a) {
+		if (!a instanceof Articulation)
+			throw new Error('Must set articulation to an Articulation object.');
+		
+		this._articulation = a;
 	}
 
 	/**
@@ -128,15 +226,6 @@ class Note extends Base {
 	}
 
 	/**
-	 * Mutate the note by multiplying its duration value by a
-	 * quotient, eg, 2 to double, or .5 to halve.
-	 * @param {number} q 
-	 */
-	scaleDuration(q = 1) {
-		this._duration.scale(q);
-	}
-
-	/**
 	 * @returns the note as a string suitable for initializing another
 	 * {@link Note} object.
 	 */
@@ -145,4 +234,4 @@ class Note extends Base {
 	}
 }
 
-module.exports = Note;
+module.exports = {Note, Rest, Event};
