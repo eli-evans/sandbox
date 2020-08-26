@@ -1,8 +1,9 @@
 const Base = require('./Base.js');
 const Util = require('./Util.js');
-const Note = require('./Note.js');
+const {Note, Rest} = require('./Note.js');
 const Duration = require('./Duration.js');
 const Dynamics = require('./Dynamics.js');
+const Articulation = require('./Articulation.js');
 const Pitch = require('./Pitch.js');
 const { exception } = require('console');
 
