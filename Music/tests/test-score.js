@@ -1,16 +1,18 @@
-const {Score, Voice, Sequence, Duration, Dynamics, Util} = require('../Composition.js');
+const {Score, Voice, Sequence, Duration, 
+	Dynamics, Util, Articulation} = require('../Composition.js');
 
 // Composition
-let score = new Score({keySignature: 'g major', timeSignature: '6/8'});
+let score = new Score({keySignature: 'g major', timeSignature: '4/4'});
 score.addVoice({name: 'Player 1'});
 score.addVoice({name: 'Player 2'});
 
 score.voices.forEach((player, i) => {
-	let aPitches = score.keySignature.scale.randomBetween(`G${4-i}`, `D${5-i}`, 3);
+	let aPitches = score.keySignature.scale.randomBetween(`G${4-i}`, `D${5-i}`, 17);
 	let a = Sequence.fromPitches(aPitches);
 	a.sequence.forEach(m => {
-		m.duration = 1;
+		m.duration = Util.randomElement([.5, 1, 2]);
 		m.velocity = Dynamics.get(Util.randomElement(['mf', 'f']));
+		m.articulation = Articulation.random();
 	});
 
 	let bDurations = [];
@@ -32,5 +34,6 @@ score.voices.forEach((player, i) => {
 });
 
 score.writeMidi('test-score');
+// score.dump();
 
 console.log(`Second measure: ${score.voice('Player 1').measureTicks(2)} ticks`);

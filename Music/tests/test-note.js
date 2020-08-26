@@ -1,4 +1,20 @@
-const {Note, Pitch, Util, Duration, Dynamics} = require ('../Composition.js');
+const {Note, Event, Rest, Pitch, Util, Duration, Dynamics, Articulation} = require ('../Composition.js');
+
+console.log('\nAn empty event:');
+let event = new Event();
+event.dump();
+
+console.log(`\nA default rest:`);
+let rest = new Rest();
+rest.dump();
+
+console.log(`\nA default note:`)
+let note = new Note();
+note.dump();
+
+console.log(`\nWith a random articulation:`);
+note.articulation = Articulation.random();
+note.dump();
 
 console.log('\nNotes from string specs:');
 ('C4,E4,G4::mf C4 E4 G4 G#4:.5:ff G#4:.5:pp'.split(' ')).forEach(noteSpec => {
@@ -14,5 +30,7 @@ Pitch.pitchClasses.forEach(pitchClass => {
 
 	let note = new Note({pitches, duration, velocity});
 	console.log(note.toString());
+	note.transpose(-3);
+	console.log(`-3 steps: ${note.toString()}`);
 });
 
