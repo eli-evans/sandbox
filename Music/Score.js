@@ -5,6 +5,7 @@ const Base = require('./Base.js');
 const Voice = require('./Voice.js');
 const Key = require('./Key.js');
 const Duration = require('./Duration.js');
+const {Note, Rest} = require('./Note.js');
 
 /**
  * A Score is a collection of voices that comprises a single piece of
@@ -180,6 +181,8 @@ class Score extends Base {
 	 */
 	writeMidi(filename = 'output') {
 		let tracks = [];
+
+		tracks.push(new MidiWriter.Track());
 		
 		this.voices.forEach(voice => {
 
@@ -195,19 +198,20 @@ class Score extends Base {
 
 			let rest = 0;
 			voice.sequence.forEach(note => {
-				if (note.type === 'rest') {
+				if (note instanceof Rest) {
 					rest += note.duration.ticks;
 				}
 				else {
-					track.addEvent(
-						new MidiWriter.NoteEvent({
-							pitch: note.pitches.map(p=>p.toString()),
-							duration: note.duration.midiWriterValue,
-							velocity: note.velocity,
-							wait: 't' + rest,
-							sequential: !(note.type === 'chord'),
-						})
-					);
+					let event = new MidiWriter.NoteEvent({
+						pitch: note.pitches.map(p=>p.toString()),
+						duration: note.duration.midiWriterValue,
+						velocity: note.velocity,
+						wait: 't' + rest,
+						sequential: !(note.pitches.length > 1),
+						channel: note.articulation.value || 1
+					});
+					console.log(event);
+					track.addEvent(event);
 					rest = 0;
 				}
 			});
