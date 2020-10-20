@@ -74,7 +74,7 @@ class Bible {
 		{n:18, name: "Job", abbr: "Job", chapters: [22, 13, 26, 21, 27, 30, 21, 22, 35, 22, 20, 25, 28, 22, 35, 22, 16, 21, 29, 29, 34, 30, 17, 25, 6, 14, 23, 28, 25, 31, 40, 22, 33, 37, 16, 33, 24, 41, 30, 24, 34, 17]},
 		{n:19, name: "Psalms", abbr: "Ps", chapters: [6, 12, 8, 8, 12, 10, 17, 9, 20, 18, 7, 8, 6, 7, 5, 11, 15, 50, 14, 9, 13, 31, 6, 10, 22, 12, 14, 9, 11, 12, 24, 11, 22, 22, 28, 12, 40, 22, 13, 17, 13, 11, 5, 26, 17, 11, 9, 14, 20, 23, 19, 9, 6, 7, 23, 13, 11, 11, 17, 12, 8, 12, 11, 10, 13, 20, 7, 35, 36, 5, 24, 20, 28, 23, 10, 12, 20, 72, 13, 19, 16, 8, 18, 12, 13, 17, 7, 18, 52, 17, 16, 15, 5, 23, 11, 13, 12, 9, 9, 5, 8, 28, 22, 35, 45, 48, 43, 13, 31, 7, 10, 10, 9, 8, 18, 19, 2, 29, 176, 7, 8, 9, 4, 8, 5, 6, 5, 6, 8, 8, 3, 18, 3, 3, 21, 26, 9, 8, 24, 13, 10, 7, 12, 15, 21, 10, 20, 14, 9, 6]},
 		{n:20, name: "Proverbs", abbr: "Prov", chapters: [33, 22, 35, 27, 23, 35, 27, 36, 18, 32, 31, 28, 25, 35, 33, 33, 28, 24, 29, 30, 31, 29, 35, 34, 28, 28, 27, 28, 27, 33, 31]},
-		{n:21, name: "Ecclesiastes", abbr: "Eccl", chapters: [18, 26, 22, 16, 20, 12, 29, 17, 18, 20, 10, 14]},
+		{n:21, name: "Ecclesiastes", abbr: "Ecc", chapters: [18, 26, 22, 16, 20, 12, 29, 17, 18, 20, 10, 14]},
 		{n:22, name: "Song of Solomon", abbr: "Song", chapters: [17, 17, 11, 16, 16, 13, 13, 14]},
 		{n:23, name: "Isaiah", abbr: "Isa", chapters: [31, 22, 26, 6, 30, 13, 25, 22, 21, 34, 16, 6, 22, 32, 9, 14, 14, 7, 25, 6, 17, 25, 18, 23, 12, 21, 13, 29, 24, 33, 9, 20, 24, 17, 10, 22, 38, 22, 8, 31, 29, 25, 28, 28, 25, 13, 15, 22, 26, 11, 23, 15, 12, 17, 13, 12, 21, 14, 21, 22, 11, 12, 19, 12, 25, 24]},
 		{n:24, name: "Jeremiah", abbr: "Jer", chapters: [19, 37, 25, 31, 31, 30, 34, 22, 26, 25, 23, 17, 27, 22, 21, 21, 27, 23, 15, 18, 14, 30, 40, 10, 38, 24, 22, 17, 32, 24, 40, 44, 26, 22, 19, 32, 21, 28, 18, 16, 18, 22, 13, 30, 5, 28, 7, 47, 39, 46, 64, 34]},
@@ -94,24 +94,24 @@ class Bible {
 		{n:38, name: "Zechariah", abbr: "Zech", chapters: [21, 13, 10, 14, 11, 15, 14, 23, 17, 12, 17, 14, 9, 21]},
 		{n:39, name: "Malachi", abbr: "Mal", chapters: [14, 17, 18, 6]},
 		
-		{n:40, name: "Tobit", abbr: "Tob", chapters: []},
-		{n:41, name: "Judith", abbr: "Jdt", chapters: []},
+		{n:40, name: "Tobit", abbr: "Tob", chapters: [22, 14, 17, 21, 22, 18, 16, 21, 6, 13, 18, 22, 17, 15]},
+		{n:41, name: "Judith", abbr: "Jdt", chapters: [16, 28, 10, 15, 24, 21, 32, 36, 14, 23, 23, 20, 20, 19, 13, 25]},
 		{n:42, name: "Esther (Greek)", abbr: "Add Es", chapters: []},
-		{n:43, name: "The Wisdom of Solomon", abbr: "Wis", chapters: []},
-		{n:44, name: "Sirach", abbr: "Sir", chapters: []},
-		{n:45, name: "Baruch", abbr: "Bar", chapters: []},
-		{n:46, name: "The Letter of Jeremiah", abbr: "LtJe", chapters: []},
-		{n:47, name: "Azariah and the Three Jews", abbr: "S3Y", chapters: []},
-		{n:48, name: "Susanna", abbr: "Sus", chapters: []},
-		{n:49, name: "Bel and the Dragon", abbr: "Bel", chapters: []},
-		{n:50, name: "1 Maccabees", abbr: "1 Mac", chapters: []},
-		{n:51, name: "2 Maccabees", abbr: "2 Mac", chapters: []},
-		{n:52, name: "1 Esdras", abbr: "1 Es", chapters: []},
-		{n:53, name: "The Prayer of Manasseh", abbr: "PrMan", chapters: []},
-		{n:54, name: "Psalm 151", abbr: "Ps 151", chapters: []},
-		{n:55, name: "3 Maccabees", abbr: "3 Mac", chapters: []},
-		{n:56, name: "2 Esdras", abbr: "2 Es", chapters: []},
-		{n:57, name: "4 Maccabees", abbr: "4 Mac", chapters: []},
+		{n:43, name: "Wisdom of Solomon", abbr: "Wis", chapters: [16, 24, 19, 20, 23, 25, 30, 21, 18, 21, 26, 27, 19, 31, 19, 29, 21, 25, 22]},
+		{n:44, name: "Sirach", abbr: "Sir", chapters: [30, 17, 31, 31, 15, 37, 36, 19, 18, 31, 34, 18, 26, 27, 20, 30, 32, 33, 30, 31, 28, 27, 27, 34, 26, 29, 30, 26, 28, 25, 31, 24, 33, 31, 26, 31, 31, 34, 35, 30, 22, 25, 33, 23, 26, 20, 25, 25, 16, 29, 30]},
+		{n:45, name: "Baruch", abbr: "Bar", chapters: [22, 35, 37, 37, 9]},
+		{n:46, name: "Letter of Jeremiah", abbr: "LtJe", chapters: [73]},
+		{n:47, name: "Azariah and the Three Jews", abbr: "S3Y", chapters: [68]},
+		{n:48, name: "Susanna", abbr: "Sus", chapters: [64]},
+		{n:49, name: "Bel and the Dragon", abbr: "Bel", chapters: [42]},
+		{n:50, name: "1 Maccabees", abbr: "1 Mac", chapters: [64, 70, 60, 61, 68, 63, 50, 32, 73, 89, 74, 53, 53, 49, 41, 24]},
+		{n:51, name: "2 Maccabees", abbr: "2 Mac", chapters: [36, 32, 40, 50, 27, 31, 42, 36, 29, 38, 38, 45, 26, 46, 33, 39]},
+		{n:52, name: "1 Esdras", abbr: "1 Es", chapters: [58, 30, 24, 63, 73, 34, 15, 96, 55]},
+		{n:53, name: "Prayer of Manasseh", abbr: "PrMan", chapters: [15]},
+		{n:54, name: "Psalm 151", abbr: "Ps 151", chapters: [7]},
+		{n:55, name: "3 Maccabees", abbr: "3 Mac", chapters: [29, 33, 30, 21, 51, 41, 23]},
+		{n:56, name: "2 Esdras", abbr: "2 Es", chapters: [40, 48, 36, 52, 56, 59, 140, 63, 47, 59, 46, 51, 58, 48, 63, 78]},
+		{n:57, name: "4 Maccabees", abbr: "4 Mac", chapters: [35, 24, 21, 26, 38, 35, 23, 29, 32, 21, 27, 19, 27, 20, 32, 25, 24, 24]},
 		{n:58, name: "Odes of Solomon", abbr: "Odes", chapters: []},
 		{n:59, name: "Psalms of Solomon", abbr: "PssSol", chapters: []},
 
@@ -129,23 +129,28 @@ class Bible {
 		{n:72, name: "Colossians", abbr: "Col", chapters: [29, 23, 25, 18]},
 		{n:73, name: "1 Thessalonians", abbr: "1Thess", chapters: [10, 20, 13, 18, 28]},
 		{n:74, name: "2 Thessalonians", abbr: "2Thess", chapters: [12, 17, 18]},
-		{n:75, name: "1 Timothy", abbr: "1 Tim", chapters: [20, 15, 16, 16, 25, 21]},
-		{n:76, name: "2 Timothy", abbr: "2 Tim", chapters: [18, 26, 17, 22]},
+		{n:75, name: "1 Timothy", abbr: "1Tim", chapters: [20, 15, 16, 16, 25, 21]},
+		{n:76, name: "2 Timothy", abbr: "2Tim", chapters: [18, 26, 17, 22]},
 		{n:77, name: "Titus", abbr: "Titus", chapters: [16, 15, 15]},
 		{n:78, name: "Philemon", abbr: "Phlm", chapters: [25]},
 		{n:79, name: "Hebrews", abbr: "Heb", chapters: [14, 18, 19, 16, 14, 20, 28, 13, 28, 39, 40, 29, 25]},
 		{n:80, name: "James", abbr: "Jas", chapters: [27, 26, 18, 17, 20]},
-		{n:81, name: "1 Peter", abbr: "1 Pet", chapters: [25, 25, 22, 19, 14]},
-		{n:82, name: "2 Peter", abbr: "2 Pet", chapters: [21, 22, 18]},
-		{n:83, name: "1 John", abbr: "1 Jn", chapters: [10, 29, 24, 21, 21]},
-		{n:84, name: "2 John", abbr: "2 Jn", chapters: [13]},
-		{n:85, name: "3 John", abbr: "3 Jn", chapters: [14]},
+		{n:81, name: "1 Peter", abbr: "1Pet", chapters: [25, 25, 22, 19, 14]},
+		{n:82, name: "2 Peter", abbr: "2Pet", chapters: [21, 22, 18]},
+		{n:83, name: "1 John", abbr: "1Jn", chapters: [10, 29, 24, 21, 21]},
+		{n:84, name: "2 John", abbr: "2Jn", chapters: [13]},
+		{n:85, name: "3 John", abbr: "3Jn", chapters: [14]},
 		{n:86, name: "Jude", abbr: "Jude", chapters: [25]},
-		{n:87, name: "Revelation", abbr: "Rev", chapters: [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21]}
+		{n:87, name: "Revelation", abbr: "Rev", chapters: [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21]},
+		{n:88, name: "Enoch", abbr: "Enoch", chapters: []},
 	];
 
     static getBook(name) {
         return (this.books.filter( b => b.name === name ))[0];
+	}
+
+	static getBookByAbbr(abbr) {
+        return (this.books.filter( b => b.abbr === abbr ))[0];
 	}
 	
 	static getBookByNumber(n) {
@@ -161,7 +166,12 @@ class Bible {
 	}
 
 	static getBookNameFromRef(ref) {
-		return this.getBookByNumber(Bible.getBookNumberFromRef(ref)).name;
+		try { 
+			return this.getBookByNumber(Bible.getBookNumberFromRef(ref)).name;
+		}
+		catch (e) {
+			throw new Error(`Couldn't get book from '${ref}'`);
+		}
 	}
 
 	static countVerses(str) {
@@ -249,7 +259,76 @@ class Bible {
 	
 		return ret;
 	}
+
+	static parse(str) {
+		// this is very hacky and only works for 
+		// this dataset. Don't use unless you know what you're doing.
+
+		str = str.replace(/(^[1234]) ([A-Za-z])/g, '$1_$2').replace(/([A-Za-z]) ([A-Za-z])/g, '$1_$2');
+		str = str.replace(/–/, '-');
+		str = str.replace(/ /g, '#').replace(/_/g, ' ');
+		str = str.replace(/([0-9])[abcdefg]/g, '$1');
+		let split = str.split(/#|:|-/);
+		split = split.filter(x => x !== undefined);
+	
+		// console.log(split);
+		let {b, c1, v1, c2, v2} = '';
+
+		b = split.shift();
+		let book = Bible.getBook(b);
+		if (book === undefined) {
+			book = Bible.getBookByAbbr(b.replace(/^([1234]) /, '$1'));
+		}
+		b = book.n;
+
+		if (split.length === 1 && book.chapters.length === 1) {
+			c1 = 1;
+			v1 = split[0];
+			c2 = null;
+			v2 = null;
+		}
+
+		else if (split.length === 2 && book.chapters.length === 1) {
+			c1 = 1;
+			v1 = split[0];
+			v2 = split[1];
+			c2 = c1;
+		}
+
+		else if (split.length === 2) {
+			[c1, v1] = split;
+			c2 = v2 = null;
+		}
+
+		else if (split.length === 3) {
+			[c1, v1, v2] = split;
+			c2 = c1;
+		}
+
+		else if (split.length === 4) {
+			[c1, v1, c2, v2] = split;
+		}
+
+		// console.log({b, c1, v1, c2, v2});
+
+		return `bible.${b}` + 
+			(c1 ? `.${c1}` : '') + 
+			(v1 ? `.${v1}` : '') +
+			(c2 ? `-${b}.${c2}` : '') + 
+			(v2 ? `.${v2}` : '');
+	}
+
+	static assembleSingle(str) {
+		let parts = str.split('.');
+		let [type, b, c, v] = parts;
+		b = parseInt(b);
+		c = parseInt(c);
+		v = parseInt(v.replace(/[^0-9]/g, ''));
+		return {type, b, c, v};
+	}
 }
+
+
 
 try {
 	module.exports = Bible;
