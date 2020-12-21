@@ -1,0 +1,107 @@
+<html>
+<head><title>Sound Tester</title>
+<style>
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	* {
+		box-sizing: border-box;
+	}
+	#xy {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		z-index: 99;
+	}
+</style>
+<script src="Soundscape.js"></script>
+<script>
+
+let isStarted = false;
+let isPlaying = false;
+let clips = [];
+
+let canvas;
+let ctx;
+
+let audio = [
+
+];
+
+window.onload = function() {
+	prepareCanvas();
+
+	document.addEventListener('mousemove', e => {
+		let w = document.body.clientWidth;
+		let h = document.body.clientHeight;
+
+		let right = e.x/w;
+		let left = 1 - right;
+		let bottom = e.y/h;
+		let top = 1 - bottom;
+
+		document.getElementById('top').volume = top;
+		document.getElementById('bottom').volume = bottom;
+		document.getElementById('left').volume = left;
+		document.getElementById('right').volume = right;
+		
+		document.getElementById('xy').innerText = `${e.x},${e.y}`;
+	});
+};
+
+function random(max, min = 0) {
+	return Math.floor( Math.random() * max ) + min;
+}
+
+function prepareCanvas() {
+	canvas = document.querySelector('canvas');
+	ctx = canvas.getContext('2d');
+	ctx.canvas.width = window.innerWidth;
+	ctx.canvas.height = window.innerHeight;
+
+	for (var i = 0; i < 4; ++i) {
+		let x = random(window.innerWidth - 20, 20);
+		let y = random(window.innerHeight - 20, 20);
+		circle(x, y, 20);
+	}
+}
+
+function circle(x, y, r) {
+	ctx.beginPath();
+	ctx.arc(x, y, r, 0, 2 * Math.PI);
+	ctx.stroke();
+}
+
+function prepareSounds() {
+	clips = Array.from(document.getElementsByTagName('audio'));
+	console.log(clips);
+}
+
+function play() {
+	if (isPlaying) {
+		clips.forEach(clip => {
+			clip.pause();
+			clip.currentTime = 0;
+		});
+		isPlaying = false;
+	}
+	else {
+		clips.forEach(clip => {
+			clip.play();
+		});
+		isPlaying = true;
+	}
+}
+
+</script>
+<body onclick='play()'>
+	<canvas></canvas>
+	<span id='xy'>0,0</span>
+
+	<audio id='top' src="a.wav" type="audio/wav" preload="auto" autobuffer loop ></audio>
+	<audio id='bottom' src="b.wav" type="audio/wav" preload="auto" autobuffer loop ></audio>
+	<audio id='left' src="c.wav" type="audio/wav" preload="auto" autobuffer loop ></audio>
+	<audio id='right' src="d.wav" type="audio/wav" preload="auto" autobuffer loop ></audio>
+</body>
+</html>

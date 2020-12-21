@@ -1,0 +1,58 @@
+<html>
+<head><title>Soundscape Test</title>
+<script src="Soundscape.js"></script>
+<script>
+
+	let scape;
+
+	window.onload = function() {
+		let clips = [
+			'a.wav',
+			'b.wav',
+			'c.wav',
+			'd.wav'
+		];
+
+		let canvas = document.querySelector('canvas');
+		let ctx = canvas.getContext('2d');
+		ctx.canvas.width = window.innerWidth;
+		ctx.canvas.height = window.innerHeight;
+
+		scape = new Soundscape(ctx, 'HWSTO Bluesy Loop.wav');
+
+		clips.forEach(clip => {
+			let [x,y] = scape.randomLocation();
+			scape.addEmitter(x, y, 20, Math.random() * 200 + 50, clip);
+		});
+
+		scape.draw();
+
+		document.addEventListener('mousemove', e => {
+			scape.emitters.forEach(emitter => {
+				let d = emitter.distanceTo(e.x, e.y);
+				if (d < emitter.domain) {
+					emitter.audio.volume = (1 - Math.sqrt( (d / emitter.domain))) * .5;
+				}
+				else {
+					emitter.audio.volume = 0;
+				}
+			});
+		});
+	}
+
+	function start() {
+		if (!scape.started)
+			scape.start();
+		
+		if (scape.playing)
+			scape.stop();
+		else
+			scape.play();
+	}
+
+</script>
+</head>
+<body onclick='start()'>
+<canvas></canvas>
+</body>
+</html>
