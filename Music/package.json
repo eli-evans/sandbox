@@ -1,0 +1,23 @@
+{
+  "name": "composition",
+  "version": "1.0.0",
+  "description": "Library for musical composition.",
+  "main": "Composition.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@tonaljs/tonal": "~4.2.1",
+    "midi-writer-js": "~1.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "midi",
+    "composition"
+  ],
+  "author": "Eli Evans",
+  "license": "ISC"
+}
