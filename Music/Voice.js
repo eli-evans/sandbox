@@ -1,6 +1,7 @@
 const Util = require('./Util.js');
 const Base = require('./Base.js');
 const Sequence = require('./Sequence.js');
+const {Note, Rest} = require('./Note.js');
 const Pitch = require('./Pitch.js');
 const Duration = require('./Duration.js');
 
@@ -94,6 +95,7 @@ class Voice extends Base {
 	play(seq = new Sequence()) {
 		let err;
 		seq instanceof Sequence ? this.playSequence(seq) :
+			seq instanceof Note ? this.playSequence(new Sequence([seq])) :
 			Util.isArray(seq) ? this.playArray(seq) :
 			Util.isString(seq) ? this.playString(seq) :
 			err = `Can't play ${seq}`;
@@ -102,6 +104,14 @@ class Voice extends Base {
 			throw new Error(err);
 		
 		return this;
+	}
+
+	/**
+	 * Adds a rest to this voice of a given duration.
+	 * @param {Duration} d 
+	 */
+	rest(d = 1) {
+		this._sequence.push(new Rest(d));
 	}
 
 	/**

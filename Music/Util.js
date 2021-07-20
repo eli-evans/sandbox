@@ -60,6 +60,12 @@ class Util {
 		}
 		return [a, b];
 	}
+
+	static repeat(r, cb) {
+		for (let i = 0; i < r; ++i) {
+			cb();
+		}
+	}
 }
 
 module.exports = Util;

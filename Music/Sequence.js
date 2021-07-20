@@ -62,7 +62,7 @@ class Sequence extends Base {
 
 		d.forEach( (duration,i) => {
 			seq.addNote( new Note( {
-				type: Util.isRest(p[i]) ? 'rest' : 'note',
+				type: Util.isRest(p[i]) ? 'rest' : 'note', // TODO use Rest objects
 				pitches: [p[i]],
 				duration: d[i]
 			}));
@@ -89,7 +89,7 @@ class Sequence extends Base {
 	 * @param {Sequence} seq 
 	 */
 	static fromSequence(seq = new Sequence()) {
-		return Sequence.fromArray(seq.sequence);
+		return Sequence.fromArray(seq._sequence);
 	}
 
 	/**

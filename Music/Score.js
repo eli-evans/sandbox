@@ -210,7 +210,7 @@ class Score extends Base {
 						sequential: !(note.pitches.length > 1),
 						channel: note.articulation.value || 1
 					});
-					console.log(event);
+					// console.log(event);
 					track.addEvent(event);
 					rest = 0;
 				}

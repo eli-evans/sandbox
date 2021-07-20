@@ -78,8 +78,8 @@ class Event extends Base {
  * a certain duration.
  */
 class Rest extends Event {
-	constructor(params = {}) {
-		super(params);
+	constructor(duration = 1) {
+		super({duration});
 	}
 }
 
