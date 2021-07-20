@@ -16,7 +16,10 @@ supdata.data.forEach(rec => {
 			if (content[c] === undefined) {
 				content[c] = [];
 			}
-			content[c].push(wnum2verses(rec.wordNumbers));
+			let v = wnum2verses(rec.wordNumbers);
+			content[c].push(v);
+
+			console.log(`${c}\t${v}`)
 		});
 	}
 });
@@ -24,6 +27,7 @@ supdata.data.forEach(rec => {
 // Object.keys(content).sort((a,b) => content[b].length - content[a].length || a.localeCompare(b)).forEach(key => console.log(key));
 
 fs.writeFileSync('prayer-references-by-type.json', JSON.stringify(content, null, 4));
+
 
 function parseLabel(str) {
 	let output = {};
@@ -92,5 +96,24 @@ function wnum2verses(wnums) {
 		}
 	}
 
-	return output.join('; ');
+	let rendered = [];
+	output.forEach(d => {
+		let r = Bible.assembleRange(d);
+		let book = Bible.getBookByNumber(r.b);
+
+		let ret = '';
+
+		if (r.c2 && r.c2 === r.c) {
+			ret = `${book.name} ${r.c}:${r.v}-${r.v2}`;
+		}
+		else if (r.c2 > 0) {
+			ret = `${book.name} ${r.c}:${r.v}-${r.c2}:${r.v2}`;
+		}
+		else {
+			ret = `${book.name} ${r.c}:${r.v}`;
+		}
+		rendered.push(ret);
+	});
+
+	return rendered.join('; ');
 }

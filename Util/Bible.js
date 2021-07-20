@@ -326,6 +326,21 @@ class Bible {
 		v = parseInt(v.replace(/[^0-9]/g, ''));
 		return {type, b, c, v};
 	}
+
+	static assembleRange(str) {
+		let parts = str.split(/[.-]/);
+		let [type, b, c, v, b2, c2, v2] = parts;
+		b = parseInt(b);
+		c = parseInt(c);
+		v = parseInt(v.replace(/[^0-9-]/g, ''));
+		v2 = v2 ? parseInt(v2.replace(/[^0-9-]/g, '')) : undefined;
+
+		b2 = parseInt(b2);
+		c2 = parseInt(c2);
+		v2 = parseInt(v2);
+
+		return {type, b, c, v, b2, c2, v2};
+	}
 }
 
 
