@@ -34,6 +34,21 @@ class WordNumberData {
 		this.books.push(book);
 		return book;
 	}
+
+	// iterate every word in the database and execute a callback if it matches a filter
+	forEachWord(callback = function() {}, filter = function(){return true;}) {
+		this.books.forEach(book => {
+			book.chapters.forEach(chapter => {
+				chapter.verses.forEach(verse => {
+					verse.words.forEach(word => {
+						if (filter(book, chapter, verse, word)) {
+							callback(word, {book, chapter, verse});
+						}
+					});
+				});
+			});
+		});
+	}
 }
 
 class BookData {
@@ -106,14 +121,11 @@ class WordData {
 			if (f.$.name === 'WordNumber') {
 				this.wnum = f._;
 			}
-			else if (f.$.name === 'KQStatus') {
+			else if (f.$.name.toLowerCase() === 'kqstatus') {
 				this.kq = f._;
 			}
-			else if (f.$.name === 'Lemma' || f.$.name === 'Root') {
-				this.setValue(f.$.name, f._);
-			}
 			else {
-				// this.setValue(f.$.name, f._);
+				this.setValue(f.$.name, f._);
 			}
 		});
 	}
