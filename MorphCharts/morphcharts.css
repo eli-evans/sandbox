@@ -1,0 +1,29 @@
+*, html {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 14px;
+}
+
+table, tr, td {
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #DDDDDD;
+}
+td {
+	padding: 2px 8px;
+}
+
+.label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.el {
+	font-family: "SBL BibLit", serif;
+}
+
+.he {
+	font-family: "SBL BibLit", serif;
+	font-size: 150%;
+}

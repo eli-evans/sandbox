@@ -1,0 +1,15 @@
+{
+	"title": "Adverb",
+	"for": "@B*",
+	"grid": [
+		["Unclassified", "@B"],
+		["Conditional", "@BC"],
+		["Emphatic", "@BE"],
+		["Interrogative", "@BI"],
+		["Correlative", "@BK"],
+		["Negative", "@BN"],
+		["Place", "@BP"],
+		["Superlative", "@BS"],
+		["Indefinite", "@BX"]
+	]
+}

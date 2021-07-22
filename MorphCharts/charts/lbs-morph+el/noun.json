@@ -1,0 +1,16 @@
+{
+	"title": "Noun",
+	"for": "@N*",
+	"grid" : [
+		["", "", "Nominative", "Genitive", "Dative", "Accusative", "Vocative"],
+		["Masculine", "Singular", "@NNSM", "@NGSM", "@NDSM", "@NASM", "@NVSM"],
+		["", "Dual", "@NNDM", "@NGDM", "@NDDM", "@NADM", "@NVDM"],
+		["", "Plural", "@NNPM", "@NGPM", "@NDPM", "@NAPM", "@NVPM"],
+		["Feminine", "Singular", "@NNSF", "@NGSF", "@NDSF", "@NASF", "@NVSF"],
+		["", "Dual", "@NNDF", "@NGDF", "@NDDF", "@NADF", "@NVDF"],
+		["", "Plural", "@NNPF", "@NGPF", "@NDPF", "@NAPF", "@NVPF"],
+		["Neuter", "Singular", "@NNSN", "@NGSN", "@NDSN", "@NASN", "@NVSN"],
+		["", "Dual", "@NNDN", "@NGDN", "@NDDN", "@NADN", "@NVDN"],
+		["", "Plural", "@NNPN", "@NGPN", "@NDPN", "@NAPN", "@NVPN"]
+	]
+}

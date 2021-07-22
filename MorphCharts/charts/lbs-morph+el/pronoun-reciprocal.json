@@ -1,0 +1,13 @@
+{
+	"title": "Pronoun, Reciprocal",
+	"for": "@RC????",
+	"grid": [
+		[ "", "", "Genitive", "Dative", "Accusative", "Vocative" ],
+		[ "Masculine", "Dual", "@RC?GDM", "@RC?DDM", "@RC?ADM", "@RC?VDM" ],
+		[ "", "Plural", "@RC?GPM", "@RC?DPM", "@RC?APM", "@RC?VPM" ],
+		[ "Feminine", "Dual", "@RC?GDF", "@RC?DDF", "@RC?ADF", "@RC?VDF" ],
+		[ "", "Plural", "@RC?GPF", "@RC?DPF", "@RC?APF", "@RC?VPF" ],
+		[ "Neuter", "Dual", "@RC?GDN", "@RC?DDN", "@RC?ADN", "@RC?VDN" ],
+		[ "", "Plural", "@RC?GPN", "@RC?DPN", "@RC?APN", "@RC?VPN" ]
+	]
+}

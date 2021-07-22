@@ -1,0 +1,16 @@
+{
+	"title": "Adjective, Superlative",
+	"for": "@J???S",
+	"grid": [
+		[ "", "", "Nominative", "Genitive", "Dative", "Accusative", "Vocative" ], 
+		[ "Masculine", "Singular", "@JNSMS", "@JGSMS", "@JDSMS", "@JASMS", "@JVSMS" ], 
+		[ "", "Dual", "@JNDMS", "@JGDMS", "@JDDMS", "@JADMS", "@JVDMS" ], 
+		[ "", "Plural", "@JNPMS", "@JGPMS", "@JDPMS", "@JAPMS", "@JVPMS" ], 
+		[ "Feminine", "Singular", "@JNSFS", "@JGSFS", "@JDSFS", "@JASFS", "@JVSFS" ], 
+		[ "", "Dual", "@JNDFS", "@JGDFS", "@JDDFS", "@JADFS", "@JVDFS" ], 
+		[ "", "Plural", "@JNPFS", "@JGPFS", "@JDPFS", "@JAPFS", "@JVPFS" ], 
+		[ "Neuter", "Singular", "@JNSNS", "@JGSNS", "@JDSNS", "@JASNS", "@JVSNS" ], 
+		[ "", "Dual", "@JNDNS", "@JGDNS", "@JDDNS", "@JADNS", "@JVDNS" ], 
+		[ "", "Plural", "@JNPNS", "@JGPNS", "@JDPNS", "@JAPNS", "@JVPNS" ]
+	]
+}

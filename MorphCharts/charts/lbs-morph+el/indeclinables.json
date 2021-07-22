@@ -1,0 +1,11 @@
+{
+	"title": "Indeclinables",
+	"for": "@X?",
+	"grid": [
+		["Foreign", "@XF"],
+		["Letter", "@XL"],
+		["Numeral", "@XN"],
+		["Other", "@XO"],
+		["Proper Noun", "@XP"]
+	]
+}

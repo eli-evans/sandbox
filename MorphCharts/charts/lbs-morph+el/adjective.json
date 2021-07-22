@@ -1,0 +1,16 @@
+{
+	"title": "Adjective, Positive",
+	"for": "@J???",
+	"grid": [
+		["", "", "Nominative", "Genitive", "Dative", "Accusative", "Vocative"],
+		["Masculine", "Singular", "@JNSM", "@JGSM", "@JDSM", "@JASM", "@JVSM"],
+		["", "Dual", "@JNDM", "@JGDM", "@JDDM", "@JADM", "@JVDM"],
+		["", "Plural", "@JNPM", "@JGPM", "@JDPM", "@JAPM", "@JVPM"],
+		["Feminine", "Singular", "@JNSF", "@JGSF", "@JDSF", "@JASF", "@JVSF"],
+		["", "Dual", "@JNDF", "@JGDF", "@JDDF", "@JADF", "@JVDF"],
+		["", "Plural", "@JNPF", "@JGPF", "@JDPF", "@JAPF", "@JVPF"],
+		["Neuter", "Singular", "@JNSN", "@JGSN", "@JDSN", "@JASN", "@JVSN"],
+		["", "Dual", "@JNDN", "@JGDN", "@JDDN", "@JADN", "@JVDN"],
+		["", "Plural", "@JNPN", "@JGPN", "@JDPN", "@JAPN", "@JVPN"]
+	]
+}

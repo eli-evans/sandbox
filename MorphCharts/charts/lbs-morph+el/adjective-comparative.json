@@ -1,0 +1,16 @@
+{
+	"title": "Adjective, Comparative",
+	"for": "@J???C",
+	"grid": [
+		[ "", "", "Nominative", "Genitive", "Dative", "Accusative", "Vocative" ], 
+		[ "Masculine", "Singular", "@JNSMC", "@JGSMC", "@JDSMC", "@JASMC", "@JVSMC" ], 
+		[ "", "Dual", "@JNDMC", "@JGDMC", "@JDDMC", "@JADMC", "@JVDMC" ], 
+		[ "", "Plural", "@JNPMC", "@JGPMC", "@JDPMC", "@JAPMC", "@JVPMC" ], 
+		[ "Feminine", "Singular", "@JNSFC", "@JGSFC", "@JDSFC", "@JASFC", "@JVSFC" ], 
+		[ "", "Dual", "@JNDFC", "@JGDFC", "@JDDFC", "@JADFC", "@JVDFC" ], 
+		[ "", "Plural", "@JNPFC", "@JGPFC", "@JDPFC", "@JAPFC", "@JVPFC" ], 
+		[ "Neuter", "Singular", "@JNSNC", "@JGSNC", "@JDSNC", "@JASNC", "@JVSNC" ], 
+		[ "", "Dual", "@JNDNC", "@JGDNC", "@JDDNC", "@JADNC", "@JVDNC" ], 
+		[ "", "Plural", "@JNPNC", "@JGPNC", "@JDPNC", "@JAPNC", "@JVPNC" ]
+	]
+}

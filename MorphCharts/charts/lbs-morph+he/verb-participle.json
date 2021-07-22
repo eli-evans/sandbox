@@ -1,0 +1,24 @@
+{
+	"title": "Participle",
+	"for": "@V?[RS]*",
+	"grid": [
+		[ "", "", "", "", "Qal", "Niphal", "Piel", "Pual", "Hiphil", "Hophal", "Hithpael" ],
+		[ "Active", "Sg", "m", "Abs", "@VaR?MSA", "@VdR?MSA", "@V[bCxRyNGzQo]R?MSA", "@V[eFAwIKL]R?MSA", "@VcR?MSA", "@ViR?MSA", "@V[gTOBDSEHnUPl]R?MSA" ],
+		[ "", "", "", "Const", "@VaR?MSC", "@VdR?MSC", "@V[bCxRyNGzQo]R?MSC", "@V[eFAwIKL]R?MSC", "@VcR?MSC", "@ViR?MSC", "@V[gTOBDSEHnUPl]R?MSC" ],
+		[ "","", "f", "Abs", "@VaR?FSA", "@VdR?FSA", "@V[bCxRyNGzQo]R?FSA", "@V[eFAwIKL]R?FSA", "@VcR?FSA", "@ViR?FSA", "@V[gTOBDSEHnUPl]R?FSA" ],
+		[ "","", "", "Const", "@VaR?FSC", "@VdR?FSC", "@V[bCxRyNGzQo]R?FSC", "@V[eFAwIKL]R?FSC", "@VcR?FSC", "@ViR?FSC", "@V[gTOBDSEHnUPl]R?FSC" ],
+		[ "","Pl", "m", "Abs", "@VaR?MPA", "@VdR?MPA", "@V[bCxRyNGzQo]R?MPA", "@V[eFAwIKL]R?MPA", "@VcR?MPA", "@ViR?MPA", "@V[gTOBDSEHnUPl]R?MPA" ],
+		[ "","", "", "Const", "@VaR?MPC", "@VdR?MPC", "@V[bCxRyNGzQo]R?MPC", "@V[eFAwIKL]R?MPC", "@VcR?MPC", "@ViR?MPC", "@V[gTOBDSEHnUPl]R?MPC" ],
+		[ "","", "f", "Abs", "@VaR?FPA", "@VdR?FPA", "@V[bCxRyNGzQo]R?FPA", "@V[eFAwIKL]R?FPA", "@VcR?FPA", "@ViR?FPA", "@V[gTOBDSEHnUPl]R?FPA" ],
+		[ "","", "", "Const", "@VaR?FPC", "@VdR?FPC", "@V[bCxRyNGzQo]R?FPC", "@V[eFAwIKL]R?FPC", "@VcR?FPC", "@ViR?FPC", "@V[gTOBDSEHnUPl]R?FPC" ],
+		[ "Passive","Sg", "m", "Abs", "@VaS?MSA", "@VdS?MSA", "@V[bCxSyNGzQo]S?MSA", "@V[eFAwIKL]S?MSA", "@VcS?MSA", "@ViS?MSA", "@V[gTOBDSEHnUPl]S?MSA" ],
+		[ "","", "", "Const", "@VaS?MSC", "@VdS?MSC", "@V[bCxSyNGzQo]S?MSC", "@V[eFAwIKL]S?MSC", "@VcS?MSC", "@ViS?MSC", "@V[gTOBDSEHnUPl]S?MSC" ],
+		[ "","", "f", "Abs", "@VaS?FSA", "@VdS?FSA", "@V[bCxSyNGzQo]S?FSA", "@V[eFAwIKL]S?FSA", "@VcS?FSA", "@ViS?FSA", "@V[gTOBDSEHnUPl]S?FSA" ],
+		[ "","", "", "Const", "@VaS?FSC", "@VdS?FSC", "@V[bCxSyNGzQo]S?FSC", "@V[eFAwIKL]S?FSC", "@VcS?FSC", "@ViS?FSC", "@V[gTOBDSEHnUPl]S?FSC" ],
+		[ "","Pl", "m", "Abs", "@VaS?MPA", "@VdS?MPA", "@V[bCxSyNGzQo]S?MPA", "@V[eFAwIKL]S?MPA", "@VcS?MPA", "@ViS?MPA", "@V[gTOBDSEHnUPl]S?MPA" ],
+		[ "","", "", "Const", "@VaS?MPC", "@VdS?MPC", "@V[bCxSyNGzQo]S?MPC", "@V[eFAwIKL]S?MPC", "@VcS?MPC", "@ViS?MPC", "@V[gTOBDSEHnUPl]S?MPC" ],
+		[ "","", "f", "Abs", "@VaS?FPA", "@VdS?FPA", "@V[bCxSyNGzQo]S?FPA", "@V[eFAwIKL]S?FPA", "@VcS?FPA", "@ViS?FPA", "@V[gTOBDSEHnUPl]S?FPA" ],
+		[ "","", "", "Const", "@VaS?FPC", "@VdS?FPC", "@V[bCxSyNGzQo]S?FPC", "@V[eFAwIKL]S?FPC", "@VcS?FPC", "@ViS?FPC", "@V[gTOBDSEHnUPl]S?FPC" ]
+
+	]
+}

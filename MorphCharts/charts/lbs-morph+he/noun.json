@@ -1,0 +1,20 @@
+{
+	"title": "Noun",
+	"for": "@N*",
+	"grid": [
+		[ "Sg", "m", "Abs", "@N?MSA*" ],
+		[ "", "", "Const", "@N?MSC*" ],
+		[ "", "f", "Abs", "@N?FSA*" ],
+		[ "", "", "Const", "@N?FSC*" ],
+		[ "", "-", "Abs", "@N?-SA*" ],
+		[ "", "", "Const", "@N?-SC*" ],
+		[ "Dual", "m", "Abs", "@N?MDA*" ],
+		[ "", "", "Const", "@N?MDC*" ],
+		[ "", "f", "Abs", "@N?FDA*" ],
+		[ "", "", "Const", "@N?FDC*" ],
+		[ "Pl", "m", "Abs", "@N?MPA*" ],
+		[ "", "", "Const", "@N?MPC*" ],
+		[ "", "f", "Abs", "@N?FPA*" ],
+		[ "", "", "Const", "@N?FPC*" ]
+	]
+}

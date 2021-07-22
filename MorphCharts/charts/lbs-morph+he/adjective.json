@@ -1,0 +1,14 @@
+{
+	"title": "Adjective",
+	"for": "@J*",
+	"grid": [
+		[ "Sg", "m", "Abs", "@JMSA" ],
+		[ "", "", "Const", "@JMSC" ],
+		[ "", "f", "Abs", "@JFSA" ],
+		[ "", "", "Const", "@JFSC" ],
+		[ "Pl", "m", "Abs", "@JMPA" ],
+		[ "", "", "Const", "@JMPC" ],
+		[ "", "f", "Abs", "@JFPA" ],
+		[ "", "", "Const", "@JFPC" ]
+	]
+}
