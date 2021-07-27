@@ -1,0 +1,22 @@
+title	Numeral
+for	@U*
+
+Cardinal	Sg	m	Abs	@UCMSA
+			Const	@UCMSC
+		f	Abs	@UCFSA
+			Const	@UCFSC
+		-	Abs	@UC-SA
+			Const	@UC-SC
+	Dual	m	Const	@UCMDC
+		f	Abs	@UCFDA
+			Const	@UCFDC
+		-	Abs	@UC-DA
+			Const	@UC-DC
+	Pl	m	Abs	@UCMPA
+			Const	@UCMPC
+		f	Abs	@UCFPA
+			Const	@UCFPC
+Ordinal	Sg	f	Abs	@UOFSA
+			Const	@UOFSC
+		-	Abs	@UO-SA
+	Pl	m	Abs	@UOMPA

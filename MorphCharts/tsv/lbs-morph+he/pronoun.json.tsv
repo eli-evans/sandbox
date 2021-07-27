@@ -1,0 +1,16 @@
+title	Pronoun
+for	@R*
+
+Personal	Sg	3m	@RP3MS
+		3f	@RP3FS
+		2m	@RP2MS
+		2f	@RP2FS
+		1c	@RP1?S
+	Pl	3m	@RP3MP
+		3f	@RP3FP
+		2m	@RP2MP
+		2f	@RP2FP
+		1c	@RP1?P
+Demonstrative	Sg	m	@RD?MS
+		f	@RD?FS
+	Pl	c	@RD??P

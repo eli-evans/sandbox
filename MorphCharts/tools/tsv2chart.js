@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 if (process.argv.length !== 6) {
-	console.log("USAGE: node csv2matrix.js <csvfile> <output> <title> <for>")
+	console.log("USAGE: node tsv2chart.js <tsv> <outpath> <title> <for>")
 	process.exit();
 }
 let inpath = process.argv[2];

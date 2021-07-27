@@ -1,0 +1,12 @@
+title	Particle
+for	@T*
+
+Unclassified	@T
+Conditional	@TC
+Emphatic	@TE
+Interrogative	@TI
+Corellative	@TK
+Negative	@TN
+Place	@TP
+Superlative	@TS
+Indefinite	@TX

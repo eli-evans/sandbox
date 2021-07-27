@@ -1,0 +1,14 @@
+title	Adjective
+for	@J*
+
+Sg	m	Abs	@JMSA
+		Const	@JMSC
+	f	Abs	@JFSA
+		Const	@JFSC
+	-	Abs	@J-SA
+		Const	@J-SC
+Pl	m	Abs	@JMPA
+		Const	@JMPC
+		-	@JMP
+	f	Abs	@JFPA
+		Const	@JFPC

@@ -1,0 +1,44 @@
+title	Verb
+for	@V?[^RS]**
+
+			Qal	Niphal	Piel	Pual	Hiphil	Hophal	Hithpael
+Perfect	Sg	3m	@V[aZ][Pp]3MS*	@Vd[Pp]3MS*	@V[bCxRyNGzQo][Pp]3MS*	@V[eFAwIKL][Pp]3MS*	@Vc[Pp]3MS*	@Vi[Pp]3MS*	@V[gTOBDSEHnUPl][Pp]3MS*
+		3f	@V[aZ][Pp]3FS*	@Vd[Pp]3FS*	@V[bCxRyNGzQo][Pp]3FS*	@V[eFAwIKL][Pp]3FS*	@Vc[Pp]3FS*	@Vi[Pp]3FS*	@V[gTOBDSEHnUPl][Pp]3FS*
+		2m	@V[aZ][Pp]2MS*	@Vd[Pp]2MS*	@V[bCxRyNGzQo][Pp]2MS*	@V[eFAwIKL][Pp]2MS*	@Vc[Pp]2MS*	@Vi[Pp]2MS*	@V[gTOBDSEHnUPl][Pp]2MS*
+		2f	@V[aZ][Pp]2FS*	@Vd[Pp]2FS*	@V[bCxRyNGzQo][Pp]2FS*	@V[eFAwIKL][Pp]2FS*	@Vc[Pp]2FS*	@Vi[Pp]2FS*	@V[gTOBDSEHnUPl][Pp]2FS*
+		1c	@V[aZ][Pp]1?S*	@Vd[Pp]1?S*	@V[bCxRyNGzQo][Pp]1?S*	@V[eFAwIKL][Pp]1?S*	@Vc[Pp]1?S*	@Vi[Pp]1?S*	@V[gTOBDSEHnUPl][Pp]1?S*
+	Pl	3c	@V[aZ][Pp]3?P*	@Vd[Pp]3?P*	@V[bCxRyNGzQo][Pp]3?P*	@V[eFAwIKL][Pp]3?P*	@Vc[Pp]3?P*	@Vi[Pp]3?P*	@V[gTOBDSEHnUPl][Pp]3?P*
+		2m	@V[aZ][Pp]2MP*	@Vd[Pp]2MP*	@V[bCxRyNGzQo][Pp]2MP*	@V[eFAwIKL][Pp]2MP*	@Vc[Pp]2MP*	@Vi[Pp]2MP*	@V[gTOBDSEHnUPl][Pp]2MP*
+		2f	@V[aZ][Pp]2FP*	@Vd[Pp]2FP*	@V[bCxRyNGzQo][Pp]2FP*	@V[eFAwIKL][Pp]2FP*	@Vc[Pp]2FP*	@Vi[Pp]2FP*	@V[gTOBDSEHnUPl][Pp]2FP*
+		1c	@V[aZ][Pp]1?P*	@Vd[Pp]1?P*	@V[bCxRyNGzQo][Pp]1?P*	@V[eFAwIKL][Pp]1?P*	@Vc[Pp]1?P*	@Vi[Pp]1?P*	@V[gTOBDSEHnUPl][Pp]1?P*
+Imperfect	Sg	3m	@V[aZ][IWw]3MS*	@Vd[IWw]3MS*	@V[bCxRyNGzQo][IWw]3MS*	@V[eFAwIKL][IWw]3MS*	@Vc[IWw]3MS*	@Vi[IWw]3MS*	@V[gTOBDSEHnUPl][IWw]3MS*
+		3f	@V[aZ][IWw]3FS*	@Vd[IWw]3FS*	@V[bCxRyNGzQo][IWw]3FS*	@V[eFAwIKL][IWw]3FS*	@Vc[IWw]3FS*	@Vi[IWw]3FS*	@V[gTOBDSEHnUPl][IWw]3FS*
+		2m	@V[aZ][IWw]2MS*	@Vd[IWw]2MS*	@V[bCxRyNGzQo][IWw]2MS*	@V[eFAwIKL][IWw]2MS*	@Vc[IWw]2MS*	@Vi[IWw]2MS*	@V[gTOBDSEHnUPl][IWw]2MS*
+		2f	@V[aZ][IWw]2FS*	@Vd[IWw]2FS*	@V[bCxRyNGzQo][IWw]2FS*	@V[eFAwIKL][IWw]2FS*	@Vc[IWw]2FS*	@Vi[IWw]2FS*	@V[gTOBDSEHnUPl][IWw]2FS*
+		1c	@V[aZ][IWw]1?S*	@Vd[IWw]1?S*	@V[bCxRyNGzQo][IWw]1?S*	@V[eFAwIKL][IWw]1?S*	@Vc[IWw]1?S*	@Vi[IWw]1?S*	@V[gTOBDSEHnUPl][IWw]1?S*
+	Pl	3m	@V[aZ][IWw]3MP*	@Vd[IWw]3MP*	@V[bCxRyNGzQo][IWw]3MP*	@V[eFAwIKL][IWw]3MP*	@Vc[IWw]3MP*	@Vi[IWw]3MP*	@V[gTOBDSEHnUPl][IWw]3MP*
+		3f	@V[aZ][IWw]3FP*	@Vd[IWw]3FP*	@V[bCxRyNGzQo][IWw]3FP*	@V[eFAwIKL][IWw]3FP*	@Vc[IWw]3FP*	@Vi[IWw]3FP*	@V[gTOBDSEHnUPl][IWw]3FP*
+		2m	@V[aZ][IWw]2MP*	@Vd[IWw]2MP*	@V[bCxRyNGzQo][IWw]2MP*	@V[eFAwIKL][IWw]2MP*	@Vc[IWw]2MP*	@Vi[IWw]2MP*	@V[gTOBDSEHnUPl][IWw]2MP*
+		2f	@V[aZ][IWw]2FP*	@Vd[IWw]2FP*	@V[bCxRyNGzQo][IWw]2FP*	@V[eFAwIKL][IWw]2FP*	@Vc[IWw]2FP*	@Vi[IWw]2FP*	@V[gTOBDSEHnUPl][IWw]2FP*
+		1c	@V[aZ][IWw]1?P*	@Vd[IWw]1?P*	@V[bCxRyNGzQo][IWw]1?P*	@V[eFAwIKL][IWw]1?P*	@Vc[IWw]1?P*	@Vi[IWw]1?P*	@V[gTOBDSEHnUPl][IWw]1?P*
+Inf Abs			@V[aZ]F???A*	@VdF???A*	@V[bCxRyNGzQo]F???A*	@V[eFAwIKL]F???A*	@VcF???A*	@ViF???A*	@V[gTOBDSEHnUPl]F???A*
+Inf Const			@V[aZ]F???C*	@VdF???C*	@V[bCxRyNGzQo]F???C*	@V???CwIKL]F???C*	@VcF???C*	@ViF???C*	@V[gTOBDSEHnUPl]F???C*
+Imperative	Sg	2m	@V[aZ]M2MS*	@VdM2MS*	@V[bCxRyNGzQo]M2MS*	@V[eFAwIKL]M2MS*	@VcM2MS*	@ViM2MS*	@V[gTOBDSEHnUPl]M2MS*
+		2f	@V[aZ]M2FS*	@VdM2FS*	@V[bCxRyNGzQo]M2FS*	@V[eFAwIKL]M2FS*	@VcM2FS*	@ViM2FS*	@V[gTOBDSEHnUPl]M2FS*
+	Pl	2m	@V[aZ]M2MP*	@VdM2MP*	@V[bCxRyNGzQo]M2MP*	@V[eFAwIKL]M2MP*	@VcM2MP*	@ViM2MP*	@V[gTOBDSEHnUPl]M2MP*
+		2f	@V[aZ]M2FP*	@VdM2FP*	@V[bCxRyNGzQo]M2FP*	@V[eFAwIKL]M2FP*	@VcM2FP*	@ViM2FP*	@V[gTOBDSEHnUPl]M2FP*
+Cohortative	Sg	3m	@V[aZ]?3MS?C*	@Vd?3MS?C*	@V[bCxRyNGzQo]?3MS?C*	@V[eFAwIKL]?3MS?C*	@Vc?3MS?C*	@Vi?3MS?C*	@V[gTOBDSEHnUPl]?3MS?C*
+		3f	@V[aZ]?3FS?C*	@Vd?3FS?C*	@V[bCxRyNGzQo]?3FS?C*	@V[eFAwIKL]?3FS?C*	@Vc?3FS?C*	@Vi?3FS?C*	@V[gTOBDSEHnUPl]?3FS?C*
+		2m	@V[aZ]?2MS?C*	@Vd?2MS?C*	@V[bCxRyNGzQo]?2MS?C*	@V[eFAwIKL]?2MS?C*	@Vc?2MS?C*	@Vi?2MS?C*	@V[gTOBDSEHnUPl]?2MS?C*
+		1c	@V[aZ]?1?S?C*	@Vd?1?S?C*	@V[bCxRyNGzQo]?1?S?C*	@V[eFAwIKL]?1?S?C*	@Vc?1?S?C*	@Vi?1?S?C*	@V[gTOBDSEHnUPl]?1?S?C*
+	Pl	1c	@V[aZ]?1?P?C*	@Vd?1?P?C*	@V[bCxRyNGzQo]?1?P?C*	@V[eFAwIKL]?1?P?C*	@Vc?1?P?C*	@Vi?1?P?C*	@V[gTOBDSEHnUPl]?1?P?C*
+Jussive	Sg	3m	@V[aZ]?3MS?J*	@Vd?3MS?J*	@V[bCxRyNGzQo]?3MS?J*	@V[eFAwIKL]?3MS?J*	@Vc?3MS?J*	@Vi?3MS?J*	@V[gTOBDSEHnUPl]?3MS?J*
+		3f	@V[aZ]?3FS?J*	@Vd?3FS?J*	@V[bCxRyNGzQo]?3FS?J*	@V[eFAwIKL]?3FS?J*	@Vc?3FS?J*	@Vi?3FS?J*	@V[gTOBDSEHnUPl]?3FS?J*
+		2m	@V[aZ]?2MS?J*	@Vd?2MS?J*	@V[bCxRyNGzQo]?2MS?J*	@V[eFAwIKL]?2MS?J*	@Vc?2MS?J*	@Vi?2MS?J*	@V[gTOBDSEHnUPl]?2MS?J*
+		2f	@V[aZ]?2FS?J*	@Vd?2FS?J*	@V[bCxRyNGzQo]?2FS?J*	@V[eFAwIKL]?2FS?J*	@Vc?2FS?J*	@Vi?2FS?J*	@V[gTOBDSEHnUPl]?2FS?J*
+		1c	@V[aZ]?1?S?J*	@Vd?1?S?J*	@V[bCxRyNGzQo]?1?S?J*	@V[eFAwIKL]?1?S?J*	@Vc?1?S?J*	@Vi?1?S?J*	@V[gTOBDSEHnUPl]?1?S?J*
+	Pl	3m	@V[aZ]?3MP?J*	@Vd?3MP?J*	@V[bCxRyNGzQo]?3MP?J*	@V[eFAwIKL]?3MP?J*	@Vc?3MP?J*	@Vi?3MP?J*	@V[gTOBDSEHnUPl]?3MP?J*
+		3f	@V[aZ]?3FP?J*	@Vd?3FP?J*	@V[bCxRyNGzQo]?3FP?J*	@V[eFAwIKL]?3FP?J*	@Vc?3FP?J*	@Vi?3FP?J*	@V[gTOBDSEHnUPl]?3FP?J*
+		2m	@V[aZ]?2MP?J*	@Vd?2MP?J*	@V[bCxRyNGzQo]?2MP?J*	@V[eFAwIKL]?2MP?J*	@Vc?2MP?J*	@Vi?2MP?J*	@V[gTOBDSEHnUPl]?2MP?J*
+		2f	@V[aZ]?2FP?J*	@Vd?2FP?J*	@V[bCxRyNGzQo]?2FP?J*	@V[eFAwIKL]?2FP?J*	@Vc?2FP?J*	@Vi?2FP?J*	@V[gTOBDSEHnUPl]?2FP?J*
+		1c	@V[aZ]?1?P?J*	@Vd?1?P?J*	@V[bCxRyNGzQo]?1?P?J*	@V[eFAwIKL]?1?P?J*	@Vc?1?P?J*	@Vi?1?P?J*	@V[gTOBDSEHnUPl]?1?P?J*

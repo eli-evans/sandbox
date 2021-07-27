@@ -1,0 +1,24 @@
+title	Conjunction
+for	@C*
+
+Unclassified		@C
+Adverbial	Conditional	@CAC
+	Declarative	@CAD
+	Local	@CAL
+	Comparative	@CAM
+	Concessive	@CAN
+	Purpose	@CAP
+	Result	@CAR
+	Temporal	@CAT
+	Causal	@CAZ
+Logical	Ascensive	@CLA
+	Contrastive	@CLC
+	Disjunctive	@CLD
+	Inferential	@CLI
+	Correlative	@CLK
+	Emphatic	@CLM
+	Connective	@CLN
+	Transitional	@CLT
+	Explanatory	@CLX
+Substantival	Content	@CSC
+	Epexegetical	@CSE

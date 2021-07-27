@@ -17,6 +17,6 @@ fs.readdirSync('../charts').forEach(scheme => {
 		});
 
 		output = output.map(x => x.join('\t'));
-		fs.writeFileSync(`../csv/${scheme}/${file}.tsv`, output.join('\n'));
+		fs.writeFileSync(`../tsv/${scheme}/${file}.tsv`, output.join('\n'));
 	});
 });
