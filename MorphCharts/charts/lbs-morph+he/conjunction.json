@@ -1,0 +1,8 @@
+{
+	"title": "Conjunction",
+	"for": "@C",
+	"grid" : [
+		["Relative", "@CR"],
+		["Unclassified", "@C"]
+	]
+}

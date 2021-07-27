@@ -1,0 +1,7 @@
+{
+	"title": "Article",
+	"for": "@A",
+	"grid" : [
+		["Article", "@A"]
+	]
+}

@@ -6,15 +6,27 @@
 		[ "", "", "Const", "@N?MSC*" ],
 		[ "", "f", "Abs", "@N?FSA*" ],
 		[ "", "", "Const", "@N?FSC*" ],
+		[ "", "", "Det", "@N?FSD*" ],
 		[ "", "-", "Abs", "@N?-SA*" ],
 		[ "", "", "Const", "@N?-SC*" ],
+		[ "", "", "Det", "@N?-SD*" ],
 		[ "Dual", "m", "Abs", "@N?MDA*" ],
 		[ "", "", "Const", "@N?MDC*" ],
 		[ "", "f", "Abs", "@N?FDA*" ],
 		[ "", "", "Const", "@N?FDC*" ],
+		[ "", "", "Det", "@N?FDD*" ],
+		[ "", "-", "Abs", "@N?-DA*" ],
+		[ "", "", "Const", "@N?-DC*" ],
+		[ "", "", "Det", "@N?-DD*" ],
 		[ "Pl", "m", "Abs", "@N?MPA*" ],
 		[ "", "", "Const", "@N?MPC*" ],
+		[ "", "", "Det", "@N?MPD*" ],
 		[ "", "f", "Abs", "@N?FPA*" ],
-		[ "", "", "Const", "@N?FPC*" ]
+		[ "", "", "Const", "@N?FPC*" ],
+		[ "", "", "Det", "@N?FPD*" ],
+		[ "", "-", "Abs", "@N?-PA*" ],
+		[ "", "", "Const", "@N?-PC*" ],
+		[ "", "", "Det", "@N?-PD*" ],
+		[ "Unclassified", "", "", "@NP"]
 	]
 }

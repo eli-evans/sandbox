@@ -1,0 +1,8 @@
+{
+	"title": "Preposition",
+	"for": "@P*",
+	"grid" : [
+		["Object Marker", "@PO"],
+		["Unclassified", "@P"]
+	]
+}
