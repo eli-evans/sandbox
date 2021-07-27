@@ -30,7 +30,7 @@ corpora.forEach( corpus => {
 	});
 
 	for(let lemma in lemmas) {
-		if (lemmas[lemma].length > 50) {
+		if (lemmas[lemma].length > 1) {
 			console.log(lemma);
 			fs.writeFileSync(`../data/${scheme}/${lemma}.json`, JSON.stringify(lemmas[lemma], null, 4));
 		}
