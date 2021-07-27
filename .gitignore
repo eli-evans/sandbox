@@ -8,3 +8,4 @@ node_modules
 Music/package-lock.json
 MorphCharts/data/**
 MorphCharts/output/**
+MorphCharts/csv/**
