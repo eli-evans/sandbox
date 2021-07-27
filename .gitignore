@@ -6,3 +6,5 @@ p5js/.DS_Store
 BibleBooksInteractive/Tools/output.txt
 node_modules
 Music/package-lock.json
+MorphCharts/data/**
+MorphCharts/output/**
