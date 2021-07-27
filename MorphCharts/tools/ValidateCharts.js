@@ -13,6 +13,7 @@ let scheme = process.argv[2];
 let lemmas = loadLemmaData();
 let grids = loadGridData();
 let lang = scheme === 'lbs-morph+el' ? 'el' : 'he'; 
+let uncharted = {};
 
 // Set up logging
 
@@ -21,11 +22,18 @@ let log = { infos: [], warnings: [], errors: [],
 	warn: str => log.log(str, log.warnings),
 	error: str => log.log(str, log.errors),
 	summarize: () => `${log.errors.length} Errors, ${log.warnings.length} Warnings, ${log.infos.length} Infos`,
+	uncharted: {},
 	toString: () => `${log.errors.length} errors:\n${log.errors.join('\n')}`
 		+ `\n\n${log.warnings.length} warnings:\n${log.warnings.join('\n')}`
-		+ `\n\n${log.infos.length} infos:\n${log.infos.join('\n')}`,
+		+ `\n\n${log.infos.length} infos:\n${log.infos.join('\n')}`
+		+ `\n\nUnique uncharted morphs:\n${listUnchartedMorphs()}`,
 	save: path => fs.writeFileSync(path, log.toString())
 }
+
+// Clear output directory
+fs.readdirSync(`../output/${scheme}`).forEach( file => {
+	fs.unlinkSync(`../output/${scheme}/${file}`);
+});
 
 // Main processing loop
 for (let lemma in lemmas) {
@@ -45,7 +53,7 @@ function processLemma(lemma) {
 		return;
 	}
 
-	let output = [`<html><head><title>${lemma}</title><link rel='stylesheet' href='../morphcharts.css'/></head><body>`];
+	let output = [`<html><head><title>${lemma}</title><link rel='stylesheet' href='../../morphcharts.css'/></head><body>`];
 
 	validGrids.forEach( grid => {
 		let display = [];
@@ -136,15 +144,26 @@ function processLemma(lemma) {
 	let filename = lemma;
 	if (Object.keys(analysis).length > 0) {
 		output.push(`<pre>${JSON.stringify(analysis, null, 4)}</pre></body></html>`);
-		filename = `_Errors-${Object.keys(analysis).length}-${lemma}`;
+		// filename = `_Errors-${Object.keys(analysis).length}-${lemma}`;
 
 		for (let morph in analysis) {
 			log.warn(`Uncharted morph code ${morph} (${lemma})`);
+			if (uncharted[morph] === undefined) {
+				uncharted[morph] = 0;
+			}
+			++ uncharted[morph];
 		}
 	}
 
 	// write it
-	fs.writeFileSync(`../output/${filename}.html`, output.join(''));
+	fs.writeFileSync(`../output/${scheme}/${filename}.html`, output.join(''));
+}
+
+function listUnchartedMorphs() {
+	return Object.keys(uncharted)
+		.sort((a,b) => uncharted[b] - uncharted[a])
+		.map(x => ` - ${x} : ${uncharted[x]}`)
+		.join('\n');
 }
 
 function groupLemmaData(data) {
